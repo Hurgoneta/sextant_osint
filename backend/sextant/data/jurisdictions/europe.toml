@@ -1,0 +1,1498 @@
+# Europe. `name_search` = anyone can search the source by a person's name.
+# `anonymized` = published without party names (name search impossible by design).
+# own_record entries: only the data subject can request their own extract — never a lookup on others.
+
+[[country]]
+code = "AT"
+name = "Austria"
+region = "Europe"
+subregion = "Central Europe"
+aliases = ["österreich", "osterreich"]
+judgments_anonymized = true
+legal_notes = "Judgments in RIS are anonymised. The beneficial-ownership register is restricted to parties with a legitimate interest (since CJEU C-37/20). Court edicts and insolvencies are public in the Ediktsdatei."
+[[country.source]]
+id = "at-firmenbuch"
+title = "Firmenbuch (commercial register) via JustizOnline"
+kind = "company_registry"
+url = "https://justizonline.gv.at/jop/web/firmenbuchabfrage"
+access = "paid"
+person_data = "managing directors, shareholders (in extracts)"
+[[country.source]]
+id = "at-ediktsdatei"
+title = "Ediktsdatei — insolvency and court edicts"
+kind = "insolvency"
+url = "https://edikte.justiz.gv.at/"
+name_search = true
+person_data = "debtors' names and addresses in insolvency edicts (time-limited publication)"
+[[country.source]]
+id = "at-ris"
+title = "RIS — Rechtsinformationssystem (legislation and anonymised case law)"
+kind = "judgments"
+url = "https://www.ris.bka.gv.at/"
+access = "free_api"
+anonymized = true
+[[country.source]]
+id = "at-evi"
+title = "EVI — Elektronische Verlautbarungs- und Informationsplattform"
+kind = "gazette"
+url = "https://www.evi.gv.at/"
+name_search = true
+[[country.source]]
+id = "at-opendata"
+title = "data.gv.at"
+kind = "open_data"
+url = "https://www.data.gv.at/"
+access = "free_api"
+[[country.source]]
+id = "at-own-record"
+title = "Strafregisterbescheinigung (own record)"
+kind = "own_record"
+url = "https://www.oesterreich.gv.at/"
+access = "restricted"
+
+[[country]]
+code = "BE"
+name = "Belgium"
+region = "Europe"
+subregion = "Western Europe"
+aliases = ["belgië", "belgique", "belgie", "belgien"]
+judgments_anonymized = true
+legal_notes = "The Crossroads Bank for Enterprises (KBO/BCE) public search lists directors' functions by name. Company acts with names are published in the Belgian Official Gazette annexes. Judgments on Juportal are pseudonymised."
+[[country.source]]
+id = "be-kbo"
+title = "KBO/BCE Public Search (Crossroads Bank for Enterprises)"
+kind = "company_registry"
+url = "https://kbopub.economie.fgov.be/kbopub/zoeknaamfonetischform.html"
+person_data = "directors and their functions"
+api = "https://economie.fgov.be/en/themes/enterprises/crossroads-bank-enterprises/services-everyone/cbe-open-data"
+[[country.source]]
+id = "be-staatsblad"
+title = "Belgian Official Gazette (Moniteur belge / Belgisch Staatsblad) — company publications"
+kind = "gazette"
+url = "https://www.ejustice.just.fgov.be/"
+name_search = true
+person_data = "appointments and resignations of directors"
+[[country.source]]
+id = "be-regsol"
+title = "RegSol — central insolvency register"
+kind = "insolvency"
+url = "https://www.regsol.be/"
+access = "restricted"
+[[country.source]]
+id = "be-juportal"
+title = "Juportal — case law (pseudonymised)"
+kind = "judgments"
+url = "https://juportal.be/"
+anonymized = true
+[[country.source]]
+id = "be-procurement"
+title = "Public procurement (e-Procurement)"
+kind = "procurement"
+url = "https://www.publicprocurement.be/"
+[[country.source]]
+id = "be-opendata"
+title = "data.gov.be"
+kind = "open_data"
+url = "https://data.gov.be/"
+[[country.source]]
+id = "be-own-record"
+title = "Extrait de casier judiciaire / uittreksel uit het strafregister (own record)"
+kind = "own_record"
+url = "https://justice.belgium.be/"
+access = "restricted"
+
+[[country]]
+code = "BG"
+name = "Bulgaria"
+region = "Europe"
+subregion = "Southeast Europe"
+aliases = ["българия", "bulgaria"]
+judgments_anonymized = true
+legal_notes = "The Commercial Register publishes managers and partners by name. Court acts on the unified portal are anonymised."
+[[country.source]]
+id = "bg-registry-agency"
+title = "Registry Agency — Commercial Register and Register of Non-Profit Legal Entities"
+kind = "company_registry"
+url = "https://portal.registryagency.bg/"
+name_search = true
+person_data = "managers, partners, sole owners"
+[[country.source]]
+id = "bg-legalacts"
+title = "Unified portal for court acts"
+kind = "judgments"
+url = "https://legalacts.justice.bg/"
+anonymized = true
+[[country.source]]
+id = "bg-opendata"
+title = "Open Data Portal (data.egov.bg)"
+kind = "open_data"
+url = "https://data.egov.bg/"
+
+[[country]]
+code = "HR"
+name = "Croatia"
+region = "Europe"
+subregion = "Southeast Europe"
+aliases = ["hrvatska"]
+judgments_anonymized = true
+legal_notes = "The court register (sudski registar) names directors; e-Predmet shows case status by case number; published decisions are anonymised."
+[[country.source]]
+id = "hr-sudreg"
+title = "Sudski registar (court register of companies)"
+kind = "company_registry"
+url = "https://sudreg.pravosudje.hr/"
+person_data = "directors, members of supervisory boards"
+api = "https://sudreg-data.gov.hr/"
+[[country.source]]
+id = "hr-epredmet"
+title = "e-Predmet — court case status"
+kind = "court_portal"
+url = "https://e-predmet.pravosudje.hr/"
+[[country.source]]
+id = "hr-odluke"
+title = "Court decisions (odluke.sudovi.hr)"
+kind = "judgments"
+url = "https://odluke.sudovi.hr/"
+anonymized = true
+[[country.source]]
+id = "hr-narodne-novine"
+title = "Narodne novine (official gazette)"
+kind = "gazette"
+url = "https://narodne-novine.nn.hr/"
+[[country.source]]
+id = "hr-opendata"
+title = "data.gov.hr"
+kind = "open_data"
+url = "https://data.gov.hr/"
+
+[[country]]
+code = "CY"
+name = "Cyprus"
+region = "Europe"
+subregion = "Southern Europe"
+aliases = ["κύπρος", "kibris"]
+legal_notes = "The Registrar of Companies publishes directors and secretaries. CyLaw publishes many judgments with names."
+[[country.source]]
+id = "cy-drcor"
+title = "Department of Registrar of Companies — search"
+kind = "company_registry"
+url = "https://efiling.drcor.mcit.gov.cy/"
+person_data = "directors, secretaries, shareholders"
+[[country.source]]
+id = "cy-cylaw"
+title = "CyLaw — Cyprus case law"
+kind = "judgments"
+url = "https://www.cylaw.org/"
+name_search = true
+[[country.source]]
+id = "cy-opendata"
+title = "data.gov.cy"
+kind = "open_data"
+url = "https://www.data.gov.cy/"
+
+[[country]]
+code = "CZ"
+name = "Czechia"
+region = "Europe"
+subregion = "Central Europe"
+aliases = ["czech republic", "česko", "cesko", "česká republika"]
+judgments_anonymized = true
+legal_notes = "The public register (or.justice.cz) lists statutory bodies with names and dates of birth and can be searched by person. The insolvency register (ISIR) is public and name-searchable. Published judgments are anonymised."
+[[country.source]]
+id = "cz-ares"
+title = "ARES — Administrative Register of Economic Subjects (API)"
+kind = "company_registry"
+url = "https://ares.gov.cz/"
+access = "free_api"
+name_search = false
+api = "https://ares.gov.cz/swagger-ui/"
+connector = "cz_ares"
+[[country.source]]
+id = "cz-justice-or"
+title = "Veřejný rejstřík a Sbírka listin (public register)"
+kind = "company_registry"
+url = "https://or.justice.cz/"
+name_search = true
+person_data = "statutory bodies, partners: name, date of birth, address"
+[[country.source]]
+id = "cz-isir"
+title = "ISIR — Insolvency register"
+kind = "insolvency"
+url = "https://isir.justice.cz/"
+name_search = true
+person_data = "debtors' names, birth dates and addresses"
+[[country.source]]
+id = "cz-rozhodnuti"
+title = "Court decisions (rozhodnuti.justice.cz)"
+kind = "judgments"
+url = "https://rozhodnuti.justice.cz/"
+anonymized = true
+[[country.source]]
+id = "cz-vvz"
+title = "Věstník veřejných zakázek (procurement)"
+kind = "procurement"
+url = "https://vvz.nipez.cz/"
+[[country.source]]
+id = "cz-opendata"
+title = "data.gov.cz"
+kind = "open_data"
+url = "https://data.gov.cz/"
+access = "free_api"
+[[country.source]]
+id = "cz-own-record"
+title = "Výpis z rejstříku trestů (own record)"
+kind = "own_record"
+url = "https://portal.gov.cz/sluzby-vs/vypis-z-evidence-rejstriku-trestu-fyzickych-osob-S47"
+access = "restricted"
+
+[[country]]
+code = "DK"
+name = "Denmark"
+region = "Europe"
+subregion = "Northern Europe"
+aliases = ["danmark"]
+judgments_anonymized = true
+legal_notes = "CVR is fully public, and people can be searched by name (owners, directors, board members). Statstidende publishes bankruptcies and estates. The criminal record register is not public."
+[[country.source]]
+id = "dk-cvr"
+title = "Det Centrale Virksomhedsregister (CVR)"
+kind = "company_registry"
+url = "https://datacvr.virk.dk/"
+name_search = true
+person_data = "owners, directors, board members, auditors"
+api = "https://data.virk.dk/"
+notes = "System-to-system API access requires registration with the Danish Business Authority."
+[[country.source]]
+id = "dk-statstidende"
+title = "Statstidende (official gazette: bankruptcies, estates, summons)"
+kind = "gazette"
+url = "https://www.statstidende.dk/"
+name_search = true
+[[country.source]]
+id = "dk-domsdatabasen"
+title = "Domsdatabasen (anonymised judgments)"
+kind = "judgments"
+url = "https://domsdatabasen.dk/"
+anonymized = true
+[[country.source]]
+id = "dk-own-record"
+title = "Straffeattest (own record)"
+kind = "own_record"
+url = "https://politi.dk/straffeattest"
+access = "restricted"
+
+[[country]]
+code = "EE"
+name = "Estonia"
+region = "Europe"
+subregion = "Northern Europe"
+aliases = ["eesti"]
+judgments_anonymized = false
+legal_notes = "The e-Business Register shows representatives and (in paid queries) person-based search. Riigi Teataja publishes court decisions; some name the parties, many are anonymised."
+[[country.source]]
+id = "ee-ariregister"
+title = "e-Business Register (e-äriregister)"
+kind = "company_registry"
+url = "https://ariregister.rik.ee/"
+access = "free_api"
+person_data = "board members, shareholders, beneficial owners (paid detail)"
+connector = "ee_ariregister"
+[[country.source]]
+id = "ee-riigiteataja"
+title = "Riigi Teataja — court decisions"
+kind = "judgments"
+url = "https://www.riigiteataja.ee/kohtulahendid/"
+name_search = true
+[[country.source]]
+id = "ee-ametlikud"
+title = "Ametlikud Teadaanded (official announcements)"
+kind = "gazette"
+url = "https://www.ametlikudteadaanded.ee/"
+name_search = true
+[[country.source]]
+id = "ee-procurement"
+title = "Riigihangete register (public procurement)"
+kind = "procurement"
+url = "https://riigihanked.riik.ee/"
+[[country.source]]
+id = "ee-opendata"
+title = "avaandmed.eesti.ee"
+kind = "open_data"
+url = "https://avaandmed.eesti.ee/"
+[[country.source]]
+id = "ee-own-record"
+title = "Karistusregister — own data"
+kind = "own_record"
+url = "https://www.eesti.ee/"
+access = "restricted"
+
+[[country]]
+code = "FI"
+name = "Finland"
+region = "Europe"
+subregion = "Northern Europe"
+aliases = ["suomi"]
+judgments_anonymized = true
+legal_notes = "YTJ/PRH open data covers companies. Person-level trade-register data needs a paid extract. Finlex publishes selected (anonymised) case law."
+[[country.source]]
+id = "fi-prh"
+title = "PRH / YTJ open data (business information)"
+kind = "company_registry"
+url = "https://tietopalvelu.ytj.fi/"
+access = "free_api"
+api = "https://avoindata.prh.fi/"
+connector = "fi_prh"
+[[country.source]]
+id = "fi-finlex"
+title = "Finlex — legislation and case law"
+kind = "judgments"
+url = "https://www.finlex.fi/"
+anonymized = true
+[[country.source]]
+id = "fi-virallinen-lehti"
+title = "Virallinen lehti (Official Gazette)"
+kind = "gazette"
+url = "https://www.virallinenlehti.fi/"
+[[country.source]]
+id = "fi-hilma"
+title = "Hilma (public procurement notices)"
+kind = "procurement"
+url = "https://www.hankintailmoitukset.fi/"
+[[country.source]]
+id = "fi-opendata"
+title = "avoindata.fi"
+kind = "open_data"
+url = "https://www.avoindata.fi/"
+[[country.source]]
+id = "fi-own-record"
+title = "Rikosrekisteriote (own record)"
+kind = "own_record"
+url = "https://www.oikeusrekisterikeskus.fi/"
+access = "restricted"
+
+[[country]]
+code = "FR"
+name = "France"
+region = "Europe"
+subregion = "Western Europe"
+aliases = ["république française"]
+judgments_anonymized = true
+legal_notes = "Company directors (dirigeants) are public via the RNE and the Recherche d'entreprises API (with year of birth). Court decisions are published pseudonymised (Judilibre), so no name search is possible. HATVP publishes officials' asset and interest declarations."
+[[country.source]]
+id = "fr-recherche-entreprises"
+title = "API Recherche d'entreprises / Annuaire des entreprises"
+kind = "company_registry"
+url = "https://annuaire-entreprises.data.gouv.fr/"
+access = "free_api"
+name_search = true
+person_data = "directors: name, first names, year of birth, role"
+api = "https://recherche-entreprises.api.gouv.fr/docs/"
+connector = "fr_entreprises"
+[[country.source]]
+id = "fr-bodacc"
+title = "BODACC — legal announcements (insolvencies, sales, registrations)"
+kind = "gazette"
+url = "https://www.bodacc.fr/"
+name_search = true
+[[country.source]]
+id = "fr-judilibre"
+title = "Judilibre — Cour de cassation open data (pseudonymised)"
+kind = "judgments"
+url = "https://www.courdecassation.fr/recherche-judilibre"
+access = "free_api"
+anonymized = true
+[[country.source]]
+id = "fr-legifrance"
+title = "Légifrance"
+kind = "legislation"
+url = "https://www.legifrance.gouv.fr/"
+[[country.source]]
+id = "fr-hatvp"
+title = "HATVP — declarations of public officials and lobbying register"
+kind = "public_officials"
+url = "https://www.hatvp.fr/"
+name_search = true
+[[country.source]]
+id = "fr-boamp"
+title = "BOAMP (public procurement)"
+kind = "procurement"
+url = "https://www.boamp.fr/"
+[[country.source]]
+id = "fr-inpi"
+title = "INPI data (RNE, trademarks, patents)"
+kind = "intellectual_property"
+url = "https://data.inpi.fr/"
+name_search = true
+[[country.source]]
+id = "fr-opendata"
+title = "data.gouv.fr"
+kind = "open_data"
+url = "https://www.data.gouv.fr/"
+access = "free_api"
+[[country.source]]
+id = "fr-own-record"
+title = "Casier judiciaire — bulletin n°3 (own record)"
+kind = "own_record"
+url = "https://casier-judiciaire.justice.gouv.fr/"
+access = "restricted"
+
+[[country]]
+code = "DE"
+name = "Germany"
+region = "Europe"
+subregion = "Central Europe"
+aliases = ["deutschland", "allemagne"]
+judgments_anonymized = true
+legal_notes = "Handelsregister documents name managing directors; there is no search by person. Published judgments are anonymised. Insolvency notices are name-searchable for a limited period. The criminal record (Führungszeugnis) is only for the data subject."
+[[country.source]]
+id = "de-handelsregister"
+title = "Handelsregister (commercial register)"
+kind = "company_registry"
+url = "https://www.handelsregister.de/"
+person_data = "managing directors, authorised signatories (in register documents)"
+notes = "Free since 2022; automated bulk retrieval is prohibited by the terms of use."
+[[country.source]]
+id = "de-unternehmensregister"
+title = "Unternehmensregister (company announcements and filings)"
+kind = "company_registry"
+url = "https://www.unternehmensregister.de/"
+[[country.source]]
+id = "de-insolvenz"
+title = "Insolvenzbekanntmachungen"
+kind = "insolvency"
+url = "https://neu.insolvenzbekanntmachungen.de/"
+name_search = true
+person_data = "debtor name, residence (published for a limited period)"
+[[country.source]]
+id = "de-rechtsprechung"
+title = "Rechtsprechung im Internet (federal courts, anonymised)"
+kind = "judgments"
+url = "https://www.rechtsprechung-im-internet.de/"
+anonymized = true
+[[country.source]]
+id = "de-lobbyregister"
+title = "Lobbyregister des Deutschen Bundestages"
+kind = "lobbying"
+url = "https://www.lobbyregister.bundestag.de/"
+name_search = true
+[[country.source]]
+id = "de-bundesanzeiger"
+title = "Bundesanzeiger (Federal Gazette)"
+kind = "gazette"
+url = "https://www.bundesanzeiger.de/"
+[[country.source]]
+id = "de-govdata"
+title = "GovData"
+kind = "open_data"
+url = "https://www.govdata.de/"
+[[country.source]]
+id = "de-own-record"
+title = "Führungszeugnis online (own record)"
+kind = "own_record"
+url = "https://www.fuehrungszeugnis.bund.de/"
+access = "restricted"
+
+[[country]]
+code = "GR"
+name = "Greece"
+region = "Europe"
+subregion = "Southern Europe"
+aliases = ["ελλάδα", "hellas", "ellada"]
+legal_notes = "GEMI publishes company filings. Diavgeia publishes all government decisions (appointments, payments, contracts) with names and has a free API."
+[[country.source]]
+id = "gr-gemi"
+title = "GEMI — General Commercial Registry (publicity)"
+kind = "company_registry"
+url = "https://publicity.businessportal.gr/"
+person_data = "administrators and legal representatives"
+[[country.source]]
+id = "gr-diavgeia"
+title = "Diavgeia — transparency portal of government decisions"
+kind = "public_officials"
+url = "https://diavgeia.gov.gr/"
+access = "free_api"
+name_search = true
+api = "https://diavgeia.gov.gr/api/help"
+[[country.source]]
+id = "gr-procurement"
+title = "KIMDIS — central electronic registry of public contracts"
+kind = "procurement"
+url = "https://cerpp.eprocurement.gov.gr/"
+[[country.source]]
+id = "gr-opendata"
+title = "data.gov.gr"
+kind = "open_data"
+url = "https://data.gov.gr/"
+access = "free_api"
+
+[[country]]
+code = "HU"
+name = "Hungary"
+region = "Europe"
+subregion = "Central Europe"
+aliases = ["magyarország", "magyarorszag"]
+judgments_anonymized = true
+legal_notes = "Company information (e-cégjegyzék) lists executives. Court decisions are published anonymised."
+[[country.source]]
+id = "hu-e-cegjegyzek"
+title = "e-cégjegyzék (company information service)"
+kind = "company_registry"
+url = "https://www.e-cegjegyzek.hu/"
+person_data = "executives, members"
+[[country.source]]
+id = "hu-birosag"
+title = "Bírósági határozatok gyűjteménye (anonymised decisions)"
+kind = "judgments"
+url = "https://eakta.birosag.hu/anonimizalt-hatarozatok"
+anonymized = true
+[[country.source]]
+id = "hu-ekr"
+title = "EKR — electronic public procurement system"
+kind = "procurement"
+url = "https://ekr.gov.hu/"
+
+[[country]]
+code = "IE"
+name = "Ireland"
+region = "Europe"
+subregion = "Western Europe"
+aliases = ["éire", "eire", "republic of ireland"]
+judgments_anonymized = false
+legal_notes = "CRO lists directors and secretaries. Superior-court judgments are published with names except in family/child and in-camera matters."
+[[country.source]]
+id = "ie-cro"
+title = "CRO — Companies Registration Office (CORE)"
+kind = "company_registry"
+url = "https://core.cro.ie/"
+access = "registration"
+person_data = "directors, secretaries"
+api = "https://services.cro.ie/"
+[[country.source]]
+id = "ie-courts"
+title = "Courts Service — judgments"
+kind = "judgments"
+url = "https://www.courts.ie/judgments"
+name_search = true
+[[country.source]]
+id = "ie-iris"
+title = "Iris Oifigiúil (official gazette)"
+kind = "gazette"
+url = "https://www.irisoifigiuil.ie/"
+[[country.source]]
+id = "ie-charities"
+title = "Charities Regulator — register of charities"
+kind = "charity_register"
+url = "https://www.charitiesregulator.ie/"
+name_search = true
+[[country.source]]
+id = "ie-etenders"
+title = "eTenders (public procurement)"
+kind = "procurement"
+url = "https://www.etenders.gov.ie/"
+[[country.source]]
+id = "ie-opendata"
+title = "data.gov.ie"
+kind = "open_data"
+url = "https://data.gov.ie/"
+[[country.source]]
+id = "ie-own-record"
+title = "An Garda Síochána — data access request (own record)"
+kind = "own_record"
+url = "https://www.garda.ie/"
+access = "on_request"
+
+[[country]]
+code = "IT"
+name = "Italy"
+region = "Europe"
+subregion = "Southern Europe"
+aliases = ["italia"]
+judgments_anonymized = true
+legal_notes = "Company data (visure) from the Registro Imprese is paid. Court decisions are partly anonymised. Criminal records (casellario) are only for the data subject."
+[[country.source]]
+id = "it-registro-imprese"
+title = "Registro Imprese (InfoCamere)"
+kind = "company_registry"
+url = "https://www.registroimprese.it/"
+access = "paid"
+person_data = "directors, shareholders (paid extracts)"
+[[country.source]]
+id = "it-italgiure"
+title = "Corte di Cassazione — SentenzeWeb"
+kind = "judgments"
+url = "https://www.italgiure.giustizia.it/sncass/"
+anonymized = true
+[[country.source]]
+id = "it-gazzetta"
+title = "Gazzetta Ufficiale"
+kind = "gazette"
+url = "https://www.gazzettaufficiale.it/"
+[[country.source]]
+id = "it-anac"
+title = "ANAC open data (public contracts)"
+kind = "procurement"
+url = "https://dati.anticorruzione.it/"
+access = "free_download"
+[[country.source]]
+id = "it-opendata"
+title = "dati.gov.it"
+kind = "open_data"
+url = "https://www.dati.gov.it/"
+[[country.source]]
+id = "it-own-record"
+title = "Certificato del casellario giudiziale (own record)"
+kind = "own_record"
+url = "https://www.giustizia.it/"
+access = "restricted"
+
+[[country]]
+code = "LV"
+name = "Latvia"
+region = "Europe"
+subregion = "Northern Europe"
+aliases = ["latvija"]
+legal_notes = "The Register of Enterprises publishes officials and beneficial owners as open data."
+[[country.source]]
+id = "lv-ur"
+title = "Register of Enterprises (Uzņēmumu reģistrs)"
+kind = "company_registry"
+url = "https://www.ur.gov.lv/"
+access = "free_download"
+person_data = "officials, members, beneficial owners (open data)"
+[[country.source]]
+id = "lv-tiesas"
+title = "Court portal (manas.tiesas.lv)"
+kind = "court_portal"
+url = "https://manas.tiesas.lv/"
+[[country.source]]
+id = "lv-vestnesis"
+title = "Latvijas Vēstnesis (official gazette)"
+kind = "gazette"
+url = "https://www.vestnesis.lv/"
+name_search = true
+[[country.source]]
+id = "lv-opendata"
+title = "data.gov.lv"
+kind = "open_data"
+url = "https://data.gov.lv/"
+
+[[country]]
+code = "LT"
+name = "Lithuania"
+region = "Europe"
+subregion = "Northern Europe"
+aliases = ["lietuva"]
+judgments_anonymized = true
+[[country.source]]
+id = "lt-registrucentras"
+title = "Registrų centras (Register of Legal Entities)"
+kind = "company_registry"
+url = "https://www.registrucentras.lt/"
+[[country.source]]
+id = "lt-eteismai"
+title = "e.teismai.lt (court decisions)"
+kind = "judgments"
+url = "https://eteismai.lt/"
+anonymized = true
+[[country.source]]
+id = "lt-tar"
+title = "TAR — Register of Legal Acts"
+kind = "legislation"
+url = "https://www.e-tar.lt/"
+[[country.source]]
+id = "lt-opendata"
+title = "data.gov.lt"
+kind = "open_data"
+url = "https://data.gov.lt/"
+
+[[country]]
+code = "LU"
+name = "Luxembourg"
+region = "Europe"
+subregion = "Western Europe"
+aliases = ["lëtzebuerg", "luxemburg"]
+legal_notes = "LBR publishes company filings naming managers. Since the CJEU WM/Sovim ruling (C-37/20, 2022) the beneficial-ownership register (RBE) is no longer open to the general public."
+[[country.source]]
+id = "lu-lbr"
+title = "Luxembourg Business Registers (RCS)"
+kind = "company_registry"
+url = "https://www.lbr.lu/"
+person_data = "managers, directors (in filings)"
+[[country.source]]
+id = "lu-jurisprudence"
+title = "Justice.lu — case law"
+kind = "judgments"
+url = "https://justice.public.lu/fr/jurisprudence.html"
+anonymized = true
+[[country.source]]
+id = "lu-legilux"
+title = "Legilux (official journal)"
+kind = "gazette"
+url = "https://legilux.public.lu/"
+[[country.source]]
+id = "lu-opendata"
+title = "data.public.lu"
+kind = "open_data"
+url = "https://data.public.lu/"
+access = "free_api"
+
+[[country]]
+code = "MT"
+name = "Malta"
+region = "Europe"
+subregion = "Southern Europe"
+legal_notes = "Malta Business Registry lists directors and shareholders; judgments are published on eCourts with names."
+[[country.source]]
+id = "mt-mbr"
+title = "Malta Business Registry"
+kind = "company_registry"
+url = "https://registry.mbr.mt/"
+person_data = "directors, shareholders, company secretary"
+[[country.source]]
+id = "mt-ecourts"
+title = "eCourts — judgments"
+kind = "judgments"
+url = "https://ecourts.gov.mt/"
+name_search = true
+
+[[country]]
+code = "NL"
+name = "Netherlands"
+region = "Europe"
+subregion = "Western Europe"
+aliases = ["nederland", "holland", "the netherlands"]
+judgments_anonymized = true
+legal_notes = "KVK extracts naming directors are paid. Rechtspraak.nl publishes anonymised judgments (free API). The Central Insolvency Register is public and name-searchable. Judicial data (VOG) is not public."
+[[country.source]]
+id = "nl-kvk"
+title = "KVK Handelsregister"
+kind = "company_registry"
+url = "https://www.kvk.nl/"
+access = "paid"
+api = "https://developers.kvk.nl/"
+[[country.source]]
+id = "nl-rechtspraak"
+title = "Rechtspraak.nl — published judgments (anonymised)"
+kind = "judgments"
+url = "https://uitspraken.rechtspraak.nl/"
+access = "free_api"
+anonymized = true
+[[country.source]]
+id = "nl-cir"
+title = "Centraal Insolventieregister"
+kind = "insolvency"
+url = "https://insolventies.rechtspraak.nl/"
+name_search = true
+person_data = "debtor name, date of birth, address"
+[[country.source]]
+id = "nl-bekendmakingen"
+title = "Officiële bekendmakingen"
+kind = "gazette"
+url = "https://www.officielebekendmakingen.nl/"
+[[country.source]]
+id = "nl-tenderned"
+title = "TenderNed (public procurement)"
+kind = "procurement"
+url = "https://www.tenderned.nl/"
+[[country.source]]
+id = "nl-opendata"
+title = "data.overheid.nl"
+kind = "open_data"
+url = "https://data.overheid.nl/"
+[[country.source]]
+id = "nl-own-record"
+title = "Justid — inzage justitiële gegevens (own record)"
+kind = "own_record"
+url = "https://www.justid.nl/"
+access = "on_request"
+
+[[country]]
+code = "PL"
+name = "Poland"
+region = "Europe"
+subregion = "Central Europe"
+aliases = ["polska"]
+judgments_anonymized = true
+legal_notes = "KRS extracts list management board members with names and PESEL-derived data. CEIDG lists sole traders by name. The insolvency register (KRZ) is public. Court judgments (Portal Orzeczeń, SAOS) are anonymised."
+[[country.source]]
+id = "pl-krs"
+title = "KRS — National Court Register (API by KRS number)"
+kind = "company_registry"
+url = "https://wyszukiwarka-krs.ms.gov.pl/"
+access = "free_api"
+person_data = "management and supervisory board members, partners"
+api = "https://api-krs.ms.gov.pl/"
+connector = "pl_krs"
+notes = "The open API looks up a company by its KRS number; it has no name search."
+[[country.source]]
+id = "pl-ceidg"
+title = "CEIDG — register of sole traders"
+kind = "company_registry"
+url = "https://aplikacja.ceidg.gov.pl/"
+access = "registration"
+name_search = true
+person_data = "owner name, business address"
+[[country.source]]
+id = "pl-krz"
+title = "Krajowy Rejestr Zadłużonych (insolvency register)"
+kind = "insolvency"
+url = "https://krz.ms.gov.pl/"
+name_search = true
+[[country.source]]
+id = "pl-orzeczenia"
+title = "Portal Orzeczeń Sądów Powszechnych (anonymised)"
+kind = "judgments"
+url = "https://orzeczenia.ms.gov.pl/"
+anonymized = true
+[[country.source]]
+id = "pl-ezamowienia"
+title = "e-Zamówienia (public procurement)"
+kind = "procurement"
+url = "https://ezamowienia.gov.pl/"
+[[country.source]]
+id = "pl-opendata"
+title = "dane.gov.pl"
+kind = "open_data"
+url = "https://dane.gov.pl/"
+access = "free_api"
+[[country.source]]
+id = "pl-own-record"
+title = "Krajowy Rejestr Karny — informacja (own record)"
+kind = "own_record"
+url = "https://prs.ms.gov.pl/"
+access = "restricted"
+
+[[country]]
+code = "PT"
+name = "Portugal"
+region = "Europe"
+subregion = "Southern Europe"
+judgments_anonymized = true
+legal_notes = "Company acts (with directors' names) are published online. Insolvency notices are public on Citius. Judgments (DGSI) are anonymised."
+[[country.source]]
+id = "pt-publicacoes"
+title = "Publicações on-line de atos societários"
+kind = "company_registry"
+url = "https://publicacoes.mj.pt/"
+name_search = true
+person_data = "appointments of directors in company acts"
+[[country.source]]
+id = "pt-citius"
+title = "Citius — insolvency announcements"
+kind = "insolvency"
+url = "https://www.citius.mj.pt/portal/consultas/ConsultasCire.aspx"
+name_search = true
+[[country.source]]
+id = "pt-dgsi"
+title = "DGSI — case-law databases"
+kind = "judgments"
+url = "http://www.dgsi.pt/"
+anonymized = true
+[[country.source]]
+id = "pt-dre"
+title = "Diário da República"
+kind = "gazette"
+url = "https://diariodarepublica.pt/"
+[[country.source]]
+id = "pt-base"
+title = "BASE — public contracts portal"
+kind = "procurement"
+url = "https://www.base.gov.pt/"
+name_search = true
+[[country.source]]
+id = "pt-opendata"
+title = "dados.gov.pt"
+kind = "open_data"
+url = "https://dados.gov.pt/"
+[[country.source]]
+id = "pt-own-record"
+title = "Registo criminal online (own record)"
+kind = "own_record"
+url = "https://registocriminal.justica.gov.pt/"
+access = "restricted"
+
+[[country]]
+code = "RO"
+name = "Romania"
+region = "Europe"
+subregion = "Southeast Europe"
+aliases = ["românia", "rumanien", "roumanie"]
+judgments_anonymized = true
+legal_notes = "portal.just.ro lists court cases (criminal, civil, administrative) with the names and roles of the parties, and is name-searchable through the Ministry of Justice web service. Published decisions (ReJust) are anonymised. Officials' asset and interest declarations are public (ANI). The criminal record (cazier) is only for the data subject."
+[[country.source]]
+id = "ro-portal-just"
+title = "Portalul instanțelor de judecată (portal.just.ro)"
+kind = "court_portal"
+url = "https://portal.just.ro/"
+access = "free_api"
+name_search = true
+person_data = "party names and procedural roles in court cases"
+connector = "ro_courts"
+notes = "The official web service has no working HTTPS; the plan discloses that the name is sent unencrypted."
+[[country.source]]
+id = "ro-rejust"
+title = "ReJust — published court decisions"
+kind = "judgments"
+url = "https://www.rejust.ro/"
+anonymized = true
+[[country.source]]
+id = "ro-onrc"
+title = "ONRC — National Trade Register Office"
+kind = "company_registry"
+url = "https://www.onrc.ro/"
+access = "paid"
+person_data = "associates and administrators (paid RECOM extracts)"
+[[country.source]]
+id = "ro-monitorul"
+title = "Monitorul Oficial"
+kind = "gazette"
+url = "https://monitoruloficial.ro/"
+[[country.source]]
+id = "ro-ani"
+title = "ANI — declarations of assets and interests"
+kind = "public_officials"
+url = "https://declaratii.integritate.eu/"
+name_search = true
+[[country.source]]
+id = "ro-seap"
+title = "SEAP / e-licitatie.ro (public procurement)"
+kind = "procurement"
+url = "https://www.e-licitatie.ro/"
+[[country.source]]
+id = "ro-opendata"
+title = "data.gov.ro"
+kind = "open_data"
+url = "https://data.gov.ro/"
+access = "free_api"
+[[country.source]]
+id = "ro-wanted"
+title = "Poliția Română — persoane urmărite"
+kind = "wanted"
+url = "https://www.politiaromana.ro/ro/persoane-urmarite"
+name_search = true
+[[country.source]]
+id = "ro-own-record"
+title = "Cazier judiciar (own record)"
+kind = "own_record"
+url = "https://www.politiaromana.ro/ro/utile/cazier-judiciar"
+access = "restricted"
+
+[[country]]
+code = "SK"
+name = "Slovakia"
+region = "Europe"
+subregion = "Central Europe"
+aliases = ["slovensko"]
+judgments_anonymized = true
+legal_notes = "ORSR lists statutory bodies and can be searched by person. The Register of Public Sector Partners (RPVS) publishes beneficial owners of companies that do business with the state."
+[[country.source]]
+id = "sk-orsr"
+title = "Obchodný register SR (ORSR)"
+kind = "company_registry"
+url = "https://www.orsr.sk/"
+name_search = true
+person_data = "statutory bodies, partners"
+[[country.source]]
+id = "sk-rpvs"
+title = "Register partnerov verejného sektora (beneficial owners)"
+kind = "beneficial_ownership"
+url = "https://rpvs.gov.sk/"
+name_search = true
+[[country.source]]
+id = "sk-registeruz"
+title = "Register účtovných závierok (financial statements, API)"
+kind = "company_registry"
+url = "https://www.registeruz.sk/"
+access = "free_api"
+[[country.source]]
+id = "sk-obchodny-vestnik"
+title = "Obchodný vestník"
+kind = "gazette"
+url = "https://obchodnyvestnik.justice.gov.sk/"
+[[country.source]]
+id = "sk-uvo"
+title = "ÚVO — public procurement office"
+kind = "procurement"
+url = "https://www.uvo.gov.sk/"
+[[country.source]]
+id = "sk-opendata"
+title = "data.slovensko.sk"
+kind = "open_data"
+url = "https://data.slovensko.sk/"
+
+[[country]]
+code = "SI"
+name = "Slovenia"
+region = "Europe"
+subregion = "Central Europe"
+aliases = ["slovenija"]
+judgments_anonymized = true
+[[country.source]]
+id = "si-ajpes"
+title = "AJPES — business register"
+kind = "company_registry"
+url = "https://www.ajpes.si/"
+person_data = "representatives, founders"
+[[country.source]]
+id = "si-erar"
+title = "Erar — public-sector spending transparency"
+kind = "procurement"
+url = "https://erar.si/"
+name_search = true
+[[country.source]]
+id = "si-sodnapraksa"
+title = "Sodna praksa (anonymised case law)"
+kind = "judgments"
+url = "https://www.sodnapraksa.si/"
+anonymized = true
+[[country.source]]
+id = "si-uradni-list"
+title = "Uradni list RS"
+kind = "gazette"
+url = "https://www.uradni-list.si/"
+[[country.source]]
+id = "si-opendata"
+title = "podatki.gov.si"
+kind = "open_data"
+url = "https://podatki.gov.si/"
+
+[[country]]
+code = "ES"
+name = "Spain"
+region = "Europe"
+subregion = "Southern Europe"
+aliases = ["españa", "espana"]
+judgments_anonymized = true
+legal_notes = "BORME publishes appointments and dismissals of company officers by name every day (with open data from the BOE). Registry extracts are paid. CENDOJ judgments are anonymised."
+[[country.source]]
+id = "es-borme"
+title = "BORME — Official Gazette of the Mercantile Registry"
+kind = "gazette"
+url = "https://www.boe.es/diario_borme/"
+access = "free_api"
+name_search = true
+person_data = "appointments/resignations of directors and auditors"
+api = "https://www.boe.es/datosabiertos/"
+[[country.source]]
+id = "es-registradores"
+title = "Registro Mercantil (Colegio de Registradores)"
+kind = "company_registry"
+url = "https://www.registradores.org/"
+access = "paid"
+[[country.source]]
+id = "es-cendoj"
+title = "CENDOJ — case law (anonymised)"
+kind = "judgments"
+url = "https://www.poderjudicial.es/search/indexAN.jsp"
+anonymized = true
+[[country.source]]
+id = "es-contratacion"
+title = "Plataforma de Contratación del Sector Público"
+kind = "procurement"
+url = "https://contrataciondelestado.es/"
+[[country.source]]
+id = "es-opendata"
+title = "datos.gob.es"
+kind = "open_data"
+url = "https://datos.gob.es/"
+access = "free_api"
+[[country.source]]
+id = "es-own-record"
+title = "Certificado de antecedentes penales (own record)"
+kind = "own_record"
+url = "https://sede.mjusticia.gob.es/es/tramites/certificado-antecedentes"
+access = "restricted"
+
+[[country]]
+code = "SE"
+name = "Sweden"
+region = "Europe"
+subregion = "Northern Europe"
+aliases = ["sverige", "schweden", "suède"]
+judgments_anonymized = false
+legal_notes = "Under the principle of public access (offentlighetsprincipen), judgments are public documents, but they must be requested from the court; there is no free official name search. Commercial people-lookup sites operate under constitutional publishing certificates (utgivningsbevis) and are not integrated. The criminal record register is NOT public — only the data subject can request an extract."
+[[country.source]]
+id = "se-bolagsverket"
+title = "Bolagsverket (Companies Registration Office)"
+kind = "company_registry"
+url = "https://www.bolagsverket.se/"
+access = "registration"
+person_data = "board members, CEO, auditors"
+api = "https://bolagsverket.se/apierochoppnadata.2531.html"
+[[country.source]]
+id = "se-poit"
+title = "Post- och Inrikes Tidningar (official notices, bankruptcies)"
+kind = "gazette"
+url = "https://poit.bolagsverket.se/"
+name_search = true
+[[country.source]]
+id = "se-domstol"
+title = "Sveriges Domstolar — request court documents"
+kind = "judgments"
+url = "https://www.domstol.se/"
+access = "on_request"
+[[country.source]]
+id = "se-opendata"
+title = "dataportal.se"
+kind = "open_data"
+url = "https://www.dataportal.se/"
+[[country.source]]
+id = "se-own-record"
+title = "Polisen — utdrag ur belastningsregistret (own record)"
+kind = "own_record"
+url = "https://polisen.se/tjanster-tillstand/belastningsregistret/"
+access = "restricted"
+
+[[country]]
+code = "GB"
+name = "United Kingdom"
+region = "Europe"
+subregion = "Western Europe"
+aliases = ["uk", "great britain", "england", "scotland", "wales", "northern ireland", "britain"]
+judgments_anonymized = false
+legal_notes = "Companies House publishes officers with month and year of birth, and is searchable by officer name (free API key). Higher-court judgments are published with names (Find Case Law; bulk computational analysis needs a licence). The Individual Insolvency Register and The Gazette are public. Criminal records are only available to the data subject (DBS/ACRO)."
+[[country.source]]
+id = "gb-companies-house"
+title = "Companies House (officers, PSCs, disqualified directors)"
+kind = "company_registry"
+url = "https://find-and-update.company-information.service.gov.uk/"
+access = "registration"
+name_search = true
+person_data = "officers: name, month/year of birth, nationality, occupation, correspondence address"
+api = "https://developer.company-information.service.gov.uk/"
+connector = "uk_companies_house"
+[[country.source]]
+id = "gb-find-case-law"
+title = "Find Case Law (The National Archives)"
+kind = "judgments"
+url = "https://caselaw.nationalarchives.gov.uk/"
+access = "free_api"
+name_search = true
+api = "https://nationalarchives.github.io/ds-find-caselaw-docs/public"
+connector = "uk_find_case_law"
+notes = "Open Justice Licence; computational analysis across the corpus needs a separate licence."
+[[country.source]]
+id = "gb-gazette"
+title = "The Gazette (insolvency, deceased estates, corporate notices)"
+kind = "gazette"
+url = "https://www.thegazette.co.uk/"
+name_search = true
+[[country.source]]
+id = "gb-iir"
+title = "Individual Insolvency Register"
+kind = "insolvency"
+url = "https://www.insolvencydirect.bis.gov.uk/eiir/"
+name_search = true
+[[country.source]]
+id = "gb-fca"
+title = "FCA Financial Services Register"
+kind = "regulatory"
+url = "https://register.fca.org.uk/"
+name_search = true
+person_data = "approved/certified individuals and their roles"
+[[country.source]]
+id = "gb-charity"
+title = "Charity Commission — register of charities (trustees)"
+kind = "charity_register"
+url = "https://register-of-charities.charitycommission.gov.uk/"
+name_search = true
+[[country.source]]
+id = "gb-electoral-commission"
+title = "Electoral Commission — donations and loans"
+kind = "elections"
+url = "https://search.electoralcommission.org.uk/"
+name_search = true
+[[country.source]]
+id = "gb-contracts-finder"
+title = "Contracts Finder (public procurement)"
+kind = "procurement"
+url = "https://www.contractsfinder.service.gov.uk/"
+access = "free_api"
+connector = "uk_contracts_finder"
+[[country.source]]
+id = "gb-sanctions"
+title = "UK Sanctions List (FCDO)"
+kind = "sanctions"
+url = "https://www.gov.uk/government/publications/the-uk-sanctions-list"
+access = "free_download"
+name_search = true
+connector = "uk_sanctions"
+[[country.source]]
+id = "gb-sra"
+title = "Solicitors Regulation Authority — solicitors register"
+kind = "professional_register"
+url = "https://www.sra.org.uk/consumers/register/"
+name_search = true
+[[country.source]]
+id = "gb-land-registry"
+title = "HM Land Registry — title registers"
+kind = "property"
+url = "https://www.gov.uk/search-property-information-land-registry"
+access = "paid"
+[[country.source]]
+id = "gb-opendata"
+title = "data.gov.uk"
+kind = "open_data"
+url = "https://www.data.gov.uk/"
+[[country.source]]
+id = "gb-own-record"
+title = "Basic DBS check / ACRO subject access (own record)"
+kind = "own_record"
+url = "https://www.gov.uk/request-copy-criminal-record"
+access = "restricted"
+
+[[country]]
+code = "NO"
+name = "Norway"
+region = "Europe"
+subregion = "Northern Europe"
+aliases = ["norge", "norwegen"]
+judgments_anonymized = true
+legal_notes = "Brønnøysund registers are open (company roles include names). Tax lists are public with logged-in, rate-limited access. Lovdata decisions are partly anonymised."
+[[country.source]]
+id = "no-brreg"
+title = "Enhetsregisteret / Foretaksregisteret (Brønnøysund)"
+kind = "company_registry"
+url = "https://www.brreg.no/"
+access = "free_api"
+person_data = "roles: CEO, board members, contact persons"
+api = "https://data.brreg.no/enhetsregisteret/api/docs/index.html"
+connector = "no_brreg"
+[[country.source]]
+id = "no-kunngjoringer"
+title = "Brønnøysund announcements (kunngjøringer)"
+kind = "gazette"
+url = "https://w2.brreg.no/kunngjoring/"
+[[country.source]]
+id = "no-lovdata"
+title = "Lovdata (legislation, partly anonymised decisions)"
+kind = "judgments"
+url = "https://lovdata.no/"
+anonymized = true
+[[country.source]]
+id = "no-doffin"
+title = "Doffin (public procurement)"
+kind = "procurement"
+url = "https://www.doffin.no/"
+[[country.source]]
+id = "no-opendata"
+title = "data.norge.no"
+kind = "open_data"
+url = "https://data.norge.no/"
+[[country.source]]
+id = "no-own-record"
+title = "Politiattest (own record)"
+kind = "own_record"
+url = "https://www.politiet.no/tjenester/politiattest/"
+access = "restricted"
+
+[[country]]
+code = "CH"
+name = "Switzerland"
+region = "Europe"
+subregion = "Central Europe"
+aliases = ["schweiz", "suisse", "svizzera"]
+judgments_anonymized = true
+legal_notes = "Zefix and the Swiss Official Gazette of Commerce (SOGC/SHAB) publish board members and signatories by name. Federal Supreme Court decisions are anonymised."
+[[country.source]]
+id = "ch-zefix"
+title = "Zefix — central business name index"
+kind = "company_registry"
+url = "https://www.zefix.ch/"
+access = "registration"
+person_data = "board members, authorised signatories (via SOGC publications)"
+api = "https://www.zefix.admin.ch/ZefixPublicREST/swagger-ui/index.html"
+[[country.source]]
+id = "ch-sogc"
+title = "SOGC / SHAB — Swiss Official Gazette of Commerce"
+kind = "gazette"
+url = "https://www.shab.ch/"
+name_search = true
+[[country.source]]
+id = "ch-bger"
+title = "Federal Supreme Court — decisions (anonymised)"
+kind = "judgments"
+url = "https://www.bger.ch/"
+anonymized = true
+[[country.source]]
+id = "ch-seco-sanctions"
+title = "SECO — sanctions search (SESAM)"
+kind = "sanctions"
+url = "https://www.sesam.search.admin.ch/"
+name_search = true
+[[country.source]]
+id = "ch-simap"
+title = "simap.ch (public procurement)"
+kind = "procurement"
+url = "https://www.simap.ch/"
+[[country.source]]
+id = "ch-opendata"
+title = "opendata.swiss"
+kind = "open_data"
+url = "https://opendata.swiss/"
+access = "free_api"
+[[country.source]]
+id = "ch-own-record"
+title = "Strafregisterauszug (own record)"
+kind = "own_record"
+url = "https://www.e-service.admin.ch/crex/"
+access = "restricted"
+
+[[country]]
+code = "IS"
+name = "Iceland"
+region = "Europe"
+subregion = "Northern Europe"
+aliases = ["ísland"]
+[[country.source]]
+id = "is-fyrirtaekjaskra"
+title = "Skatturinn — company register"
+kind = "company_registry"
+url = "https://www.skatturinn.is/fyrirtaekjaskra/"
+[[country.source]]
+id = "is-opendata"
+title = "opingogn.is"
+kind = "open_data"
+url = "https://opingogn.is/"
+
+[[country]]
+code = "UA"
+name = "Ukraine"
+region = "Europe"
+subregion = "Eastern Europe"
+aliases = ["україна", "ukraina"]
+judgments_anonymized = true
+legal_notes = "Prozorro (procurement) and NACP asset declarations are public with APIs. Access to some registers has been restricted under martial law since 2022. Court decisions anonymise private individuals."
+[[country.source]]
+id = "ua-edr"
+title = "Unified State Register of Legal Entities (EDR)"
+kind = "company_registry"
+url = "https://usr.minjust.gov.ua/"
+person_data = "founders, beneficial owners, managers"
+[[country.source]]
+id = "ua-court-register"
+title = "Unified State Register of Court Decisions"
+kind = "judgments"
+url = "https://reyestr.court.gov.ua/"
+anonymized = true
+[[country.source]]
+id = "ua-prozorro"
+title = "Prozorro (public procurement, open API)"
+kind = "procurement"
+url = "https://prozorro.gov.ua/"
+access = "free_api"
+api = "https://public.api.openprocurement.org/"
+[[country.source]]
+id = "ua-nacp"
+title = "NACP — public asset declarations"
+kind = "public_officials"
+url = "https://public.nazk.gov.ua/"
+access = "free_api"
+name_search = true
+[[country.source]]
+id = "ua-wanted"
+title = "Ministry of Internal Affairs — wanted persons"
+kind = "wanted"
+url = "https://wanted.mvs.gov.ua/"
+name_search = true
+[[country.source]]
+id = "ua-opendata"
+title = "data.gov.ua"
+kind = "open_data"
+url = "https://data.gov.ua/"
+
+[[country]]
+code = "MD"
+name = "Moldova"
+region = "Europe"
+subregion = "Eastern Europe"
+aliases = ["republic of moldova", "republica moldova"]
+legal_notes = "Court agendas and decisions are published on the national courts portal (some depersonalised)."
+[[country.source]]
+id = "md-instante"
+title = "Portalul național al instanțelor de judecată"
+kind = "court_portal"
+url = "https://instante.justice.md/"
+name_search = true
+[[country.source]]
+id = "md-asp"
+title = "Public Services Agency — state register of legal entities"
+kind = "company_registry"
+url = "https://asp.gov.md/"
+[[country.source]]
+id = "md-mtender"
+title = "MTender (public procurement)"
+kind = "procurement"
+url = "https://mtender.gov.md/"
+[[country.source]]
+id = "md-opendata"
+title = "date.gov.md"
+kind = "open_data"
+url = "https://date.gov.md/"
+[[country.source]]
+id = "md-own-record"
+title = "Cazier judiciar (e-services, own record)"
+kind = "own_record"
+url = "https://servicii.gov.md/"
+access = "restricted"
+
+[[country]]
+code = "RS"
+name = "Serbia"
+region = "Europe"
+subregion = "Southeast Europe"
+aliases = ["србија", "srbija"]
+[[country.source]]
+id = "rs-apr"
+title = "APR — Serbian Business Registers Agency"
+kind = "company_registry"
+url = "https://www.apr.gov.rs/"
+person_data = "legal representatives, founders"
+[[country.source]]
+id = "rs-opendata"
+title = "data.gov.rs"
+kind = "open_data"
+url = "https://data.gov.rs/"
+
+[[country]]
+code = "GE"
+name = "Georgia"
+region = "Europe"
+subregion = "Caucasus"
+aliases = ["საქართველო", "sakartvelo"]
+legal_notes = "Public officials' asset declarations are published by the Anti-Corruption Bureau."
+[[country.source]]
+id = "ge-napr"
+title = "National Agency of Public Registry (entrepreneurs register)"
+kind = "company_registry"
+url = "https://napr.gov.ge/"
+[[country.source]]
+id = "ge-declarations"
+title = "Asset declarations of public officials"
+kind = "public_officials"
+url = "https://declaration.acb.gov.ge/"
+name_search = true
+[[country.source]]
+id = "ge-procurement"
+title = "State procurement (tenders.procurement.gov.ge)"
+kind = "procurement"
+url = "https://tenders.procurement.gov.ge/"
+
+[[country]]
+code = "TR"
+name = "Türkiye"
+region = "Europe"
+subregion = "Southeast Europe / Anatolia"
+aliases = ["turkey", "türkiye", "turkiye"]
+legal_notes = "The Trade Registry Gazette publishes company formations and board appointments. UYAP court files require party or lawyer access."
+[[country.source]]
+id = "tr-ticaret-sicil"
+title = "Türkiye Ticaret Sicili Gazetesi (Trade Registry Gazette)"
+kind = "gazette"
+url = "https://www.ticaretsicil.gov.tr/"
+name_search = true
+[[country.source]]
+id = "tr-ekap"
+title = "EKAP — electronic public procurement platform"
+kind = "procurement"
+url = "https://ekap.kik.gov.tr/"

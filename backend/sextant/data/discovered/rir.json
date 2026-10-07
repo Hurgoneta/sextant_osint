@@ -1,0 +1,2580 @@
+{
+ "dataset": "rir",
+ "source_url": [
+  "https://ftp.ripe.net/pub/stats/ripencc/delegated-ripencc-extended-latest",
+  "https://ftp.arin.net/pub/stats/arin/delegated-arin-extended-latest",
+  "https://ftp.apnic.net/stats/apnic/delegated-apnic-extended-latest",
+  "https://ftp.lacnic.net/pub/stats/lacnic/delegated-lacnic-extended-latest",
+  "https://ftp.afrinic.net/pub/stats/afrinic/delegated-afrinic-extended-latest"
+ ],
+ "license": "RIR delegated statistics — public statistics published by the five RIRs",
+ "retrieved_at": "2026-10-06T12:34:00+00:00",
+ "items": {
+  "PS": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 69,
+   "ipv4_addresses": 874752,
+   "ipv6_blocks": 46,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "ES": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 1170,
+   "ipv4_addresses": 31954816,
+   "ipv6_blocks": 889,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "FR": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 1895,
+   "ipv4_addresses": 81586768,
+   "ipv6_blocks": 1410,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "GB": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 3141,
+   "ipv4_addresses": 138785856,
+   "ipv6_blocks": 2052,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "SE": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 863,
+   "ipv4_addresses": 31441440,
+   "ipv6_blocks": 857,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "NL": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 1612,
+   "ipv4_addresses": 47890208,
+   "ipv6_blocks": 1935,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "LT": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 216,
+   "ipv4_addresses": 4108800,
+   "ipv6_blocks": 376,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "US": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "LACNIC",
+    "RIPE NCC"
+   ],
+   "asn": 32248,
+   "ipv4_addresses": 1606164640,
+   "ipv6_blocks": 10832,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "DE": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 3246,
+   "ipv4_addresses": 126398592,
+   "ipv6_blocks": 3115,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "IT": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 1318,
+   "ipv4_addresses": 54086272,
+   "ipv6_blocks": 1070,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "AE": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 213,
+   "ipv4_addresses": 7264768,
+   "ipv6_blocks": 595,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "IL": {
+   "rir": [
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 384,
+   "ipv4_addresses": 8051840,
+   "ipv6_blocks": 162,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "DK": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 471,
+   "ipv4_addresses": 12008480,
+   "ipv6_blocks": 411,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "SC": {
+   "rir": [
+    "AFRINIC",
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 92,
+   "ipv4_addresses": 8969728,
+   "ipv6_blocks": 728,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "BG": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 746,
+   "ipv4_addresses": 4342080,
+   "ipv6_blocks": 266,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "RU": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 5764,
+   "ipv4_addresses": 45221440,
+   "ipv6_blocks": 2184,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "CH": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 1066,
+   "ipv4_addresses": 23271024,
+   "ipv6_blocks": 874,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "RO": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 1080,
+   "ipv4_addresses": 7852160,
+   "ipv6_blocks": 271,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "TR": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 1099,
+   "ipv4_addresses": 16823488,
+   "ipv6_blocks": 670,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "PL": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 2468,
+   "ipv4_addresses": 20033992,
+   "ipv6_blocks": 982,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "LU": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 131,
+   "ipv4_addresses": 1848320,
+   "ipv6_blocks": 108,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "UA": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 2016,
+   "ipv4_addresses": 9090304,
+   "ipv6_blocks": 621,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "CY": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 179,
+   "ipv4_addresses": 1364032,
+   "ipv6_blocks": 386,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "VG": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 50,
+   "ipv4_addresses": 910848,
+   "ipv6_blocks": 48,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "AT": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 759,
+   "ipv4_addresses": 11182176,
+   "ipv6_blocks": 599,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "BE": {
+   "rir": [
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 385,
+   "ipv4_addresses": 12302720,
+   "ipv6_blocks": 326,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "AM": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 155,
+   "ipv4_addresses": 667680,
+   "ipv6_blocks": 55,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "IN": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 6292,
+   "ipv4_addresses": 42011904,
+   "ipv6_blocks": 2923,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "SG": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 723,
+   "ipv4_addresses": 27897408,
+   "ipv6_blocks": 522,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "IR": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 858,
+   "ipv4_addresses": 10840064,
+   "ipv6_blocks": 572,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "IE": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 289,
+   "ipv4_addresses": 10022208,
+   "ipv6_blocks": 213,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "GE": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 175,
+   "ipv4_addresses": 1306688,
+   "ipv6_blocks": 81,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "SK": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 227,
+   "ipv4_addresses": 2684928,
+   "ipv6_blocks": 150,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "KZ": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 259,
+   "ipv4_addresses": 3371776,
+   "ipv6_blocks": 97,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "MD": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 206,
+   "ipv4_addresses": 1257472,
+   "ipv6_blocks": 216,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "EE": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 239,
+   "ipv4_addresses": 1359912,
+   "ipv6_blocks": 164,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "GI": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 25,
+   "ipv4_addresses": 131840,
+   "ipv6_blocks": 13,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "LV": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 317,
+   "ipv4_addresses": 1850624,
+   "ipv6_blocks": 93,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "NO": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 402,
+   "ipv4_addresses": 15624720,
+   "ipv6_blocks": 462,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "SI": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 306,
+   "ipv4_addresses": 2685184,
+   "ipv6_blocks": 148,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "FI": {
+   "rir": [
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 365,
+   "ipv4_addresses": 13925440,
+   "ipv6_blocks": 311,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "HU": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 303,
+   "ipv4_addresses": 5922048,
+   "ipv6_blocks": 171,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "CA": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 2520,
+   "ipv4_addresses": 67890176,
+   "ipv6_blocks": 1144,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "JO": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 57,
+   "ipv4_addresses": 648192,
+   "ipv6_blocks": 40,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "ZA": {
+   "rir": [
+    "AFRINIC",
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 865,
+   "ipv4_addresses": 27184896,
+   "ipv6_blocks": 552,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "HK": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 1381,
+   "ipv4_addresses": 16001600,
+   "ipv6_blocks": 943,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "CZ": {
+   "rir": [
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 715,
+   "ipv4_addresses": 9557952,
+   "ipv6_blocks": 677,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "PT": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 167,
+   "ipv4_addresses": 6692896,
+   "ipv6_blocks": 120,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "GR": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 260,
+   "ipv4_addresses": 5722496,
+   "ipv6_blocks": 109,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "SA": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 200,
+   "ipv4_addresses": 11237696,
+   "ipv6_blocks": 125,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "MT": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 54,
+   "ipv4_addresses": 676224,
+   "ipv6_blocks": 26,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "AD": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 4,
+   "ipv4_addresses": 62720,
+   "ipv6_blocks": 2,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "AG": {
+   "rir": [
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 18,
+   "ipv4_addresses": 250368,
+   "ipv6_blocks": 9,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "SY": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 15,
+   "ipv4_addresses": 1278720,
+   "ipv6_blocks": 34,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "IQ": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 202,
+   "ipv4_addresses": 450624,
+   "ipv6_blocks": 118,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "LB": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 174,
+   "ipv4_addresses": 569472,
+   "ipv6_blocks": 111,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "AZ": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 120,
+   "ipv4_addresses": 772864,
+   "ipv6_blocks": 74,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "OM": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 26,
+   "ipv4_addresses": 951872,
+   "ipv6_blocks": 25,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "RS": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 200,
+   "ipv4_addresses": 2315776,
+   "ipv6_blocks": 90,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "IS": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 86,
+   "ipv4_addresses": 920576,
+   "ipv6_blocks": 72,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "MK": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 67,
+   "ipv4_addresses": 685056,
+   "ipv6_blocks": 42,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "AU": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "LACNIC",
+    "RIPE NCC"
+   ],
+   "asn": 2998,
+   "ipv4_addresses": 46089728,
+   "ipv6_blocks": 1740,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "LI": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 29,
+   "ipv4_addresses": 104704,
+   "ipv6_blocks": 29,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "JE": {
+   "rir": [
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 13,
+   "ipv4_addresses": 156416,
+   "ipv6_blocks": 11,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "HR": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 177,
+   "ipv4_addresses": 2356224,
+   "ipv6_blocks": 75,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "BA": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 60,
+   "ipv4_addresses": 794880,
+   "ipv6_blocks": 38,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "BY": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 116,
+   "ipv4_addresses": 1793536,
+   "ipv6_blocks": 32,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "KG": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 68,
+   "ipv4_addresses": 294400,
+   "ipv6_blocks": 31,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "RE": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 5,
+   "ipv4_addresses": 409856,
+   "ipv6_blocks": 6,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "IM": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 27,
+   "ipv4_addresses": 134656,
+   "ipv6_blocks": 17,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "LY": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 34,
+   "ipv4_addresses": 463104,
+   "ipv6_blocks": 18,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "YE": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 6,
+   "ipv4_addresses": 233472,
+   "ipv6_blocks": 6,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "MQ": {
+   "rir": [
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 8,
+   "ipv4_addresses": 134656,
+   "ipv6_blocks": 6,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "UZ": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 129,
+   "ipv4_addresses": 334848,
+   "ipv6_blocks": 49,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "QA": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 31,
+   "ipv4_addresses": 856192,
+   "ipv6_blocks": 22,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "KW": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 85,
+   "ipv4_addresses": 1907456,
+   "ipv6_blocks": 35,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "SM": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 13,
+   "ipv4_addresses": 40704,
+   "ipv6_blocks": 14,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "GP": {
+   "rir": [
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 10,
+   "ipv4_addresses": 124928,
+   "ipv6_blocks": 5,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "AL": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 132,
+   "ipv4_addresses": 505920,
+   "ipv6_blocks": 101,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "PA": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "LACNIC",
+    "RIPE NCC"
+   ],
+   "asn": 151,
+   "ipv4_addresses": 2188544,
+   "ipv6_blocks": 84,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "VN": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 1061,
+   "ipv4_addresses": 16502272,
+   "ipv6_blocks": 971,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "BM": {
+   "rir": [
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 22,
+   "ipv4_addresses": 108800,
+   "ipv6_blocks": 11,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "ME": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 30,
+   "ipv4_addresses": 192000,
+   "ipv6_blocks": 20,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "BH": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 25,
+   "ipv4_addresses": 414976,
+   "ipv6_blocks": 15,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "GL": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 1,
+   "ipv4_addresses": 34304,
+   "ipv6_blocks": 3,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "MC": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 4,
+   "ipv4_addresses": 65792,
+   "ipv6_blocks": 6,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "GG": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 12,
+   "ipv4_addresses": 83968,
+   "ipv6_blocks": 9,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "TJ": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 43,
+   "ipv4_addresses": 85824,
+   "ipv6_blocks": 24,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "MU": {
+   "rir": [
+    "AFRINIC",
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 49,
+   "ipv4_addresses": 3698944,
+   "ipv6_blocks": 33,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "DM": {
+   "rir": [
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 8,
+   "ipv4_addresses": 10496,
+   "ipv6_blocks": 6,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "CN": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 6624,
+   "ipv4_addresses": 342983424,
+   "ipv6_blocks": 2061,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "BZ": {
+   "rir": [
+    "APNIC",
+    "LACNIC",
+    "RIPE NCC"
+   ],
+   "asn": 29,
+   "ipv4_addresses": 134656,
+   "ipv6_blocks": 27,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "JP": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 1304,
+   "ipv4_addresses": 188701760,
+   "ipv6_blocks": 786,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "KY": {
+   "rir": [
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 18,
+   "ipv4_addresses": 91136,
+   "ipv6_blocks": 5,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "KR": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 1183,
+   "ipv4_addresses": 112497920,
+   "ipv6_blocks": 183,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "FO": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 6,
+   "ipv4_addresses": 45056,
+   "ipv6_blocks": 4,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "TM": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 9,
+   "ipv4_addresses": 22336,
+   "ipv6_blocks": 3,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "PK": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 472,
+   "ipv4_addresses": 5620736,
+   "ipv6_blocks": 355,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "PE": {
+   "rir": [
+    "LACNIC",
+    "RIPE NCC"
+   ],
+   "asn": 268,
+   "ipv4_addresses": 3250432,
+   "ipv6_blocks": 230,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "FK": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 2,
+   "ipv4_addresses": 7168,
+   "ipv6_blocks": 0,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "NG": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 305,
+   "ipv4_addresses": 3219200,
+   "ipv6_blocks": 138,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "CW": {
+   "rir": [
+    "LACNIC",
+    "RIPE NCC"
+   ],
+   "asn": 38,
+   "ipv4_addresses": 197632,
+   "ipv6_blocks": 21,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "MH": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 10,
+   "ipv4_addresses": 31232,
+   "ipv6_blocks": 5,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "KN": {
+   "rir": [
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 11,
+   "ipv4_addresses": 23552,
+   "ipv6_blocks": 5,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "LR": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 18,
+   "ipv4_addresses": 40192,
+   "ipv6_blocks": 8,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "AF": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 74,
+   "ipv4_addresses": 178176,
+   "ipv6_blocks": 34,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "AX": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 1,
+   "ipv4_addresses": 4864,
+   "ipv6_blocks": 2,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "BR": {
+   "rir": [
+    "APNIC",
+    "LACNIC",
+    "RIPE NCC"
+   ],
+   "asn": 9166,
+   "ipv4_addresses": 79320832,
+   "ipv6_blocks": 8960,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "MY": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 407,
+   "ipv4_addresses": 6700800,
+   "ipv6_blocks": 342,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "NZ": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 704,
+   "ipv4_addresses": 6531328,
+   "ipv6_blocks": 441,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "VA": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 4,
+   "ipv4_addresses": 10752,
+   "ipv6_blocks": 3,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "EG": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 95,
+   "ipv4_addresses": 24152832,
+   "ipv6_blocks": 21,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "AO": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 79,
+   "ipv4_addresses": 1292032,
+   "ipv6_blocks": 42,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "TW": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 480,
+   "ipv4_addresses": 35739904,
+   "ipv6_blocks": 324,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "BQ": {
+   "rir": [
+    "LACNIC",
+    "RIPE NCC"
+   ],
+   "asn": 6,
+   "ipv4_addresses": 25856,
+   "ipv6_blocks": 6,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "VU": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 13,
+   "ipv4_addresses": 16384,
+   "ipv6_blocks": 11,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "VC": {
+   "rir": [
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 6,
+   "ipv4_addresses": 10496,
+   "ipv6_blocks": 3,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "EU": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 383,
+   "ipv4_addresses": 267520,
+   "ipv6_blocks": 0,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "CR": {
+   "rir": [
+    "LACNIC",
+    "RIPE NCC"
+   ],
+   "asn": 125,
+   "ipv4_addresses": 2334976,
+   "ipv6_blocks": 111,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "PR": {
+   "rir": [
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 120,
+   "ipv4_addresses": 875264,
+   "ipv6_blocks": 73,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "CO": {
+   "rir": [
+    "APNIC",
+    "LACNIC",
+    "RIPE NCC"
+   ],
+   "asn": 609,
+   "ipv4_addresses": 17518080,
+   "ipv6_blocks": 753,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "TH": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 622,
+   "ipv4_addresses": 9336576,
+   "ipv6_blocks": 236,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "TK": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 3,
+   "ipv4_addresses": 3072,
+   "ipv6_blocks": 5,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "MZ": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 35,
+   "ipv4_addresses": 449536,
+   "ipv6_blocks": 19,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "AI": {
+   "rir": [
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 4,
+   "ipv4_addresses": 9728,
+   "ipv6_blocks": 3,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "TN": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 30,
+   "ipv4_addresses": 7877632,
+   "ipv6_blocks": 12,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "SN": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 23,
+   "ipv4_addresses": 407296,
+   "ipv6_blocks": 14,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "KE": {
+   "rir": [
+    "AFRINIC",
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 275,
+   "ipv4_addresses": 6256896,
+   "ipv6_blocks": 175,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "UG": {
+   "rir": [
+    "AFRINIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 68,
+   "ipv4_addresses": 1427200,
+   "ipv6_blocks": 39,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "TG": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 11,
+   "ipv4_addresses": 354816,
+   "ipv6_blocks": 9,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "BI": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 10,
+   "ipv4_addresses": 36864,
+   "ipv6_blocks": 7,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "ID": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 4044,
+   "ipv4_addresses": 19376640,
+   "ipv6_blocks": 2797,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "MO": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 15,
+   "ipv4_addresses": 339712,
+   "ipv6_blocks": 11,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "RW": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 34,
+   "ipv4_addresses": 283392,
+   "ipv6_blocks": 22,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "PH": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "RIPE NCC"
+   ],
+   "asn": 671,
+   "ipv4_addresses": 6267200,
+   "ipv6_blocks": 392,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "BO": {
+   "rir": [
+    "LACNIC",
+    "RIPE NCC"
+   ],
+   "asn": 71,
+   "ipv4_addresses": 1170176,
+   "ipv6_blocks": 57,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "MX": {
+   "rir": [
+    "APNIC",
+    "ARIN",
+    "LACNIC",
+    "RIPE NCC"
+   ],
+   "asn": 810,
+   "ipv4_addresses": 28964352,
+   "ipv6_blocks": 611,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "MA": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 38,
+   "ipv4_addresses": 12274176,
+   "ipv6_blocks": 28,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "KH": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 141,
+   "ipv4_addresses": 440832,
+   "ipv6_blocks": 92,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "BD": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 2011,
+   "ipv4_addresses": 2084160,
+   "ipv6_blocks": 1686,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "LK": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 32,
+   "ipv4_addresses": 563456,
+   "ipv6_blocks": 25,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "DO": {
+   "rir": [
+    "ARIN",
+    "LACNIC",
+    "RIPE NCC"
+   ],
+   "asn": 243,
+   "ipv4_addresses": 1623296,
+   "ipv6_blocks": 217,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "GS": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 1,
+   "ipv4_addresses": 0,
+   "ipv6_blocks": 0,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "SL": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 22,
+   "ipv4_addresses": 85760,
+   "ipv6_blocks": 10,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "SH": {
+   "rir": [
+    "RIPE NCC"
+   ],
+   "asn": 1,
+   "ipv4_addresses": 0,
+   "ipv6_blocks": 0,
+   "primary_rir": "RIPE NCC",
+   "rir_url": "https://www.ripe.net/"
+  },
+  "BW": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 39,
+   "ipv4_addresses": 166144,
+   "ipv6_blocks": 21,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "CL": {
+   "rir": [
+    "LACNIC",
+    "RIPE NCC"
+   ],
+   "asn": 457,
+   "ipv4_addresses": 9646848,
+   "ipv6_blocks": 336,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "PW": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 4,
+   "ipv4_addresses": 6144,
+   "ipv6_blocks": 3,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "NI": {
+   "rir": [
+    "LACNIC",
+    "RIPE NCC"
+   ],
+   "asn": 34,
+   "ipv4_addresses": 411136,
+   "ipv6_blocks": 24,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "MV": {
+   "rir": [
+    "APNIC",
+    "RIPE NCC"
+   ],
+   "asn": 19,
+   "ipv4_addresses": 93952,
+   "ipv6_blocks": 15,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "KM": {
+   "rir": [
+    "AFRINIC",
+    "RIPE NCC"
+   ],
+   "asn": 4,
+   "ipv4_addresses": 8448,
+   "ipv6_blocks": 2,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "MF": {
+   "rir": [
+    "ARIN"
+   ],
+   "asn": 6,
+   "ipv4_addresses": 3584,
+   "ipv6_blocks": 4,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "JM": {
+   "rir": [
+    "ARIN"
+   ],
+   "asn": 15,
+   "ipv4_addresses": 224256,
+   "ipv6_blocks": 10,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "PM": {
+   "rir": [
+    "ARIN"
+   ],
+   "asn": 1,
+   "ipv4_addresses": 4608,
+   "ipv6_blocks": 1,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "VI": {
+   "rir": [
+    "ARIN"
+   ],
+   "asn": 12,
+   "ipv4_addresses": 130304,
+   "ipv6_blocks": 6,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "BS": {
+   "rir": [
+    "ARIN"
+   ],
+   "asn": 13,
+   "ipv4_addresses": 138240,
+   "ipv6_blocks": 6,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "BB": {
+   "rir": [
+    "ARIN"
+   ],
+   "asn": 10,
+   "ipv4_addresses": 168704,
+   "ipv6_blocks": 4,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "GD": {
+   "rir": [
+    "ARIN"
+   ],
+   "asn": 11,
+   "ipv4_addresses": 11264,
+   "ipv6_blocks": 10,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "LC": {
+   "rir": [
+    "ARIN"
+   ],
+   "asn": 7,
+   "ipv4_addresses": 22016,
+   "ipv6_blocks": 4,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "TC": {
+   "rir": [
+    "ARIN"
+   ],
+   "asn": 2,
+   "ipv4_addresses": 10496,
+   "ipv6_blocks": 1,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "BL": {
+   "rir": [
+    "ARIN"
+   ],
+   "asn": 3,
+   "ipv4_addresses": 768,
+   "ipv6_blocks": 3,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "GU": {
+   "rir": [
+    "APNIC",
+    "ARIN"
+   ],
+   "asn": 10,
+   "ipv4_addresses": 218624,
+   "ipv6_blocks": 11,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "AQ": {
+   "rir": [
+    "ARIN"
+   ],
+   "asn": 1,
+   "ipv4_addresses": 1024,
+   "ipv6_blocks": 1,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "MS": {
+   "rir": [
+    "ARIN"
+   ],
+   "asn": 1,
+   "ipv4_addresses": 1280,
+   "ipv6_blocks": 0,
+   "primary_rir": "ARIN",
+   "rir_url": "https://www.arin.net/"
+  },
+  "MN": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 75,
+   "ipv4_addresses": 181504,
+   "ipv6_blocks": 56,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "PG": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 39,
+   "ipv4_addresses": 67584,
+   "ipv6_blocks": 26,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "NP": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 209,
+   "ipv4_addresses": 584192,
+   "ipv6_blocks": 166,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "MM": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 170,
+   "ipv4_addresses": 246784,
+   "ipv6_blocks": 131,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "NC": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 19,
+   "ipv4_addresses": 161536,
+   "ipv6_blocks": 14,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "FJ": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 20,
+   "ipv4_addresses": 144640,
+   "ipv6_blocks": 18,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "WF": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 1,
+   "ipv4_addresses": 3584,
+   "ipv6_blocks": 1,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "BT": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 43,
+   "ipv4_addresses": 51456,
+   "ipv6_blocks": 29,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "LA": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 43,
+   "ipv4_addresses": 98880,
+   "ipv6_blocks": 28,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "BN": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 10,
+   "ipv4_addresses": 216064,
+   "ipv6_blocks": 10,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "NR": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 5,
+   "ipv4_addresses": 10240,
+   "ipv6_blocks": 2,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "WS": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 10,
+   "ipv4_addresses": 19968,
+   "ipv6_blocks": 8,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "TL": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 21,
+   "ipv4_addresses": 28928,
+   "ipv6_blocks": 15,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "FM": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 6,
+   "ipv4_addresses": 8704,
+   "ipv6_blocks": 2,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "PF": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 6,
+   "ipv4_addresses": 75520,
+   "ipv6_blocks": 7,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "TO": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 5,
+   "ipv4_addresses": 11520,
+   "ipv6_blocks": 5,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "MP": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 2,
+   "ipv4_addresses": 16128,
+   "ipv6_blocks": 1,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "NU": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 1,
+   "ipv4_addresses": 2048,
+   "ipv6_blocks": 2,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "SB": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 11,
+   "ipv4_addresses": 14336,
+   "ipv6_blocks": 8,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "NF": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 2,
+   "ipv4_addresses": 768,
+   "ipv6_blocks": 1,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "KI": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 5,
+   "ipv4_addresses": 4096,
+   "ipv6_blocks": 3,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "AS": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 2,
+   "ipv4_addresses": 5120,
+   "ipv6_blocks": 2,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "CK": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 2,
+   "ipv4_addresses": 8704,
+   "ipv6_blocks": 2,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "KP": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 1,
+   "ipv4_addresses": 1024,
+   "ipv6_blocks": 0,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "TV": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 3,
+   "ipv4_addresses": 8192,
+   "ipv6_blocks": 2,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "IO": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 1,
+   "ipv4_addresses": 3072,
+   "ipv6_blocks": 1,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "AP": {
+   "rir": [
+    "APNIC"
+   ],
+   "asn": 2,
+   "ipv4_addresses": 0,
+   "ipv6_blocks": 0,
+   "primary_rir": "APNIC",
+   "rir_url": "https://www.apnic.net/"
+  },
+  "GT": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 103,
+   "ipv4_addresses": 654848,
+   "ipv6_blocks": 83,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "EC": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 290,
+   "ipv4_addresses": 2727168,
+   "ipv6_blocks": 283,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "PY": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 121,
+   "ipv4_addresses": 1153536,
+   "ipv6_blocks": 110,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "VE": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 302,
+   "ipv4_addresses": 6703104,
+   "ipv6_blocks": 239,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "AR": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 1354,
+   "ipv4_addresses": 19433728,
+   "ipv6_blocks": 1161,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "HN": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 120,
+   "ipv4_addresses": 536064,
+   "ipv6_blocks": 119,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "SV": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 55,
+   "ipv4_addresses": 663808,
+   "ipv6_blocks": 46,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "UY": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 53,
+   "ipv4_addresses": 2516736,
+   "ipv6_blocks": 45,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "SR": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 7,
+   "ipv4_addresses": 82688,
+   "ipv6_blocks": 5,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "GF": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 7,
+   "ipv4_addresses": 22528,
+   "ipv6_blocks": 6,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "TT": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 17,
+   "ipv4_addresses": 543744,
+   "ipv6_blocks": 16,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "SX": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 4,
+   "ipv4_addresses": 34304,
+   "ipv6_blocks": 7,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "GY": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 8,
+   "ipv4_addresses": 69888,
+   "ipv6_blocks": 9,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "AW": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 4,
+   "ipv4_addresses": 111872,
+   "ipv6_blocks": 3,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "HT": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 13,
+   "ipv4_addresses": 154880,
+   "ipv6_blocks": 10,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "CU": {
+   "rir": [
+    "LACNIC"
+   ],
+   "asn": 7,
+   "ipv4_addresses": 257024,
+   "ipv6_blocks": 6,
+   "primary_rir": "LACNIC",
+   "rir_url": "https://www.lacnic.net/"
+  },
+  "DZ": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 16,
+   "ipv4_addresses": 4768256,
+   "ipv6_blocks": 9,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "ZM": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 24,
+   "ipv4_addresses": 1651968,
+   "ipv6_blocks": 14,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "TZ": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 125,
+   "ipv4_addresses": 1101056,
+   "ipv6_blocks": 86,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "SD": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 13,
+   "ipv4_addresses": 1891072,
+   "ipv6_blocks": 11,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "GH": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 121,
+   "ipv4_addresses": 2203904,
+   "ipv6_blocks": 59,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "CM": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 33,
+   "ipv4_addresses": 601856,
+   "ipv6_blocks": 25,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "GA": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 12,
+   "ipv4_addresses": 393728,
+   "ipv6_blocks": 9,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "ZW": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 32,
+   "ipv4_addresses": 105472,
+   "ipv6_blocks": 21,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "SZ": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 13,
+   "ipv4_addresses": 55040,
+   "ipv6_blocks": 9,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "NA": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 22,
+   "ipv4_addresses": 485120,
+   "ipv6_blocks": 11,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "ML": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 11,
+   "ipv4_addresses": 92672,
+   "ipv6_blocks": 8,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "ET": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 10,
+   "ipv4_addresses": 370176,
+   "ipv6_blocks": 7,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "GM": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 12,
+   "ipv4_addresses": 275968,
+   "ipv6_blocks": 10,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "BF": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 33,
+   "ipv4_addresses": 339200,
+   "ipv6_blocks": 29,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "LS": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 11,
+   "ipv4_addresses": 121344,
+   "ipv6_blocks": 8,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "NE": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 11,
+   "ipv4_addresses": 47104,
+   "ipv6_blocks": 7,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "BJ": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 20,
+   "ipv4_addresses": 151296,
+   "ipv6_blocks": 17,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "MR": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 11,
+   "ipv4_addresses": 51712,
+   "ipv6_blocks": 6,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "CI": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 31,
+   "ipv4_addresses": 1719552,
+   "ipv6_blocks": 20,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "ER": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 1,
+   "ipv4_addresses": 4096,
+   "ipv6_blocks": 0,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "DJ": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 4,
+   "ipv4_addresses": 47360,
+   "ipv6_blocks": 4,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "MW": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 36,
+   "ipv4_addresses": 556544,
+   "ipv6_blocks": 33,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "SS": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 25,
+   "ipv4_addresses": 26880,
+   "ipv6_blocks": 12,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "CD": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 57,
+   "ipv4_addresses": 183040,
+   "ipv6_blocks": 24,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "MG": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 11,
+   "ipv4_addresses": 579840,
+   "ipv6_blocks": 9,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "GN": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 19,
+   "ipv4_addresses": 39168,
+   "ipv6_blocks": 13,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "CG": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 15,
+   "ipv4_addresses": 141824,
+   "ipv6_blocks": 13,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "SO": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 24,
+   "ipv4_addresses": 51968,
+   "ipv6_blocks": 15,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "GQ": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 7,
+   "ipv4_addresses": 17920,
+   "ipv6_blocks": 2,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "CF": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 5,
+   "ipv4_addresses": 6656,
+   "ipv6_blocks": 0,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "TD": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 18,
+   "ipv4_addresses": 25856,
+   "ipv6_blocks": 6,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "CV": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 11,
+   "ipv4_addresses": 38144,
+   "ipv6_blocks": 7,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "GW": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 3,
+   "ipv4_addresses": 6656,
+   "ipv6_blocks": 2,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "YT": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 1,
+   "ipv4_addresses": 1024,
+   "ipv6_blocks": 0,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  },
+  "ST": {
+   "rir": [
+    "AFRINIC"
+   ],
+   "asn": 2,
+   "ipv4_addresses": 12288,
+   "ipv6_blocks": 1,
+   "primary_rir": "AFRINIC",
+   "rir_url": "https://afrinic.net/"
+  }
+ }
+}

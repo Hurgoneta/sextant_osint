@@ -1,0 +1,185 @@
+# Identity discovery targets: the platforms the web-search stage of the identity pipeline looks for
+# (discovery/queries.py). Data, not code: add a platform here (it must exist in the platform registry, or be one of
+# your own platforms with a profile-URL template) and the pipeline queries it, parses its profile URLs and pivots on
+# the handles it finds.
+#
+#   platform      registry id
+#   priority      0–1, how often ordinary people have a public, search-indexed profile there (orders the queries)
+#   site          the `site:` filter (may include a path, e.g. linkedin.com/in)
+#   countries     optional ISO-2 codes where the platform is especially common (boosts it for those investigations)
+#   any_subpath   the first path segment is always the account (pinterest.com/<user>/<board>/, github.com/<user>/<repo>)
+#
+# Profile sub-pages (`subpages`) are trimmed before parsing, so a result such as pinterest.com/<user>/_saved/ or
+# tiktok.com/@<user>/video/123 still yields the handle. These words never count as a username themselves.
+
+subpages = ["_saved", "_created", "_profile", "boards", "pins", "followers", "following", "likes", "videos", "video",
+            "about", "featured", "posts", "reels", "tagged", "repositories", "stars", "playlists", "shorts", "streams",
+            "community", "photos", "with_replies", "media", "status", "photo", "favorites", "albums", "tracks",
+            "sets", "reposts", "comments", "submitted", "overview", "gilded", "projects", "activity", "collections",
+            "lists", "music", "friends", "info", "sk", "posts_and_replies"]
+
+# First path segments that are content, never an account: a trimmed URL ending in one of these is not a profile
+# (pinterest.com/pin/123/ is a pin, instagram.com/p/… a post, youtube.com/watch… a video).
+not_handles = ["pin", "pins", "p", "reel", "reels", "tv", "stories", "explore", "video", "videos", "watch", "status",
+               "hashtag", "tags", "tag", "search", "ideas", "today", "business", "i", "intent", "share", "topics", "c",
+               "channel", "playlist", "shorts", "events", "groups", "pages", "marketplace", "photo", "photos", "post",
+               "posts", "music", "sound", "discover", "trending", "live", "embed", "login", "signup", "help"]
+
+[[target]]
+platform = "instagram"
+priority = 1.0
+site = "instagram.com"
+
+[[target]]
+platform = "facebook"
+priority = 0.95
+site = "facebook.com"
+
+[[target]]
+platform = "linkedin"
+priority = 0.9
+site = "linkedin.com/in"
+
+[[target]]
+platform = "tiktok"
+priority = 0.9
+site = "tiktok.com"
+
+[[target]]
+platform = "pinterest"
+priority = 0.85
+site = "pinterest.com"
+any_subpath = true
+
+[[target]]
+platform = "x"
+priority = 0.8
+site = "x.com"
+
+[[target]]
+platform = "youtube"
+priority = 0.7
+site = "youtube.com"
+
+[[target]]
+platform = "threads"
+priority = 0.6
+site = "threads.net"
+
+[[target]]
+platform = "spotify"
+priority = 0.6
+site = "open.spotify.com/user"
+
+[[target]]
+platform = "github"
+priority = 0.55
+site = "github.com"
+any_subpath = true
+
+[[target]]
+platform = "linktree"
+priority = 0.5
+site = "linktr.ee"
+
+[[target]]
+platform = "reddit"
+priority = 0.5
+site = "reddit.com/user"
+
+[[target]]
+platform = "vk"
+priority = 0.35
+site = "vk.com"
+countries = ["RU", "BY", "KZ", "UA", "KG", "AM", "MD", "UZ"]
+
+[[target]]
+platform = "ok"
+priority = 0.3
+site = "ok.ru"
+countries = ["RU", "BY", "KZ", "UA", "KG", "AM", "MD", "UZ"]
+
+[[target]]
+platform = "soundcloud"
+priority = 0.45
+site = "soundcloud.com"
+
+[[target]]
+platform = "twitch"
+priority = 0.45
+site = "twitch.tv"
+
+[[target]]
+platform = "snapchat"
+priority = 0.4
+site = "snapchat.com"
+
+[[target]]
+platform = "bluesky"
+priority = 0.4
+site = "bsky.app/profile"
+
+[[target]]
+platform = "medium"
+priority = 0.4
+site = "medium.com"
+
+[[target]]
+platform = "behance"
+priority = 0.4
+site = "behance.net"
+
+[[target]]
+platform = "telegram"
+priority = 0.35
+site = "t.me"
+
+[[target]]
+platform = "tumblr"
+priority = 0.35
+site = "tumblr.com"
+
+[[target]]
+platform = "flickr"
+priority = 0.3
+site = "flickr.com"
+
+[[target]]
+platform = "gitlab"
+priority = 0.3
+site = "gitlab.com"
+
+[[target]]
+platform = "deviantart"
+priority = 0.3
+site = "deviantart.com"
+
+[[target]]
+platform = "quora"
+priority = 0.3
+site = "quora.com/profile"
+
+[[target]]
+platform = "goodreads"
+priority = 0.25
+site = "goodreads.com"
+
+[[target]]
+platform = "patreon"
+priority = 0.25
+site = "patreon.com"
+
+[[target]]
+platform = "vimeo"
+priority = 0.25
+site = "vimeo.com"
+
+[[target]]
+platform = "letterboxd"
+priority = 0.2
+site = "letterboxd.com"
+
+[[target]]
+platform = "steam"
+priority = 0.2
+site = "steamcommunity.com"

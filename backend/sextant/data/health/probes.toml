@@ -1,0 +1,241 @@
+# Health probes: one public test input per connector, run by `python -m sextant.tools.health_check`.
+# Inputs are mascots and official accounts (octocat, library), example domains, public IPs, large listed companies,
+# a generic placeholder name ("John Smith") or an invented handle (sextantprobe9q) that belongs to no one. They identify
+# no person. Either "found" or "not_found" proves the source answered correctly; errors or refusals do not.
+# slow = downloads a large dataset (sanctions lists); run only with --all.
+
+[probe.github]
+transform = "github.username_lookup"
+entity = ["username", "octocat"]
+[probe.gitlab]
+transform = "gitlab.username_lookup"
+entity = ["username", "sextantprobe9q"]
+[probe.codeberg]
+transform = "codeberg.username_lookup"
+entity = ["username", "octocat"]
+[probe.crates]
+transform = "crates.username_lookup"
+entity = ["username", "octocat"]
+[probe.dockerhub]
+transform = "dockerhub.username_lookup"
+entity = ["username", "library"]
+[probe.huggingface]
+transform = "huggingface.username_lookup"
+entity = ["username", "sextantprobe9q"]
+[probe.npm]
+transform = "npm.maintainer_lookup"
+entity = ["username", "sextantprobe9q"]
+[probe.codeforces]
+transform = "codeforces.username_lookup"
+entity = ["username", "sextantprobe9q"]
+[probe.devto]
+transform = "devto.username_lookup"
+entity = ["username", "sextantprobe9q"]
+[probe.hackernews]
+transform = "hackernews.username_lookup"
+entity = ["username", "sextantprobe9q"]
+[probe.keybase]
+transform = "keybase.username_lookup"
+entity = ["username", "sextantprobe9q"]
+[probe.lobsters]
+transform = "lobsters.username_lookup"
+entity = ["username", "sextantprobe9q"]
+[probe.lemmy]
+transform = "lemmy.username_lookup"
+entity = ["username", "sextantprobe9q"]
+[probe.lichess]
+transform = "lichess.username_lookup"
+entity = ["username", "sextantprobe9q"]
+[probe.chesscom]
+transform = "chesscom.username_lookup"
+entity = ["username", "sextantprobe9q"]
+[probe.stackexchange]
+transform = "stackexchange.username_lookup"
+entity = ["username", "sextantprobe9q"]
+[probe.bluesky]
+transform = "bluesky.username_lookup"
+entity = ["username", "sextantprobe9q"]
+[probe.mastodon]
+transform = "mastodon.username_lookup"
+entity = ["username", "sextantprobe9q"]
+[probe.profile_probes]
+transform = "profile_probes.sweep"
+entity = ["username", "sextantprobe9q"]
+[probe.whatsmyname]
+transform = "whatsmyname.sweep"
+entity = ["username", "octocat"]
+slow = true
+[probe.dns]
+transform = "dns.records"
+entity = ["domain", "example.com"]
+[probe.rdap]
+transform = "rdap.domain"
+entity = ["domain", "example.com"]
+[probe.crtsh]
+transform = "crtsh.subdomains"
+entity = ["domain", "example.com"]
+[probe.certspotter]
+transform = "certspotter.subdomains"
+entity = ["domain", "example.com"]
+[probe.wayback]
+transform = "wayback.domain_history"
+entity = ["domain", "example.com"]
+[probe.website]
+transform = "website.pages"
+entity = ["domain", "example.com"]
+[probe.tech_fingerprint]
+transform = "tech_fingerprint.fingerprint"
+entity = ["domain", "example.com"]
+[probe.ripestat]
+transform = "ripestat.network"
+entity = ["ip", "8.8.8.8"]
+[probe.shodan_internetdb]
+transform = "shodan_internetdb.lookup"
+entity = ["ip", "8.8.8.8"]
+[probe.gravatar]
+transform = "gravatar.profile"
+entity = ["email", "info@example.com"]
+[probe.openpgp_keyserver]
+transform = "openpgp_keyserver.key_lookup"
+entity = ["email", "info@example.com"]
+[probe.email_analysis]
+transform = "email_analysis.analyse"
+entity = ["email", "info@example.com"]
+[probe.phone_offline]
+transform = "phone_offline.analyse"
+entity = ["phone", "+14155552671"]
+[probe.nominatim]
+transform = "nominatim.geocode"
+entity = ["location", "Stockholm, Sweden"]
+[probe.gleif]
+transform = "gleif.search"
+entity = ["organization", "name:deutsche bank", "Deutsche Bank AG"]
+props = { name = "Deutsche Bank AG" }
+[probe.wikidata]
+transform = "wikidata.organization"
+entity = ["organization", "name:wikimedia foundation", "Wikimedia Foundation"]
+props = { name = "Wikimedia Foundation" }
+[probe.no_brreg]
+transform = "no_brreg.entities"
+entity = ["organization", "name:equinor asa", "Equinor ASA"]
+props = { name = "Equinor ASA", jurisdiction = "NO" }
+[probe.fi_prh]
+transform = "fi_prh.companies"
+entity = ["organization", "name:nokia oyj", "Nokia Oyj"]
+props = { name = "Nokia Oyj", jurisdiction = "FI" }
+[probe.fr_entreprises]
+transform = "fr_entreprises.companies"
+entity = ["organization", "name:airbus", "Airbus"]
+props = { name = "Airbus", jurisdiction = "FR" }
+[probe.cz_ares]
+transform = "cz_ares.subjects"
+entity = ["organization", "name:skoda auto", "Škoda Auto a.s."]
+props = { name = "Škoda Auto a.s.", jurisdiction = "CZ" }
+[probe.ee_ariregister]
+transform = "ee_ariregister.companies"
+entity = ["organization", "name:bolt technology", "Bolt Technology OÜ"]
+props = { name = "Bolt Technology OÜ", jurisdiction = "EE" }
+[probe.sec_edgar]
+transform = "sec_edgar.full_text"
+entity = ["organization", "name:apple inc", "Apple Inc."]
+props = { name = "Apple Inc." }
+[probe.usaspending]
+transform = "usaspending.recipients"
+entity = ["organization", "name:lockheed martin", "Lockheed Martin Corporation"]
+props = { name = "Lockheed Martin Corporation", jurisdiction = "US" }
+[probe.ted_procurement]
+transform = "ted_procurement.notices"
+entity = ["organization", "name:siemens", "Siemens AG"]
+props = { name = "Siemens AG" }
+[probe.uk_contracts_finder]
+transform = "uk_contracts_finder.notices"
+entity = ["organization", "name:capita plc", "Capita plc"]
+props = { name = "Capita plc", jurisdiction = "GB" }
+[probe.icij_offshore]
+transform = "icij_offshore.reconcile"
+entity = ["organization", "name:mossack fonseca", "Mossack Fonseca"]
+props = { name = "Mossack Fonseca" }
+[probe.gdelt]
+transform = "gdelt.articles"
+entity = ["organization", "name:united nations", "United Nations"]
+props = { name = "United Nations" }
+[probe.openalex]
+transform = "openalex.authors"
+entity = ["person", "name:john smith", "John Smith"]
+props = { full_name = "John Smith" }
+[probe.orcid]
+transform = "orcid.by_name"
+entity = ["person", "name:john smith", "John Smith"]
+props = { full_name = "John Smith" }
+[probe.crossref]
+transform = "crossref.works"
+entity = ["person", "name:john smith", "John Smith"]
+props = { full_name = "John Smith" }
+[probe.courtlistener]
+transform = "courtlistener.dockets"
+entity = ["organization", "name:apple inc", "Apple Inc."]
+props = { name = "Apple Inc." }
+[probe.uk_find_case_law]
+transform = "uk_find_case_law.judgments"
+entity = ["organization", "name:tesco plc", "Tesco plc"]
+props = { name = "Tesco plc" }
+[probe.us_npi]
+transform = "us_npi.providers"
+entity = ["person", "name:john smith", "John Smith"]
+props = { full_name = "John Smith" }
+[probe.fec]
+transform = "fec.contributions"
+entity = ["person", "name:john smith", "John Smith"]
+props = { full_name = "John Smith" }
+[probe.fbi_wanted]
+transform = "fbi_wanted.match"
+entity = ["person", "name:john smith", "John Smith"]
+props = { full_name = "John Smith" }
+[probe.un_sanctions]
+transform = "un_sanctions.match"
+entity = ["person", "name:john smith", "John Smith"]
+props = { full_name = "John Smith" }
+slow = true
+[probe.ofac_sdn]
+transform = "ofac_sdn.match"
+entity = ["person", "name:john smith", "John Smith"]
+props = { full_name = "John Smith" }
+slow = true
+[probe.uk_sanctions]
+transform = "uk_sanctions.match"
+entity = ["person", "name:john smith", "John Smith"]
+props = { full_name = "John Smith" }
+slow = true
+[probe.eu_sanctions]
+transform = "eu_sanctions.match"
+entity = ["person", "name:john smith", "John Smith"]
+props = { full_name = "John Smith" }
+slow = true
+[probe.lv_ur]
+transform = "lv_ur.companies"
+entity = ["organization", "name:air baltic corporation", "Air Baltic Corporation AS"]
+props = { name = "Air Baltic Corporation", jurisdiction = "LV" }
+[probe.sk_rpo]
+transform = "sk_rpo.entities"
+entity = ["organization", "name:slovnaft", "SLOVNAFT, a.s."]
+props = { name = "SLOVNAFT", jurisdiction = "SK" }
+[probe.il_companies]
+transform = "il_companies.companies"
+entity = ["organization", "name:teva pharmaceutical industries", "Teva Pharmaceutical Industries"]
+props = { name = "Teva Pharmaceutical Industries", jurisdiction = "IL" }
+[probe.tw_gcis]
+transform = "tw_gcis.companies"
+entity = ["organization", "name:台灣積體電路製造", "台灣積體電路製造"]
+props = { name = "台灣積體電路製造", jurisdiction = "TW" }
+[probe.co_secop]
+transform = "co_secop.contracts"
+entity = ["organization", "name:ecopetrol", "ECOPETROL"]
+props = { name = "ECOPETROL", jurisdiction = "CO" }
+[probe.maigret]
+transform = "maigret.search"
+entity = ["username", "octocat"]
+slow = true
+[probe.sherlock]
+transform = "sherlock.search"
+entity = ["username", "octocat"]
+slow = true

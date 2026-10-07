@@ -1,0 +1,190 @@
+# Curated overrides applied by `python -m sextant.tools.import_datasets countries` on top of the UN M49 table and
+# Wikidata. The generated list is data/countries/countries.json: 193 UN member states + the Holy See and the
+# State of Palestine (UN observer states) = 195 sovereign states, plus the territories below. Territories are
+# listed because they run their own registers (company, court, domain), and they are never counted in the 195.
+
+# Short names used in the UI (the M49 name is kept as an alias)
+[names]
+NR = "Nauru"
+BO = "Bolivia"
+BN = "Brunei"
+CG = "Republic of the Congo"
+CI = "Côte d'Ivoire"
+FM = "Micronesia"
+GB = "United Kingdom"
+IR = "Iran"
+KP = "North Korea"
+KR = "South Korea"
+LA = "Laos"
+MD = "Moldova"
+NL = "Netherlands"
+RU = "Russia"
+SY = "Syria"
+TZ = "Tanzania"
+US = "United States"
+VE = "Venezuela"
+VN = "Vietnam"
+HK = "Hong Kong"
+MO = "Macao"
+VG = "British Virgin Islands"
+
+# Investigation regions differ from M49 where OSINT practice groups countries differently
+[regions]
+MX = "North America"
+AM = "Europe"
+AZ = "Europe"
+GE = "Europe"
+CY = "Europe"
+TR = "Europe"
+IR = "Middle East"
+
+[subregions]
+AM = "Caucasus"
+AZ = "Caucasus"
+GE = "Caucasus"
+CY = "Eastern Mediterranean"
+TR = "Southeast Europe / Western Asia"
+
+[tld]
+GB = ".uk"
+XK = ""
+
+# FIPS 10-4 codes missing from Wikidata (GDELT filters news by FIPS code; Palestine = West Bank)
+[fips]
+NL = "NL"
+PS = "WE"
+
+# Official languages missing from Wikidata (ISO 639-1; used for local-language search)
+[languages]
+CN = ["zh"]
+GR = ["el"]
+UY = ["es"]
+BF = ["fr"]
+ME = ["sr"]
+GI = ["en"]
+HK = ["zh", "en"]
+TW = ["zh"]
+MO = ["zh", "pt"]
+
+# Common alternative names (free-text location matching). Native names come from Wikidata.
+[aliases]
+US = ["USA", "U.S.A.", "U.S.", "United States of America"]
+GB = ["UK", "U.K.", "Great Britain", "Britain", "England", "Scotland", "Wales", "Northern Ireland"]
+CZ = ["Czech Republic", "Česko", "Česká republika"]
+CI = ["Ivory Coast", "Cote d'Ivoire", "Côte d’Ivoire"]
+MM = ["Burma"]
+TL = ["East Timor"]
+SZ = ["Swaziland"]
+CV = ["Cape Verde"]
+MK = ["Macedonia", "Northern Macedonia"]
+NL = ["Holland", "Nederland", "The Netherlands"]
+RU = ["Russian Federation", "Rossiya"]
+KR = ["Korea", "Republic of Korea"]
+KP = ["DPRK"]
+VN = ["Viet Nam", "Việt Nam"]
+LA = ["Lao PDR"]
+CD = ["DR Congo", "DRC", "Congo-Kinshasa", "Congo Kinshasa"]
+CG = ["Congo-Brazzaville", "Congo Brazzaville"]
+VA = ["Vatican", "Vatican City", "Vatican City State"]
+PS = ["Palestine", "Palestinian Territories"]
+AE = ["UAE", "U.A.E.", "Emirates"]
+SA = ["KSA"]
+BA = ["Bosnia", "Bosnia-Herzegovina", "BiH"]
+FM = ["Federated States of Micronesia"]
+TR = ["Turkey", "Turkiye"]
+CH = ["Schweiz", "Suisse", "Svizzera"]
+KN = ["St Kitts and Nevis", "St. Kitts and Nevis", "Saint Kitts"]
+LC = ["St Lucia", "St. Lucia"]
+VC = ["St Vincent and the Grenadines", "St. Vincent and the Grenadines"]
+AG = ["Antigua"]
+ST = ["Sao Tome and Principe", "São Tomé"]
+GW = ["Guinea Bissau"]
+TT = ["Trinidad"]
+BS = ["The Bahamas"]
+GM = ["The Gambia"]
+KG = ["Kirgizstan"]
+BY = ["Belorussia"]
+MD = ["Republic of Moldova"]
+DE = ["Deutschland"]
+AT = ["Österreich"]
+ES = ["España"]
+GR = ["Hellas", "Ελλάδα"]
+HU = ["Magyarország"]
+SE = ["Sverige"]
+FI = ["Suomi"]
+NO = ["Norge", "Noreg"]
+DK = ["Danmark"]
+PL = ["Polska"]
+RO = ["România"]
+JP = ["Nippon", "Nihon", "日本"]
+CN = ["China", "PRC", "中国"]
+IN = ["Bharat", "भारत"]
+BR = ["Brasil"]
+MX = ["México"]
+EG = ["Misr"]
+MA = ["Maroc", "Al-Maghrib"]
+DZ = ["Algérie"]
+TN = ["Tunisie"]
+
+# Territories and partially recognised states with their own registers. Not counted among the 195.
+[territories.TW]
+name = "Taiwan"
+status = "partially_recognized"
+region = "Asia"
+subregion = "Eastern Asia"
+iso3 = "TWN"
+
+[territories.XK]
+name = "Kosovo"
+status = "partially_recognized"
+region = "Europe"
+subregion = "Southern Europe"
+iso3 = "XKX"
+
+[territories.HK]
+status = "special_administrative_region"
+sovereign_of = "CN"
+
+[territories.MO]
+status = "special_administrative_region"
+sovereign_of = "CN"
+
+[territories.PR]
+status = "territory"
+sovereign_of = "US"
+
+[territories.JE]
+status = "crown_dependency"
+sovereign_of = "GB"
+
+[territories.GG]
+status = "crown_dependency"
+sovereign_of = "GB"
+
+[territories.IM]
+status = "crown_dependency"
+sovereign_of = "GB"
+
+[territories.GI]
+status = "territory"
+sovereign_of = "GB"
+
+[territories.KY]
+status = "territory"
+sovereign_of = "GB"
+
+[territories.VG]
+status = "territory"
+sovereign_of = "GB"
+
+[territories.BM]
+status = "territory"
+sovereign_of = "GB"
+
+[territories.FO]
+status = "territory"
+sovereign_of = "DK"
+
+[territories.GL]
+status = "territory"
+sovereign_of = "DK"

@@ -1,0 +1,218 @@
+# Video, streaming, music, audio, photography and art.
+
+[[platform]]
+id = "youtube"
+name = "YouTube"
+category = "video"
+url = "https://www.youtube.com"
+profile_url = "https://www.youtube.com/@{username}"
+hosts = ["youtube.com", "m.youtube.com"]
+url_patterns = ['^(?:m\.)?youtube\.com/@([A-Za-z0-9_.-]{3,30})/?$', '^(?:m\.)?youtube\.com/(?:c|user)/([A-Za-z0-9_.-]{1,100})/?$']
+username_pattern = '^[A-Za-z0-9_.-]{3,30}$'
+api = "key"
+extraction = ["display_name", "description", "country", "created_at", "avatar", "subscribers", "custom_url"]
+auth = "free Google API key (YouTube Data API v3)"
+rate_limit = "10,000 quota units/day; a handle lookup costs 1 unit"
+check = "youtube"
+
+[[platform]]
+id = "twitch"
+name = "Twitch"
+category = "video"
+url = "https://www.twitch.tv"
+profile_url = "https://www.twitch.tv/{username}"
+hosts = ["twitch.tv", "m.twitch.tv"]
+url_patterns = ['^(?:m\.)?twitch\.tv/(?!directory|videos|settings|downloads|jobs|p/|search|subscriptions|inventory|wallet|drops)([A-Za-z0-9_]{4,25})/?$']
+username_pattern = '^[A-Za-z0-9_]{4,25}$'
+api = "key"
+extraction = ["display_name", "description", "created_at", "avatar", "broadcaster_type"]
+auth = "free client id + secret (app access token)"
+check = "twitch"
+
+[[platform]]
+id = "kick"
+name = "Kick"
+category = "video"
+url = "https://kick.com"
+profile_url = "https://kick.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "vimeo"
+name = "Vimeo"
+category = "video"
+url = "https://vimeo.com"
+profile_url = "https://vimeo.com/{username}"
+url_patterns = ['^vimeo\.com/(?!\d+$)(?!(?:about|help|log_in|join|search|features|pricing|blog|channels|categories|watch|upload|settings|ondemand|stock)(?:/|$))([A-Za-z0-9_]{3,40})/?$']
+check = "whatsmyname"
+
+[[platform]]
+id = "dailymotion"
+name = "Dailymotion"
+category = "video"
+url = "https://www.dailymotion.com"
+profile_url = "https://www.dailymotion.com/{username}"
+api = "public"
+check = "whatsmyname"
+
+[[platform]]
+id = "rumble"
+name = "Rumble"
+category = "video"
+url = "https://rumble.com"
+profile_url = "https://rumble.com/user/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "odysee"
+name = "Odysee"
+category = "video"
+url = "https://odysee.com"
+profile_url = "https://odysee.com/@{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "soundcloud"
+name = "SoundCloud"
+category = "music"
+url = "https://soundcloud.com"
+profile_url = "https://soundcloud.com/{username}"
+url_patterns = ['^soundcloud\.com/(?!discover|search|upload|you|stream|charts|pages|terms-of-use|settings|signin|mobile|people)([A-Za-z0-9_-]{3,25})/?$']
+check = "whatsmyname"
+
+[[platform]]
+id = "spotify"
+name = "Spotify"
+category = "music"
+url = "https://open.spotify.com"
+profile_url = "https://open.spotify.com/user/{username}"
+url_patterns = ['^open\.spotify\.com/user/([A-Za-z0-9._-]{2,40})/?$']
+check = "whatsmyname"
+
+[[platform]]
+id = "bandcamp"
+name = "Bandcamp"
+category = "music"
+url = "https://bandcamp.com"
+profile_url = "https://bandcamp.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "lastfm"
+name = "Last.fm"
+category = "music"
+url = "https://www.last.fm"
+profile_url = "https://www.last.fm/user/{username}"
+url_patterns = ['^last\.fm/user/([A-Za-z0-9_-]{2,40})/?$']
+api = "key"
+check = "whatsmyname"
+
+[[platform]]
+id = "mixcloud"
+name = "Mixcloud"
+category = "music"
+url = "https://www.mixcloud.com"
+profile_url = "https://www.mixcloud.com/{username}/"
+api = "public"
+check = "whatsmyname"
+
+[[platform]]
+id = "discogs"
+name = "Discogs"
+category = "music"
+url = "https://www.discogs.com"
+profile_url = "https://www.discogs.com/user/{username}"
+api = "public"
+check = "whatsmyname"
+
+[[platform]]
+id = "flickr"
+name = "Flickr"
+category = "photography"
+url = "https://www.flickr.com"
+profile_url = "https://www.flickr.com/people/{username}/"
+url_patterns = ['^flickr\.com/(?:people|photos)/([A-Za-z0-9@_-]{2,40})/?$']
+api = "key"
+check = "whatsmyname"
+
+[[platform]]
+id = "500px"
+name = "500px"
+category = "photography"
+url = "https://500px.com"
+profile_url = "https://500px.com/p/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "unsplash"
+name = "Unsplash"
+category = "photography"
+url = "https://unsplash.com"
+profile_url = "https://unsplash.com/@{username}"
+api = "key"
+check = "whatsmyname"
+
+[[platform]]
+id = "behance"
+name = "Behance"
+category = "art"
+url = "https://www.behance.net"
+profile_url = "https://www.behance.net/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "dribbble"
+name = "Dribbble"
+category = "art"
+url = "https://dribbble.com"
+profile_url = "https://dribbble.com/{username}"
+url_patterns = ['^dribbble\.com/(?!shots|jobs|designers|search|session|signup|tags|stories|learn|pro|hiring|about)([A-Za-z0-9_-]{2,40})/?$']
+check = "whatsmyname"
+
+[[platform]]
+id = "deviantart"
+name = "DeviantArt"
+category = "art"
+url = "https://www.deviantart.com"
+profile_url = "https://www.deviantart.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "artstation"
+name = "ArtStation"
+category = "art"
+url = "https://www.artstation.com"
+profile_url = "https://www.artstation.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "imgur"
+name = "Imgur"
+category = "photography"
+url = "https://imgur.com"
+profile_url = "https://imgur.com/user/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "patreon"
+name = "Patreon"
+category = "creator"
+url = "https://www.patreon.com"
+profile_url = "https://www.patreon.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "kofi"
+name = "Ko-fi"
+category = "creator"
+url = "https://ko-fi.com"
+profile_url = "https://ko-fi.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "buymeacoffee"
+name = "Buy Me a Coffee"
+category = "creator"
+url = "https://buymeacoffee.com"
+profile_url = "https://buymeacoffee.com/{username}"
+check = "whatsmyname"

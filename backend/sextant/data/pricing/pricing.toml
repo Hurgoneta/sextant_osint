@@ -1,0 +1,90 @@
+# Published prices used for cost ESTIMATES (the provider's invoice is authoritative). Editable in Settings → Pricing
+# without code changes: an edit is stored as your override and wins over this file; "Reset AI settings" removes overrides.
+#
+#   provider        normalized provider identity (one per API account: every service using that account adds up)
+#   service         what is priced: web_search, ai_chat, people_data, …
+#   connector       the connector that uses this price (optional)
+#   model           AI model id for token prices (optional; "*" = any model of the provider)
+#   per_request     USD per request / query
+#   input_per_mtok, output_per_mtok, cached_input_per_mtok, reasoning_per_mtok   USD per million tokens
+#   effective_date  when the price took effect (as published)
+#   source_url      where it was published
+#   verified_date   when someone last checked it against the source ("" = not verified)
+#
+# A price that is not known is left out: the cost then shows as "Unknown", never as a guess.
+
+[[price]]
+provider = "brave"
+service = "web_search"
+connector = "brave_search"
+per_request = 0.005
+effective_date = "2026-02-01"
+source_url = "https://brave.com/search/api/"
+verified_date = ""
+note = "$5 per 1,000 queries after a $5 monthly credit (≈1,000 queries). The credit is not deducted here."
+
+[[price]]
+provider = "google"
+service = "web_search"
+connector = "google_cse"
+per_request = 0.005
+source_url = "https://developers.google.com/custom-search/v1/overview"
+verified_date = ""
+note = "100 queries/day free, then $5 per 1,000 (existing customers only; shut down on 2027-01-01)."
+
+[[price]]
+provider = "serpapi"
+service = "web_search"
+connector = "serpapi"
+per_request = 0.01
+source_url = "https://serpapi.com/pricing"
+verified_date = ""
+note = "Plan-dependent; this is a rough per-search estimate."
+
+[[price]]
+provider = "searxng"
+service = "web_search"
+connector = "searxng"
+per_request = 0.0
+source_url = "https://docs.searxng.org"
+verified_date = ""
+note = "Self-hosted: no per-query fee."
+
+[[price]]
+provider = "anthropic"
+service = "ai_chat"
+model = "claude-opus-5-5"
+input_per_mtok = 4.0
+output_per_mtok = 20.0
+cached_input_per_mtok = 0.20
+source_url = "https://www.anthropic.com/pricing"
+verified_date = "2026-09-25"
+
+[[price]]
+provider = "anthropic"
+service = "ai_chat"
+model = "claude-sonnet-5-5"
+input_per_mtok = 2.0
+output_per_mtok = 10.0
+cached_input_per_mtok = 0.20
+source_url = "https://www.anthropic.com/pricing"
+verified_date = "2026-09-25"
+
+[[price]]
+provider = "anthropic"
+service = "ai_chat"
+model = "claude-fable-5-1"
+input_per_mtok = 10.0
+output_per_mtok = 50.0
+cached_input_per_mtok = 0.25
+source_url = "https://www.anthropic.com/pricing"
+verified_date = "2026-09-25"
+
+[[price]]
+provider = "anthropic"
+service = "ai_chat"
+model = "claude-haiku-4-5"
+input_per_mtok = 1.0
+output_per_mtok = 5.0
+source_url = "https://www.anthropic.com/pricing"
+verified_date = "2026-09-25"

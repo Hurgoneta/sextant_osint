@@ -1,0 +1,134 @@
+# Sources shared by several countries, and supranational memberships.
+#
+# A [[regional]] source is attached to EACH listed country as its own entry (id "<id>-<cc>"). There is no
+# "Africa" or "Pacific" placeholder: a country's coverage is always evaluated individually, and a regional
+# portal only adds to it. `notes` says when a portal's depth differs by country.
+#
+# A [[bloc]] lists member states. Sources of the bloc's pseudo-jurisdiction (EU) are shown for every member.
+
+# ------------------------------------------------------------------ blocs
+
+[[bloc]]
+id = "EU"
+title = "European Union"
+jurisdiction = "EU"
+url = "https://european-union.europa.eu/"
+members = ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU",
+           "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE"]
+
+[[bloc]]
+id = "EEA-EFTA"
+title = "European Economic Area (EFTA states)"
+url = "https://www.efta.int/"
+members = ["IS", "LI", "NO"]
+
+[[bloc]]
+id = "CoE"
+title = "Council of Europe"
+url = "https://www.coe.int/"
+members = ["AL", "AD", "AM", "AT", "AZ", "BE", "BA", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "GE", "DE", "GR",
+           "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MT", "MD", "MC", "ME", "NL", "MK", "NO", "PL", "PT", "RO",
+           "SM", "RS", "SK", "SI", "ES", "SE", "CH", "TR", "UA", "GB"]
+
+[[bloc]]
+id = "OHADA"
+title = "OHADA (Organisation for the Harmonisation of Business Law in Africa)"
+url = "https://www.ohada.org/"
+members = ["BJ", "BF", "CM", "CF", "KM", "CG", "CI", "GA", "GN", "GW", "GQ", "ML", "NE", "CD", "SN", "TD", "TG"]
+
+[[bloc]]
+id = "Commonwealth"
+title = "Commonwealth of Nations"
+url = "https://thecommonwealth.org/"
+members = ["AG", "AU", "BS", "BD", "BB", "BZ", "BW", "BN", "CM", "CA", "CY", "DM", "SZ", "FJ", "GA", "GM", "GH", "GD",
+           "GY", "IN", "JM", "KE", "KI", "LS", "MW", "MY", "MV", "MT", "MU", "MZ", "NA", "NR", "NZ", "NG", "PK", "PG",
+           "RW", "KN", "LC", "VC", "WS", "SC", "SL", "SG", "SB", "ZA", "LK", "TZ", "TG", "TO", "TT", "TV", "UG", "GB",
+           "VU", "ZM"]
+
+# ------------------------------------------------------------------ regional sources
+
+[[regional]]
+id = "echr-hudoc"
+title = "European Court of Human Rights — HUDOC (judgments against this state)"
+kind = "judgments"
+url = "https://hudoc.echr.coe.int/"
+name_search = true
+notes = "Applicants are often named in case titles; some cases are anonymised. Filter by respondent state on the site."
+countries = ["AL", "AD", "AM", "AT", "AZ", "BE", "BA", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "GE", "DE", "GR",
+             "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MT", "MD", "MC", "ME", "NL", "MK", "NO", "PL", "PT", "RO",
+             "SM", "RS", "SK", "SI", "ES", "SE", "CH", "TR", "UA", "GB"]
+
+[[regional]]
+id = "paclii"
+title = "PacLII — Pacific Islands Legal Information Institute"
+kind = "judgments"
+url = "https://www.paclii.org/"
+name_search = true
+notes = "Case law and legislation of Pacific Island states; choose the country on the site. The site refuses automated clients."
+countries = ["FJ", "KI", "MH", "FM", "NR", "PW", "PG", "WS", "SB", "TO", "TV", "VU"]
+
+[[regional]]
+id = "asianlii"
+title = "AsianLII — Asian Legal Information Institute"
+kind = "judgments"
+url = "https://www.asianlii.org/"
+name_search = true
+notes = "Free case law and legislation databases; depth varies a lot by country. The site refuses automated clients."
+countries = ["BD", "BT", "BN", "KH", "CN", "TL", "IN", "ID", "JP", "KR", "LA", "MY", "MV", "MN", "MM", "NP", "PK", "PH",
+             "SG", "LK", "TH", "VN", "HK", "MO", "TW"]
+
+[[regional]]
+id = "commonlii"
+title = "CommonLII — Commonwealth Legal Information Institute"
+kind = "judgments"
+url = "https://www.commonlii.org/"
+name_search = true
+notes = "Case law of Commonwealth jurisdictions; not every member has databases. The site refuses automated clients."
+countries = ["AG", "BS", "BB", "BZ", "BW", "BN", "CM", "CY", "DM", "SZ", "GM", "GD", "GY", "JM", "KI", "LS", "MW",
+             "MV", "MT", "MU", "MZ", "NA", "NR", "PK", "PG", "RW", "KN", "LC", "VC", "WS", "SC", "SL", "SB", "LK",
+             "TO", "TT", "TV", "UG", "VU", "ZM"]
+
+[[regional]]
+id = "africanlii"
+title = "AfricanLII — African legal information portal"
+kind = "judgments"
+url = "https://africanlii.org/"
+name_search = true
+notes = "Regional portal (African Union treaties, regional courts, member LIIs). National case-law depth varies; many countries have little or none."
+countries = ["DZ", "AO", "BJ", "BW", "BF", "BI", "CV", "CM", "CF", "TD", "KM", "CG", "CD", "CI", "DJ", "EG", "GQ", "ER",
+             "SZ", "ET", "GA", "GM", "GH", "GN", "GW", "KE", "LS", "LR", "LY", "MG", "MW", "ML", "MR", "MU", "MA", "MZ",
+             "NA", "NE", "NG", "RW", "ST", "SN", "SC", "SL", "SO", "ZA", "SS", "SD", "TZ", "TG", "TN", "UG", "ZM", "ZW"]
+
+[[regional]]
+id = "ohada"
+title = "OHADA — Uniform Acts and CCJA case law (business law); RCCM trade registers are kept by national courts"
+kind = "legislation"
+url = "https://www.ohada.org/"
+notes = "The Registre du Commerce et du Crédit Mobilier (RCCM) is kept per country by commercial courts; there is no regional online name search."
+countries = ["BJ", "BF", "CM", "CF", "KM", "CG", "CI", "GA", "GN", "GW", "GQ", "ML", "NE", "CD", "SN", "TD", "TG"]
+
+[[regional]]
+id = "juricaf"
+title = "Juricaf — case law of francophone supreme courts"
+kind = "judgments"
+url = "https://juricaf.org/"
+name_search = true
+notes = "Coverage depends on which decisions each supreme court shares."
+countries = ["BJ", "BF", "CM", "CF", "KM", "CG", "CI", "GA", "GN", "ML", "NE", "CD", "SN", "TD", "TG", "MG", "MA", "TN",
+             "MR", "DJ", "BI", "HT", "LB"]
+
+[[regional]]
+id = "ecsc"
+title = "Eastern Caribbean Supreme Court — judgments"
+kind = "judgments"
+url = "https://www.eccourts.org/"
+name_search = true
+countries = ["AG", "DM", "GD", "KN", "LC", "VC", "VG"]
+
+[[regional]]
+id = "ccj"
+title = "Caribbean Court of Justice — judgments (appellate jurisdiction)"
+kind = "judgments"
+url = "https://ccj.org/"
+name_search = true
+countries = ["BB", "BZ", "DM", "GY", "LC"]

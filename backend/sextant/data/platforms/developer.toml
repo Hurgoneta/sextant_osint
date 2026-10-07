@@ -1,0 +1,336 @@
+# Developer platforms, code hosting, package registries, data science, security communities.
+
+[[platform]]
+id = "github"
+name = "GitHub"
+category = "developer"
+url = "https://github.com"
+profile_url = "https://github.com/{username}"
+url_patterns = ['^github\.com/(?!(?:about|account|apps|blog|codespaces|collections|contact|customer-stories|enterprise|events|explore|features|github-copilot|issues|join|login|logout|marketplace|mobile|new|notifications|orgs|organizations|partners|pricing|pulls|readme|resources|search|security|settings|site|solutions|sponsors|team|topics|trending|education|home|dashboard|downloads|git-guides|signup|trust-center|why-github)(?:/|$))([A-Za-z0-9-]{1,39})/?$']
+username_pattern = '^[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})$'
+api = "public"
+search_methods = ["username", "email", "name"]
+extraction = ["display_name", "bio", "location", "website", "company", "email", "social_accounts", "avatar", "created_at", "commit_emails"]
+auth = "optional token (raises the limit)"
+rate_limit = "60 requests/hour unauthenticated, 5,000 with a token"
+check = "github"
+
+[[platform]]
+id = "gitlab"
+name = "GitLab"
+category = "developer"
+url = "https://gitlab.com"
+profile_url = "https://gitlab.com/{username}"
+url_patterns = ['^gitlab\.com/(?!explore|help|users/sign_in|groups/|dashboard|-/)([A-Za-z0-9_.-]{2,255})/?$']
+username_pattern = '^[A-Za-z0-9_.-]{2,255}$'
+api = "public"
+extraction = ["display_name", "public_email", "avatar", "website", "location", "bio"]
+check = "gitlab"
+
+[[platform]]
+id = "codeberg"
+name = "Codeberg"
+category = "developer"
+url = "https://codeberg.org"
+profile_url = "https://codeberg.org/{username}"
+url_patterns = ['^codeberg\.org/(?!explore|user/|repo/|org/)([A-Za-z0-9_.-]{1,40})/?$']
+api = "public"
+extraction = ["display_name", "email", "location", "website", "bio", "avatar", "created_at"]
+check = "codeberg"
+
+[[platform]]
+id = "bitbucket"
+name = "Bitbucket"
+category = "developer"
+url = "https://bitbucket.org"
+profile_url = "https://bitbucket.org/{username}/"
+check = "whatsmyname"
+
+[[platform]]
+id = "gitee"
+name = "Gitee"
+category = "developer"
+url = "https://gitee.com"
+profile_url = "https://gitee.com/{username}"
+countries = ["CN"]
+check = "whatsmyname"
+
+[[platform]]
+id = "sourceforge"
+name = "SourceForge"
+category = "developer"
+url = "https://sourceforge.net"
+profile_url = "https://sourceforge.net/u/{username}/profile"
+check = "whatsmyname"
+
+[[platform]]
+id = "dockerhub"
+name = "Docker Hub"
+category = "packages"
+url = "https://hub.docker.com"
+profile_url = "https://hub.docker.com/u/{username}"
+url_patterns = ['^hub\.docker\.com/u/([a-z0-9]{2,30})/?$']
+username_pattern = '^[a-z0-9]{4,30}$'
+api = "public"
+extraction = ["display_name", "location", "company", "website", "created_at"]
+check = "dockerhub"
+
+[[platform]]
+id = "npm"
+name = "npm"
+category = "packages"
+url = "https://www.npmjs.com"
+profile_url = "https://www.npmjs.com/~{username}"
+url_patterns = ['^npmjs\.com/~([a-z0-9._-]{1,214})/?$']
+username_pattern = '^[a-z0-9][a-z0-9._-]{0,213}$'
+api = "public"
+search_methods = ["username"]
+extraction = ["packages", "maintainer_email"]
+check = "npm"
+notes = "The registry search API lists packages maintained by a user, including the maintainer email published in package metadata."
+
+[[platform]]
+id = "pypi"
+name = "PyPI"
+category = "packages"
+url = "https://pypi.org"
+profile_url = "https://pypi.org/user/{username}/"
+url_patterns = ['^pypi\.org/user/([A-Za-z0-9._-]{1,50})/?$']
+check = "whatsmyname"
+notes = "No reliable not-found signal from the public API."
+
+[[platform]]
+id = "crates"
+name = "crates.io"
+category = "packages"
+url = "https://crates.io"
+profile_url = "https://crates.io/users/{username}"
+url_patterns = ['^crates\.io/users/([A-Za-z0-9_-]{1,39})/?$']
+api = "public"
+extraction = ["display_name", "avatar", "github_link"]
+check = "crates"
+
+[[platform]]
+id = "rubygems"
+name = "RubyGems"
+category = "packages"
+url = "https://rubygems.org"
+profile_url = "https://rubygems.org/profiles/{username}"
+check = "probe"
+api = "public"
+probe = { url = "https://rubygems.org/api/v1/owners/{username}/gems.json", list_path = "", docs = "https://guides.rubygems.org/rubygems-org-api/#owner-methods", accept_empty_list = true }
+
+[[platform]]
+id = "packagist"
+name = "Packagist"
+category = "packages"
+url = "https://packagist.org"
+profile_url = "https://packagist.org/users/{username}/"
+check = "probe"
+api = "public"
+probe = { url = "https://packagist.org/packages/list.json?vendor={username}", list_path = "packageNames", docs = "https://packagist.org/apidoc#list-packages-by-vendor" }
+
+[[platform]]
+id = "huggingface"
+name = "Hugging Face"
+category = "developer"
+url = "https://huggingface.co"
+profile_url = "https://huggingface.co/{username}"
+url_patterns = ['^huggingface\.co/(?!(?:models|datasets|spaces|docs|blog|pricing|login|join|settings|papers|learn|enterprise|organizations|collections|posts|chat|search|api|tasks)(?:/|$))([A-Za-z0-9_.-]{2,42})/?$']
+api = "public"
+extraction = ["display_name", "avatar", "orgs", "website"]
+check = "huggingface"
+
+[[platform]]
+id = "kaggle"
+name = "Kaggle"
+category = "developer"
+url = "https://www.kaggle.com"
+profile_url = "https://www.kaggle.com/{username}"
+url_patterns = ['^kaggle\.com/(?!competitions|datasets|code|models|learn|discussions|docs|search|settings|account)([A-Za-z0-9_-]{3,40})/?$']
+check = "whatsmyname"
+
+[[platform]]
+id = "stackoverflow"
+name = "Stack Overflow / Stack Exchange"
+category = "qa"
+url = "https://stackoverflow.com"
+profile_url = "https://stackoverflow.com/users?tab=Reputation&filter=all&search={username}"
+url_patterns = ['^stackoverflow\.com/users/([0-9]+/[A-Za-z0-9_-]+)/?$']
+api = "public"
+search_methods = ["name"]
+extraction = ["display_name", "location", "website", "created_at", "avatar", "reputation"]
+check = "stackexchange"
+notes = "Profiles are keyed by numeric id; the API searches display names."
+
+[[platform]]
+id = "replit"
+name = "Replit"
+category = "developer"
+url = "https://replit.com"
+profile_url = "https://replit.com/@{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "codepen"
+name = "CodePen"
+category = "developer"
+url = "https://codepen.io"
+profile_url = "https://codepen.io/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "leetcode"
+name = "LeetCode"
+category = "developer"
+url = "https://leetcode.com"
+profile_url = "https://leetcode.com/u/{username}/"
+url_patterns = ['^leetcode\.com/(?:u/)?(?!problems|contest|discuss|explore|studyplan|problemset)([A-Za-z0-9_-]{3,40})/?$']
+check = "whatsmyname"
+
+[[platform]]
+id = "codewars"
+name = "Codewars"
+category = "developer"
+url = "https://www.codewars.com"
+profile_url = "https://www.codewars.com/users/{username}"
+api = "public"
+check = "probe"
+probe = { url = "https://www.codewars.com/api/v1/users/{username}", require = "username", fields = { display_name = "name", company = "clan", user_id = "id" }, docs = "https://dev.codewars.com/#get-user" }
+
+[[platform]]
+id = "hackerone"
+name = "HackerOne"
+category = "developer"
+url = "https://hackerone.com"
+profile_url = "https://hackerone.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "bugcrowd"
+name = "Bugcrowd"
+category = "developer"
+url = "https://bugcrowd.com"
+profile_url = "https://bugcrowd.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "tryhackme"
+name = "TryHackMe"
+category = "developer"
+url = "https://tryhackme.com"
+profile_url = "https://tryhackme.com/p/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "keybase"
+name = "Keybase"
+category = "identity"
+url = "https://keybase.io"
+profile_url = "https://keybase.io/{username}"
+url_patterns = ['^keybase\.io/([A-Za-z0-9_]{2,16})/?$']
+username_pattern = '^[A-Za-z0-9_]{2,16}$'
+api = "public"
+extraction = ["display_name", "bio", "location", "proofs", "avatar", "created_at"]
+check = "keybase"
+notes = "Cryptographic proofs link the account to other platforms and domains — strong identity evidence."
+
+[[platform]]
+id = "gravatar"
+name = "Gravatar"
+category = "identity"
+url = "https://gravatar.com"
+profile_url = "https://gravatar.com/{username}"
+url_patterns = ['^gravatar\.com/([A-Za-z0-9_-]{2,40})/?$']
+api = "public"
+search_methods = ["email"]
+extraction = ["display_name", "bio", "location", "company", "verified_accounts", "links", "avatar"]
+check = "gravatar"
+
+[[platform]]
+id = "hackernews"
+name = "Hacker News"
+category = "forums"
+url = "https://news.ycombinator.com"
+profile_url = "https://news.ycombinator.com/user?id={username}"
+url_patterns = ['^news\.ycombinator\.com/user\?id=([A-Za-z0-9_-]{2,15})$']
+username_pattern = '^[A-Za-z0-9_-]{2,15}$'
+case_sensitive = true
+api = "public"
+extraction = ["bio", "links", "created_at", "karma"]
+check = "hackernews"
+
+[[platform]]
+id = "devto"
+name = "DEV Community"
+category = "writing"
+url = "https://dev.to"
+profile_url = "https://dev.to/{username}"
+url_patterns = ['^dev\.to/(?!t/|search|top/|enter|settings|dashboard|about|faq|terms|privacy|code-of-conduct)([A-Za-z0-9_]{2,30})/?$']
+username_pattern = '^[A-Za-z0-9_]{2,30}$'
+api = "public"
+extraction = ["display_name", "bio", "location", "website", "github", "twitter", "created_at", "avatar"]
+check = "devto"
+
+[[platform]]
+id = "lobsters"
+name = "Lobsters"
+category = "forums"
+url = "https://lobste.rs"
+profile_url = "https://lobste.rs/~{username}"
+url_patterns = ['^lobste\.rs/(?:~|u/)([A-Za-z0-9_-]{1,50})/?$']
+api = "public"
+extraction = ["bio", "github", "twitter", "created_at", "avatar"]
+check = "lobsters"
+
+[[platform]]
+id = "orcid"
+name = "ORCID"
+category = "academic"
+url = "https://orcid.org"
+profile_url = "https://orcid.org/{username}"
+url_patterns = ['^orcid\.org/([0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X])/?$']
+username_pattern = '^[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X]$'
+api = "public"
+search_methods = ["name", "email"]
+extraction = ["display_name", "employments", "works", "keywords", "urls"]
+check = "orcid"
+
+[[platform]]
+id = "researchgate"
+name = "ResearchGate"
+category = "academic"
+url = "https://www.researchgate.net"
+profile_url = "https://www.researchgate.net/profile/{username}"
+public_profile = "partial"
+check = "manual"
+notes = "Anti-bot protection on profile pages."
+
+[[platform]]
+id = "academia"
+name = "Academia.edu"
+category = "academic"
+url = "https://www.academia.edu"
+profile_url = "https://independent.academia.edu/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "google_scholar"
+name = "Google Scholar"
+category = "academic"
+url = "https://scholar.google.com"
+api = "none"
+check = "manual"
+notes = "No API; automated queries are blocked. Use ORCID/OpenAlex/Crossref transforms instead."
+
+[[platform]]
+id = "codeforces"
+name = "Codeforces"
+category = "developer"
+url = "https://codeforces.com"
+profile_url = "https://codeforces.com/profile/{username}"
+url_patterns = ['^codeforces\.com/profile/([A-Za-z0-9_.-]{3,24})/?$']
+username_pattern = '^[A-Za-z0-9_.-]{3,24}$'
+api = "public"
+extraction = ["display_name", "location", "organization", "created_at", "avatar", "rating"]
+check = "codeforces"

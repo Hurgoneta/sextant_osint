@@ -1,0 +1,4715 @@
+{
+ "dataset": "m49+wikidata",
+ "source_url": [
+  "https://unstats.un.org/unsd/methodology/m49/overview/",
+  "https://query.wikidata.org/sparql"
+ ],
+ "license": "UN Statistics Division — free to use with attribution (UN terms of use); CC0 1.0 (Wikidata)",
+ "retrieved_at": "2026-10-06T16:50:08+00:00",
+ "note": "193 UN member states + 2 UN observer states (Holy See, State of Palestine) = 195. Territories and partially recognised states with their own registers are listed separately and never counted among the 195.",
+ "items": [
+  {
+   "code": "AD",
+   "iso3": "AND",
+   "m49": "020",
+   "name": "Andorra",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [],
+   "languages": [
+    "ca"
+   ],
+   "tld": ".ad",
+   "fips": "AN",
+   "wikidata": "Q228",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "AE",
+   "iso3": "ARE",
+   "m49": "784",
+   "name": "United Arab Emirates",
+   "status": "un_member",
+   "region": "Middle East",
+   "subregion": "Western Asia",
+   "aliases": [
+    "الإِمَارات العربِيَّة المُتَّحِدة",
+    "UAE",
+    "U.A.E.",
+    "Emirates"
+   ],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".ae",
+   "fips": "AE",
+   "wikidata": "Q878",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "AF",
+   "iso3": "AFG",
+   "m49": "004",
+   "name": "Afghanistan",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Southern Asia",
+   "aliases": [
+    "افغانستان"
+   ],
+   "languages": [
+    "ar",
+    "ps",
+    "tk",
+    "uz"
+   ],
+   "tld": ".af",
+   "fips": "AF",
+   "wikidata": "Q889",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "AG",
+   "iso3": "ATG",
+   "m49": "028",
+   "name": "Antigua and Barbuda",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [
+    "Aanteega an' Baabyuuda",
+    "Antigua"
+   ],
+   "languages": [
+    "en",
+    "es"
+   ],
+   "tld": ".ag",
+   "fips": "AC",
+   "wikidata": "Q781",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "AL",
+   "iso3": "ALB",
+   "m49": "008",
+   "name": "Albania",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [
+    "Republika e Shqipërisë"
+   ],
+   "languages": [
+    "sq"
+   ],
+   "tld": ".al",
+   "fips": "AL",
+   "wikidata": "Q222",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "AM",
+   "iso3": "ARM",
+   "m49": "051",
+   "name": "Armenia",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Caucasus",
+   "aliases": [
+    "Հայաստան"
+   ],
+   "languages": [
+    "hy"
+   ],
+   "tld": ".am",
+   "fips": "AM",
+   "wikidata": "Q399",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "AO",
+   "iso3": "AGO",
+   "m49": "024",
+   "name": "Angola",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Middle Africa",
+   "aliases": [
+    "República de Angola"
+   ],
+   "languages": [
+    "pt"
+   ],
+   "tld": ".ao",
+   "fips": "AO",
+   "wikidata": "Q916",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "AR",
+   "iso3": "ARG",
+   "m49": "032",
+   "name": "Argentina",
+   "status": "un_member",
+   "region": "South America",
+   "subregion": "South America",
+   "aliases": [
+    "República Argentina"
+   ],
+   "languages": [
+    "es"
+   ],
+   "tld": ".ar",
+   "fips": "AR",
+   "wikidata": "Q414",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "AT",
+   "iso3": "AUT",
+   "m49": "040",
+   "name": "Austria",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Western Europe",
+   "aliases": [
+    "Republik Österreich",
+    "Österreich"
+   ],
+   "languages": [
+    "de"
+   ],
+   "tld": ".at",
+   "fips": "AU",
+   "wikidata": "Q40",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "AU",
+   "iso3": "AUS",
+   "m49": "036",
+   "name": "Australia",
+   "status": "un_member",
+   "region": "Oceania",
+   "subregion": "Australia and New Zealand",
+   "aliases": [],
+   "languages": [
+    "en"
+   ],
+   "tld": ".au",
+   "fips": "AS",
+   "wikidata": "Q408",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "AZ",
+   "iso3": "AZE",
+   "m49": "031",
+   "name": "Azerbaijan",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Caucasus",
+   "aliases": [
+    "Azərbaycan Respublikası",
+    "Azərbaycan"
+   ],
+   "languages": [
+    "az"
+   ],
+   "tld": ".az",
+   "fips": "AJ",
+   "wikidata": "Q227",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "BA",
+   "iso3": "BIH",
+   "m49": "070",
+   "name": "Bosnia and Herzegovina",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [
+    "Bosna i Hercegovina",
+    "Bosnia",
+    "Bosnia-Herzegovina",
+    "BiH"
+   ],
+   "languages": [
+    "bs",
+    "hr",
+    "sr"
+   ],
+   "tld": ".ba",
+   "fips": "BK",
+   "wikidata": "Q225",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "BB",
+   "iso3": "BRB",
+   "m49": "052",
+   "name": "Barbados",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [],
+   "languages": [
+    "en"
+   ],
+   "tld": ".bb",
+   "fips": "BB",
+   "wikidata": "Q244",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "BD",
+   "iso3": "BGD",
+   "m49": "050",
+   "name": "Bangladesh",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Southern Asia",
+   "aliases": [
+    "গণপ্রজাতন্ত্রী বাংলাদেশ",
+    "বাংলাদেশ"
+   ],
+   "languages": [
+    "bn"
+   ],
+   "tld": ".bd",
+   "fips": "BG",
+   "wikidata": "Q902",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "BE",
+   "iso3": "BEL",
+   "m49": "056",
+   "name": "Belgium",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Western Europe",
+   "aliases": [
+    "Koninkrijk België",
+    "Royaume de Belgique",
+    "Königreich Belgien"
+   ],
+   "languages": [
+    "de",
+    "fr",
+    "nl"
+   ],
+   "tld": ".be",
+   "fips": "BE",
+   "wikidata": "Q31",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "BF",
+   "iso3": "BFA",
+   "m49": "854",
+   "name": "Burkina Faso",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [],
+   "languages": [
+    "fr"
+   ],
+   "tld": ".bf",
+   "fips": "UV",
+   "wikidata": "Q965",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "BG",
+   "iso3": "BGR",
+   "m49": "100",
+   "name": "Bulgaria",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Eastern Europe",
+   "aliases": [
+    "България"
+   ],
+   "languages": [
+    "bg"
+   ],
+   "tld": ".bg",
+   "fips": "BU",
+   "wikidata": "Q219",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "BH",
+   "iso3": "BHR",
+   "m49": "048",
+   "name": "Bahrain",
+   "status": "un_member",
+   "region": "Middle East",
+   "subregion": "Western Asia",
+   "aliases": [],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".bh",
+   "fips": "BA",
+   "wikidata": "Q398",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "BI",
+   "iso3": "BDI",
+   "m49": "108",
+   "name": "Burundi",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "Uburundi"
+   ],
+   "languages": [
+    "en",
+    "fr",
+    "rn"
+   ],
+   "tld": ".bi",
+   "fips": "BY",
+   "wikidata": "Q967",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "BJ",
+   "iso3": "BEN",
+   "m49": "204",
+   "name": "Benin",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [],
+   "languages": [
+    "fr"
+   ],
+   "tld": ".bj",
+   "fips": "BN",
+   "wikidata": "Q962",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "BM",
+   "iso3": "BMU",
+   "m49": "060",
+   "name": "Bermuda",
+   "status": "territory",
+   "region": "North America",
+   "subregion": "Northern America",
+   "aliases": [],
+   "languages": [
+    "en"
+   ],
+   "tld": ".bm",
+   "fips": "BD",
+   "wikidata": "Q23635",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "sovereign_of": "GB"
+  },
+  {
+   "code": "BN",
+   "iso3": "BRN",
+   "m49": "096",
+   "name": "Brunei",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "South-eastern Asia",
+   "aliases": [
+    "Brunei Darussalam",
+    "Negara Brunei Darussalam"
+   ],
+   "languages": [
+    "ms"
+   ],
+   "tld": ".bn",
+   "fips": "BX",
+   "wikidata": "Q921",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "BO",
+   "iso3": "BOL",
+   "m49": "068",
+   "name": "Bolivia",
+   "status": "un_member",
+   "region": "South America",
+   "subregion": "South America",
+   "aliases": [
+    "Bolivia (Plurinational State of)",
+    "Buliwya Achka nasyunkunap Mama llaqta",
+    "Tetã Volívia",
+    "Estado Plurinacional de Bolivia",
+    "Wuliwya Suyu"
+   ],
+   "languages": [
+    "ay",
+    "es",
+    "gn",
+    "qu"
+   ],
+   "tld": ".bo",
+   "fips": "BL",
+   "wikidata": "Q750",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "BR",
+   "iso3": "BRA",
+   "m49": "076",
+   "name": "Brazil",
+   "status": "un_member",
+   "region": "South America",
+   "subregion": "South America",
+   "aliases": [
+    "República Federativa do Brasil",
+    "Brasil"
+   ],
+   "languages": [
+    "pt"
+   ],
+   "tld": ".br",
+   "fips": "BR",
+   "wikidata": "Q155",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "BS",
+   "iso3": "BHS",
+   "m49": "044",
+   "name": "Bahamas",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [
+    "The Bahamas",
+    "Commonwealth of the Bahamas"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".bs",
+   "fips": "BF",
+   "wikidata": "Q778",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "BT",
+   "iso3": "BTN",
+   "m49": "064",
+   "name": "Bhutan",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Southern Asia",
+   "aliases": [],
+   "languages": [
+    "dz"
+   ],
+   "tld": ".bt",
+   "fips": "BT",
+   "wikidata": "Q917",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "BW",
+   "iso3": "BWA",
+   "m49": "072",
+   "name": "Botswana",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Southern Africa",
+   "aliases": [],
+   "languages": [
+    "en"
+   ],
+   "tld": ".bw",
+   "fips": "BC",
+   "wikidata": "Q963",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "BY",
+   "iso3": "BLR",
+   "m49": "112",
+   "name": "Belarus",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Eastern Europe",
+   "aliases": [
+    "Рэспубліка Беларусь",
+    "Беларусь",
+    "Belorussia"
+   ],
+   "languages": [
+    "be",
+    "ru"
+   ],
+   "tld": ".by",
+   "fips": "BO",
+   "wikidata": "Q184",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "BZ",
+   "iso3": "BLZ",
+   "m49": "084",
+   "name": "Belize",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Central America",
+   "aliases": [],
+   "languages": [
+    "en"
+   ],
+   "tld": ".bz",
+   "fips": "BH",
+   "wikidata": "Q242",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "CA",
+   "iso3": "CAN",
+   "m49": "124",
+   "name": "Canada",
+   "status": "un_member",
+   "region": "North America",
+   "subregion": "Northern America",
+   "aliases": [],
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "tld": ".ca",
+   "fips": "CA",
+   "wikidata": "Q16",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "CD",
+   "iso3": "COD",
+   "m49": "180",
+   "name": "Democratic Republic of the Congo",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Middle Africa",
+   "aliases": [
+    "République démocratique du Congo",
+    "DR Congo",
+    "DRC",
+    "Congo-Kinshasa",
+    "Congo Kinshasa"
+   ],
+   "languages": [
+    "fr"
+   ],
+   "tld": ".cd",
+   "fips": "CG",
+   "wikidata": "Q974",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "CF",
+   "iso3": "CAF",
+   "m49": "140",
+   "name": "Central African Republic",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Middle Africa",
+   "aliases": [
+    "Ködörösêse tî Bêafrîka",
+    "Republique Centrafricaine"
+   ],
+   "languages": [
+    "fr",
+    "sg"
+   ],
+   "tld": ".cf",
+   "fips": "CT",
+   "wikidata": "Q929",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "CG",
+   "iso3": "COG",
+   "m49": "178",
+   "name": "Republic of the Congo",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Middle Africa",
+   "aliases": [
+    "Congo",
+    "Republíki ya Kongó",
+    "Repubilika ya Kongo",
+    "République du Congo",
+    "Congo-Brazzaville",
+    "Congo Brazzaville"
+   ],
+   "languages": [
+    "fr"
+   ],
+   "tld": ".cg",
+   "fips": "CF",
+   "wikidata": "Q971",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "CH",
+   "iso3": "CHE",
+   "m49": "756",
+   "name": "Switzerland",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Western Europe",
+   "aliases": [
+    "Confederaziun svizra",
+    "Confederazione Svizzera",
+    "Confédération suisse",
+    "Schweizerische Eidgenossenschaft",
+    "Schweiz",
+    "Suisse",
+    "Svizzera"
+   ],
+   "languages": [
+    "de",
+    "fr",
+    "it",
+    "rm"
+   ],
+   "tld": ".ch",
+   "fips": "SZ",
+   "wikidata": "Q39",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "CI",
+   "iso3": "CIV",
+   "m49": "384",
+   "name": "Côte d'Ivoire",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [
+    "Côte d’Ivoire",
+    "Ivory Coast",
+    "République de Côte d'Ivoire",
+    "Cote d'Ivoire"
+   ],
+   "languages": [
+    "fr"
+   ],
+   "tld": ".ci",
+   "fips": "IV",
+   "wikidata": "Q1008",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "CL",
+   "iso3": "CHL",
+   "m49": "152",
+   "name": "Chile",
+   "status": "un_member",
+   "region": "South America",
+   "subregion": "South America",
+   "aliases": [
+    "República de Chile"
+   ],
+   "languages": [
+    "es"
+   ],
+   "tld": ".cl",
+   "fips": "CI",
+   "wikidata": "Q298",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "CM",
+   "iso3": "CMR",
+   "m49": "120",
+   "name": "Cameroon",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Middle Africa",
+   "aliases": [
+    "République du Cameroun"
+   ],
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "tld": ".cm",
+   "fips": "CM",
+   "wikidata": "Q1009",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "CN",
+   "iso3": "CHN",
+   "m49": "156",
+   "name": "China",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Eastern Asia",
+   "aliases": [
+    "People's Republic of China",
+    "中华人民共和国",
+    "PRC",
+    "中国"
+   ],
+   "languages": [
+    "zh"
+   ],
+   "tld": ".cn",
+   "fips": "CH",
+   "wikidata": "Q148",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "CO",
+   "iso3": "COL",
+   "m49": "170",
+   "name": "Colombia",
+   "status": "un_member",
+   "region": "South America",
+   "subregion": "South America",
+   "aliases": [],
+   "languages": [
+    "es"
+   ],
+   "tld": ".co",
+   "fips": "CO",
+   "wikidata": "Q739",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "CR",
+   "iso3": "CRI",
+   "m49": "188",
+   "name": "Costa Rica",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Central America",
+   "aliases": [
+    "República de Costa Rica"
+   ],
+   "languages": [
+    "es"
+   ],
+   "tld": ".cr",
+   "fips": "CS",
+   "wikidata": "Q800",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "CU",
+   "iso3": "CUB",
+   "m49": "192",
+   "name": "Cuba",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [
+    "República de Cuba"
+   ],
+   "languages": [
+    "es"
+   ],
+   "tld": ".cu",
+   "fips": "CU",
+   "wikidata": "Q241",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "CV",
+   "iso3": "CPV",
+   "m49": "132",
+   "name": "Cabo Verde",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [
+    "Cape Verde",
+    "República de Cabo Verde"
+   ],
+   "languages": [
+    "pt"
+   ],
+   "tld": ".cv",
+   "fips": "CV",
+   "wikidata": "Q1011",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "CY",
+   "iso3": "CYP",
+   "m49": "196",
+   "name": "Cyprus",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Eastern Mediterranean",
+   "aliases": [
+    "Kıbrıs Cumhuriyeti",
+    "Κυπριακή Δημοκρατία"
+   ],
+   "languages": [
+    "el",
+    "tr"
+   ],
+   "tld": ".cy",
+   "fips": "CY",
+   "wikidata": "Q229",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "CZ",
+   "iso3": "CZE",
+   "m49": "203",
+   "name": "Czechia",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Eastern Europe",
+   "aliases": [
+    "Czech Republic",
+    "Česká republika",
+    "Česko"
+   ],
+   "languages": [
+    "cs"
+   ],
+   "tld": ".cz",
+   "fips": "EZ",
+   "wikidata": "Q213",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "DE",
+   "iso3": "DEU",
+   "m49": "276",
+   "name": "Germany",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Western Europe",
+   "aliases": [
+    "Bundesrepublik Deutschland",
+    "Deutschland"
+   ],
+   "languages": [
+    "de"
+   ],
+   "tld": ".de",
+   "fips": "GM",
+   "wikidata": "Q183",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "DJ",
+   "iso3": "DJI",
+   "m49": "262",
+   "name": "Djibouti",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "République de Djibouti",
+    "جمهورية جيبوتي",
+    "Jabuuti"
+   ],
+   "languages": [
+    "ar",
+    "fr"
+   ],
+   "tld": ".dj",
+   "fips": "DJ",
+   "wikidata": "Q977",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "DK",
+   "iso3": "DNK",
+   "m49": "208",
+   "name": "Denmark",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Northern Europe",
+   "aliases": [
+    "Danmark"
+   ],
+   "languages": [
+    "da"
+   ],
+   "tld": ".dk",
+   "fips": "DA",
+   "wikidata": "Q35",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "DM",
+   "iso3": "DMA",
+   "m49": "212",
+   "name": "Dominica",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [
+    "Commonwealth Dominica",
+    "Commonwealth of Dominica"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".dm",
+   "fips": "DO",
+   "wikidata": "Q784",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "DO",
+   "iso3": "DOM",
+   "m49": "214",
+   "name": "Dominican Republic",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [
+    "República Dominicana"
+   ],
+   "languages": [
+    "es"
+   ],
+   "tld": ".do",
+   "fips": "DR",
+   "wikidata": "Q786",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "DZ",
+   "iso3": "DZA",
+   "m49": "012",
+   "name": "Algeria",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Northern Africa",
+   "aliases": [
+    "الجمهورية الجزائرية الديمقراطية الشعبية",
+    "الجزائر",
+    "Algérie"
+   ],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".dz",
+   "fips": "AG",
+   "wikidata": "Q262",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "EC",
+   "iso3": "ECU",
+   "m49": "218",
+   "name": "Ecuador",
+   "status": "un_member",
+   "region": "South America",
+   "subregion": "South America",
+   "aliases": [
+    "República del Ecuador"
+   ],
+   "languages": [
+    "es"
+   ],
+   "tld": ".ec",
+   "fips": "EC",
+   "wikidata": "Q736",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "EE",
+   "iso3": "EST",
+   "m49": "233",
+   "name": "Estonia",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Northern Europe",
+   "aliases": [
+    "Eesti Vabariik"
+   ],
+   "languages": [
+    "et"
+   ],
+   "tld": ".ee",
+   "fips": "EN",
+   "wikidata": "Q191",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "EG",
+   "iso3": "EGY",
+   "m49": "818",
+   "name": "Egypt",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Northern Africa",
+   "aliases": [
+    "Republik Arab Mesir",
+    "Arab Republic of Egypt",
+    "جُمهورِيّةُ مِصرَ العَرَبيّةِ",
+    "Mesir",
+    "مصر",
+    "Misr"
+   ],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".eg",
+   "fips": "EG",
+   "wikidata": "Q79",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "ER",
+   "iso3": "ERI",
+   "m49": "232",
+   "name": "Eritrea",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "ኤርትራ",
+    "إرترة"
+   ],
+   "languages": [
+    "ar",
+    "en",
+    "ti"
+   ],
+   "tld": ".er",
+   "fips": "ER",
+   "wikidata": "Q986",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "ES",
+   "iso3": "ESP",
+   "m49": "724",
+   "name": "Spain",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [
+    "Reino de España",
+    "España"
+   ],
+   "languages": [
+    "es"
+   ],
+   "tld": ".es",
+   "fips": "SP",
+   "wikidata": "Q29",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "ET",
+   "iso3": "ETH",
+   "m49": "231",
+   "name": "Ethiopia",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "Toophphiya Federaalle Dimokkiraatike Ripaabilike",
+    "ናይኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ",
+    "Federaalawaa Dimokraatawaa Repabliikii Itoophiyaa",
+    "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
+   ],
+   "languages": [
+    "am"
+   ],
+   "tld": ".et",
+   "fips": "ET",
+   "wikidata": "Q115",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "FI",
+   "iso3": "FIN",
+   "m49": "246",
+   "name": "Finland",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Northern Europe",
+   "aliases": [
+    "Suomi"
+   ],
+   "languages": [
+    "fi",
+    "sv"
+   ],
+   "tld": ".fi",
+   "fips": "FI",
+   "wikidata": "Q33",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "FJ",
+   "iso3": "FJI",
+   "m49": "242",
+   "name": "Fiji",
+   "status": "un_member",
+   "region": "Oceania",
+   "subregion": "Melanesia",
+   "aliases": [
+    "Fidźi Ganaradźja",
+    "Matanitu Tugalala o Viti",
+    "Republic of Fiji",
+    "Viti"
+   ],
+   "languages": [
+    "en",
+    "fj"
+   ],
+   "tld": ".fj",
+   "fips": "FJ",
+   "wikidata": "Q712",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "FM",
+   "iso3": "FSM",
+   "m49": "583",
+   "name": "Micronesia",
+   "status": "un_member",
+   "region": "Oceania",
+   "subregion": "Micronesia",
+   "aliases": [
+    "Micronesia (Federated States of)",
+    "Federated States of Micronesia",
+    "Mikronesia"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".fm",
+   "fips": "FM",
+   "wikidata": "Q702",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "FO",
+   "iso3": "FRO",
+   "m49": "234",
+   "name": "Faroe Islands",
+   "status": "territory",
+   "region": "Europe",
+   "subregion": "Northern Europe",
+   "aliases": [
+    "Føroyar"
+   ],
+   "languages": [
+    "da",
+    "fo"
+   ],
+   "tld": ".fo",
+   "fips": "FO",
+   "wikidata": "Q4628",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "sovereign_of": "DK"
+  },
+  {
+   "code": "FR",
+   "iso3": "FRA",
+   "m49": "250",
+   "name": "France",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Western Europe",
+   "aliases": [
+    "République française"
+   ],
+   "languages": [
+    "fr"
+   ],
+   "tld": ".fr",
+   "fips": "FR",
+   "wikidata": "Q142",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "GA",
+   "iso3": "GAB",
+   "m49": "266",
+   "name": "Gabon",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Middle Africa",
+   "aliases": [
+    "République gabonaise"
+   ],
+   "languages": [
+    "fr"
+   ],
+   "tld": ".ga",
+   "fips": "GB",
+   "wikidata": "Q1000",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "GB",
+   "iso3": "GBR",
+   "m49": "826",
+   "name": "United Kingdom",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Northern Europe",
+   "aliases": [
+    "United Kingdom of Great Britain and Northern Ireland",
+    "UK",
+    "U.K.",
+    "Great Britain",
+    "Britain",
+    "England",
+    "Scotland",
+    "Wales",
+    "Northern Ireland"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".uk",
+   "fips": "UK",
+   "wikidata": "Q145",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "GD",
+   "iso3": "GRD",
+   "m49": "308",
+   "name": "Grenada",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [
+    "State of Grenada"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".gd",
+   "fips": "GJ",
+   "wikidata": "Q769",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "GE",
+   "iso3": "GEO",
+   "m49": "268",
+   "name": "Georgia",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Caucasus",
+   "aliases": [
+    "საქართველო"
+   ],
+   "languages": [
+    "ka"
+   ],
+   "tld": ".ge",
+   "fips": "GG",
+   "wikidata": "Q230",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "GG",
+   "iso3": "GGY",
+   "m49": "831",
+   "name": "Guernsey",
+   "status": "crown_dependency",
+   "region": "Europe",
+   "subregion": "Northern Europe",
+   "aliases": [],
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "tld": ".gg",
+   "fips": "GK",
+   "wikidata": "Q25230",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "sovereign_of": "GB"
+  },
+  {
+   "code": "GH",
+   "iso3": "GHA",
+   "m49": "288",
+   "name": "Ghana",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [
+    "Gaana",
+    "Gana"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".gh",
+   "fips": "GH",
+   "wikidata": "Q117",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "GI",
+   "iso3": "GIB",
+   "m49": "292",
+   "name": "Gibraltar",
+   "status": "territory",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [],
+   "languages": [
+    "en"
+   ],
+   "tld": ".gi",
+   "fips": "GI",
+   "wikidata": "Q1410",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "sovereign_of": "GB"
+  },
+  {
+   "code": "GL",
+   "iso3": "GRL",
+   "m49": "304",
+   "name": "Greenland",
+   "status": "territory",
+   "region": "North America",
+   "subregion": "Northern America",
+   "aliases": [
+    "Grønland",
+    "Kalaallit Nunaat"
+   ],
+   "languages": [
+    "kl"
+   ],
+   "tld": ".gl",
+   "fips": "GL",
+   "wikidata": "Q223",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "sovereign_of": "DK"
+  },
+  {
+   "code": "GM",
+   "iso3": "GMB",
+   "m49": "270",
+   "name": "Gambia",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [
+    "The Gambia",
+    "Republic of The Gambia"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".gm",
+   "fips": "GA",
+   "wikidata": "Q1005",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "GN",
+   "iso3": "GIN",
+   "m49": "324",
+   "name": "Guinea",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [
+    "République de Guinée"
+   ],
+   "languages": [
+    "fr"
+   ],
+   "tld": ".gn",
+   "fips": "GV",
+   "wikidata": "Q1006",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "GQ",
+   "iso3": "GNQ",
+   "m49": "226",
+   "name": "Equatorial Guinea",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Middle Africa",
+   "aliases": [
+    "República da Guiné Equatorial",
+    "République de Guinée équatoriale",
+    "República de Guinea Ecuatorial"
+   ],
+   "languages": [
+    "es",
+    "fr",
+    "pt"
+   ],
+   "tld": ".gq",
+   "fips": "EK",
+   "wikidata": "Q983",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "GR",
+   "iso3": "GRC",
+   "m49": "300",
+   "name": "Greece",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [
+    "Ελλάς",
+    "Ελληνική Δημοκρατία",
+    "Ελλάδα",
+    "Hellas"
+   ],
+   "languages": [
+    "el"
+   ],
+   "tld": ".gr",
+   "fips": "GR",
+   "wikidata": "Q41",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "GT",
+   "iso3": "GTM",
+   "m49": "320",
+   "name": "Guatemala",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Central America",
+   "aliases": [
+    "República de Guatemala"
+   ],
+   "languages": [
+    "es"
+   ],
+   "tld": ".gt",
+   "fips": "GT",
+   "wikidata": "Q774",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "GW",
+   "iso3": "GNB",
+   "m49": "624",
+   "name": "Guinea-Bissau",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [
+    "República da Guiné-Bissau",
+    "Guinea Bissau"
+   ],
+   "languages": [
+    "pt"
+   ],
+   "tld": ".gw",
+   "fips": "PU",
+   "wikidata": "Q1007",
+   "ldc": true,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "GY",
+   "iso3": "GUY",
+   "m49": "328",
+   "name": "Guyana",
+   "status": "un_member",
+   "region": "South America",
+   "subregion": "South America",
+   "aliases": [
+    "Co-operative Republic of Guyana"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".gy",
+   "fips": "GY",
+   "wikidata": "Q734",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "HK",
+   "iso3": "HKG",
+   "m49": "344",
+   "name": "Hong Kong",
+   "status": "special_administrative_region",
+   "region": "Asia",
+   "subregion": "Eastern Asia",
+   "aliases": [
+    "China, Hong Kong Special Administrative Region",
+    "香港"
+   ],
+   "languages": [
+    "zh",
+    "en"
+   ],
+   "tld": ".hk",
+   "fips": "HK",
+   "wikidata": "Q8646",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "sovereign_of": "CN"
+  },
+  {
+   "code": "HN",
+   "iso3": "HND",
+   "m49": "340",
+   "name": "Honduras",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Central America",
+   "aliases": [
+    "República de Honduras"
+   ],
+   "languages": [
+    "es"
+   ],
+   "tld": ".hn",
+   "fips": "HO",
+   "wikidata": "Q783",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "HR",
+   "iso3": "HRV",
+   "m49": "191",
+   "name": "Croatia",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [
+    "Hrvatska"
+   ],
+   "languages": [
+    "hr"
+   ],
+   "tld": ".hr",
+   "fips": "HR",
+   "wikidata": "Q224",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "HT",
+   "iso3": "HTI",
+   "m49": "332",
+   "name": "Haiti",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [
+    "Ayiti"
+   ],
+   "languages": [
+    "fr",
+    "ht"
+   ],
+   "tld": ".ht",
+   "fips": "HA",
+   "wikidata": "Q790",
+   "ldc": true,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "HU",
+   "iso3": "HUN",
+   "m49": "348",
+   "name": "Hungary",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Eastern Europe",
+   "aliases": [
+    "Magyarország"
+   ],
+   "languages": [
+    "hu"
+   ],
+   "tld": ".hu",
+   "fips": "HU",
+   "wikidata": "Q28",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "ID",
+   "iso3": "IDN",
+   "m49": "360",
+   "name": "Indonesia",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "South-eastern Asia",
+   "aliases": [
+    "Republik Indonesia",
+    "Negara Kesatuan Republik Indonesia",
+    "Unitary State of the Republic of Indonesia",
+    "Republic of Indonesia"
+   ],
+   "languages": [
+    "id"
+   ],
+   "tld": ".id",
+   "fips": "ID",
+   "wikidata": "Q252",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "IE",
+   "iso3": "IRL",
+   "m49": "372",
+   "name": "Ireland",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Northern Europe",
+   "aliases": [
+    "Éire"
+   ],
+   "languages": [
+    "en",
+    "ga"
+   ],
+   "tld": ".ie",
+   "fips": "EI",
+   "wikidata": "Q27",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "IL",
+   "iso3": "ISR",
+   "m49": "376",
+   "name": "Israel",
+   "status": "un_member",
+   "region": "Middle East",
+   "subregion": "Western Asia",
+   "aliases": [
+    "מְדִינַת יִשְׂרָאֵל",
+    "دَوْلَة إِسْرَائِيل"
+   ],
+   "languages": [
+    "he"
+   ],
+   "tld": ".il",
+   "fips": "IS",
+   "wikidata": "Q801",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "IM",
+   "iso3": "IMN",
+   "m49": "833",
+   "name": "Isle of Man",
+   "status": "crown_dependency",
+   "region": "Europe",
+   "subregion": "Northern Europe",
+   "aliases": [
+    "Mannin"
+   ],
+   "languages": [
+    "en",
+    "gv"
+   ],
+   "tld": ".im",
+   "fips": "IM",
+   "wikidata": "Q9676",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "sovereign_of": "GB"
+  },
+  {
+   "code": "IN",
+   "iso3": "IND",
+   "m49": "356",
+   "name": "India",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Southern Asia",
+   "aliases": [
+    "ꠄꠘ꠆ꠒꠤꠀ",
+    "भारत",
+    "ভারত",
+    "இந்தியா",
+    "ہندوستان",
+    "بھارت",
+    "Bharat"
+   ],
+   "languages": [
+    "en",
+    "hi"
+   ],
+   "tld": ".in",
+   "fips": "IN",
+   "wikidata": "Q668",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "IQ",
+   "iso3": "IRQ",
+   "m49": "368",
+   "name": "Iraq",
+   "status": "un_member",
+   "region": "Middle East",
+   "subregion": "Western Asia",
+   "aliases": [
+    "Republik Iraq",
+    "Republic of Iraq",
+    "جمهورية العراق",
+    "العراق"
+   ],
+   "languages": [
+    "ar",
+    "ku"
+   ],
+   "tld": ".iq",
+   "fips": "IZ",
+   "wikidata": "Q796",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "IR",
+   "iso3": "IRN",
+   "m49": "364",
+   "name": "Iran",
+   "status": "un_member",
+   "region": "Middle East",
+   "subregion": "Southern Asia",
+   "aliases": [
+    "Iran (Islamic Republic of)",
+    "ایران"
+   ],
+   "languages": [
+    "fa"
+   ],
+   "tld": ".ir",
+   "fips": "IR",
+   "wikidata": "Q794",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "IS",
+   "iso3": "ISL",
+   "m49": "352",
+   "name": "Iceland",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Northern Europe",
+   "aliases": [
+    "Ísland"
+   ],
+   "languages": [
+    "is"
+   ],
+   "tld": ".is",
+   "fips": "IC",
+   "wikidata": "Q189",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "IT",
+   "iso3": "ITA",
+   "m49": "380",
+   "name": "Italy",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [
+    "Repubblica Italiana",
+    "Italia"
+   ],
+   "languages": [
+    "it"
+   ],
+   "tld": ".it",
+   "fips": "IT",
+   "wikidata": "Q38",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "JE",
+   "iso3": "JEY",
+   "m49": "832",
+   "name": "Jersey",
+   "status": "crown_dependency",
+   "region": "Europe",
+   "subregion": "Northern Europe",
+   "aliases": [
+    "Jèrri"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".je",
+   "fips": "JE",
+   "wikidata": "Q785",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "sovereign_of": "GB"
+  },
+  {
+   "code": "JM",
+   "iso3": "JAM",
+   "m49": "388",
+   "name": "Jamaica",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [
+    "Yamaye",
+    "Xaymaca",
+    "Jumieka"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".jm",
+   "fips": "JM",
+   "wikidata": "Q766",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "JO",
+   "iso3": "JOR",
+   "m49": "400",
+   "name": "Jordan",
+   "status": "un_member",
+   "region": "Middle East",
+   "subregion": "Western Asia",
+   "aliases": [
+    "االْمَمْلَكَةُ الْأُرْدُنِيَةُ الْهَاشِمِيَة"
+   ],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".jo",
+   "fips": "JO",
+   "wikidata": "Q810",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "JP",
+   "iso3": "JPN",
+   "m49": "392",
+   "name": "Japan",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Eastern Asia",
+   "aliases": [
+    "日本",
+    "Nippon",
+    "Nihon"
+   ],
+   "languages": [
+    "ja"
+   ],
+   "tld": ".jp",
+   "fips": "JA",
+   "wikidata": "Q17",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "KE",
+   "iso3": "KEN",
+   "m49": "404",
+   "name": "Kenya",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "Republic of Kenya"
+   ],
+   "languages": [
+    "en",
+    "sw"
+   ],
+   "tld": ".ke",
+   "fips": "KE",
+   "wikidata": "Q114",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "KG",
+   "iso3": "KGZ",
+   "m49": "417",
+   "name": "Kyrgyzstan",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Central Asia",
+   "aliases": [
+    "Кыргызстан",
+    "Kirgizstan"
+   ],
+   "languages": [
+    "ky"
+   ],
+   "tld": ".kg",
+   "fips": "KG",
+   "wikidata": "Q813",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "KH",
+   "iso3": "KHM",
+   "m49": "116",
+   "name": "Cambodia",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "South-eastern Asia",
+   "aliases": [
+    "កម្ពុជា"
+   ],
+   "languages": [
+    "km"
+   ],
+   "tld": ".kh",
+   "fips": "CB",
+   "wikidata": "Q424",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "KI",
+   "iso3": "KIR",
+   "m49": "296",
+   "name": "Kiribati",
+   "status": "un_member",
+   "region": "Oceania",
+   "subregion": "Micronesia",
+   "aliases": [
+    "Ribaberiki ni Kiribati"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".ki",
+   "fips": "KR",
+   "wikidata": "Q710",
+   "ldc": true,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "KM",
+   "iso3": "COM",
+   "m49": "174",
+   "name": "Comoros",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "Union des Comores",
+    "الاتحاد القمري"
+   ],
+   "languages": [
+    "ar",
+    "fr"
+   ],
+   "tld": ".km",
+   "fips": "CN",
+   "wikidata": "Q970",
+   "ldc": true,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "KN",
+   "iso3": "KNA",
+   "m49": "659",
+   "name": "Saint Kitts and Nevis",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [
+    "Federation of Saint Kitts and Nevis",
+    "St Kitts and Nevis",
+    "St. Kitts and Nevis",
+    "Saint Kitts"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".kn",
+   "fips": "SC",
+   "wikidata": "Q763",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "KP",
+   "iso3": "PRK",
+   "m49": "408",
+   "name": "North Korea",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Eastern Asia",
+   "aliases": [
+    "Democratic People's Republic of Korea",
+    "조선민주주의인민공화국",
+    "DPRK"
+   ],
+   "languages": [
+    "ko"
+   ],
+   "tld": ".kp",
+   "fips": "KN",
+   "wikidata": "Q423",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "KR",
+   "iso3": "KOR",
+   "m49": "410",
+   "name": "South Korea",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Eastern Asia",
+   "aliases": [
+    "Republic of Korea",
+    "대한민국",
+    "Korea"
+   ],
+   "languages": [
+    "ko"
+   ],
+   "tld": ".kr",
+   "fips": "KS",
+   "wikidata": "Q884",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "KW",
+   "iso3": "KWT",
+   "m49": "414",
+   "name": "Kuwait",
+   "status": "un_member",
+   "region": "Middle East",
+   "subregion": "Western Asia",
+   "aliases": [
+    "الكويت"
+   ],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".kw",
+   "fips": "KU",
+   "wikidata": "Q817",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "KY",
+   "iso3": "CYM",
+   "m49": "136",
+   "name": "Cayman Islands",
+   "status": "territory",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [],
+   "languages": [
+    "en"
+   ],
+   "tld": ".ky",
+   "fips": "CJ",
+   "wikidata": "Q5785",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "sovereign_of": "GB"
+  },
+  {
+   "code": "KZ",
+   "iso3": "KAZ",
+   "m49": "398",
+   "name": "Kazakhstan",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Central Asia",
+   "aliases": [
+    "Қазақстан Республикасы",
+    "قزاقستان",
+    "Қазақстан"
+   ],
+   "languages": [
+    "kk",
+    "ru"
+   ],
+   "tld": ".kz",
+   "fips": "KZ",
+   "wikidata": "Q232",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "LA",
+   "iso3": "LAO",
+   "m49": "418",
+   "name": "Laos",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "South-eastern Asia",
+   "aliases": [
+    "Lao People's Democratic Republic",
+    "ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ",
+    "Lao PDR"
+   ],
+   "languages": [
+    "lo"
+   ],
+   "tld": ".la",
+   "fips": "LA",
+   "wikidata": "Q819",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "LB",
+   "iso3": "LBN",
+   "m49": "422",
+   "name": "Lebanon",
+   "status": "un_member",
+   "region": "Middle East",
+   "subregion": "Western Asia",
+   "aliases": [
+    "Republik Lubnan",
+    "Lubnan",
+    "Republic of Lebanon",
+    "الجمهورية اللبنانية",
+    "لبنان"
+   ],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".lb",
+   "fips": "LE",
+   "wikidata": "Q822",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "LC",
+   "iso3": "LCA",
+   "m49": "662",
+   "name": "Saint Lucia",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [
+    "St Lucia",
+    "St. Lucia"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".lc",
+   "fips": "ST",
+   "wikidata": "Q760",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "LI",
+   "iso3": "LIE",
+   "m49": "438",
+   "name": "Liechtenstein",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Western Europe",
+   "aliases": [
+    "Fürstentum Liechtenstein"
+   ],
+   "languages": [
+    "de"
+   ],
+   "tld": ".li",
+   "fips": "LS",
+   "wikidata": "Q347",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "LK",
+   "iso3": "LKA",
+   "m49": "144",
+   "name": "Sri Lanka",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Southern Asia",
+   "aliases": [
+    "இலங்கை சனநாயக சோசலிசக் குடியரசு",
+    "ශ්රී ලංකාව",
+    "ශ්රී ලංකා ප්රජාතාන්ත්රික සමාජවාදී ජනරජය"
+   ],
+   "languages": [
+    "si",
+    "ta"
+   ],
+   "tld": ".lk",
+   "fips": "CE",
+   "wikidata": "Q854",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "LR",
+   "iso3": "LBR",
+   "m49": "430",
+   "name": "Liberia",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [
+    "Republic of Liberia"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".lr",
+   "fips": "LI",
+   "wikidata": "Q1014",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "LS",
+   "iso3": "LSO",
+   "m49": "426",
+   "name": "Lesotho",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Southern Africa",
+   "aliases": [],
+   "languages": [
+    "en",
+    "st"
+   ],
+   "tld": ".ls",
+   "fips": "LT",
+   "wikidata": "Q1013",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "LT",
+   "iso3": "LTU",
+   "m49": "440",
+   "name": "Lithuania",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Northern Europe",
+   "aliases": [
+    "Lietuva"
+   ],
+   "languages": [
+    "lt"
+   ],
+   "tld": ".lt",
+   "fips": "LH",
+   "wikidata": "Q37",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "LU",
+   "iso3": "LUX",
+   "m49": "442",
+   "name": "Luxembourg",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Western Europe",
+   "aliases": [
+    "Lëtzebuerg",
+    "Luxemburg"
+   ],
+   "languages": [
+    "de",
+    "fr",
+    "lb"
+   ],
+   "tld": ".lu",
+   "fips": "LU",
+   "wikidata": "Q32",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "LV",
+   "iso3": "LVA",
+   "m49": "428",
+   "name": "Latvia",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Northern Europe",
+   "aliases": [
+    "Latvija"
+   ],
+   "languages": [
+    "lv"
+   ],
+   "tld": ".lv",
+   "fips": "LG",
+   "wikidata": "Q211",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "LY",
+   "iso3": "LBY",
+   "m49": "434",
+   "name": "Libya",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Northern Africa",
+   "aliases": [
+    "دولة ليبيا"
+   ],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".ly",
+   "fips": "LY",
+   "wikidata": "Q1016",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "MA",
+   "iso3": "MAR",
+   "m49": "504",
+   "name": "Morocco",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Northern Africa",
+   "aliases": [
+    "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ",
+    "المملكة المغربية",
+    "Maroc",
+    "Al-Maghrib"
+   ],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".ma",
+   "fips": "MO",
+   "wikidata": "Q1028",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "MC",
+   "iso3": "MCO",
+   "m49": "492",
+   "name": "Monaco",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Western Europe",
+   "aliases": [
+    "Principat de Mónegue",
+    "Prinçipatu de Mu̍negu",
+    "Prinçipato de Mónego",
+    "Principauté de Monaco"
+   ],
+   "languages": [
+    "fr"
+   ],
+   "tld": ".mc",
+   "fips": "MN",
+   "wikidata": "Q235",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "MD",
+   "iso3": "MDA",
+   "m49": "498",
+   "name": "Moldova",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Eastern Europe",
+   "aliases": [
+    "Republic of Moldova"
+   ],
+   "languages": [
+    "ro"
+   ],
+   "tld": ".md",
+   "fips": "MD",
+   "wikidata": "Q217",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "ME",
+   "iso3": "MNE",
+   "m49": "499",
+   "name": "Montenegro",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [
+    "Црна Гора",
+    "Crna Gora"
+   ],
+   "languages": [
+    "sr"
+   ],
+   "tld": ".me",
+   "fips": "MJ",
+   "wikidata": "Q236",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "MG",
+   "iso3": "MDG",
+   "m49": "450",
+   "name": "Madagascar",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "Repoblikan'i Madagaskar",
+    "République de Madagascar"
+   ],
+   "languages": [
+    "fr",
+    "mg"
+   ],
+   "tld": ".mg",
+   "fips": "MA",
+   "wikidata": "Q1019",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "MH",
+   "iso3": "MHL",
+   "m49": "584",
+   "name": "Marshall Islands",
+   "status": "un_member",
+   "region": "Oceania",
+   "subregion": "Micronesia",
+   "aliases": [
+    "Aolepān Aorōkin Ṃajeḷ",
+    "Aolepān Aorōkin M̧ajeļ"
+   ],
+   "languages": [
+    "en",
+    "mh"
+   ],
+   "tld": ".mh",
+   "fips": "RM",
+   "wikidata": "Q709",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "MK",
+   "iso3": "MKD",
+   "m49": "807",
+   "name": "North Macedonia",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [
+    "Република Северна Македонија",
+    "Macedonia",
+    "Northern Macedonia"
+   ],
+   "languages": [
+    "mk",
+    "sq"
+   ],
+   "tld": ".mk",
+   "fips": "MK",
+   "wikidata": "Q221",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "ML",
+   "iso3": "MLI",
+   "m49": "466",
+   "name": "Mali",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [],
+   "languages": [
+    "bm",
+    "ff"
+   ],
+   "tld": ".ml",
+   "fips": "ML",
+   "wikidata": "Q912",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "MM",
+   "iso3": "MMR",
+   "m49": "104",
+   "name": "Myanmar",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "South-eastern Asia",
+   "aliases": [
+    "မြန်မာပြည်",
+    "မြန်မာနိုင်ငံ",
+    "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်",
+    "မြန်မာ",
+    "Burma"
+   ],
+   "languages": [
+    "my"
+   ],
+   "tld": ".mm",
+   "fips": "BM",
+   "wikidata": "Q836",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "MN",
+   "iso3": "MNG",
+   "m49": "496",
+   "name": "Mongolia",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Eastern Asia",
+   "aliases": [
+    "ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ",
+    "Монгол Улс"
+   ],
+   "languages": [
+    "mn"
+   ],
+   "tld": ".mn",
+   "fips": "MG",
+   "wikidata": "Q711",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "MO",
+   "iso3": "MAC",
+   "m49": "446",
+   "name": "Macao",
+   "status": "special_administrative_region",
+   "region": "Asia",
+   "subregion": "Eastern Asia",
+   "aliases": [
+    "China, Macao Special Administrative Region",
+    "Macau",
+    "澳門特別行政區",
+    "Região Administrativa Especial de Macau",
+    "澳门"
+   ],
+   "languages": [
+    "zh",
+    "pt"
+   ],
+   "tld": ".mo",
+   "fips": "MC",
+   "wikidata": "Q14773",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "sovereign_of": "CN"
+  },
+  {
+   "code": "MR",
+   "iso3": "MRT",
+   "m49": "478",
+   "name": "Mauritania",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [
+    "Réewu lislaam bu Muritani",
+    "Moritani Silaamin Jamaane",
+    "République islamique de Mauritanie",
+    "Ndenndaandi Lislameeri Muritani",
+    "الجمهورية الإسلامية الموريتانية"
+   ],
+   "languages": [
+    "ar",
+    "fr"
+   ],
+   "tld": ".mr",
+   "fips": "MR",
+   "wikidata": "Q1025",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "MT",
+   "iso3": "MLT",
+   "m49": "470",
+   "name": "Malta",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [],
+   "languages": [
+    "en",
+    "mt"
+   ],
+   "tld": ".mt",
+   "fips": "MT",
+   "wikidata": "Q233",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "MU",
+   "iso3": "MUS",
+   "m49": "480",
+   "name": "Mauritius",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "République de Maurice"
+   ],
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "tld": ".mu",
+   "fips": "MP",
+   "wikidata": "Q1027",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "MV",
+   "iso3": "MDV",
+   "m49": "462",
+   "name": "Maldives",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Southern Asia",
+   "aliases": [
+    "ދިވެހިރާއްޖޭގެ ޖުމުހޫރިއްޔާ",
+    "ދިވެހިރާއްޖެ"
+   ],
+   "languages": [
+    "dv"
+   ],
+   "tld": ".mv",
+   "fips": "MV",
+   "wikidata": "Q826",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "MW",
+   "iso3": "MWI",
+   "m49": "454",
+   "name": "Malawi",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "Charu cha Malaŵi",
+    "Republic of Malawi"
+   ],
+   "languages": [
+    "en",
+    "ny"
+   ],
+   "tld": ".mw",
+   "fips": "MI",
+   "wikidata": "Q1020",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "MX",
+   "iso3": "MEX",
+   "m49": "484",
+   "name": "Mexico",
+   "status": "un_member",
+   "region": "North America",
+   "subregion": "Central America",
+   "aliases": [
+    "Mexko",
+    "México"
+   ],
+   "languages": [
+    "es"
+   ],
+   "tld": ".mx",
+   "fips": "MX",
+   "wikidata": "Q96",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "MY",
+   "iso3": "MYS",
+   "m49": "458",
+   "name": "Malaysia",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "South-eastern Asia",
+   "aliases": [],
+   "languages": [
+    "ms"
+   ],
+   "tld": ".my",
+   "fips": "MY",
+   "wikidata": "Q833",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "MZ",
+   "iso3": "MOZ",
+   "m49": "508",
+   "name": "Mozambique",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "مْسُمْبِيجِ",
+    "República de Moçambique"
+   ],
+   "languages": [
+    "pt"
+   ],
+   "tld": ".mz",
+   "fips": "MZ",
+   "wikidata": "Q1029",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "NA",
+   "iso3": "NAM",
+   "m49": "516",
+   "name": "Namibia",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Southern Africa",
+   "aliases": [
+    "Republic of Namibia",
+    "Republik Namibia",
+    "Republiek van Namibië"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".na",
+   "fips": "WA",
+   "wikidata": "Q1030",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "NE",
+   "iso3": "NER",
+   "m49": "562",
+   "name": "Niger",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [
+    "Nijar"
+   ],
+   "languages": [
+    "ha"
+   ],
+   "tld": ".ne",
+   "fips": "NG",
+   "wikidata": "Q1032",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "NG",
+   "iso3": "NGA",
+   "m49": "566",
+   "name": "Nigeria",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [
+    "Nàìjíríà",
+    "Naigeria",
+    "Nijeriya"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".ng",
+   "fips": "NI",
+   "wikidata": "Q1033",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "NI",
+   "iso3": "NIC",
+   "m49": "558",
+   "name": "Nicaragua",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Central America",
+   "aliases": [
+    "República de Nicaragua"
+   ],
+   "languages": [
+    "es"
+   ],
+   "tld": ".ni",
+   "fips": "NU",
+   "wikidata": "Q811",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "NL",
+   "iso3": "NLD",
+   "m49": "528",
+   "name": "Netherlands",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Western Europe",
+   "aliases": [
+    "Netherlands (Kingdom of the)",
+    "Kingdom of the Netherlands",
+    "Koninkrijk der Nederlanden",
+    "Holland",
+    "Nederland",
+    "The Netherlands"
+   ],
+   "languages": [
+    "nl"
+   ],
+   "tld": ".nl",
+   "fips": "NL",
+   "wikidata": "Q29999",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "NO",
+   "iso3": "NOR",
+   "m49": "578",
+   "name": "Norway",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Northern Europe",
+   "aliases": [
+    "Kongeriket Noreg",
+    "Kongeriket Norge",
+    "Norge",
+    "Noreg"
+   ],
+   "languages": [
+    "nb",
+    "nn",
+    "no"
+   ],
+   "tld": ".no",
+   "fips": "NO",
+   "wikidata": "Q20",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "NP",
+   "iso3": "NPL",
+   "m49": "524",
+   "name": "Nepal",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Southern Asia",
+   "aliases": [
+    "नेपाल"
+   ],
+   "languages": [
+    "ne"
+   ],
+   "tld": ".np",
+   "fips": "NP",
+   "wikidata": "Q837",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "NR",
+   "iso3": "NRU",
+   "m49": "520",
+   "name": "Nauru",
+   "status": "un_member",
+   "region": "Oceania",
+   "subregion": "Micronesia",
+   "aliases": [
+    "Naoero",
+    "Ripublik Naoero"
+   ],
+   "languages": [
+    "en",
+    "na"
+   ],
+   "tld": ".nr",
+   "fips": "NR",
+   "wikidata": "Q697",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "NZ",
+   "iso3": "NZL",
+   "m49": "554",
+   "name": "New Zealand",
+   "status": "un_member",
+   "region": "Oceania",
+   "subregion": "Australia and New Zealand",
+   "aliases": [
+    "Aotearoa"
+   ],
+   "languages": [
+    "en",
+    "mi"
+   ],
+   "tld": ".nz",
+   "fips": "NZ",
+   "wikidata": "Q664",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "OM",
+   "iso3": "OMN",
+   "m49": "512",
+   "name": "Oman",
+   "status": "un_member",
+   "region": "Middle East",
+   "subregion": "Western Asia",
+   "aliases": [
+    "سلطنة عُمان"
+   ],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".om",
+   "fips": "MU",
+   "wikidata": "Q842",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "PA",
+   "iso3": "PAN",
+   "m49": "591",
+   "name": "Panama",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Central America",
+   "aliases": [
+    "República de Panamá"
+   ],
+   "languages": [
+    "es"
+   ],
+   "tld": ".pa",
+   "fips": "PM",
+   "wikidata": "Q804",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "PE",
+   "iso3": "PER",
+   "m49": "604",
+   "name": "Peru",
+   "status": "un_member",
+   "region": "South America",
+   "subregion": "South America",
+   "aliases": [
+    "República del Perú"
+   ],
+   "languages": [
+    "ay",
+    "es",
+    "qu"
+   ],
+   "tld": ".pe",
+   "fips": "PE",
+   "wikidata": "Q419",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "PG",
+   "iso3": "PNG",
+   "m49": "598",
+   "name": "Papua New Guinea",
+   "status": "un_member",
+   "region": "Oceania",
+   "subregion": "Melanesia",
+   "aliases": [
+    "Independen Stet bilong Papua Niugini",
+    "Independent State of Papua New Guinea"
+   ],
+   "languages": [
+    "en",
+    "ho"
+   ],
+   "tld": ".pg",
+   "fips": "PP",
+   "wikidata": "Q691",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "PH",
+   "iso3": "PHL",
+   "m49": "608",
+   "name": "Philippines",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "South-eastern Asia",
+   "aliases": [
+    "Pilipinas"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".ph",
+   "fips": "RP",
+   "wikidata": "Q928",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "PK",
+   "iso3": "PAK",
+   "m49": "586",
+   "name": "Pakistan",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Southern Asia",
+   "aliases": [
+    "پاڪستان",
+    "پاکستان",
+    "پٲکِستان",
+    "Pákistán"
+   ],
+   "languages": [
+    "en",
+    "ur"
+   ],
+   "tld": ".pk",
+   "fips": "PK",
+   "wikidata": "Q843",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "PL",
+   "iso3": "POL",
+   "m49": "616",
+   "name": "Poland",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Eastern Europe",
+   "aliases": [
+    "Rzeczpospolita Polska",
+    "Polska"
+   ],
+   "languages": [
+    "pl"
+   ],
+   "tld": ".pl",
+   "fips": "PL",
+   "wikidata": "Q36",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "PR",
+   "iso3": "PRI",
+   "m49": "630",
+   "name": "Puerto Rico",
+   "status": "territory",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [],
+   "languages": [
+    "en",
+    "es"
+   ],
+   "tld": ".pr",
+   "fips": "RQ",
+   "wikidata": "Q1183",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "sovereign_of": "US"
+  },
+  {
+   "code": "PS",
+   "iso3": "PSE",
+   "m49": "275",
+   "name": "State of Palestine",
+   "status": "un_observer_state",
+   "region": "Middle East",
+   "subregion": "Western Asia",
+   "aliases": [
+    "Palestine",
+    "دولة فلسطين",
+    "Palestinian Territories"
+   ],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".ps",
+   "fips": "WE",
+   "wikidata": "Q219060",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "PT",
+   "iso3": "PRT",
+   "m49": "620",
+   "name": "Portugal",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [
+    "República Portuguesa"
+   ],
+   "languages": [
+    "pt"
+   ],
+   "tld": ".pt",
+   "fips": "PO",
+   "wikidata": "Q45",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "PW",
+   "iso3": "PLW",
+   "m49": "585",
+   "name": "Palau",
+   "status": "un_member",
+   "region": "Oceania",
+   "subregion": "Micronesia",
+   "aliases": [
+    "Belau",
+    "Republic of Palau"
+   ],
+   "languages": [
+    "en",
+    "ja"
+   ],
+   "tld": ".pw",
+   "fips": "PS",
+   "wikidata": "Q695",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "PY",
+   "iso3": "PRY",
+   "m49": "600",
+   "name": "Paraguay",
+   "status": "un_member",
+   "region": "South America",
+   "subregion": "South America",
+   "aliases": [
+    "Paraguái Tavakuairetã",
+    "República del Paraguay"
+   ],
+   "languages": [
+    "es",
+    "gn"
+   ],
+   "tld": ".py",
+   "fips": "PA",
+   "wikidata": "Q733",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "QA",
+   "iso3": "QAT",
+   "m49": "634",
+   "name": "Qatar",
+   "status": "un_member",
+   "region": "Middle East",
+   "subregion": "Western Asia",
+   "aliases": [],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".qa",
+   "fips": "QA",
+   "wikidata": "Q846",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "RO",
+   "iso3": "ROU",
+   "m49": "642",
+   "name": "Romania",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Eastern Europe",
+   "aliases": [
+    "România"
+   ],
+   "languages": [
+    "ro"
+   ],
+   "tld": ".ro",
+   "fips": "RO",
+   "wikidata": "Q218",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "RS",
+   "iso3": "SRB",
+   "m49": "688",
+   "name": "Serbia",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [
+    "Србија"
+   ],
+   "languages": [
+    "sr"
+   ],
+   "tld": ".rs",
+   "fips": "RI",
+   "wikidata": "Q403",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "RU",
+   "iso3": "RUS",
+   "m49": "643",
+   "name": "Russia",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Eastern Europe",
+   "aliases": [
+    "Russian Federation",
+    "Российская Федерация",
+    "Россия",
+    "Rossiya"
+   ],
+   "languages": [
+    "ru"
+   ],
+   "tld": ".ru",
+   "fips": "RS",
+   "wikidata": "Q159",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "RW",
+   "iso3": "RWA",
+   "m49": "646",
+   "name": "Rwanda",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "République du Rwanda",
+    "Jamhuri ya Rwanda",
+    "Repubulika y'u Rwanda",
+    "Republic of Rwanda"
+   ],
+   "languages": [
+    "en",
+    "fr",
+    "rw",
+    "sw"
+   ],
+   "tld": ".rw",
+   "fips": "RW",
+   "wikidata": "Q1037",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "SA",
+   "iso3": "SAU",
+   "m49": "682",
+   "name": "Saudi Arabia",
+   "status": "un_member",
+   "region": "Middle East",
+   "subregion": "Western Asia",
+   "aliases": [
+    "Kerajaan Arab Saudi",
+    "Arab Saudi",
+    "المملكة العربية السعودية",
+    "السعودية",
+    "Kingdom of Saudi Arabia",
+    "KSA"
+   ],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".sa",
+   "fips": "SA",
+   "wikidata": "Q851",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "SB",
+   "iso3": "SLB",
+   "m49": "090",
+   "name": "Solomon Islands",
+   "status": "un_member",
+   "region": "Oceania",
+   "subregion": "Melanesia",
+   "aliases": [],
+   "languages": [
+    "en"
+   ],
+   "tld": ".sb",
+   "fips": "BP",
+   "wikidata": "Q685",
+   "ldc": true,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "SC",
+   "iso3": "SYC",
+   "m49": "690",
+   "name": "Seychelles",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "République des Seychelles"
+   ],
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "tld": ".sc",
+   "fips": "SE",
+   "wikidata": "Q1042",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "SD",
+   "iso3": "SDN",
+   "m49": "729",
+   "name": "Sudan",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Northern Africa",
+   "aliases": [
+    "جمهورية السودان",
+    "السودان"
+   ],
+   "languages": [
+    "ar",
+    "en"
+   ],
+   "tld": ".sd",
+   "fips": "SU",
+   "wikidata": "Q1049",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "SE",
+   "iso3": "SWE",
+   "m49": "752",
+   "name": "Sweden",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Northern Europe",
+   "aliases": [
+    "Sverige"
+   ],
+   "languages": [
+    "sv"
+   ],
+   "tld": ".se",
+   "fips": "SW",
+   "wikidata": "Q34",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "SG",
+   "iso3": "SGP",
+   "m49": "702",
+   "name": "Singapore",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "South-eastern Asia",
+   "aliases": [
+    "新加坡共和国",
+    "சிங்கப்பூர் குடியரசு",
+    "Republik Singapura",
+    "Republic of Singapore"
+   ],
+   "languages": [
+    "en",
+    "ms",
+    "ta"
+   ],
+   "tld": ".sg",
+   "fips": "SN",
+   "wikidata": "Q334",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "SI",
+   "iso3": "SVN",
+   "m49": "705",
+   "name": "Slovenia",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [
+    "Slovenija"
+   ],
+   "languages": [
+    "sl"
+   ],
+   "tld": ".si",
+   "fips": "SI",
+   "wikidata": "Q215",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "SK",
+   "iso3": "SVK",
+   "m49": "703",
+   "name": "Slovakia",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Eastern Europe",
+   "aliases": [
+    "Slovenská republika"
+   ],
+   "languages": [
+    "sk"
+   ],
+   "tld": ".sk",
+   "fips": "LO",
+   "wikidata": "Q214",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "SL",
+   "iso3": "SLE",
+   "m49": "694",
+   "name": "Sierra Leone",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [
+    "Republic of Sierra Leone"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".sl",
+   "fips": "SL",
+   "wikidata": "Q1044",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "SM",
+   "iso3": "SMR",
+   "m49": "674",
+   "name": "San Marino",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [
+    "Repubblica di San Marino",
+    "San Marco"
+   ],
+   "languages": [
+    "it"
+   ],
+   "tld": ".sm",
+   "fips": "SM",
+   "wikidata": "Q238",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "SN",
+   "iso3": "SEN",
+   "m49": "686",
+   "name": "Senegal",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [
+    "Senegaal"
+   ],
+   "languages": [
+    "fr",
+    "wo"
+   ],
+   "tld": ".sn",
+   "fips": "SG",
+   "wikidata": "Q1041",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "SO",
+   "iso3": "SOM",
+   "m49": "706",
+   "name": "Somalia",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "𐒈𐒝𐒑𐒛𐒐𐒘𐒕𐒖",
+    "Soomaaliya",
+    "Jamhuuriyadda Federaalka Soomaaliya",
+    "جمهورية الصومال الفدرالية"
+   ],
+   "languages": [
+    "ar",
+    "so"
+   ],
+   "tld": ".so",
+   "fips": "SO",
+   "wikidata": "Q1045",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "SR",
+   "iso3": "SUR",
+   "m49": "740",
+   "name": "Suriname",
+   "status": "un_member",
+   "region": "South America",
+   "subregion": "South America",
+   "aliases": [
+    "Ripoliku Sranan",
+    "Republiek Suriname"
+   ],
+   "languages": [
+    "nl"
+   ],
+   "tld": ".sr",
+   "fips": "NS",
+   "wikidata": "Q730",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "SS",
+   "iso3": "SSD",
+   "m49": "728",
+   "name": "South Sudan",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "Republic of South Sudan",
+    "جمهورية جنوب السودان",
+    "جنوب السودان"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".ss",
+   "fips": "OD",
+   "wikidata": "Q958",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "ST",
+   "iso3": "STP",
+   "m49": "678",
+   "name": "Sao Tome and Principe",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Middle Africa",
+   "aliases": [
+    "São Tomé and Príncipe",
+    "República Democrática de São Tomé e Príncipe",
+    "São Tomé"
+   ],
+   "languages": [
+    "pt"
+   ],
+   "tld": ".st",
+   "fips": "TP",
+   "wikidata": "Q1039",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "SV",
+   "iso3": "SLV",
+   "m49": "222",
+   "name": "El Salvador",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Central America",
+   "aliases": [
+    "República de El Salvador"
+   ],
+   "languages": [
+    "es"
+   ],
+   "tld": ".sv",
+   "fips": "ES",
+   "wikidata": "Q792",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "SY",
+   "iso3": "SYR",
+   "m49": "760",
+   "name": "Syria",
+   "status": "un_member",
+   "region": "Middle East",
+   "subregion": "Western Asia",
+   "aliases": [
+    "Syrian Arab Republic",
+    "Komara Erebî ya Sûriyê",
+    "سوريا",
+    "الجمهورية العربية السورية"
+   ],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".sy",
+   "fips": "SY",
+   "wikidata": "Q858",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "SZ",
+   "iso3": "SWZ",
+   "m49": "748",
+   "name": "Eswatini",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Southern Africa",
+   "aliases": [
+    "Umbuso weSwatini",
+    "Swaziland"
+   ],
+   "languages": [
+    "en",
+    "ss"
+   ],
+   "tld": ".sz",
+   "fips": "WZ",
+   "wikidata": "Q1050",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "TD",
+   "iso3": "TCD",
+   "m49": "148",
+   "name": "Chad",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Middle Africa",
+   "aliases": [
+    "République du Tchad",
+    "جُمْهُورِيَّة تشاد"
+   ],
+   "languages": [
+    "ar",
+    "fr"
+   ],
+   "tld": ".td",
+   "fips": "CD",
+   "wikidata": "Q657",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "TG",
+   "iso3": "TGO",
+   "m49": "768",
+   "name": "Togo",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Western Africa",
+   "aliases": [],
+   "languages": [
+    "fr"
+   ],
+   "tld": ".tg",
+   "fips": "TO",
+   "wikidata": "Q945",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "TH",
+   "iso3": "THA",
+   "m49": "764",
+   "name": "Thailand",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "South-eastern Asia",
+   "aliases": [
+    "ราชอาณาจักรไทย"
+   ],
+   "languages": [
+    "th"
+   ],
+   "tld": ".th",
+   "fips": "TH",
+   "wikidata": "Q869",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "TJ",
+   "iso3": "TJK",
+   "m49": "762",
+   "name": "Tajikistan",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Central Asia",
+   "aliases": [
+    "Ҷумҳурии Тоҷикистон",
+    "Тоҷикистон"
+   ],
+   "languages": [
+    "tg"
+   ],
+   "tld": ".tj",
+   "fips": "TI",
+   "wikidata": "Q863",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "TL",
+   "iso3": "TLS",
+   "m49": "626",
+   "name": "Timor-Leste",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "South-eastern Asia",
+   "aliases": [
+    "Repúblika Demokrátika Timor-Leste",
+    "República Democrática de Timor-Leste",
+    "East Timor"
+   ],
+   "languages": [
+    "pt"
+   ],
+   "tld": ".tl",
+   "fips": "TT",
+   "wikidata": "Q574",
+   "ldc": true,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "TM",
+   "iso3": "TKM",
+   "m49": "795",
+   "name": "Turkmenistan",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Central Asia",
+   "aliases": [
+    "Türkmenistan Respublikasi",
+    "Türkmenistan"
+   ],
+   "languages": [
+    "tk"
+   ],
+   "tld": ".tm",
+   "fips": "TX",
+   "wikidata": "Q874",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "TN",
+   "iso3": "TUN",
+   "m49": "788",
+   "name": "Tunisia",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Northern Africa",
+   "aliases": [
+    "Republik Tunisia",
+    "Republic of Tunisia",
+    "الجمهورية التونسية",
+    "تونس",
+    "Tunisie"
+   ],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".tn",
+   "fips": "TS",
+   "wikidata": "Q948",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "TO",
+   "iso3": "TON",
+   "m49": "776",
+   "name": "Tonga",
+   "status": "un_member",
+   "region": "Oceania",
+   "subregion": "Polynesia",
+   "aliases": [],
+   "languages": [
+    "en",
+    "to"
+   ],
+   "tld": ".to",
+   "fips": "TN",
+   "wikidata": "Q678",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "TR",
+   "iso3": "TUR",
+   "m49": "792",
+   "name": "Türkiye",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Southeast Europe / Western Asia",
+   "aliases": [
+    "Turkey",
+    "Türkiye Cumhuriyeti",
+    "Turkiye"
+   ],
+   "languages": [
+    "tr"
+   ],
+   "tld": ".tr",
+   "fips": "TU",
+   "wikidata": "Q43",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "TT",
+   "iso3": "TTO",
+   "m49": "780",
+   "name": "Trinidad and Tobago",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [
+    "Republic of Trinidad and Tobago",
+    "Trinidad"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".tt",
+   "fips": "TD",
+   "wikidata": "Q754",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "TV",
+   "iso3": "TUV",
+   "m49": "798",
+   "name": "Tuvalu",
+   "status": "un_member",
+   "region": "Oceania",
+   "subregion": "Polynesia",
+   "aliases": [],
+   "languages": [
+    "en"
+   ],
+   "tld": ".tv",
+   "fips": "TV",
+   "wikidata": "Q672",
+   "ldc": true,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "TW",
+   "iso3": "TWN",
+   "m49": "",
+   "name": "Taiwan",
+   "status": "partially_recognized",
+   "region": "Asia",
+   "subregion": "Eastern Asia",
+   "aliases": [
+    "Tiong-huâ-bîn-kok",
+    "Tiong-hoâ Bîn-kok",
+    "台灣",
+    "中華民國",
+    "臺灣",
+    "Chûng-fà Mìn-koet",
+    "Tâi-oân"
+   ],
+   "languages": [
+    "zh"
+   ],
+   "tld": ".tw",
+   "fips": "TW",
+   "wikidata": "Q865",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "TZ",
+   "iso3": "TZA",
+   "m49": "834",
+   "name": "Tanzania",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "United Republic of Tanzania",
+    "Jamhuri ya Muungano wa Tanzania"
+   ],
+   "languages": [
+    "en",
+    "sw"
+   ],
+   "tld": ".tz",
+   "fips": "TZ",
+   "wikidata": "Q924",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "UA",
+   "iso3": "UKR",
+   "m49": "804",
+   "name": "Ukraine",
+   "status": "un_member",
+   "region": "Europe",
+   "subregion": "Eastern Europe",
+   "aliases": [
+    "Україна"
+   ],
+   "languages": [
+    "uk"
+   ],
+   "tld": ".ua",
+   "fips": "UP",
+   "wikidata": "Q212",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "UG",
+   "iso3": "UGA",
+   "m49": "800",
+   "name": "Uganda",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "Jamhuri ya Uganda",
+    "Republic of Uganda"
+   ],
+   "languages": [
+    "en",
+    "sw"
+   ],
+   "tld": ".ug",
+   "fips": "UG",
+   "wikidata": "Q1036",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "US",
+   "iso3": "USA",
+   "m49": "840",
+   "name": "United States",
+   "status": "un_member",
+   "region": "North America",
+   "subregion": "Northern America",
+   "aliases": [
+    "United States of America",
+    "Létaz-Ini d'Amérik",
+    "Iunaite Sitete o Amerika",
+    "Wááshindoon Bikéyah Ałhidadiidzooígíí",
+    "Tannapta Nunaat Amiarikami",
+    "ʻAmelika Hui Pū ʻia",
+    "ᏌᏊᎢᏳᎾᎵᏍᏔᏅᏍᎦᏚᎩ ᎾᎿ ᎠᎺᏰᏟ",
+    "Estados Unidus",
+    "Estados Unidos de América",
+    "USA",
+    "U.S.A.",
+    "U.S."
+   ],
+   "languages": [
+    "ch",
+    "es",
+    "sm"
+   ],
+   "tld": ".us",
+   "fips": "US",
+   "wikidata": "Q30",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "UY",
+   "iso3": "URY",
+   "m49": "858",
+   "name": "Uruguay",
+   "status": "un_member",
+   "region": "South America",
+   "subregion": "South America",
+   "aliases": [
+    "República Oriental del Uruguay"
+   ],
+   "languages": [
+    "es"
+   ],
+   "tld": ".uy",
+   "fips": "UY",
+   "wikidata": "Q77",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "UZ",
+   "iso3": "UZB",
+   "m49": "860",
+   "name": "Uzbekistan",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "Central Asia",
+   "aliases": [
+    "Oʻzbekiston Respublikasi",
+    "Oʻzbekiston"
+   ],
+   "languages": [
+    "uz"
+   ],
+   "tld": ".uz",
+   "fips": "UZ",
+   "wikidata": "Q265",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "VA",
+   "iso3": "VAT",
+   "m49": "336",
+   "name": "Holy See",
+   "status": "un_observer_state",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [
+    "Vatican City",
+    "Civitas Vaticana",
+    "Vatican",
+    "Vatican City State"
+   ],
+   "languages": [
+    "it",
+    "la"
+   ],
+   "tld": ".va",
+   "fips": "VT",
+   "wikidata": "Q237",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "VC",
+   "iso3": "VCT",
+   "m49": "670",
+   "name": "Saint Vincent and the Grenadines",
+   "status": "un_member",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [
+    "St Vincent and the Grenadines",
+    "St. Vincent and the Grenadines"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".vc",
+   "fips": "VC",
+   "wikidata": "Q757",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "VE",
+   "iso3": "VEN",
+   "m49": "862",
+   "name": "Venezuela",
+   "status": "un_member",
+   "region": "South America",
+   "subregion": "South America",
+   "aliases": [
+    "Venezuela (Bolivarian Republic of)"
+   ],
+   "languages": [
+    "es"
+   ],
+   "tld": ".ve",
+   "fips": "VE",
+   "wikidata": "Q717",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "VG",
+   "iso3": "VGB",
+   "m49": "092",
+   "name": "British Virgin Islands",
+   "status": "territory",
+   "region": "Central America & Caribbean",
+   "subregion": "Caribbean",
+   "aliases": [],
+   "languages": [
+    "en"
+   ],
+   "tld": ".vg",
+   "fips": "VI",
+   "wikidata": "Q25305",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "sovereign_of": "GB"
+  },
+  {
+   "code": "VN",
+   "iso3": "VNM",
+   "m49": "704",
+   "name": "Vietnam",
+   "status": "un_member",
+   "region": "Asia",
+   "subregion": "South-eastern Asia",
+   "aliases": [
+    "Viet Nam",
+    "Việt Nam"
+   ],
+   "languages": [
+    "vi"
+   ],
+   "tld": ".vn",
+   "fips": "VM",
+   "wikidata": "Q881",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "VU",
+   "iso3": "VUT",
+   "m49": "548",
+   "name": "Vanuatu",
+   "status": "un_member",
+   "region": "Oceania",
+   "subregion": "Melanesia",
+   "aliases": [
+    "République du Vanuatu",
+    "Republic of Vanuatu",
+    "Ripablik blong Vanuatu"
+   ],
+   "languages": [
+    "bi",
+    "en",
+    "fr"
+   ],
+   "tld": ".vu",
+   "fips": "NH",
+   "wikidata": "Q686",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "WS",
+   "iso3": "WSM",
+   "m49": "882",
+   "name": "Samoa",
+   "status": "un_member",
+   "region": "Oceania",
+   "subregion": "Polynesia",
+   "aliases": [
+    "Sāmoa",
+    "Malo Sa’oloto Tuto’atasi o Samoa",
+    "Independent State of Samoa",
+    "Western Samoa"
+   ],
+   "languages": [
+    "en",
+    "sm"
+   ],
+   "tld": ".ws",
+   "fips": "WS",
+   "wikidata": "Q683",
+   "ldc": false,
+   "lldc": false,
+   "sids": true
+  },
+  {
+   "code": "XK",
+   "iso3": "XKX",
+   "m49": "",
+   "name": "Kosovo",
+   "status": "partially_recognized",
+   "region": "Europe",
+   "subregion": "Southern Europe",
+   "aliases": [
+    "Република Косово",
+    "Republika Kosovo",
+    "Republika e Kosovës"
+   ],
+   "languages": [
+    "sq",
+    "sr"
+   ],
+   "tld": "",
+   "fips": "KV",
+   "wikidata": "Q1246",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "YE",
+   "iso3": "YEM",
+   "m49": "887",
+   "name": "Yemen",
+   "status": "un_member",
+   "region": "Middle East",
+   "subregion": "Western Asia",
+   "aliases": [
+    "الجمهوريّة اليمنية"
+   ],
+   "languages": [
+    "ar"
+   ],
+   "tld": ".ye",
+   "fips": "YM",
+   "wikidata": "Q805",
+   "ldc": true,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "ZA",
+   "iso3": "ZAF",
+   "m49": "710",
+   "name": "South Africa",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Southern Africa",
+   "aliases": [
+    "Afurika Tshipembe",
+    "Afrika-Dzonga",
+    "Aforika Borwa",
+    "Afrika Borwa",
+    "iNingizimu Afrika",
+    "iSewula Afrika",
+    "Suid-Afrika",
+    "uMzantsi Afrika"
+   ],
+   "languages": [
+    "af",
+    "en",
+    "nr",
+    "ss",
+    "st",
+    "tn",
+    "ts",
+    "ve",
+    "xh",
+    "zu"
+   ],
+   "tld": ".za",
+   "fips": "SF",
+   "wikidata": "Q258",
+   "ldc": false,
+   "lldc": false,
+   "sids": false
+  },
+  {
+   "code": "ZM",
+   "iso3": "ZMB",
+   "m49": "894",
+   "name": "Zambia",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [
+    "Republic of Zambia"
+   ],
+   "languages": [
+    "en"
+   ],
+   "tld": ".zm",
+   "fips": "ZA",
+   "wikidata": "Q953",
+   "ldc": true,
+   "lldc": true,
+   "sids": false
+  },
+  {
+   "code": "ZW",
+   "iso3": "ZWE",
+   "m49": "716",
+   "name": "Zimbabwe",
+   "status": "un_member",
+   "region": "Africa",
+   "subregion": "Eastern Africa",
+   "aliases": [],
+   "languages": [
+    "en",
+    "nd",
+    "ny",
+    "sn",
+    "st",
+    "tn",
+    "ts",
+    "ve",
+    "xh"
+   ],
+   "tld": ".zw",
+   "fips": "ZI",
+   "wikidata": "Q954",
+   "ldc": false,
+   "lldc": true,
+   "sids": false
+  }
+ ]
+}

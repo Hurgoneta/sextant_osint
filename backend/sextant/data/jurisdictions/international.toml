@@ -1,0 +1,202 @@
+# Cross-jurisdiction sources: UN, EU institutions, multilateral bodies, global identifiers and
+# investigative databases. `connector` names the Sextant connector that automates the source.
+
+[[country]]
+code = "INT"
+name = "International"
+region = "International"
+legal_notes = "Multilateral sanctions and wanted lists are public by design. Aggregators are convenient, but always cite the official list behind an entry."
+
+[[country.source]]
+id = "int-un-sanctions"
+title = "UN Security Council Consolidated Sanctions List"
+kind = "sanctions"
+url = "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list"
+access = "free_download"
+name_search = true
+person_data = "names, aliases, dates/places of birth, nationality"
+connector = "un_sanctions"
+notes = "Downloaded in full and matched locally; no query leaves the machine."
+
+[[country.source]]
+id = "int-opensanctions"
+title = "OpenSanctions (sanctions, PEPs, wanted persons from 200+ sources)"
+kind = "aggregator"
+url = "https://www.opensanctions.org/"
+access = "free_download"
+name_search = true
+person_data = "names, aliases, birth dates, nationality, positions (PEPs)"
+api = "https://www.opensanctions.org/docs/api/"
+connector = "opensanctions_bulk"
+notes = "Bulk data CC BY-NC 4.0 (non-commercial use) matched locally; the API needs a key (free for journalism/academia/civil society, metered for commercial use)."
+
+[[country.source]]
+id = "int-interpol-red"
+title = "INTERPOL Red Notices (public extracts)"
+kind = "wanted"
+url = "https://www.interpol.int/How-we-work/Notices/Red-Notices/View-Red-Notices"
+name_search = true
+notes = "INTERPOL blocks automated clients — check manually. Most notices are not public."
+
+[[country.source]]
+id = "int-interpol-yellow"
+title = "INTERPOL Yellow Notices (missing persons, public extracts)"
+kind = "wanted"
+url = "https://www.interpol.int/How-we-work/Notices/Yellow-Notices/View-Yellow-Notices"
+name_search = true
+
+[[country.source]]
+id = "int-worldbank-debarred"
+title = "World Bank — debarred firms and individuals"
+kind = "sanctions"
+url = "https://www.worldbank.org/en/projects-operations/procurement/debarred-firms"
+name_search = true
+
+[[country.source]]
+id = "int-gleif"
+title = "GLEIF — Legal Entity Identifier (LEI) index"
+kind = "company_registry"
+url = "https://search.gleif.org/"
+access = "free_api"
+api = "https://www.gleif.org/en/lei-data/gleif-api"
+connector = "gleif"
+notes = "Global LEI records: legal names, addresses, parent/child relationships of legal entities (no natural persons)."
+
+[[country.source]]
+id = "int-opencorporates"
+title = "OpenCorporates — 200M+ companies from 140+ registers"
+kind = "aggregator"
+url = "https://opencorporates.com/"
+access = "registration"
+name_search = true
+person_data = "officers' names (where the source register publishes them)"
+api = "https://api.opencorporates.com/documentation/API-Reference"
+connector = "opencorporates"
+
+[[country.source]]
+id = "int-icij-offshore-leaks"
+title = "ICIJ Offshore Leaks Database"
+kind = "aggregator"
+url = "https://offshoreleaks.icij.org/"
+access = "free_api"
+name_search = true
+person_data = "officers and intermediaries of offshore entities named in leaked records"
+api = "https://offshoreleaks.icij.org/docs/reconciliation"
+connector = "icij_offshore"
+notes = "Appearing in the database does not imply wrongdoing (ICIJ's own caveat). Data: ODbL / CC BY-SA."
+
+[[country.source]]
+id = "int-occrp-aleph"
+title = "OCCRP Aleph — investigative data platform"
+kind = "aggregator"
+url = "https://aleph.occrp.org/"
+access = "registration"
+name_search = true
+notes = "Many datasets require an approved account."
+
+[[country.source]]
+id = "int-wikidata"
+title = "Wikidata"
+kind = "open_data"
+url = "https://www.wikidata.org/"
+access = "free_api"
+name_search = true
+person_data = "notable people: birth dates, positions, employers, identifiers"
+api = "https://www.wikidata.org/wiki/Wikidata:Data_access"
+connector = "wikidata"
+
+[[country.source]]
+id = "int-wipo-brands"
+title = "WIPO Global Brand Database"
+kind = "intellectual_property"
+url = "https://branddb.wipo.int/"
+name_search = true
+
+[[country.source]]
+id = "int-wipo-patentscope"
+title = "WIPO PATENTSCOPE (inventors and applicants)"
+kind = "intellectual_property"
+url = "https://patentscope.wipo.int/"
+name_search = true
+
+[[country]]
+code = "EU"
+name = "European Union"
+region = "International"
+legal_notes = "EU-level registers cover EU institutions, sanctions, procurement and lobbying. Company, court and criminal data stay national."
+
+[[country.source]]
+id = "eu-fsf-sanctions"
+title = "EU Consolidated Financial Sanctions List"
+kind = "sanctions"
+url = "https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions"
+access = "free_download"
+name_search = true
+connector = "eu_sanctions"
+
+[[country.source]]
+id = "eu-sanctions-map"
+title = "EU Sanctions Map"
+kind = "sanctions"
+url = "https://www.sanctionsmap.eu/"
+name_search = true
+
+[[country.source]]
+id = "eu-ted"
+title = "TED — Tenders Electronic Daily (EU public procurement)"
+kind = "procurement"
+url = "https://ted.europa.eu/"
+access = "free_api"
+name_search = true
+api = "https://docs.ted.europa.eu/api/latest/index.html"
+connector = "ted_procurement"
+notes = "Contract award notices name winning companies (and sometimes sole traders)."
+
+[[country.source]]
+id = "eu-transparency-register"
+title = "EU Transparency Register (lobbying)"
+kind = "lobbying"
+url = "https://transparency-register.europa.eu/"
+name_search = true
+
+[[country.source]]
+id = "eu-curia"
+title = "Court of Justice of the EU — case law (CURIA)"
+kind = "judgments"
+url = "https://curia.europa.eu/"
+name_search = true
+notes = "Preliminary references involving individuals are increasingly anonymised."
+
+[[country.source]]
+id = "eu-eurlex"
+title = "EUR-Lex — EU law and case law"
+kind = "legislation"
+url = "https://eur-lex.europa.eu/"
+
+[[country.source]]
+id = "eu-bris"
+title = "European e-Justice — business registers interconnection (BRIS)"
+kind = "company_registry"
+url = "https://e-justice.europa.eu/topics/registers-business-insolvency-land/business-registers-search-company-eu_en"
+name_search = false
+
+[[country.source]]
+id = "eu-insolvency"
+title = "European e-Justice — insolvency registers search"
+kind = "insolvency"
+url = "https://e-justice.europa.eu/topics/registers-business-insolvency-land/bankruptcy-and-insolvency-registers_en"
+name_search = true
+
+[[country.source]]
+id = "eu-mostwanted"
+title = "Europol — Europe's Most Wanted"
+kind = "wanted"
+url = "https://eumostwanted.eu/"
+name_search = true
+
+[[country.source]]
+id = "eu-data-portal"
+title = "data.europa.eu — EU open data portal"
+kind = "open_data"
+url = "https://data.europa.eu/"
+access = "free_api"

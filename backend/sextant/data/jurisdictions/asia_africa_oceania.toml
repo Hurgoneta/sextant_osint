@@ -1,0 +1,683 @@
+# Asia, Middle East, Africa and Oceania.
+
+# ------------------------------------------------------------------ Asia
+[[country]]
+code = "IN"
+name = "India"
+region = "Asia"
+aliases = ["bharat", "भारत"]
+legal_notes = "eCourts lets anyone search cases by party name (CAPTCHA, manual only). Election candidates must file affidavits declaring assets and pending criminal cases; these are public (ECI). MCA master data covers companies and directors (DIN)."
+[[country.source]]
+id = "in-ecourts"
+title = "eCourts services (party-name search)"
+kind = "court_portal"
+url = "https://services.ecourts.gov.in/"
+name_search = true
+notes = "CAPTCHA-protected — manual only."
+[[country.source]]
+id = "in-indiankanoon"
+title = "Indian Kanoon — judgments search"
+kind = "judgments"
+url = "https://indiankanoon.org/"
+name_search = true
+api = "https://api.indiankanoon.org/"
+notes = "Free web search; the API is paid."
+[[country.source]]
+id = "in-mca"
+title = "Ministry of Corporate Affairs — company and director master data"
+kind = "company_registry"
+url = "https://www.mca.gov.in/"
+person_data = "directors (DIN, name)"
+[[country.source]]
+id = "in-eci-affidavits"
+title = "Election Commission — candidate affidavits"
+kind = "elections"
+url = "https://affidavit.eci.gov.in/"
+name_search = true
+person_data = "candidates' declared assets, liabilities, pending criminal cases"
+[[country.source]]
+id = "in-egazette"
+title = "eGazette of India"
+kind = "gazette"
+url = "https://egazette.gov.in/"
+[[country.source]]
+id = "in-cppp"
+title = "Central Public Procurement Portal"
+kind = "procurement"
+url = "https://eprocure.gov.in/"
+[[country.source]]
+id = "in-opendata"
+title = "data.gov.in"
+kind = "open_data"
+url = "https://data.gov.in/"
+access = "registration"
+
+[[country]]
+code = "JP"
+name = "Japan"
+region = "Asia"
+aliases = ["日本", "nippon", "nihon"]
+judgments_anonymized = true
+legal_notes = "The Corporate Number system (National Tax Agency) has a free API with registration. Court judgments are anonymised. Bankruptcy notices naming debtors appear in the Official Gazette (Kanpō)."
+[[country.source]]
+id = "jp-houjin-bangou"
+title = "Corporate Number Publication Site (National Tax Agency)"
+kind = "company_registry"
+url = "https://www.houjin-bangou.nta.go.jp/"
+access = "registration"
+api = "https://www.houjin-bangou.nta.go.jp/webapi/"
+[[country.source]]
+id = "jp-edinet"
+title = "EDINET — securities filings (officers of listed companies)"
+kind = "company_registry"
+url = "https://disclosure2.edinet-fsa.go.jp/"
+access = "registration"
+[[country.source]]
+id = "jp-kanpo"
+title = "Kanpō (Official Gazette)"
+kind = "gazette"
+url = "https://www.kanpo.go.jp/"
+[[country.source]]
+id = "jp-courts"
+title = "Courts in Japan — judgments (anonymised)"
+kind = "judgments"
+url = "https://www.courts.go.jp/"
+anonymized = true
+[[country.source]]
+id = "jp-opendata"
+title = "e-Gov data portal"
+kind = "open_data"
+url = "https://data.e-gov.go.jp/"
+
+[[country]]
+code = "KR"
+name = "South Korea"
+region = "Asia"
+aliases = ["korea", "republic of korea", "대한민국"]
+judgments_anonymized = true
+[[country.source]]
+id = "kr-dart"
+title = "DART — corporate disclosures (FSS)"
+kind = "company_registry"
+url = "https://dart.fss.or.kr/"
+access = "registration"
+person_data = "executives and major shareholders of reporting companies"
+api = "https://opendart.fss.or.kr/"
+[[country.source]]
+id = "kr-sexoffender"
+title = "Sex-offender notification e (성범죄자 알림e)"
+kind = "offender_registry"
+url = "https://www.sexoffender.go.kr/"
+access = "restricted"
+name_search = true
+[[country.source]]
+id = "kr-opendata"
+title = "data.go.kr"
+kind = "open_data"
+url = "https://www.data.go.kr/"
+
+[[country]]
+code = "CN"
+name = "China"
+region = "Asia"
+aliases = ["中国", "prc", "people's republic of china"]
+legal_notes = "Enterprise credit information (including legal representatives and shareholders) is public, but CAPTCHA-protected. The list of dishonest judgment debtors is name-searchable. Cross-border data rules apply; all sources are manual only."
+[[country.source]]
+id = "cn-gsxt"
+title = "National Enterprise Credit Information Publicity System"
+kind = "company_registry"
+url = "https://www.gsxt.gov.cn/"
+name_search = true
+person_data = "legal representatives, shareholders, key personnel"
+[[country.source]]
+id = "cn-zxgk"
+title = "China Enforcement Information Disclosure (dishonest judgment debtors)"
+kind = "court_portal"
+url = "https://zxgk.court.gov.cn/"
+name_search = true
+[[country.source]]
+id = "cn-wenshu"
+title = "China Judgments Online"
+kind = "judgments"
+url = "https://wenshu.court.gov.cn/"
+access = "registration"
+
+[[country]]
+code = "HK"
+name = "Hong Kong"
+region = "Asia"
+aliases = ["香港", "hong kong sar"]
+legal_notes = "Companies Registry searches (directors) are paid. Judgments are published with names on the Legal Reference System."
+[[country.source]]
+id = "hk-cr"
+title = "Companies Registry — ICRIS / e-Search"
+kind = "company_registry"
+url = "https://www.e-services.cr.gov.hk/"
+access = "paid"
+person_data = "directors, company secretaries"
+[[country.source]]
+id = "hk-legalref"
+title = "Judiciary — Legal Reference System"
+kind = "judgments"
+url = "https://legalref.judiciary.hk/"
+name_search = true
+[[country.source]]
+id = "hk-opendata"
+title = "DATA.GOV.HK"
+kind = "open_data"
+url = "https://data.gov.hk/"
+
+[[country]]
+code = "TW"
+name = "Taiwan"
+region = "Asia"
+aliases = ["台灣", "臺灣", "republic of china"]
+legal_notes = "The commercial and company registration search lists directors and supervisors by name."
+[[country.source]]
+id = "tw-findbiz"
+title = "Ministry of Economic Affairs — company registration search (findbiz)"
+kind = "company_registry"
+url = "https://findbiz.nat.gov.tw/"
+person_data = "directors and supervisors"
+[[country.source]]
+id = "tw-judgments"
+title = "Judicial Yuan — judgment search"
+kind = "judgments"
+url = "https://judgment.judicial.gov.tw/"
+[[country.source]]
+id = "tw-opendata"
+title = "data.gov.tw"
+kind = "open_data"
+url = "https://data.gov.tw/"
+
+[[country]]
+code = "SG"
+name = "Singapore"
+region = "Asia"
+legal_notes = "ACRA entity data is open (data.gov.sg); officer searches are paid on BizFile. Judgments are published on eLitigation."
+[[country.source]]
+id = "sg-bizfile"
+title = "ACRA BizFile"
+kind = "company_registry"
+url = "https://www.bizfile.gov.sg/"
+access = "paid"
+person_data = "officers, shareholders (paid profile)"
+[[country.source]]
+id = "sg-elitigation"
+title = "Singapore Courts — written judgments (eLitigation)"
+kind = "judgments"
+url = "https://www.elitigation.sg/gd/"
+name_search = true
+[[country.source]]
+id = "sg-gazette"
+title = "Government Gazette (e-Gazette)"
+kind = "gazette"
+url = "https://www.egazette.gov.sg/"
+[[country.source]]
+id = "sg-gebiz"
+title = "GeBIZ (public procurement)"
+kind = "procurement"
+url = "https://www.gebiz.gov.sg/"
+[[country.source]]
+id = "sg-opendata"
+title = "data.gov.sg"
+kind = "open_data"
+url = "https://data.gov.sg/"
+access = "free_api"
+
+[[country]]
+code = "MY"
+name = "Malaysia"
+region = "Asia"
+[[country.source]]
+id = "my-ssm"
+title = "SSM e-Info (Companies Commission)"
+kind = "company_registry"
+url = "https://www.ssm-einfo.my/"
+access = "paid"
+[[country.source]]
+id = "my-opendata"
+title = "data.gov.my"
+kind = "open_data"
+url = "https://data.gov.my/"
+
+[[country]]
+code = "ID"
+name = "Indonesia"
+region = "Asia"
+legal_notes = "Supreme Court decisions are published, often with party names. State officials' wealth reports (LHKPN) are public."
+[[country.source]]
+id = "id-putusan"
+title = "Direktori Putusan Mahkamah Agung"
+kind = "judgments"
+url = "https://putusan3.mahkamahagung.go.id/"
+name_search = true
+[[country.source]]
+id = "id-ahu"
+title = "AHU Online — legal entity administration"
+kind = "company_registry"
+url = "https://ahu.go.id/"
+[[country.source]]
+id = "id-lhkpn"
+title = "e-LHKPN — officials' wealth reports"
+kind = "public_officials"
+url = "https://elhkpn.kpk.go.id/"
+name_search = true
+[[country.source]]
+id = "id-opendata"
+title = "Satu Data Indonesia"
+kind = "open_data"
+url = "https://data.go.id/"
+
+[[country]]
+code = "PH"
+name = "Philippines"
+region = "Asia"
+[[country.source]]
+id = "ph-sec"
+title = "Securities and Exchange Commission (company registration)"
+kind = "company_registry"
+url = "https://www.sec.gov.ph/"
+[[country.source]]
+id = "ph-elibrary"
+title = "Supreme Court E-Library"
+kind = "judgments"
+url = "https://elibrary.judiciary.gov.ph/"
+name_search = true
+[[country.source]]
+id = "ph-gazette"
+title = "Official Gazette"
+kind = "gazette"
+url = "https://www.officialgazette.gov.ph/"
+[[country.source]]
+id = "ph-opendata"
+title = "data.gov.ph"
+kind = "open_data"
+url = "https://data.gov.ph/"
+
+[[country]]
+code = "TH"
+name = "Thailand"
+region = "Asia"
+[[country.source]]
+id = "th-dbd"
+title = "DBD DataWarehouse+ (Department of Business Development)"
+kind = "company_registry"
+url = "https://datawarehouse.dbd.go.th/"
+person_data = "directors"
+[[country.source]]
+id = "th-opendata"
+title = "data.go.th"
+kind = "open_data"
+url = "https://data.go.th/"
+
+[[country]]
+code = "VN"
+name = "Vietnam"
+region = "Asia"
+aliases = ["việt nam", "viet nam"]
+[[country.source]]
+id = "vn-business"
+title = "National Business Registration Portal"
+kind = "company_registry"
+url = "https://dangkykinhdoanh.gov.vn/"
+[[country.source]]
+id = "vn-banan"
+title = "Supreme People's Court — published judgments"
+kind = "judgments"
+url = "https://congbobanan.toaan.gov.vn/"
+
+[[country]]
+code = "PK"
+name = "Pakistan"
+region = "Asia"
+[[country.source]]
+id = "pk-secp"
+title = "SECP — company name search"
+kind = "company_registry"
+url = "https://eservices.secp.gov.pk/eServices/NameSearch.jsp"
+[[country.source]]
+id = "pk-supreme-court"
+title = "Supreme Court of Pakistan — judgments"
+kind = "judgments"
+url = "https://www.supremecourt.gov.pk/"
+name_search = true
+
+[[country]]
+code = "KZ"
+name = "Kazakhstan"
+region = "Asia"
+aliases = ["қазақстан", "казахстан"]
+[[country.source]]
+id = "kz-egov"
+title = "eGov.kz — legal entity search"
+kind = "company_registry"
+url = "https://egov.kz/"
+[[country.source]]
+id = "kz-opendata"
+title = "data.egov.kz"
+kind = "open_data"
+url = "https://data.egov.kz/"
+
+# ------------------------------------------------------------------ Middle East
+[[country]]
+code = "IL"
+name = "Israel"
+region = "Middle East"
+aliases = ["ישראל"]
+[[country.source]]
+id = "il-ica"
+title = "Israeli Corporations Authority — company register (open data)"
+kind = "company_registry"
+url = "https://data.gov.il/"
+access = "free_api"
+[[country.source]]
+id = "il-supreme-court"
+title = "Supreme Court of Israel — rulings"
+kind = "judgments"
+url = "https://supreme.court.gov.il/"
+[[country.source]]
+id = "il-nbctf"
+title = "NBCTF — terror designations list"
+kind = "sanctions"
+url = "https://nbctf.mod.gov.il/"
+name_search = true
+
+[[country]]
+code = "AE"
+name = "United Arab Emirates"
+region = "Middle East"
+aliases = ["uae", "emirates"]
+[[country.source]]
+id = "ae-ner"
+title = "National Economic Register"
+kind = "company_registry"
+url = "https://ner.economy.ae/"
+[[country.source]]
+id = "ae-local-terrorist-list"
+title = "UAE Local Terrorist List (Executive Office for Control & Non-Proliferation)"
+kind = "sanctions"
+url = "https://www.uaeiec.gov.ae/"
+name_search = true
+[[country.source]]
+id = "ae-opendata"
+title = "Bayanat (UAE open data)"
+kind = "open_data"
+url = "https://bayanat.ae/"
+
+[[country]]
+code = "SA"
+name = "Saudi Arabia"
+region = "Middle East"
+aliases = ["ksa", "kingdom of saudi arabia"]
+[[country.source]]
+id = "sa-mc"
+title = "Ministry of Commerce — commercial registration"
+kind = "company_registry"
+url = "https://mc.gov.sa/"
+[[country.source]]
+id = "sa-opendata"
+title = "Saudi Open Data Portal"
+kind = "open_data"
+url = "https://open.data.gov.sa/"
+
+# ------------------------------------------------------------------ Africa
+[[country]]
+code = "ZA"
+name = "South Africa"
+region = "Africa"
+aliases = ["rsa", "suid-afrika"]
+legal_notes = "CIPC company data lists directors. SAFLII publishes judgments with names. National Treasury publishes restricted suppliers and tender defaulters."
+[[country.source]]
+id = "za-cipc"
+title = "CIPC — Companies and Intellectual Property Commission"
+kind = "company_registry"
+url = "https://www.cipc.co.za/"
+person_data = "directors"
+[[country.source]]
+id = "za-saflii"
+title = "SAFLII — Southern African Legal Information Institute"
+kind = "judgments"
+url = "https://www.saflii.org/"
+name_search = true
+[[country.source]]
+id = "za-gazette"
+title = "Government Gazette (Government Printing Works)"
+kind = "gazette"
+url = "https://www.gpwonline.co.za/"
+[[country.source]]
+id = "za-etenders"
+title = "eTenders"
+kind = "procurement"
+url = "https://www.etenders.gov.za/"
+
+[[country]]
+code = "NG"
+name = "Nigeria"
+region = "Africa"
+legal_notes = "The Corporate Affairs Commission search shows directors and shareholders free of charge."
+[[country.source]]
+id = "ng-cac"
+title = "Corporate Affairs Commission — public search"
+kind = "company_registry"
+url = "https://search.cac.gov.ng/"
+name_search = true
+person_data = "directors, shareholders, secretaries"
+[[country.source]]
+id = "ng-nigerialii"
+title = "NigeriaLII"
+kind = "judgments"
+url = "https://nigerialii.org/"
+name_search = true
+
+[[country]]
+code = "KE"
+name = "Kenya"
+region = "Africa"
+legal_notes = "Kenya Law publishes judgments with names, as well as the Kenya Gazette."
+[[country.source]]
+id = "ke-brs"
+title = "Business Registration Service"
+kind = "company_registry"
+url = "https://brs.go.ke/"
+[[country.source]]
+id = "ke-kenyalaw"
+title = "Kenya Law — case law and Kenya Gazette"
+kind = "judgments"
+url = "https://kenyalaw.org/"
+name_search = true
+[[country.source]]
+id = "ke-ppip"
+title = "Public Procurement Information Portal"
+kind = "procurement"
+url = "https://tenders.go.ke/"
+
+[[country]]
+code = "GH"
+name = "Ghana"
+region = "Africa"
+[[country.source]]
+id = "gh-orc"
+title = "Office of the Registrar of Companies"
+kind = "company_registry"
+url = "https://orc.gov.gh/"
+[[country.source]]
+id = "gh-ghalii"
+title = "GhaLII"
+kind = "judgments"
+url = "https://ghalii.org/"
+name_search = true
+
+[[country]]
+code = "MA"
+name = "Morocco"
+region = "Africa"
+aliases = ["maroc", "المغرب"]
+[[country.source]]
+id = "ma-directinfo"
+title = "OMPIC — Direct Info (commercial register)"
+kind = "company_registry"
+url = "https://www.directinfo.ma/"
+[[country.source]]
+id = "ma-opendata"
+title = "data.gov.ma"
+kind = "open_data"
+url = "https://www.data.gov.ma/"
+
+[[country]]
+code = "TZ"
+name = "Tanzania"
+region = "Africa"
+[[country.source]]
+id = "tz-brela"
+title = "BRELA — business registration"
+kind = "company_registry"
+url = "https://ors.brela.go.tz/"
+[[country.source]]
+id = "tz-tanzlii"
+title = "TanzLII"
+kind = "judgments"
+url = "https://tanzlii.org/"
+name_search = true
+
+[[country]]
+code = "UG"
+name = "Uganda"
+region = "Africa"
+[[country.source]]
+id = "ug-ursb"
+title = "Uganda Registration Services Bureau"
+kind = "company_registry"
+url = "https://ursb.go.ug/"
+[[country.source]]
+id = "ug-ulii"
+title = "ULII"
+kind = "judgments"
+url = "https://ulii.org/"
+name_search = true
+
+[[country]]
+code = "ZM"
+name = "Zambia"
+region = "Africa"
+[[country.source]]
+id = "zm-pacra"
+title = "PACRA — Patents and Companies Registration Agency"
+kind = "company_registry"
+url = "https://www.pacra.org.zm/"
+[[country.source]]
+id = "zm-zambialii"
+title = "ZambiaLII"
+kind = "judgments"
+url = "https://zambialii.org/"
+name_search = true
+
+# ------------------------------------------------------------------ Oceania
+[[country]]
+code = "AU"
+name = "Australia"
+region = "Oceania"
+aliases = ["australia", "oz"]
+judgments_anonymized = false
+legal_notes = "ABN Lookup is free (GUID registration). ASIC company searches are free at a basic level; officeholder extracts are paid. AustLII publishes judgments with names, except where suppressed. Political donations are public (AEC Transparency Register)."
+[[country.source]]
+id = "au-abn"
+title = "ABN Lookup (Australian Business Register)"
+kind = "company_registry"
+url = "https://abr.business.gov.au/"
+access = "registration"
+api = "https://abr.business.gov.au/Tools/WebServices"
+connector = "au_abn"
+[[country.source]]
+id = "au-asic"
+title = "ASIC Connect — company and business name search"
+kind = "company_registry"
+url = "https://connectonline.asic.gov.au/"
+person_data = "officeholders (paid extracts)"
+[[country.source]]
+id = "au-austlii"
+title = "AustLII — court decisions"
+kind = "judgments"
+url = "https://www.austlii.edu.au/"
+name_search = true
+[[country.source]]
+id = "au-dfat-sanctions"
+title = "DFAT Consolidated Sanctions List"
+kind = "sanctions"
+url = "https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list"
+access = "free_download"
+name_search = true
+[[country.source]]
+id = "au-aec"
+title = "AEC Transparency Register (political donations)"
+kind = "elections"
+url = "https://transparency.aec.gov.au/"
+name_search = true
+[[country.source]]
+id = "au-acnc"
+title = "ACNC Charity Register (responsible persons)"
+kind = "charity_register"
+url = "https://www.acnc.gov.au/charity/charities"
+name_search = true
+[[country.source]]
+id = "au-austender"
+title = "AusTender (public procurement)"
+kind = "procurement"
+url = "https://www.tenders.gov.au/"
+[[country.source]]
+id = "au-opendata"
+title = "data.gov.au"
+kind = "open_data"
+url = "https://data.gov.au/"
+access = "free_api"
+[[country.source]]
+id = "au-own-record"
+title = "AFP national police check (own record)"
+kind = "own_record"
+url = "https://www.afp.gov.au/"
+access = "restricted"
+
+[[country]]
+code = "NZ"
+name = "New Zealand"
+region = "Oceania"
+aliases = ["aotearoa"]
+legal_notes = "The Companies Register lists directors and shareholders and can be searched by director name. The insolvency register is public."
+[[country.source]]
+id = "nz-companies"
+title = "Companies Office — Companies Register"
+kind = "company_registry"
+url = "https://app.companiesoffice.govt.nz/"
+access = "registration"
+name_search = true
+person_data = "directors and shareholders (name, address)"
+api = "https://api.business.govt.nz/"
+[[country.source]]
+id = "nz-insolvency"
+title = "Insolvency and Trustee Service — insolvency register"
+kind = "insolvency"
+url = "https://www.insolvency.govt.nz/"
+name_search = true
+[[country.source]]
+id = "nz-nzlii"
+title = "NZLII — court decisions"
+kind = "judgments"
+url = "https://www.nzlii.org/"
+name_search = true
+[[country.source]]
+id = "nz-gazette"
+title = "New Zealand Gazette"
+kind = "gazette"
+url = "https://gazette.govt.nz/"
+name_search = true
+[[country.source]]
+id = "nz-opendata"
+title = "data.govt.nz"
+kind = "open_data"
+url = "https://data.govt.nz/"
+[[country.source]]
+id = "nz-own-record"
+title = "Ministry of Justice — criminal record request (own record)"
+kind = "own_record"
+url = "https://www.justice.govt.nz/criminal-records/"
+access = "restricted"

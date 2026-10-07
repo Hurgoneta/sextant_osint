@@ -1,0 +1,452 @@
+# North, Central and South America.
+
+[[country]]
+code = "US"
+name = "United States"
+region = "North America"
+aliases = ["usa", "us", "united states of america", "america", "u.s."]
+judgments_anonymized = false
+legal_notes = "Court records are generally public, but they are federal (PACER, partly mirrored by CourtListener) or state/county-specific (thousands of portals, many behind CAPTCHAs). Business registers are run by each state's Secretary of State. Campaign contributions above $200 are public through the FEC. Criminal history checks for others are regulated (FCRA) — use only official public court records."
+[[country.source]]
+id = "us-courtlistener"
+title = "CourtListener — federal dockets (RECAP) and opinions"
+kind = "court_portal"
+url = "https://www.courtlistener.com/"
+access = "free_api"
+name_search = true
+person_data = "party names in federal dockets"
+api = "https://www.courtlistener.com/help/api/rest/"
+connector = "courtlistener"
+[[country.source]]
+id = "us-pacer"
+title = "PACER — federal court records"
+kind = "court_portal"
+url = "https://pacer.uscourts.gov/"
+access = "paid"
+name_search = true
+notes = "$0.10 per page (capped); usage under $30/quarter is waived."
+[[country.source]]
+id = "us-sec-edgar"
+title = "SEC EDGAR — company filings and insider reports (full-text search)"
+kind = "company_registry"
+url = "https://www.sec.gov/edgar/search/"
+access = "free_api"
+name_search = true
+person_data = "officers, directors, 10% owners (Forms 3/4/5), signatories"
+api = "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+connector = "sec_edgar"
+[[country.source]]
+id = "us-ofac"
+title = "OFAC Specially Designated Nationals (SDN) list"
+kind = "sanctions"
+url = "https://sanctionslist.ofac.treas.gov/"
+access = "free_download"
+name_search = true
+connector = "ofac_sdn"
+[[country.source]]
+id = "us-fbi-wanted"
+title = "FBI — wanted persons"
+kind = "wanted"
+url = "https://www.fbi.gov/wanted"
+access = "free_api"
+name_search = true
+connector = "fbi_wanted"
+[[country.source]]
+id = "us-sam-exclusions"
+title = "SAM.gov — exclusions (debarred parties)"
+kind = "sanctions"
+url = "https://sam.gov/"
+access = "registration"
+name_search = true
+[[country.source]]
+id = "us-usaspending"
+title = "USAspending.gov — federal awards"
+kind = "procurement"
+url = "https://www.usaspending.gov/"
+access = "free_api"
+name_search = true
+api = "https://api.usaspending.gov/"
+connector = "usaspending"
+[[country.source]]
+id = "us-fec"
+title = "FEC — campaign finance (individual contributions)"
+kind = "elections"
+url = "https://www.fec.gov/data/"
+access = "registration"
+name_search = true
+person_data = "contributor name, city, state, employer, occupation (contributions > $200)"
+api = "https://api.open.fec.gov/developers/"
+connector = "fec"
+[[country.source]]
+id = "us-finra-brokercheck"
+title = "FINRA BrokerCheck"
+kind = "regulatory"
+url = "https://brokercheck.finra.org/"
+name_search = true
+person_data = "registered brokers: employment history, disclosures"
+[[country.source]]
+id = "us-npi"
+title = "NPPES NPI Registry (healthcare providers)"
+kind = "professional_register"
+url = "https://npiregistry.cms.hhs.gov/"
+access = "free_api"
+name_search = true
+api = "https://npiregistry.cms.hhs.gov/api-page"
+connector = "us_npi"
+[[country.source]]
+id = "us-bop-inmate-locator"
+title = "Federal Bureau of Prisons — inmate locator"
+kind = "court_portal"
+url = "https://www.bop.gov/inmateloc/"
+name_search = true
+notes = "Federal inmates since 1982 only. A name match is not an identity match."
+[[country.source]]
+id = "us-nsopw"
+title = "NSOPW — National Sex Offender Public Website"
+kind = "offender_registry"
+url = "https://www.nsopw.gov/"
+name_search = true
+notes = "Public by law; the terms of use forbid automated queries — check manually."
+[[country.source]]
+id = "us-uspto"
+title = "USPTO — patents and trademarks"
+kind = "intellectual_property"
+url = "https://www.uspto.gov/"
+name_search = true
+[[country.source]]
+id = "us-federal-register"
+title = "Federal Register"
+kind = "gazette"
+url = "https://www.federalregister.gov/"
+access = "free_api"
+[[country.source]]
+id = "us-de-corps"
+title = "Delaware Division of Corporations — entity search"
+kind = "company_registry"
+url = "https://icis.corp.delaware.gov/ecorp/entitysearch/namesearch.aspx"
+notes = "Delaware publishes no officer names; registered agents only."
+[[country.source]]
+id = "us-ca-bizfile"
+title = "California Secretary of State — bizfile Online"
+kind = "company_registry"
+url = "https://bizfileonline.sos.ca.gov/search/business"
+person_data = "agents, officers in Statements of Information"
+[[country.source]]
+id = "us-fl-sunbiz"
+title = "Florida Division of Corporations (Sunbiz)"
+kind = "company_registry"
+url = "https://search.sunbiz.org/"
+name_search = true
+person_data = "officers/directors and registered agents (searchable by officer name)"
+[[country.source]]
+id = "us-ny-dos"
+title = "New York Department of State — corporation search"
+kind = "company_registry"
+url = "https://apps.dos.ny.gov/publicInquiry/"
+[[country.source]]
+id = "us-opendata"
+title = "data.gov"
+kind = "open_data"
+url = "https://data.gov/"
+[[country.source]]
+id = "us-own-record"
+title = "FBI Identity History Summary (own record)"
+kind = "own_record"
+url = "https://www.edo.cjis.gov/"
+access = "restricted"
+
+[[country]]
+code = "CA"
+name = "Canada"
+region = "North America"
+aliases = ["canada"]
+judgments_anonymized = false
+legal_notes = "Federal corporations list directors by name. Many decisions are published with names on CanLII; youth and some sexual-offence matters are anonymised. Provinces run their own business registries."
+[[country.source]]
+id = "ca-corporations"
+title = "Corporations Canada — federal corporation search"
+kind = "company_registry"
+url = "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpSrch.html"
+person_data = "directors"
+[[country.source]]
+id = "ca-canlii"
+title = "CanLII — court decisions"
+kind = "judgments"
+url = "https://www.canlii.org/"
+access = "registration"
+name_search = true
+api = "https://developer.canlii.org/"
+[[country.source]]
+id = "ca-sema"
+title = "Consolidated Canadian Autonomous Sanctions List"
+kind = "sanctions"
+url = "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/consolidated-consolide.aspx"
+access = "free_download"
+name_search = true
+[[country.source]]
+id = "ca-lobbying"
+title = "Registry of Lobbyists"
+kind = "lobbying"
+url = "https://lobbycanada.gc.ca/"
+name_search = true
+[[country.source]]
+id = "ca-elections"
+title = "Elections Canada — political financing (contributions)"
+kind = "elections"
+url = "https://www.elections.ca/"
+name_search = true
+[[country.source]]
+id = "ca-gazette"
+title = "Canada Gazette"
+kind = "gazette"
+url = "https://gazette.gc.ca/"
+[[country.source]]
+id = "ca-opendata"
+title = "open.canada.ca"
+kind = "open_data"
+url = "https://open.canada.ca/"
+access = "free_api"
+[[country.source]]
+id = "ca-own-record"
+title = "RCMP — criminal record checks (own record)"
+kind = "own_record"
+url = "https://www.rcmp.ca/en/criminal-records"
+access = "restricted"
+
+[[country]]
+code = "MX"
+name = "Mexico"
+region = "North America"
+aliases = ["méxico", "mexico"]
+legal_notes = "The Public Registry of Commerce (SIGER) and the Official Gazette (DOF) are public. Officials' asset declarations are published through the national digital platform."
+[[country.source]]
+id = "mx-siger"
+title = "SIGER — Registro Público de Comercio"
+kind = "company_registry"
+url = "https://rpc.economia.gob.mx/"
+[[country.source]]
+id = "mx-dof"
+title = "Diario Oficial de la Federación"
+kind = "gazette"
+url = "https://dof.gob.mx/"
+[[country.source]]
+id = "mx-scjn"
+title = "Suprema Corte de Justicia de la Nación — sentencias"
+kind = "judgments"
+url = "https://www.scjn.gob.mx/"
+[[country.source]]
+id = "mx-opendata"
+title = "datos.gob.mx"
+kind = "open_data"
+url = "https://www.datos.gob.mx/"
+
+[[country]]
+code = "BR"
+name = "Brazil"
+region = "South America"
+aliases = ["brasil"]
+legal_notes = "CNPJ data (including partners, QSA) is open data from the Receita Federal. Portal da Transparência publishes sanctions on companies/individuals (CEIS, CNEP) and public servants. Candidates' asset declarations are public (TSE). Many court cases are public but spread across courts."
+[[country.source]]
+id = "br-cnpj"
+title = "CNPJ — Receita Federal open data (via BrasilAPI)"
+kind = "company_registry"
+url = "https://brasilapi.com.br/"
+access = "free_api"
+person_data = "partners/administrators (QSA) with age bracket"
+api = "https://brasilapi.com.br/docs"
+connector = "brasil_cnpj"
+notes = "Lookup by CNPJ number."
+[[country.source]]
+id = "br-transparencia"
+title = "Portal da Transparência (sanctions CEIS/CNEP, public servants, contracts)"
+kind = "sanctions"
+url = "https://portaldatransparencia.gov.br/"
+access = "registration"
+name_search = true
+api = "https://api.portaldatransparencia.gov.br/"
+[[country.source]]
+id = "br-datajud"
+title = "CNJ DataJud — court case metadata API"
+kind = "court_portal"
+url = "https://www.cnj.jus.br/sistemas/datajud/"
+access = "registration"
+[[country.source]]
+id = "br-tse-candidates"
+title = "TSE DivulgaCandContas — candidates, assets, campaign finance"
+kind = "elections"
+url = "https://divulgacandcontas.tse.jus.br/"
+name_search = true
+[[country.source]]
+id = "br-dou"
+title = "Diário Oficial da União"
+kind = "gazette"
+url = "https://www.in.gov.br/"
+name_search = true
+[[country.source]]
+id = "br-opendata"
+title = "dados.gov.br"
+kind = "open_data"
+url = "https://dados.gov.br/"
+
+[[country]]
+code = "AR"
+name = "Argentina"
+region = "South America"
+legal_notes = "Company formations with partners' names are published in the Boletín Oficial."
+[[country.source]]
+id = "ar-boletin"
+title = "Boletín Oficial de la República Argentina"
+kind = "gazette"
+url = "https://www.boletinoficial.gob.ar/"
+name_search = true
+[[country.source]]
+id = "ar-cij"
+title = "Centro de Información Judicial — sentencias"
+kind = "judgments"
+url = "https://www.cij.gov.ar/sentencias.html"
+[[country.source]]
+id = "ar-opendata"
+title = "datos.gob.ar"
+kind = "open_data"
+url = "https://datos.gob.ar/"
+
+[[country]]
+code = "CL"
+name = "Chile"
+region = "South America"
+legal_notes = "The judiciary's virtual office lets anyone search cases by party name. Officials' asset declarations are public (InfoProbidad), and so are lobbying meetings (InfoLobby)."
+[[country.source]]
+id = "cl-pjud"
+title = "Poder Judicial — Oficina Judicial Virtual (consulta de causas)"
+kind = "court_portal"
+url = "https://oficinajudicialvirtual.pjud.cl/"
+name_search = true
+[[country.source]]
+id = "cl-res"
+title = "Registro de Empresas y Sociedades"
+kind = "company_registry"
+url = "https://www.registrodeempresasysociedades.cl/"
+[[country.source]]
+id = "cl-infoprobidad"
+title = "InfoProbidad — asset and interest declarations"
+kind = "public_officials"
+url = "https://www.infoprobidad.cl/"
+name_search = true
+[[country.source]]
+id = "cl-mercadopublico"
+title = "Mercado Público (ChileCompra)"
+kind = "procurement"
+url = "https://www.mercadopublico.cl/"
+access = "registration"
+[[country.source]]
+id = "cl-opendata"
+title = "datos.gob.cl"
+kind = "open_data"
+url = "https://datos.gob.cl/"
+
+[[country]]
+code = "CO"
+name = "Colombia"
+region = "South America"
+legal_notes = "Rama Judicial lets anyone search processes by party name. SECOP procurement data is open (Socrata API)."
+[[country.source]]
+id = "co-rama-judicial"
+title = "Rama Judicial — consulta de procesos"
+kind = "court_portal"
+url = "https://consultaprocesos.ramajudicial.gov.co/"
+name_search = true
+[[country.source]]
+id = "co-rues"
+title = "RUES — Registro Único Empresarial y Social"
+kind = "company_registry"
+url = "https://www.rues.org.co/"
+name_search = true
+[[country.source]]
+id = "co-secop"
+title = "SECOP — public procurement (open data)"
+kind = "procurement"
+url = "https://www.colombiacompra.gov.co/"
+access = "free_api"
+api = "https://www.datos.gov.co/"
+[[country.source]]
+id = "co-opendata"
+title = "datos.gov.co"
+kind = "open_data"
+url = "https://www.datos.gov.co/"
+access = "free_api"
+
+[[country]]
+code = "PE"
+name = "Peru"
+region = "South America"
+[[country.source]]
+id = "pe-sunat-ruc"
+title = "SUNAT — consulta RUC"
+kind = "company_registry"
+url = "https://e-consultaruc.sunat.gob.pe/"
+[[country.source]]
+id = "pe-cej"
+title = "Poder Judicial — Consulta de Expedientes Judiciales"
+kind = "court_portal"
+url = "https://cej.pj.gob.pe/"
+name_search = true
+notes = "CAPTCHA-protected — manual only."
+[[country.source]]
+id = "pe-elperuano"
+title = "El Peruano (official gazette)"
+kind = "gazette"
+url = "https://www.elperuano.pe/"
+[[country.source]]
+id = "pe-opendata"
+title = "Plataforma Nacional de Datos Abiertos"
+kind = "open_data"
+url = "https://www.datosabiertos.gob.pe/"
+
+[[country]]
+code = "UY"
+name = "Uruguay"
+region = "South America"
+[[country.source]]
+id = "uy-poder-judicial"
+title = "Poder Judicial — consulta de expedientes"
+kind = "court_portal"
+url = "https://www.poderjudicial.gub.uy/"
+[[country.source]]
+id = "uy-compras"
+title = "Compras Estatales"
+kind = "procurement"
+url = "https://www.comprasestatales.gub.uy/"
+[[country.source]]
+id = "uy-opendata"
+title = "Catálogo de Datos Abiertos"
+kind = "open_data"
+url = "https://catalogodatos.gub.uy/"
+
+[[country]]
+code = "JM"
+name = "Jamaica"
+region = "Central America & Caribbean"
+[[country.source]]
+id = "jm-orc"
+title = "Companies Office of Jamaica"
+kind = "company_registry"
+url = "https://www.orcjamaica.com/"
+[[country.source]]
+id = "jm-supreme-court"
+title = "Supreme Court of Jamaica — judgments"
+kind = "judgments"
+url = "https://supremecourt.gov.jm/"
+name_search = true
+
+[[country]]
+code = "PA"
+name = "Panama"
+region = "Central America & Caribbean"
+legal_notes = "The Public Registry publishes directors and officers of corporations — widely used in offshore investigations."
+[[country.source]]
+id = "pa-registro-publico"
+title = "Registro Público de Panamá"
+kind = "company_registry"
+url = "https://www.rp.gob.pa/"
+name_search = true
+person_data = "directors, officers, subscribers"

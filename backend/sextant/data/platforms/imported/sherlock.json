@@ -1,0 +1,4788 @@
+{
+ "dataset": "sherlock",
+ "source_url": "https://raw.githubusercontent.com/sherlock-project/sherlock/master/sherlock_project/resources/data.json",
+ "license": "MIT — Sherlock Project contributors",
+ "retrieved_at": "2026-10-06T17:19:22+00:00",
+ "items": [
+  {
+   "id": "sherlock:1337x",
+   "name": "1337x",
+   "category": "",
+   "host": "1337x.to",
+   "profile_url": "https://www.1337x.to/user/{username}/",
+   "valid": true,
+   "username_pattern": "^[A-Za-z0-9]{4,12}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:2dimensions",
+   "name": "2Dimensions",
+   "category": "",
+   "host": "2dimensions.com",
+   "profile_url": "https://2Dimensions.com/a/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:7cups",
+   "name": "7Cups",
+   "category": "",
+   "host": "7cups.com",
+   "profile_url": "https://www.7cups.com/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:9gag",
+   "name": "9GAG",
+   "category": "",
+   "host": "9gag.com",
+   "profile_url": "https://www.9gag.com/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:apclips",
+   "name": "APClips",
+   "category": "",
+   "host": "apclips.com",
+   "profile_url": "https://apclips.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:about.me",
+   "name": "About.me",
+   "category": "",
+   "host": "about.me",
+   "profile_url": "https://about.me/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:academia.edu",
+   "name": "Academia.edu",
+   "category": "",
+   "host": "independent.academia.edu",
+   "profile_url": "https://independent.academia.edu/{username}",
+   "valid": true,
+   "username_pattern": "^[^.]*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:admireme.vip",
+   "name": "AdmireMe.Vip",
+   "category": "",
+   "host": "admireme.vip",
+   "profile_url": "https://admireme.vip/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:airbit",
+   "name": "Airbit",
+   "category": "",
+   "host": "airbit.com",
+   "profile_url": "https://airbit.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:airliners",
+   "name": "Airliners",
+   "category": "",
+   "host": "airliners.net",
+   "profile_url": "https://www.airliners.net/user/{username}/profile/photos",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:all things worn",
+   "name": "All Things Worn",
+   "category": "",
+   "host": "allthingsworn.com",
+   "profile_url": "https://www.allthingsworn.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:allmylinks",
+   "name": "AllMyLinks",
+   "category": "",
+   "host": "allmylinks.com",
+   "profile_url": "https://allmylinks.com/{username}",
+   "valid": true,
+   "username_pattern": "^[a-z0-9][a-z0-9-]{2,32}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:aniworld",
+   "name": "AniWorld",
+   "category": "",
+   "host": "aniworld.to",
+   "profile_url": "https://aniworld.to/user/profil/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:anilist",
+   "name": "Anilist",
+   "category": "",
+   "host": "anilist.co",
+   "profile_url": "https://anilist.co/user/{username}/",
+   "valid": true,
+   "username_pattern": "^[A-Za-z0-9]{2,20}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:apple developer",
+   "name": "Apple Developer",
+   "category": "",
+   "host": "developer.apple.com",
+   "profile_url": "https://developer.apple.com/forums/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:apple discussions",
+   "name": "Apple Discussions",
+   "category": "",
+   "host": "discussions.apple.com",
+   "profile_url": "https://discussions.apple.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:aparat",
+   "name": "Aparat",
+   "category": "",
+   "host": "aparat.com",
+   "profile_url": "https://www.aparat.com/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:archive of our own",
+   "name": "Archive of Our Own",
+   "category": "",
+   "host": "archiveofourown.org",
+   "profile_url": "https://archiveofourown.org/users/{username}",
+   "valid": true,
+   "username_pattern": "^[^.]*?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:archive.org",
+   "name": "Archive.org",
+   "category": "",
+   "host": "archive.org",
+   "profile_url": "https://archive.org/details/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:arduino forum",
+   "name": "Arduino Forum",
+   "category": "",
+   "host": "forum.arduino.cc",
+   "profile_url": "https://forum.arduino.cc/u/{username}/summary",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:artstation",
+   "name": "ArtStation",
+   "category": "",
+   "host": "artstation.com",
+   "profile_url": "https://www.artstation.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:asciinema",
+   "name": "Asciinema",
+   "category": "",
+   "host": "asciinema.org",
+   "profile_url": "https://asciinema.org/~{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:ask fedora",
+   "name": "Ask Fedora",
+   "category": "",
+   "host": "ask.fedoraproject.org",
+   "profile_url": "https://ask.fedoraproject.org/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:atcoder",
+   "name": "Atcoder",
+   "category": "",
+   "host": "atcoder.jp",
+   "profile_url": "https://atcoder.jp/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:vjudge",
+   "name": "Vjudge",
+   "category": "",
+   "host": "vjudge.net",
+   "profile_url": "https://VJudge.net/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:audiojungle",
+   "name": "Audiojungle",
+   "category": "",
+   "host": "audiojungle.net",
+   "profile_url": "https://audiojungle.net/user/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9_]+$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:autofrage",
+   "name": "Autofrage",
+   "category": "",
+   "host": "autofrage.net",
+   "profile_url": "https://www.autofrage.net/nutzer/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:avizo",
+   "name": "Avizo",
+   "category": "",
+   "host": "avizo.cz",
+   "profile_url": "https://www.avizo.cz/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:aws skills profile",
+   "name": "AWS Skills Profile",
+   "category": "",
+   "host": "skillsprofile.skillbuilder.aws",
+   "profile_url": "https://skillsprofile.skillbuilder.aws/user/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:booth",
+   "name": "BOOTH",
+   "category": "",
+   "host": "x.booth.pm",
+   "profile_url": "https://{username}.booth.pm/",
+   "valid": true,
+   "username_pattern": "^[\\w@-]+?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:bandcamp",
+   "name": "Bandcamp",
+   "category": "",
+   "host": "bandcamp.com",
+   "profile_url": "https://www.bandcamp.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:bazar.cz",
+   "name": "Bazar.cz",
+   "category": "",
+   "host": "bazar.cz",
+   "profile_url": "https://www.bazar.cz/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:behance",
+   "name": "Behance",
+   "category": "",
+   "host": "behance.net",
+   "profile_url": "https://www.behance.net/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:bezuzyteczna",
+   "name": "Bezuzyteczna",
+   "category": "",
+   "host": "bezuzyteczna.pl",
+   "profile_url": "https://bezuzyteczna.pl/uzytkownicy/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:biggerpockets",
+   "name": "BiggerPockets",
+   "category": "",
+   "host": "biggerpockets.com",
+   "profile_url": "https://www.biggerpockets.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:biohacking",
+   "name": "BioHacking",
+   "category": "",
+   "host": "forum.dangerousthings.com",
+   "profile_url": "https://forum.dangerousthings.com/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:bitbucket",
+   "name": "BitBucket",
+   "category": "",
+   "host": "bitbucket.org",
+   "profile_url": "https://bitbucket.org/{username}/",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9-_]{1,30}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:bitwarden forum",
+   "name": "Bitwarden Forum",
+   "category": "",
+   "host": "community.bitwarden.com",
+   "profile_url": "https://community.bitwarden.com/u/{username}/summary",
+   "valid": true,
+   "username_pattern": "^(?![.-])[a-zA-Z0-9_.-]{3,20}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:blipfoto",
+   "name": "Blipfoto",
+   "category": "",
+   "host": "blipfoto.com",
+   "profile_url": "https://www.blipfoto.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:blitz tactics",
+   "name": "Blitz Tactics",
+   "category": "",
+   "host": "blitztactics.com",
+   "profile_url": "https://blitztactics.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:blogger",
+   "name": "Blogger",
+   "category": "",
+   "host": "x.blogspot.com",
+   "profile_url": "https://{username}.blogspot.com",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:bluesky",
+   "name": "Bluesky",
+   "category": "",
+   "host": "bsky.app",
+   "profile_url": "https://bsky.app/profile/{username}.bsky.social",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:bongacams",
+   "name": "BongaCams",
+   "category": "",
+   "host": "pt.bongacams.com",
+   "profile_url": "https://pt.bongacams.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:bookcrossing",
+   "name": "Bookcrossing",
+   "category": "",
+   "host": "bookcrossing.com",
+   "profile_url": "https://www.bookcrossing.com/mybookshelf/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:boardgamegeek",
+   "name": "BoardGameGeek",
+   "category": "",
+   "host": "boardgamegeek.com",
+   "profile_url": "https://boardgamegeek.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:bravecommunity",
+   "name": "BraveCommunity",
+   "category": "",
+   "host": "community.brave.com",
+   "profile_url": "https://community.brave.com/u/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:breachsta.rs forum",
+   "name": "BreachSta.rs Forum",
+   "category": "",
+   "host": "breachsta.rs",
+   "profile_url": "https://breachsta.rs/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:bugcrowd",
+   "name": "BugCrowd",
+   "category": "",
+   "host": "bugcrowd.com",
+   "profile_url": "https://bugcrowd.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:buymeacoffee",
+   "name": "BuyMeACoffee",
+   "category": "",
+   "host": "buymeacoff.ee",
+   "profile_url": "https://buymeacoff.ee/{username}",
+   "valid": true,
+   "username_pattern": "[a-zA-Z0-9]{3,15}",
+   "countries": []
+  },
+  {
+   "id": "sherlock:buzzfeed",
+   "name": "BuzzFeed",
+   "category": "",
+   "host": "buzzfeed.com",
+   "profile_url": "https://buzzfeed.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:cfx.re forum",
+   "name": "Cfx.re Forum",
+   "category": "",
+   "host": "forum.cfx.re",
+   "profile_url": "https://forum.cfx.re/u/{username}/summary",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:cgtrader",
+   "name": "CGTrader",
+   "category": "",
+   "host": "cgtrader.com",
+   "profile_url": "https://www.cgtrader.com/{username}",
+   "valid": true,
+   "username_pattern": "^[^.]*?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:cnet",
+   "name": "CNET",
+   "category": "",
+   "host": "cnet.com",
+   "profile_url": "https://www.cnet.com/profiles/{username}/",
+   "valid": true,
+   "username_pattern": "^[a-z].*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:cssbattle",
+   "name": "CSSBattle",
+   "category": "",
+   "host": "cssbattle.dev",
+   "profile_url": "https://cssbattle.dev/player/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:ctan",
+   "name": "CTAN",
+   "category": "",
+   "host": "ctan.org",
+   "profile_url": "https://ctan.org/author/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:caddy community",
+   "name": "Caddy Community",
+   "category": "",
+   "host": "caddy.community",
+   "profile_url": "https://caddy.community/u/{username}/summary",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:car talk community",
+   "name": "Car Talk Community",
+   "category": "",
+   "host": "community.cartalk.com",
+   "profile_url": "https://community.cartalk.com/u/{username}/summary",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:carbonmade",
+   "name": "Carbonmade",
+   "category": "",
+   "host": "x.carbonmade.com",
+   "profile_url": "https://{username}.carbonmade.com",
+   "valid": true,
+   "username_pattern": "^[\\w@-]+?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:carrd",
+   "name": "Carrd",
+   "category": "",
+   "host": "x.carrd.co",
+   "profile_url": "https://{username}.carrd.co/",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9_-]{3,50}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:career.habr",
+   "name": "Career.habr",
+   "category": "",
+   "host": "career.habr.com",
+   "profile_url": "https://career.habr.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:cashapp",
+   "name": "CashApp",
+   "category": "",
+   "host": "cash.app",
+   "profile_url": "https://cash.app/${username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:championat",
+   "name": "Championat",
+   "category": "",
+   "host": "championat.com",
+   "profile_url": "https://www.championat.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:chaos",
+   "name": "Chaos",
+   "category": "",
+   "host": "chaos.social",
+   "profile_url": "https://chaos.social/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:chatujme.cz",
+   "name": "Chatujme.cz",
+   "category": "",
+   "host": "profil.chatujme.cz",
+   "profile_url": "https://profil.chatujme.cz/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z][a-zA-Z1-9_-]*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:chaturbate",
+   "name": "ChaturBate",
+   "category": "",
+   "host": "chaturbate.com",
+   "profile_url": "https://chaturbate.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:chess",
+   "name": "Chess",
+   "category": "",
+   "host": "chess.com",
+   "profile_url": "https://www.chess.com/member/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9_]{3,25}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:choice community",
+   "name": "Choice Community",
+   "category": "",
+   "host": "choice.community",
+   "profile_url": "https://choice.community/u/{username}/summary",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:clapper",
+   "name": "Clapper",
+   "category": "",
+   "host": "clapperapp.com",
+   "profile_url": "https://clapperapp.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:cloudflarecommunity",
+   "name": "CloudflareCommunity",
+   "category": "",
+   "host": "community.cloudflare.com",
+   "profile_url": "https://community.cloudflare.com/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:clozemaster",
+   "name": "Clozemaster",
+   "category": "",
+   "host": "clozemaster.com",
+   "profile_url": "https://www.clozemaster.com/players/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:clubhouse",
+   "name": "Clubhouse",
+   "category": "",
+   "host": "clubhouse.com",
+   "profile_url": "https://www.clubhouse.com/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:code snippet wiki",
+   "name": "Code Snippet Wiki",
+   "category": "",
+   "host": "codesnippets.fandom.com",
+   "profile_url": "https://codesnippets.fandom.com/wiki/User:{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:codeberg",
+   "name": "Codeberg",
+   "category": "",
+   "host": "codeberg.org",
+   "profile_url": "https://codeberg.org/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:codecademy",
+   "name": "Codecademy",
+   "category": "",
+   "host": "codecademy.com",
+   "profile_url": "https://www.codecademy.com/profiles/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:codechef",
+   "name": "Codechef",
+   "category": "",
+   "host": "codechef.com",
+   "profile_url": "https://www.codechef.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:codeforces",
+   "name": "Codeforces",
+   "category": "",
+   "host": "codeforces.com",
+   "profile_url": "https://codeforces.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:codepen",
+   "name": "Codepen",
+   "category": "",
+   "host": "codepen.io",
+   "profile_url": "https://codepen.io/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:coders rank",
+   "name": "Coders Rank",
+   "category": "",
+   "host": "profile.codersrank.io",
+   "profile_url": "https://profile.codersrank.io/user/{username}/",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9](?:[a-zA-Z0-9]|-(?=[a-zA-Z0-9])){0,38}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:coderwall",
+   "name": "Coderwall",
+   "category": "",
+   "host": "coderwall.com",
+   "profile_url": "https://coderwall.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:codesandbox",
+   "name": "CodeSandbox",
+   "category": "",
+   "host": "codesandbox.io",
+   "profile_url": "https://codesandbox.io/u/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9_-]{3,30}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:codewars",
+   "name": "Codewars",
+   "category": "",
+   "host": "codewars.com",
+   "profile_url": "https://www.codewars.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:codolio",
+   "name": "Codolio",
+   "category": "",
+   "host": "codolio.com",
+   "profile_url": "https://codolio.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9_-]{3,30}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:coinvote",
+   "name": "Coinvote",
+   "category": "",
+   "host": "coinvote.cc",
+   "profile_url": "https://coinvote.cc/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:colourlovers",
+   "name": "ColourLovers",
+   "category": "",
+   "host": "colourlovers.com",
+   "profile_url": "https://www.colourlovers.com/lover/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:contently",
+   "name": "Contently",
+   "category": "",
+   "host": "x.contently.com",
+   "profile_url": "https://{username}.contently.com/",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:coroflot",
+   "name": "Coroflot",
+   "category": "",
+   "host": "coroflot.com",
+   "profile_url": "https://www.coroflot.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:cplusplus",
+   "name": "Cplusplus",
+   "category": "",
+   "host": "cplusplus.com",
+   "profile_url": "https://cplusplus.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:cracked",
+   "name": "Cracked",
+   "category": "",
+   "host": "cracked.com",
+   "profile_url": "https://www.cracked.com/members/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:cracked forum",
+   "name": "Cracked Forum",
+   "category": "",
+   "host": "cracked.ax",
+   "profile_url": "https://cracked.ax/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:credly",
+   "name": "Credly",
+   "category": "",
+   "host": "credly.com",
+   "profile_url": "https://www.credly.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:crevado",
+   "name": "Crevado",
+   "category": "",
+   "host": "x.crevado.com",
+   "profile_url": "https://{username}.crevado.com",
+   "valid": true,
+   "username_pattern": "^[\\w@-]+?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:crowdin",
+   "name": "Crowdin",
+   "category": "",
+   "host": "crowdin.com",
+   "profile_url": "https://crowdin.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9._-]{2,255}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:cryptohack",
+   "name": "CryptoHack",
+   "category": "",
+   "host": "cryptohack.org",
+   "profile_url": "https://cryptohack.org/user/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:cryptomator forum",
+   "name": "Cryptomator Forum",
+   "category": "",
+   "host": "community.cryptomator.org",
+   "profile_url": "https://community.cryptomator.org/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:cults3d",
+   "name": "Cults3D",
+   "category": "",
+   "host": "cults3d.com",
+   "profile_url": "https://cults3d.com/en/users/{username}/creations",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:cyberdefenders",
+   "name": "CyberDefenders",
+   "category": "",
+   "host": "cyberdefenders.org",
+   "profile_url": "https://cyberdefenders.org/p/{username}",
+   "valid": true,
+   "username_pattern": "^[^\\/:*?\"<>|@]{3,50}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:dev community",
+   "name": "DEV Community",
+   "category": "",
+   "host": "dev.to",
+   "profile_url": "https://dev.to/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:dmoj",
+   "name": "DMOJ",
+   "category": "",
+   "host": "dmoj.ca",
+   "profile_url": "https://dmoj.ca/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:dailymotion",
+   "name": "DailyMotion",
+   "category": "",
+   "host": "dailymotion.com",
+   "profile_url": "https://www.dailymotion.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:dcinside",
+   "name": "dcinside",
+   "category": "",
+   "host": "gallog.dcinside.com",
+   "profile_url": "https://gallog.dcinside.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:dealabs",
+   "name": "Dealabs",
+   "category": "",
+   "host": "dealabs.com",
+   "profile_url": "https://www.dealabs.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "[a-z0-9]{4,16}",
+   "countries": []
+  },
+  {
+   "id": "sherlock:deviantart",
+   "name": "DeviantArt",
+   "category": "",
+   "host": "deviantart.com",
+   "profile_url": "https://www.deviantart.com/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:digitalspy",
+   "name": "DigitalSpy",
+   "category": "",
+   "host": "forums.digitalspy.com",
+   "profile_url": "https://forums.digitalspy.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "^\\w{3,20}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:discogs",
+   "name": "Discogs",
+   "category": "",
+   "host": "discogs.com",
+   "profile_url": "https://www.discogs.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:discord.bio",
+   "name": "Discord.bio",
+   "category": "",
+   "host": "discords.com",
+   "profile_url": "https://discords.com/api-v2/bio/details/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:discuss.elastic.co",
+   "name": "Discuss.Elastic.co",
+   "category": "",
+   "host": "discuss.elastic.co",
+   "profile_url": "https://discuss.elastic.co/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:disqus",
+   "name": "Disqus",
+   "category": "",
+   "host": "disqus.com",
+   "profile_url": "https://disqus.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:docker hub",
+   "name": "Docker Hub",
+   "category": "",
+   "host": "hub.docker.com",
+   "profile_url": "https://hub.docker.com/u/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:dribbble",
+   "name": "Dribbble",
+   "category": "",
+   "host": "dribbble.com",
+   "profile_url": "https://dribbble.com/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:duolingo",
+   "name": "Duolingo",
+   "category": "",
+   "host": "duolingo.com",
+   "profile_url": "https://www.duolingo.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:eintracht frankfurt forum",
+   "name": "Eintracht Frankfurt Forum",
+   "category": "",
+   "host": "community.eintracht.de",
+   "profile_url": "https://community.eintracht.de/fans/{username}",
+   "valid": true,
+   "username_pattern": "^[^.]*?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:empretienda ar",
+   "name": "Empretienda AR",
+   "category": "",
+   "host": "x.empretienda.com.ar",
+   "profile_url": "https://{username}.empretienda.com.ar",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:envato forum",
+   "name": "Envato Forum",
+   "category": "",
+   "host": "forums.envato.com",
+   "profile_url": "https://forums.envato.com/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:erome",
+   "name": "Erome",
+   "category": "",
+   "host": "erome.com",
+   "profile_url": "https://www.erome.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:exposure",
+   "name": "Exposure",
+   "category": "",
+   "host": "x.exposure.co",
+   "profile_url": "https://{username}.exposure.co/",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9-]{1,63}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:exophase",
+   "name": "exophase",
+   "category": "",
+   "host": "exophase.com",
+   "profile_url": "https://www.exophase.com/user/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:eyeem",
+   "name": "EyeEm",
+   "category": "",
+   "host": "eyeem.com",
+   "profile_url": "https://www.eyeem.com/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:f3.cool",
+   "name": "F3.cool",
+   "category": "",
+   "host": "f3.cool",
+   "profile_url": "https://f3.cool/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:fameswap",
+   "name": "Fameswap",
+   "category": "",
+   "host": "fameswap.com",
+   "profile_url": "https://fameswap.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:fandom",
+   "name": "Fandom",
+   "category": "",
+   "host": "fandom.com",
+   "profile_url": "https://www.fandom.com/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:fanpop",
+   "name": "Fanpop",
+   "category": "",
+   "host": "fanpop.com",
+   "profile_url": "https://www.fanpop.com/fans/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:finanzfrage",
+   "name": "Finanzfrage",
+   "category": "",
+   "host": "finanzfrage.net",
+   "profile_url": "https://www.finanzfrage.net/nutzer/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:flickr",
+   "name": "Flickr",
+   "category": "",
+   "host": "flickr.com",
+   "profile_url": "https://www.flickr.com/people/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:flightradar24",
+   "name": "Flightradar24",
+   "category": "",
+   "host": "my.flightradar24.com",
+   "profile_url": "https://my.flightradar24.com/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9_]{3,20}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:flipboard",
+   "name": "Flipboard",
+   "category": "",
+   "host": "flipboard.com",
+   "profile_url": "https://flipboard.com/@{username}",
+   "valid": true,
+   "username_pattern": "^([a-zA-Z0-9_]){1,15}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:football",
+   "name": "Football",
+   "category": "",
+   "host": "rusfootball.info",
+   "profile_url": "https://www.rusfootball.info/user/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:fortnitetracker",
+   "name": "FortniteTracker",
+   "category": "",
+   "host": "fortnitetracker.com",
+   "profile_url": "https://fortnitetracker.com/profile/all/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:forum ophilia",
+   "name": "Forum Ophilia",
+   "category": "",
+   "host": "forumophilia.com",
+   "profile_url": "https://www.forumophilia.com/profile.php?mode=viewprofile&u={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:fosstodon",
+   "name": "Fosstodon",
+   "category": "",
+   "host": "fosstodon.org",
+   "profile_url": "https://fosstodon.org/@{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9_]{1,30}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:framapiaf",
+   "name": "Framapiaf",
+   "category": "",
+   "host": "framapiaf.org",
+   "profile_url": "https://framapiaf.org/@{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9_]{1,30}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:freelancer",
+   "name": "Freelancer",
+   "category": "",
+   "host": "freelancer.com",
+   "profile_url": "https://www.freelancer.com/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:freesound",
+   "name": "Freesound",
+   "category": "",
+   "host": "freesound.org",
+   "profile_url": "https://freesound.org/people/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:gnome vcs",
+   "name": "GNOME VCS",
+   "category": "",
+   "host": "gitlab.gnome.org",
+   "profile_url": "https://gitlab.gnome.org/{username}",
+   "valid": true,
+   "username_pattern": "^(?!-)[a-zA-Z0-9_.-]{2,255}(?<!\\.)$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:gaiaonline",
+   "name": "GaiaOnline",
+   "category": "",
+   "host": "gaiaonline.com",
+   "profile_url": "https://www.gaiaonline.com/profiles/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:gamespot",
+   "name": "Gamespot",
+   "category": "",
+   "host": "gamespot.com",
+   "profile_url": "https://www.gamespot.com/profile/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:gamefaqs",
+   "name": "GameFAQs",
+   "category": "",
+   "host": "gamefaqs.gamespot.com",
+   "profile_url": "https://gamefaqs.gamespot.com/community/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:geeksforgeeks",
+   "name": "GeeksforGeeks",
+   "category": "",
+   "host": "auth.geeksforgeeks.org",
+   "profile_url": "https://auth.geeksforgeeks.org/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:genius (artists)",
+   "name": "Genius (Artists)",
+   "category": "",
+   "host": "genius.com",
+   "profile_url": "https://genius.com/artists/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9]{5,50}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:genius (users)",
+   "name": "Genius (Users)",
+   "category": "",
+   "host": "genius.com",
+   "profile_url": "https://genius.com/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9]*?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:gesundheitsfrage",
+   "name": "Gesundheitsfrage",
+   "category": "",
+   "host": "gesundheitsfrage.net",
+   "profile_url": "https://www.gesundheitsfrage.net/nutzer/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:getmyuni",
+   "name": "GetMyUni",
+   "category": "",
+   "host": "getmyuni.com",
+   "profile_url": "https://www.getmyuni.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:giant bomb",
+   "name": "Giant Bomb",
+   "category": "",
+   "host": "giantbomb.com",
+   "profile_url": "https://www.giantbomb.com/profile/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:giphy",
+   "name": "Giphy",
+   "category": "",
+   "host": "giphy.com",
+   "profile_url": "https://giphy.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:gitbook",
+   "name": "GitBook",
+   "category": "",
+   "host": "x.gitbook.io",
+   "profile_url": "https://{username}.gitbook.io/",
+   "valid": true,
+   "username_pattern": "^[\\w@-]+?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:github",
+   "name": "GitHub",
+   "category": "",
+   "host": "github.com",
+   "profile_url": "https://www.github.com/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9](?:[a-zA-Z0-9]|-(?=[a-zA-Z0-9])){0,38}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:warframe market",
+   "name": "Warframe Market",
+   "category": "",
+   "host": "warframe.market",
+   "profile_url": "https://warframe.market/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:gitlab",
+   "name": "GitLab",
+   "category": "",
+   "host": "gitlab.com",
+   "profile_url": "https://gitlab.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:gitea",
+   "name": "Gitea",
+   "category": "",
+   "host": "gitea.com",
+   "profile_url": "https://gitea.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:gitee",
+   "name": "Gitee",
+   "category": "",
+   "host": "gitee.com",
+   "profile_url": "https://gitee.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:goodreads",
+   "name": "GoodReads",
+   "category": "",
+   "host": "goodreads.com",
+   "profile_url": "https://www.goodreads.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:google play",
+   "name": "Google Play",
+   "category": "",
+   "host": "play.google.com",
+   "profile_url": "https://play.google.com/store/apps/developer?id={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:gradle",
+   "name": "Gradle",
+   "category": "",
+   "host": "plugins.gradle.org",
+   "profile_url": "https://plugins.gradle.org/u/{username}",
+   "valid": true,
+   "username_pattern": "^(?!-)[a-zA-Z0-9-]{3,}(?<!-)$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:grailed",
+   "name": "Grailed",
+   "category": "",
+   "host": "grailed.com",
+   "profile_url": "https://www.grailed.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:gravatar",
+   "name": "Gravatar",
+   "category": "",
+   "host": "en.gravatar.com",
+   "profile_url": "http://en.gravatar.com/{username}",
+   "valid": true,
+   "username_pattern": "^((?!\\.).)*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:gumroad",
+   "name": "Gumroad",
+   "category": "",
+   "host": "gumroad.com",
+   "profile_url": "https://www.gumroad.com/{username}",
+   "valid": true,
+   "username_pattern": "^[^.]*?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:gutefrage",
+   "name": "Gutefrage",
+   "category": "",
+   "host": "gutefrage.net",
+   "profile_url": "https://www.gutefrage.net/nutzer/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hackthebox",
+   "name": "HackTheBox",
+   "category": "",
+   "host": "forum.hackthebox.com",
+   "profile_url": "https://forum.hackthebox.com/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hackaday",
+   "name": "Hackaday",
+   "category": "",
+   "host": "hackaday.io",
+   "profile_url": "https://hackaday.io/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hackenproof (hackers)",
+   "name": "HackenProof (Hackers)",
+   "category": "",
+   "host": "hackenproof.com",
+   "profile_url": "https://hackenproof.com/hackers/{username}",
+   "valid": true,
+   "username_pattern": "^[\\w-]{,34}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hackerearth",
+   "name": "HackerEarth",
+   "category": "",
+   "host": "hackerearth.com",
+   "profile_url": "https://hackerearth.com/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hackernews",
+   "name": "HackerNews",
+   "category": "",
+   "host": "news.ycombinator.com",
+   "profile_url": "https://news.ycombinator.com/user?id={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hackerone",
+   "name": "HackerOne",
+   "category": "",
+   "host": "hackerone.com",
+   "profile_url": "https://hackerone.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hackerrank",
+   "name": "HackerRank",
+   "category": "",
+   "host": "hackerrank.com",
+   "profile_url": "https://hackerrank.com/{username}",
+   "valid": true,
+   "username_pattern": "^[^.]*?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hackersploit",
+   "name": "HackerSploit",
+   "category": "",
+   "host": "forum.hackersploit.org",
+   "profile_url": "https://forum.hackersploit.org/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hackmd",
+   "name": "HackMD",
+   "category": "",
+   "host": "hackmd.io",
+   "profile_url": "https://hackmd.io/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:harvard scholar",
+   "name": "Harvard Scholar",
+   "category": "",
+   "host": "scholar.harvard.edu",
+   "profile_url": "https://scholar.harvard.edu/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hashnode",
+   "name": "Hashnode",
+   "category": "",
+   "host": "hashnode.com",
+   "profile_url": "https://hashnode.com/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:heavy-r",
+   "name": "Heavy-R",
+   "category": "",
+   "host": "heavy-r.com",
+   "profile_url": "https://www.heavy-r.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hive blog",
+   "name": "Hive Blog",
+   "category": "",
+   "host": "hive.blog",
+   "profile_url": "https://hive.blog/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:holopin",
+   "name": "Holopin",
+   "category": "",
+   "host": "holopin.io",
+   "profile_url": "https://holopin.io/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:houzz",
+   "name": "Houzz",
+   "category": "",
+   "host": "houzz.com",
+   "profile_url": "https://houzz.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hubpages",
+   "name": "HubPages",
+   "category": "",
+   "host": "hubpages.com",
+   "profile_url": "https://hubpages.com/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hubski",
+   "name": "Hubski",
+   "category": "",
+   "host": "hubski.com",
+   "profile_url": "https://hubski.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hudsonrock",
+   "name": "HudsonRock",
+   "category": "",
+   "host": "cavalier.hudsonrock.com",
+   "profile_url": "https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-username?username={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hugging face",
+   "name": "Hugging Face",
+   "category": "",
+   "host": "huggingface.co",
+   "profile_url": "https://huggingface.co/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:ifttt",
+   "name": "IFTTT",
+   "category": "",
+   "host": "ifttt.com",
+   "profile_url": "https://www.ifttt.com/p/{username}",
+   "valid": true,
+   "username_pattern": "^[A-Za-z0-9]{3,35}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:ifunny",
+   "name": "Ifunny",
+   "category": "",
+   "host": "ifunny.co",
+   "profile_url": "https://ifunny.co/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:irc-galleria",
+   "name": "IRC-Galleria",
+   "category": "",
+   "host": "irc-galleria.net",
+   "profile_url": "https://irc-galleria.net/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:icons8 community",
+   "name": "Icons8 Community",
+   "category": "",
+   "host": "community.icons8.com",
+   "profile_url": "https://community.icons8.com/u/{username}/summary",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:image fap",
+   "name": "Image Fap",
+   "category": "",
+   "host": "imagefap.com",
+   "profile_url": "https://www.imagefap.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:imgup.cz",
+   "name": "ImgUp.cz",
+   "category": "",
+   "host": "imgup.cz",
+   "profile_url": "https://imgup.cz/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:imgur",
+   "name": "Imgur",
+   "category": "",
+   "host": "imgur.com",
+   "profile_url": "https://imgur.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:imood",
+   "name": "imood",
+   "category": "",
+   "host": "imood.com",
+   "profile_url": "https://www.imood.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:instagram",
+   "name": "Instagram",
+   "category": "",
+   "host": "instagram.com",
+   "profile_url": "https://instagram.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:instapaper",
+   "name": "Instapaper",
+   "category": "",
+   "host": "instapaper.com",
+   "profile_url": "https://www.instapaper.com/p/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:instructables",
+   "name": "Instructables",
+   "category": "",
+   "host": "instructables.com",
+   "profile_url": "https://www.instructables.com/member/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:intigriti",
+   "name": "Intigriti",
+   "category": "",
+   "host": "app.intigriti.com",
+   "profile_url": "https://app.intigriti.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "[a-z0-9_]{1,25}",
+   "countries": []
+  },
+  {
+   "id": "sherlock:ionic forum",
+   "name": "Ionic Forum",
+   "category": "",
+   "host": "forum.ionicframework.com",
+   "profile_url": "https://forum.ionicframework.com/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:issuu",
+   "name": "Issuu",
+   "category": "",
+   "host": "issuu.com",
+   "profile_url": "https://issuu.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:itch.io",
+   "name": "Itch.io",
+   "category": "",
+   "host": "x.itch.io",
+   "profile_url": "https://{username}.itch.io/",
+   "valid": true,
+   "username_pattern": "^[\\w@-]+?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:itemfix",
+   "name": "Itemfix",
+   "category": "",
+   "host": "itemfix.com",
+   "profile_url": "https://www.itemfix.com/c/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:jellyfin weblate",
+   "name": "Jellyfin Weblate",
+   "category": "",
+   "host": "translate.jellyfin.org",
+   "profile_url": "https://translate.jellyfin.org/user/{username}/",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9@._-]{1,150}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:jimdo",
+   "name": "Jimdo",
+   "category": "",
+   "host": "x.jimdosite.com",
+   "profile_url": "https://{username}.jimdosite.com",
+   "valid": true,
+   "username_pattern": "^[\\w@-]+?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:joplin forum",
+   "name": "Joplin Forum",
+   "category": "",
+   "host": "discourse.joplinapp.org",
+   "profile_url": "https://discourse.joplinapp.org/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:jupyter community forum",
+   "name": "Jupyter Community Forum",
+   "category": "",
+   "host": "discourse.jupyter.org",
+   "profile_url": "https://discourse.jupyter.org/u/{username}/summary",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:kaggle",
+   "name": "Kaggle",
+   "category": "",
+   "host": "kaggle.com",
+   "profile_url": "https://www.kaggle.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:kaskus",
+   "name": "kaskus",
+   "category": "",
+   "host": "kaskus.co.id",
+   "profile_url": "https://www.kaskus.co.id/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:keybase",
+   "name": "Keybase",
+   "category": "",
+   "host": "keybase.io",
+   "profile_url": "https://keybase.io/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:kick",
+   "name": "Kick",
+   "category": "",
+   "host": "kick.com",
+   "profile_url": "https://kick.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:kik",
+   "name": "Kik",
+   "category": "",
+   "host": "kik.me",
+   "profile_url": "https://kik.me/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:kongregate",
+   "name": "Kongregate",
+   "category": "",
+   "host": "kongregate.com",
+   "profile_url": "https://www.kongregate.com/accounts/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:lor",
+   "name": "LOR",
+   "category": "",
+   "host": "linux.org.ru",
+   "profile_url": "https://www.linux.org.ru/people/{username}/profile",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:laracast",
+   "name": "Laracast",
+   "category": "",
+   "host": "laracasts.com",
+   "profile_url": "https://laracasts.com/@{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9_-]{3,}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:launchpad",
+   "name": "Launchpad",
+   "category": "",
+   "host": "launchpad.net",
+   "profile_url": "https://launchpad.net/~{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:leetcode",
+   "name": "LeetCode",
+   "category": "",
+   "host": "leetcode.com",
+   "profile_url": "https://leetcode.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:lemmyworld",
+   "name": "LemmyWorld",
+   "category": "",
+   "host": "lemmy.world",
+   "profile_url": "https://lemmy.world/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:lesswrong",
+   "name": "LessWrong",
+   "category": "",
+   "host": "lesswrong.com",
+   "profile_url": "https://www.lesswrong.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:letterboxd",
+   "name": "Letterboxd",
+   "category": "",
+   "host": "letterboxd.com",
+   "profile_url": "https://letterboxd.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:librarything",
+   "name": "LibraryThing",
+   "category": "",
+   "host": "librarything.com",
+   "profile_url": "https://www.librarything.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:lichess",
+   "name": "Lichess",
+   "category": "",
+   "host": "lichess.org",
+   "profile_url": "https://lichess.org/@/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:linkedin",
+   "name": "LinkedIn",
+   "category": "",
+   "host": "linkedin.com",
+   "profile_url": "https://linkedin.com/in/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9]{3,100}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:linktree",
+   "name": "Linktree",
+   "category": "",
+   "host": "linktr.ee",
+   "profile_url": "https://linktr.ee/{username}",
+   "valid": true,
+   "username_pattern": "^[\\w\\.]{2,30}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:linuxfr.org",
+   "name": "LinuxFR.org",
+   "category": "",
+   "host": "linuxfr.org",
+   "profile_url": "https://linuxfr.org/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:listed",
+   "name": "Listed",
+   "category": "",
+   "host": "listed.to",
+   "profile_url": "https://listed.to/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:livejournal",
+   "name": "LiveJournal",
+   "category": "",
+   "host": "x.livejournal.com",
+   "profile_url": "https://{username}.livejournal.com",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:lobsters",
+   "name": "Lobsters",
+   "category": "",
+   "host": "lobste.rs",
+   "profile_url": "https://lobste.rs/u/{username}",
+   "valid": true,
+   "username_pattern": "[A-Za-z0-9][A-Za-z0-9_-]{0,24}",
+   "countries": []
+  },
+  {
+   "id": "sherlock:lottiefiles",
+   "name": "LottieFiles",
+   "category": "",
+   "host": "lottiefiles.com",
+   "profile_url": "https://lottiefiles.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:lushstories",
+   "name": "LushStories",
+   "category": "",
+   "host": "lushstories.com",
+   "profile_url": "https://www.lushstories.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:mmorpg forum",
+   "name": "MMORPG Forum",
+   "category": "",
+   "host": "forums.mmorpg.com",
+   "profile_url": "https://forums.mmorpg.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:mamot",
+   "name": "Mamot",
+   "category": "",
+   "host": "mamot.fr",
+   "profile_url": "https://mamot.fr/@{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9_]{1,30}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:medium",
+   "name": "Medium",
+   "category": "",
+   "host": "medium.com",
+   "profile_url": "https://medium.com/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:memrise",
+   "name": "Memrise",
+   "category": "",
+   "host": "memrise.com",
+   "profile_url": "https://www.memrise.com/user/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:minecraft",
+   "name": "Minecraft",
+   "category": "",
+   "host": "api.mojang.com",
+   "profile_url": "https://api.mojang.com/users/profiles/minecraft/{username}",
+   "valid": true,
+   "username_pattern": "^.{1,25}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:mixcloud",
+   "name": "MixCloud",
+   "category": "",
+   "host": "mixcloud.com",
+   "profile_url": "https://www.mixcloud.com/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:monkeytype",
+   "name": "Monkeytype",
+   "category": "",
+   "host": "monkeytype.com",
+   "profile_url": "https://monkeytype.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:motherless",
+   "name": "Motherless",
+   "category": "",
+   "host": "motherless.com",
+   "profile_url": "https://motherless.com/m/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:motorradfrage",
+   "name": "Motorradfrage",
+   "category": "",
+   "host": "motorradfrage.net",
+   "profile_url": "https://www.motorradfrage.net/nutzer/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:musescore",
+   "name": "MuseScore",
+   "category": "",
+   "host": "musescore.com",
+   "profile_url": "https://musescore.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:myanimelist",
+   "name": "MyAnimeList",
+   "category": "",
+   "host": "myanimelist.net",
+   "profile_url": "https://myanimelist.net/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:myminifactory",
+   "name": "MyMiniFactory",
+   "category": "",
+   "host": "myminifactory.com",
+   "profile_url": "https://www.myminifactory.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:mydramalist",
+   "name": "Mydramalist",
+   "category": "",
+   "host": "mydramalist.com",
+   "profile_url": "https://www.mydramalist.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:myspace",
+   "name": "Myspace",
+   "category": "",
+   "host": "myspace.com",
+   "profile_url": "https://myspace.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:nicommunityforum",
+   "name": "NICommunityForum",
+   "category": "",
+   "host": "community.native-instruments.com",
+   "profile_url": "https://community.native-instruments.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:namuwiki",
+   "name": "namuwiki",
+   "category": "",
+   "host": "namu.wiki",
+   "profile_url": "https://namu.wiki/w/%EC%82%AC%EC%9A%A9%EC%9E%90:{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:nationstates nation",
+   "name": "NationStates Nation",
+   "category": "",
+   "host": "nationstates.net",
+   "profile_url": "https://nationstates.net/nation={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:nationstates region",
+   "name": "NationStates Region",
+   "category": "",
+   "host": "nationstates.net",
+   "profile_url": "https://nationstates.net/region={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:naver",
+   "name": "Naver",
+   "category": "",
+   "host": "blog.naver.com",
+   "profile_url": "https://blog.naver.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:needrom",
+   "name": "Needrom",
+   "category": "",
+   "host": "needrom.com",
+   "profile_url": "https://www.needrom.com/author/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:newgrounds",
+   "name": "Newgrounds",
+   "category": "",
+   "host": "x.newgrounds.com",
+   "profile_url": "https://{username}.newgrounds.com",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:nextcloud forum",
+   "name": "Nextcloud Forum",
+   "category": "",
+   "host": "help.nextcloud.com",
+   "profile_url": "https://help.nextcloud.com/u/{username}/summary",
+   "valid": true,
+   "username_pattern": "^(?![.-])[a-zA-Z0-9_.-]{3,20}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:nightbot",
+   "name": "Nightbot",
+   "category": "",
+   "host": "nightbot.tv",
+   "profile_url": "https://nightbot.tv/t/{username}/commands",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:ninja kiwi",
+   "name": "Ninja Kiwi",
+   "category": "",
+   "host": "ninjakiwi.com",
+   "profile_url": "https://ninjakiwi.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:nintendolife",
+   "name": "NintendoLife",
+   "category": "",
+   "host": "nintendolife.com",
+   "profile_url": "https://www.nintendolife.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:nitrotype",
+   "name": "NitroType",
+   "category": "",
+   "host": "nitrotype.com",
+   "profile_url": "https://www.nitrotype.com/racer/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:notabug.org",
+   "name": "NotABug.org",
+   "category": "",
+   "host": "notabug.org",
+   "profile_url": "https://notabug.org/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:nothing community",
+   "name": "Nothing Community",
+   "category": "",
+   "host": "nothing.community",
+   "profile_url": "https://nothing.community/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:nyaa.si",
+   "name": "Nyaa.si",
+   "category": "",
+   "host": "nyaa.si",
+   "profile_url": "https://nyaa.si/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:observablehq",
+   "name": "ObservableHQ",
+   "category": "",
+   "host": "observablehq.com",
+   "profile_url": "https://observablehq.com/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:open collective",
+   "name": "Open Collective",
+   "category": "",
+   "host": "opencollective.com",
+   "profile_url": "https://opencollective.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:opengameart",
+   "name": "OpenGameArt",
+   "category": "",
+   "host": "opengameart.org",
+   "profile_url": "https://opengameart.org/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:openstreetmap",
+   "name": "OpenStreetMap",
+   "category": "",
+   "host": "openstreetmap.org",
+   "profile_url": "https://www.openstreetmap.org/user/{username}",
+   "valid": true,
+   "username_pattern": "^[^.]*?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:odysee",
+   "name": "Odysee",
+   "category": "",
+   "host": "odysee.com",
+   "profile_url": "https://odysee.com/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:opensource",
+   "name": "Opensource",
+   "category": "",
+   "host": "opensource.com",
+   "profile_url": "https://opensource.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:ourdjtalk",
+   "name": "OurDJTalk",
+   "category": "",
+   "host": "ourdjtalk.com",
+   "profile_url": "https://ourdjtalk.com/members?username={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:outgress",
+   "name": "Outgress",
+   "category": "",
+   "host": "outgress.com",
+   "profile_url": "https://outgress.com/agents/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pcgamer",
+   "name": "PCGamer",
+   "category": "",
+   "host": "forums.pcgamer.com",
+   "profile_url": "https://forums.pcgamer.com/members/?username={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:psnprofiles.com",
+   "name": "PSNProfiles.com",
+   "category": "",
+   "host": "psnprofiles.com",
+   "profile_url": "https://psnprofiles.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:packagist",
+   "name": "Packagist",
+   "category": "",
+   "host": "packagist.org",
+   "profile_url": "https://packagist.org/packages/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pastebin",
+   "name": "Pastebin",
+   "category": "",
+   "host": "pastebin.com",
+   "profile_url": "https://pastebin.com/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:patched",
+   "name": "Patched",
+   "category": "",
+   "host": "patched.sh",
+   "profile_url": "https://patched.sh/User/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:patreon",
+   "name": "Patreon",
+   "category": "",
+   "host": "patreon.com",
+   "profile_url": "https://www.patreon.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pentesterlab",
+   "name": "PentesterLab",
+   "category": "",
+   "host": "pentesterlab.com",
+   "profile_url": "https://pentesterlab.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "^[\\w]{4,30}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hotukdeals",
+   "name": "HotUKdeals",
+   "category": "",
+   "host": "hotukdeals.com",
+   "profile_url": "https://www.hotukdeals.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:mydealz",
+   "name": "Mydealz",
+   "category": "",
+   "host": "mydealz.de",
+   "profile_url": "https://www.mydealz.de/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:chollometro",
+   "name": "Chollometro",
+   "category": "",
+   "host": "chollometro.com",
+   "profile_url": "https://www.chollometro.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:peppernl",
+   "name": "PepperNL",
+   "category": "",
+   "host": "nl.pepper.com",
+   "profile_url": "https://nl.pepper.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pepperpl",
+   "name": "PepperPL",
+   "category": "",
+   "host": "pepper.pl",
+   "profile_url": "https://www.pepper.pl/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:preisjaeger",
+   "name": "Preisjaeger",
+   "category": "",
+   "host": "preisjaeger.at",
+   "profile_url": "https://www.preisjaeger.at/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pepperdeals",
+   "name": "Pepperdeals",
+   "category": "",
+   "host": "pepperdeals.se",
+   "profile_url": "https://www.pepperdeals.se/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pepperealsus",
+   "name": "PepperealsUS",
+   "category": "",
+   "host": "pepperdeals.com",
+   "profile_url": "https://www.pepperdeals.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:promodescuentos",
+   "name": "Promodescuentos",
+   "category": "",
+   "host": "promodescuentos.com",
+   "profile_url": "https://www.promodescuentos.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:periscope",
+   "name": "Periscope",
+   "category": "",
+   "host": "periscope.tv",
+   "profile_url": "https://www.periscope.tv/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pinkbike",
+   "name": "Pinkbike",
+   "category": "",
+   "host": "pinkbike.com",
+   "profile_url": "https://www.pinkbike.com/u/{username}/",
+   "valid": true,
+   "username_pattern": "^[^.]*?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pixelfed.social",
+   "name": "pixelfed.social",
+   "category": "",
+   "host": "pixelfed.social",
+   "profile_url": "https://pixelfed.social/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:playstore",
+   "name": "PlayStore",
+   "category": "",
+   "host": "play.google.com",
+   "profile_url": "https://play.google.com/store/apps/developer?id={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:playstrategy",
+   "name": "Playstrategy",
+   "category": "",
+   "host": "playstrategy.org",
+   "profile_url": "https://playstrategy.org/@/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:plurk",
+   "name": "Plurk",
+   "category": "",
+   "host": "plurk.com",
+   "profile_url": "https://www.plurk.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pocketstars",
+   "name": "PocketStars",
+   "category": "",
+   "host": "pocketstars.com",
+   "profile_url": "https://pocketstars.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pokemon showdown",
+   "name": "Pokemon Showdown",
+   "category": "",
+   "host": "pokemonshowdown.com",
+   "profile_url": "https://pokemonshowdown.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:polarsteps",
+   "name": "Polarsteps",
+   "category": "",
+   "host": "polarsteps.com",
+   "profile_url": "https://polarsteps.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:polygon",
+   "name": "Polygon",
+   "category": "",
+   "host": "polygon.com",
+   "profile_url": "https://www.polygon.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:polymart",
+   "name": "Polymart",
+   "category": "",
+   "host": "polymart.org",
+   "profile_url": "https://polymart.org/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pornhub",
+   "name": "Pornhub",
+   "category": "",
+   "host": "pornhub.com",
+   "profile_url": "https://pornhub.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:producthunt",
+   "name": "ProductHunt",
+   "category": "",
+   "host": "producthunt.com",
+   "profile_url": "https://www.producthunt.com/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:programming.dev",
+   "name": "programming.dev",
+   "category": "",
+   "host": "programming.dev",
+   "profile_url": "https://programming.dev/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pychess",
+   "name": "Pychess",
+   "category": "",
+   "host": "pychess.org",
+   "profile_url": "https://www.pychess.org/@/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:promodj",
+   "name": "PromoDJ",
+   "category": "",
+   "host": "promodj.com",
+   "profile_url": "http://promodj.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pronouns.page",
+   "name": "Pronouns.page",
+   "category": "",
+   "host": "pronouns.page",
+   "profile_url": "https://pronouns.page/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pypi",
+   "name": "PyPi",
+   "category": "",
+   "host": "pypi.org",
+   "profile_url": "https://pypi.org/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:python.org discussions",
+   "name": "Python.org Discussions",
+   "category": "",
+   "host": "discuss.python.org",
+   "profile_url": "https://discuss.python.org/u/{username}/summary",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:rajce.net",
+   "name": "Rajce.net",
+   "category": "",
+   "host": "x.rajce.idnes.cz",
+   "profile_url": "https://{username}.rajce.idnes.cz/",
+   "valid": true,
+   "username_pattern": "^[\\w@-]+?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:rarible",
+   "name": "Rarible",
+   "category": "",
+   "host": "rarible.com",
+   "profile_url": "https://rarible.com/marketplace/api/v4/urls/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:rate your music",
+   "name": "Rate Your Music",
+   "category": "",
+   "host": "rateyourmusic.com",
+   "profile_url": "https://rateyourmusic.com/~{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:rclone forum",
+   "name": "Rclone Forum",
+   "category": "",
+   "host": "forum.rclone.org",
+   "profile_url": "https://forum.rclone.org/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:redtube",
+   "name": "RedTube",
+   "category": "",
+   "host": "redtube.com",
+   "profile_url": "https://www.redtube.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:redbubble",
+   "name": "Redbubble",
+   "category": "",
+   "host": "redbubble.com",
+   "profile_url": "https://www.redbubble.com/people/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:reddit",
+   "name": "Reddit",
+   "category": "",
+   "host": "reddit.com",
+   "profile_url": "https://www.reddit.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:realmeye",
+   "name": "Realmeye",
+   "category": "",
+   "host": "realmeye.com",
+   "profile_url": "https://www.realmeye.com/player/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:reisefrage",
+   "name": "Reisefrage",
+   "category": "",
+   "host": "reisefrage.net",
+   "profile_url": "https://www.reisefrage.net/nutzer/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:replit.com",
+   "name": "Replit.com",
+   "category": "",
+   "host": "replit.com",
+   "profile_url": "https://replit.com/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:researchgate",
+   "name": "ResearchGate",
+   "category": "",
+   "host": "researchgate.net",
+   "profile_url": "https://www.researchgate.net/profile/{username}",
+   "valid": true,
+   "username_pattern": "\\w+_\\w+",
+   "countries": []
+  },
+  {
+   "id": "sherlock:reverbnation",
+   "name": "ReverbNation",
+   "category": "",
+   "host": "reverbnation.com",
+   "profile_url": "https://www.reverbnation.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:roblox",
+   "name": "Roblox",
+   "category": "",
+   "host": "roblox.com",
+   "profile_url": "https://www.roblox.com/user.aspx?username={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:rockettube",
+   "name": "RocketTube",
+   "category": "",
+   "host": "rockettube.com",
+   "profile_url": "https://www.rockettube.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:royalcams",
+   "name": "RoyalCams",
+   "category": "",
+   "host": "royalcams.com",
+   "profile_url": "https://royalcams.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:ruby forums",
+   "name": "Ruby Forums",
+   "category": "",
+   "host": "ruby-forum.com",
+   "profile_url": "https://ruby-forum.com/u/{username}/summary",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:rubygems",
+   "name": "RubyGems",
+   "category": "",
+   "host": "rubygems.org",
+   "profile_url": "https://rubygems.org/profiles/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z][a-zA-Z0-9_-]{1,40}",
+   "countries": []
+  },
+  {
+   "id": "sherlock:rumble",
+   "name": "Rumble",
+   "category": "",
+   "host": "rumble.com",
+   "profile_url": "https://rumble.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:runescape",
+   "name": "RuneScape",
+   "category": "",
+   "host": "apps.runescape.com",
+   "profile_url": "https://apps.runescape.com/runemetrics/app/overview/player/{username}",
+   "valid": true,
+   "username_pattern": "^(?! )[\\w -]{1,12}(?<! )$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:swapd",
+   "name": "SWAPD",
+   "category": "",
+   "host": "swapd.co",
+   "profile_url": "https://swapd.co/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:sbazar.cz",
+   "name": "Sbazar.cz",
+   "category": "",
+   "host": "sbazar.cz",
+   "profile_url": "https://www.sbazar.cz/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:scratch",
+   "name": "Scratch",
+   "category": "",
+   "host": "scratch.mit.edu",
+   "profile_url": "https://scratch.mit.edu/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:scribd",
+   "name": "Scribd",
+   "category": "",
+   "host": "scribd.com",
+   "profile_url": "https://www.scribd.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:seoforum",
+   "name": "SEOForum",
+   "category": "",
+   "host": "seoforum.com",
+   "profile_url": "https://seoforum.com/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:shelf",
+   "name": "Shelf",
+   "category": "",
+   "host": "shelf.im",
+   "profile_url": "https://www.shelf.im/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:shitpostbot5000",
+   "name": "ShitpostBot5000",
+   "category": "",
+   "host": "shitpostbot.com",
+   "profile_url": "https://www.shitpostbot.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:signal",
+   "name": "Signal",
+   "category": "",
+   "host": "community.signalusers.org",
+   "profile_url": "https://community.signalusers.org/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:sketchfab",
+   "name": "Sketchfab",
+   "category": "",
+   "host": "sketchfab.com",
+   "profile_url": "https://sketchfab.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:slack",
+   "name": "Slack",
+   "category": "",
+   "host": "x.slack.com",
+   "profile_url": "https://{username}.slack.com",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:slant",
+   "name": "Slant",
+   "category": "",
+   "host": "slant.co",
+   "profile_url": "https://www.slant.co/users/{username}",
+   "valid": true,
+   "username_pattern": "^.{2,32}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:slashdot",
+   "name": "Slashdot",
+   "category": "",
+   "host": "slashdot.org",
+   "profile_url": "https://slashdot.org/~{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:slideshare",
+   "name": "SlideShare",
+   "category": "",
+   "host": "slideshare.net",
+   "profile_url": "https://slideshare.net/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:slides",
+   "name": "Slides",
+   "category": "",
+   "host": "slides.com",
+   "profile_url": "https://slides.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:smugmug",
+   "name": "SmugMug",
+   "category": "",
+   "host": "x.smugmug.com",
+   "profile_url": "https://{username}.smugmug.com",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z]{1,35}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:smule",
+   "name": "Smule",
+   "category": "",
+   "host": "smule.com",
+   "profile_url": "https://www.smule.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:snapchat",
+   "name": "Snapchat",
+   "category": "",
+   "host": "snapchat.com",
+   "profile_url": "https://www.snapchat.com/add/{username}",
+   "valid": true,
+   "username_pattern": "^[a-z][a-z-_.]{3,15}",
+   "countries": []
+  },
+  {
+   "id": "sherlock:soop",
+   "name": "SOOP",
+   "category": "",
+   "host": "sooplive.co.kr",
+   "profile_url": "https://www.sooplive.co.kr/station/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:soundcloud",
+   "name": "SoundCloud",
+   "category": "",
+   "host": "soundcloud.com",
+   "profile_url": "https://soundcloud.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:sourceforge",
+   "name": "SourceForge",
+   "category": "",
+   "host": "sourceforge.net",
+   "profile_url": "https://sourceforge.net/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:spacehey",
+   "name": "SpaceHey",
+   "category": "",
+   "host": "spacehey.com",
+   "profile_url": "https://spacehey.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:soylentnews",
+   "name": "SoylentNews",
+   "category": "",
+   "host": "soylentnews.org",
+   "profile_url": "https://soylentnews.org/~{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:speakerdeck",
+   "name": "SpeakerDeck",
+   "category": "",
+   "host": "speakerdeck.com",
+   "profile_url": "https://speakerdeck.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:speedrun.com",
+   "name": "Speedrun.com",
+   "category": "",
+   "host": "speedrun.com",
+   "profile_url": "https://speedrun.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:spells8",
+   "name": "Spells8",
+   "category": "",
+   "host": "forum.spells8.com",
+   "profile_url": "https://forum.spells8.com/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:splice",
+   "name": "Splice",
+   "category": "",
+   "host": "splice.com",
+   "profile_url": "https://splice.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:splits.io",
+   "name": "Splits.io",
+   "category": "",
+   "host": "splits.io",
+   "profile_url": "https://splits.io/users/{username}",
+   "valid": true,
+   "username_pattern": "^[^.]*?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:sporcle",
+   "name": "Sporcle",
+   "category": "",
+   "host": "sporcle.com",
+   "profile_url": "https://www.sporcle.com/user/{username}/people",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:sportlerfrage",
+   "name": "Sportlerfrage",
+   "category": "",
+   "host": "sportlerfrage.net",
+   "profile_url": "https://www.sportlerfrage.net/nutzer/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:sportsru",
+   "name": "SportsRU",
+   "category": "",
+   "host": "sports.ru",
+   "profile_url": "https://www.sports.ru/profile/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:spotify",
+   "name": "Spotify",
+   "category": "",
+   "host": "open.spotify.com",
+   "profile_url": "https://open.spotify.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:star citizen",
+   "name": "Star Citizen",
+   "category": "",
+   "host": "robertsspaceindustries.com",
+   "profile_url": "https://robertsspaceindustries.com/citizens/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:status cafe",
+   "name": "Status Cafe",
+   "category": "",
+   "host": "status.cafe",
+   "profile_url": "https://status.cafe/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:steam community (group)",
+   "name": "Steam Community (Group)",
+   "category": "",
+   "host": "steamcommunity.com",
+   "profile_url": "https://steamcommunity.com/groups/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:steam community (user)",
+   "name": "Steam Community (User)",
+   "category": "",
+   "host": "steamcommunity.com",
+   "profile_url": "https://steamcommunity.com/id/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:strava",
+   "name": "Strava",
+   "category": "",
+   "host": "strava.com",
+   "profile_url": "https://www.strava.com/athletes/{username}",
+   "valid": true,
+   "username_pattern": "^[^.]*?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:substack",
+   "name": "Substack",
+   "category": "",
+   "host": "x.substack.com",
+   "profile_url": "https://{username}.substack.com/",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{1,60}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:sublimeforum",
+   "name": "SublimeForum",
+   "category": "",
+   "host": "forum.sublimetext.com",
+   "profile_url": "https://forum.sublimetext.com/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:tetr.io",
+   "name": "TETR.IO",
+   "category": "",
+   "host": "ch.tetr.io",
+   "profile_url": "https://ch.tetr.io/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:themoviedb",
+   "name": "TheMovieDB",
+   "category": "",
+   "host": "themoviedb.org",
+   "profile_url": "https://www.themoviedb.org/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:tiktok",
+   "name": "TikTok",
+   "category": "",
+   "host": "tiktok.com",
+   "profile_url": "https://www.tiktok.com/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:tiendanube",
+   "name": "Tiendanube",
+   "category": "",
+   "host": "x.mitiendanube.com",
+   "profile_url": "https://{username}.mitiendanube.com/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:topcoder",
+   "name": "Topcoder",
+   "category": "",
+   "host": "profiles.topcoder.com",
+   "profile_url": "https://profiles.topcoder.com/{username}/",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9_.]+$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:topmate",
+   "name": "Topmate",
+   "category": "",
+   "host": "topmate.io",
+   "profile_url": "https://topmate.io/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:traktrain",
+   "name": "TRAKTRAIN",
+   "category": "",
+   "host": "traktrain.com",
+   "profile_url": "https://traktrain.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:telegram",
+   "name": "Telegram",
+   "category": "",
+   "host": "t.me",
+   "profile_url": "https://t.me/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9_]{3,32}[^_]$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:tellonym.me",
+   "name": "Tellonym.me",
+   "category": "",
+   "host": "tellonym.me",
+   "profile_url": "https://tellonym.me/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:tenor",
+   "name": "Tenor",
+   "category": "",
+   "host": "tenor.com",
+   "profile_url": "https://tenor.com/users/{username}",
+   "valid": true,
+   "username_pattern": "^[A-Za-z0-9_]{2,32}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:terraria forums",
+   "name": "Terraria Forums",
+   "category": "",
+   "host": "forums.terraria.org",
+   "profile_url": "https://forums.terraria.org/index.php?search/42798315/&c[users]={username}&o=relevance",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:themeforest",
+   "name": "ThemeForest",
+   "category": "",
+   "host": "themeforest.net",
+   "profile_url": "https://themeforest.net/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:tistory",
+   "name": "tistory",
+   "category": "",
+   "host": "x.tistory.com",
+   "profile_url": "https://{username}.tistory.com/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:tnaflix",
+   "name": "TnAFlix",
+   "category": "",
+   "host": "tnaflix.com",
+   "profile_url": "https://www.tnaflix.com/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:tradingview",
+   "name": "TradingView",
+   "category": "",
+   "host": "tradingview.com",
+   "profile_url": "https://www.tradingview.com/u/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:trakt",
+   "name": "Trakt",
+   "category": "",
+   "host": "trakt.tv",
+   "profile_url": "https://www.trakt.tv/users/{username}",
+   "valid": true,
+   "username_pattern": "^[^.]*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:trashboxru",
+   "name": "TrashboxRU",
+   "category": "",
+   "host": "trashbox.ru",
+   "profile_url": "https://trashbox.ru/users/{username}",
+   "valid": true,
+   "username_pattern": "^[A-Za-z0-9_-]{3,16}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:trawelling",
+   "name": "Trawelling",
+   "category": "",
+   "host": "traewelling.de",
+   "profile_url": "https://traewelling.de/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:trello",
+   "name": "Trello",
+   "category": "",
+   "host": "trello.com",
+   "profile_url": "https://trello.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:tryhackme",
+   "name": "TryHackMe",
+   "category": "",
+   "host": "tryhackme.com",
+   "profile_url": "https://tryhackme.com/p/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9.]{1,16}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:tuna",
+   "name": "Tuna",
+   "category": "",
+   "host": "tuna.voicemod.net",
+   "profile_url": "https://tuna.voicemod.net/user/{username}",
+   "valid": true,
+   "username_pattern": "^[a-z0-9]{4,40}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:tweakers",
+   "name": "Tweakers",
+   "category": "",
+   "host": "tweakers.net",
+   "profile_url": "https://tweakers.net/gallery/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:twitch",
+   "name": "Twitch",
+   "category": "",
+   "host": "twitch.tv",
+   "profile_url": "https://www.twitch.tv/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:trovo",
+   "name": "Trovo",
+   "category": "",
+   "host": "trovo.live",
+   "profile_url": "https://trovo.live/s/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:twitter",
+   "name": "Twitter",
+   "category": "",
+   "host": "x.com",
+   "profile_url": "https://x.com/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9_]{1,15}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:typeracer",
+   "name": "Typeracer",
+   "category": "",
+   "host": "data.typeracer.com",
+   "profile_url": "https://data.typeracer.com/pit/profile?user={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:ultimate-guitar",
+   "name": "Ultimate-Guitar",
+   "category": "",
+   "host": "ultimate-guitar.com",
+   "profile_url": "https://ultimate-guitar.com/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:unsplash",
+   "name": "Unsplash",
+   "category": "",
+   "host": "unsplash.com",
+   "profile_url": "https://unsplash.com/@{username}",
+   "valid": true,
+   "username_pattern": "^[a-z0-9_]{1,60}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:untappd",
+   "name": "Untappd",
+   "category": "",
+   "host": "untappd.com",
+   "profile_url": "https://untappd.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:valorant forums",
+   "name": "Valorant Forums",
+   "category": "",
+   "host": "valorantforums.com",
+   "profile_url": "https://valorantforums.com/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:vk",
+   "name": "VK",
+   "category": "",
+   "host": "vk.com",
+   "profile_url": "https://vk.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:vsco",
+   "name": "VSCO",
+   "category": "",
+   "host": "vsco.co",
+   "profile_url": "https://vsco.co/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:velog",
+   "name": "Velog",
+   "category": "",
+   "host": "velog.io",
+   "profile_url": "https://velog.io/@{username}/posts",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:velomania",
+   "name": "Velomania",
+   "category": "",
+   "host": "forum.velomania.ru",
+   "profile_url": "https://forum.velomania.ru/member.php?username={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:venmo",
+   "name": "Venmo",
+   "category": "",
+   "host": "account.venmo.com",
+   "profile_url": "https://account.venmo.com/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:vero",
+   "name": "Vero",
+   "category": "",
+   "host": "vero.co",
+   "profile_url": "https://vero.co/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:vimeo",
+   "name": "Vimeo",
+   "category": "",
+   "host": "vimeo.com",
+   "profile_url": "https://vimeo.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:virustotal",
+   "name": "VirusTotal",
+   "category": "",
+   "host": "virustotal.com",
+   "profile_url": "https://www.virustotal.com/gui/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:vlr",
+   "name": "VLR",
+   "category": "",
+   "host": "vlr.gg",
+   "profile_url": "https://www.vlr.gg/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:wicg forum",
+   "name": "WICG Forum",
+   "category": "",
+   "host": "discourse.wicg.io",
+   "profile_url": "https://discourse.wicg.io/u/{username}/summary",
+   "valid": true,
+   "username_pattern": "^(?![.-])[a-zA-Z0-9_.-]{3,20}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:wakatime",
+   "name": "Wakatime",
+   "category": "",
+   "host": "wakatime.com",
+   "profile_url": "https://wakatime.com/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:warrior forum",
+   "name": "Warrior Forum",
+   "category": "",
+   "host": "warriorforum.com",
+   "profile_url": "https://www.warriorforum.com/members/{username}.html",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:wattpad",
+   "name": "Wattpad",
+   "category": "",
+   "host": "wattpad.com",
+   "profile_url": "https://www.wattpad.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:webnode",
+   "name": "WebNode",
+   "category": "",
+   "host": "x.webnode.cz",
+   "profile_url": "https://{username}.webnode.cz/",
+   "valid": true,
+   "username_pattern": "^[\\w@-]+?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:weblate",
+   "name": "Weblate",
+   "category": "",
+   "host": "hosted.weblate.org",
+   "profile_url": "https://hosted.weblate.org/user/{username}/",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9@._-]{1,150}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:weebly",
+   "name": "Weebly",
+   "category": "",
+   "host": "x.weebly.com",
+   "profile_url": "https://{username}.weebly.com/",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9-]{1,63}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:wikidot",
+   "name": "Wikidot",
+   "category": "",
+   "host": "wikidot.com",
+   "profile_url": "http://www.wikidot.com/user:info/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:wikipedia",
+   "name": "Wikipedia",
+   "category": "",
+   "host": "en.wikipedia.org",
+   "profile_url": "https://en.wikipedia.org/wiki/Special:CentralAuth/{username}?uselang=qqx",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:windy",
+   "name": "Windy",
+   "category": "",
+   "host": "community.windy.com",
+   "profile_url": "https://community.windy.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:wix",
+   "name": "Wix",
+   "category": "",
+   "host": "x.wix.com",
+   "profile_url": "https://{username}.wix.com",
+   "valid": true,
+   "username_pattern": "^[\\w@-]+?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:wolframalphaforum",
+   "name": "WolframalphaForum",
+   "category": "",
+   "host": "community.wolfram.com",
+   "profile_url": "https://community.wolfram.com/web/{username}/home",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:wordpress",
+   "name": "WordPress",
+   "category": "",
+   "host": "x.wordpress.com",
+   "profile_url": "https://{username}.wordpress.com/",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z][a-zA-Z0-9_-]*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:wordpressorg",
+   "name": "WordPressOrg",
+   "category": "",
+   "host": "profiles.wordpress.org",
+   "profile_url": "https://profiles.wordpress.org/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:wordnik",
+   "name": "Wordnik",
+   "category": "",
+   "host": "wordnik.com",
+   "profile_url": "https://www.wordnik.com/users/{username}",
+   "valid": true,
+   "username_pattern": "^[a-zA-Z0-9_.+-]{1,40}$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:wykop",
+   "name": "Wykop",
+   "category": "",
+   "host": "wykop.pl",
+   "profile_url": "https://www.wykop.pl/ludzie/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:xbox gamertag",
+   "name": "Xbox Gamertag",
+   "category": "",
+   "host": "xboxgamertag.com",
+   "profile_url": "https://xboxgamertag.com/search/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:xvideos",
+   "name": "Xvideos",
+   "category": "",
+   "host": "xvideos.com",
+   "profile_url": "https://xvideos.com/profiles/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:yandexmusic",
+   "name": "YandexMusic",
+   "category": "",
+   "host": "music.yandex",
+   "profile_url": "https://music.yandex/users/{username}/playlists",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:younow",
+   "name": "YouNow",
+   "category": "",
+   "host": "younow.com",
+   "profile_url": "https://www.younow.com/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:youpic",
+   "name": "YouPic",
+   "category": "",
+   "host": "youpic.com",
+   "profile_url": "https://youpic.com/photographer/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:youporn",
+   "name": "YouPorn",
+   "category": "",
+   "host": "youporn.com",
+   "profile_url": "https://youporn.com/uservids/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:youtube",
+   "name": "YouTube",
+   "category": "",
+   "host": "youtube.com",
+   "profile_url": "https://www.youtube.com/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:akniga",
+   "name": "akniga",
+   "category": "",
+   "host": "akniga.org",
+   "profile_url": "https://akniga.org/profile/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:authorstream",
+   "name": "authorSTREAM",
+   "category": "",
+   "host": "authorstream.com",
+   "profile_url": "http://www.authorstream.com/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:babyblogru",
+   "name": "babyblogRU",
+   "category": "",
+   "host": "babyblog.ru",
+   "profile_url": "https://www.babyblog.ru/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:chaos.social",
+   "name": "chaos.social",
+   "category": "",
+   "host": "chaos.social",
+   "profile_url": "https://chaos.social/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:couchsurfing",
+   "name": "couchsurfing",
+   "category": "",
+   "host": "couchsurfing.com",
+   "profile_url": "https://www.couchsurfing.com/people/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:d3ru",
+   "name": "d3RU",
+   "category": "",
+   "host": "d3.ru",
+   "profile_url": "https://d3.ru/user/{username}/posts",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:dailykos",
+   "name": "dailykos",
+   "category": "",
+   "host": "dailykos.com",
+   "profile_url": "https://www.dailykos.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:datingru",
+   "name": "datingRU",
+   "category": "",
+   "host": "dating.ru",
+   "profile_url": "http://dating.ru/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:devrant",
+   "name": "devRant",
+   "category": "",
+   "host": "devrant.com",
+   "profile_url": "https://devrant.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:drive2",
+   "name": "drive2",
+   "category": "",
+   "host": "drive2.ru",
+   "profile_url": "https://www.drive2.ru/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:egpu",
+   "name": "eGPU",
+   "category": "",
+   "host": "egpu.io",
+   "profile_url": "https://egpu.io/forums/profile/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:eintracht",
+   "name": "eintracht",
+   "category": "",
+   "host": "community.eintracht.de",
+   "profile_url": "https://community.eintracht.de/fans/{username}",
+   "valid": true,
+   "username_pattern": "^[^.]*?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:fixya",
+   "name": "fixya",
+   "category": "",
+   "host": "fixya.com",
+   "profile_url": "https://www.fixya.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:fl",
+   "name": "fl",
+   "category": "",
+   "host": "fl.ru",
+   "profile_url": "https://www.fl.ru/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:forum_guns",
+   "name": "forum_guns",
+   "category": "",
+   "host": "forum.guns.ru",
+   "profile_url": "https://forum.guns.ru/forummisc/blog/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:freecodecamp",
+   "name": "freecodecamp",
+   "category": "",
+   "host": "freecodecamp.org",
+   "profile_url": "https://www.freecodecamp.org/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:furaffinity",
+   "name": "furaffinity",
+   "category": "",
+   "host": "furaffinity.net",
+   "profile_url": "https://www.furaffinity.net/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:geocaching",
+   "name": "geocaching",
+   "category": "",
+   "host": "geocaching.com",
+   "profile_url": "https://www.geocaching.com/p/default.aspx?u={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:habr",
+   "name": "habr",
+   "category": "",
+   "host": "habr.com",
+   "profile_url": "https://habr.com/ru/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hackster",
+   "name": "hackster",
+   "category": "",
+   "host": "hackster.io",
+   "profile_url": "https://www.hackster.io/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:hunting",
+   "name": "hunting",
+   "category": "",
+   "host": "hunting.ru",
+   "profile_url": "https://www.hunting.ru/forum/members/?username={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:igromania",
+   "name": "igromania",
+   "category": "",
+   "host": "forum.igromania.ru",
+   "profile_url": "http://forum.igromania.ru/member.php?username={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:interpals",
+   "name": "interpals",
+   "category": "",
+   "host": "interpals.net",
+   "profile_url": "https://www.interpals.net/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:irecommend",
+   "name": "irecommend",
+   "category": "",
+   "host": "irecommend.ru",
+   "profile_url": "https://irecommend.ru/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:jbzd.com.pl",
+   "name": "jbzd.com.pl",
+   "category": "",
+   "host": "jbzd.com.pl",
+   "profile_url": "https://jbzd.com.pl/uzytkownik/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:jeuxvideo",
+   "name": "jeuxvideo",
+   "category": "",
+   "host": "jeuxvideo.com",
+   "profile_url": "https://www.jeuxvideo.com/profil/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:kofi",
+   "name": "kofi",
+   "category": "",
+   "host": "ko-fi.com",
+   "profile_url": "https://ko-fi.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:kwork",
+   "name": "kwork",
+   "category": "",
+   "host": "kwork.ru",
+   "profile_url": "https://kwork.ru/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:last.fm",
+   "name": "last.fm",
+   "category": "",
+   "host": "last.fm",
+   "profile_url": "https://last.fm/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:leasehackr",
+   "name": "leasehackr",
+   "category": "",
+   "host": "forum.leasehackr.com",
+   "profile_url": "https://forum.leasehackr.com/u/{username}/summary/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:livelib",
+   "name": "livelib",
+   "category": "",
+   "host": "livelib.ru",
+   "profile_url": "https://www.livelib.ru/reader/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:mastodon.cloud",
+   "name": "mastodon.cloud",
+   "category": "",
+   "host": "mastodon.cloud",
+   "profile_url": "https://mastodon.cloud/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:mastodon.social",
+   "name": "mastodon.social",
+   "category": "",
+   "host": "mastodon.social",
+   "profile_url": "https://mastodon.social/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:mastodon.xyz",
+   "name": "mastodon.xyz",
+   "category": "",
+   "host": "mastodon.xyz",
+   "profile_url": "https://mastodon.xyz/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:mstdn.social",
+   "name": "mstdn.social",
+   "category": "",
+   "host": "mstdn.social",
+   "profile_url": "https://mstdn.social/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:mercadolivre",
+   "name": "mercadolivre",
+   "category": "",
+   "host": "mercadolivre.com.br",
+   "profile_url": "https://www.mercadolivre.com.br/perfil/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:minds",
+   "name": "minds",
+   "category": "",
+   "host": "minds.com",
+   "profile_url": "https://www.minds.com/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:moikrug",
+   "name": "moikrug",
+   "category": "",
+   "host": "moikrug.ru",
+   "profile_url": "https://moikrug.ru/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:mstdn.io",
+   "name": "mstdn.io",
+   "category": "",
+   "host": "mstdn.io",
+   "profile_url": "https://mstdn.io/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:nairaland.com",
+   "name": "nairaland.com",
+   "category": "",
+   "host": "nairaland.com",
+   "profile_url": "https://www.nairaland.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:n8n community",
+   "name": "n8n Community",
+   "category": "",
+   "host": "community.n8n.io",
+   "profile_url": "https://community.n8n.io/u/{username}/summary",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:nnru",
+   "name": "nnRU",
+   "category": "",
+   "host": "x.www.nn.ru",
+   "profile_url": "https://{username}.www.nn.ru/",
+   "valid": true,
+   "username_pattern": "^[\\w@-]+?$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:note",
+   "name": "note",
+   "category": "",
+   "host": "note.com",
+   "profile_url": "https://note.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:npm",
+   "name": "npm",
+   "category": "",
+   "host": "npmjs.com",
+   "profile_url": "https://www.npmjs.com/~{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:omg.lol",
+   "name": "omg.lol",
+   "category": "",
+   "host": "x.omg.lol",
+   "profile_url": "https://{username}.omg.lol",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:opennet",
+   "name": "opennet",
+   "category": "",
+   "host": "opennet.ru",
+   "profile_url": "https://www.opennet.ru/~{username}",
+   "valid": true,
+   "username_pattern": "^[^-]*$",
+   "countries": []
+  },
+  {
+   "id": "sherlock:osu!",
+   "name": "osu!",
+   "category": "",
+   "host": "osu.ppy.sh",
+   "profile_url": "https://osu.ppy.sh/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:phpru",
+   "name": "phpRU",
+   "category": "",
+   "host": "php.ru",
+   "profile_url": "https://php.ru/forum/members/?username={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pikabu",
+   "name": "pikabu",
+   "category": "",
+   "host": "pikabu.ru",
+   "profile_url": "https://pikabu.ru/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pinterest",
+   "name": "Pinterest",
+   "category": "",
+   "host": "pinterest.com",
+   "profile_url": "https://www.pinterest.com/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:pr0gramm",
+   "name": "pr0gramm",
+   "category": "",
+   "host": "pr0gramm.com",
+   "profile_url": "https://pr0gramm.com/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:prog.hu",
+   "name": "prog.hu",
+   "category": "",
+   "host": "prog.hu",
+   "profile_url": "https://prog.hu/azonosito/info/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:satsisru",
+   "name": "satsisRU",
+   "category": "",
+   "host": "satsis.info",
+   "profile_url": "https://satsis.info/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:sessionize",
+   "name": "sessionize",
+   "category": "",
+   "host": "sessionize.com",
+   "profile_url": "https://sessionize.com/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:social.tchncs.de",
+   "name": "social.tchncs.de",
+   "category": "",
+   "host": "social.tchncs.de",
+   "profile_url": "https://social.tchncs.de/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:spletnik",
+   "name": "spletnik",
+   "category": "",
+   "host": "spletnik.ru",
+   "profile_url": "https://spletnik.ru/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:svidbook",
+   "name": "svidbook",
+   "category": "",
+   "host": "svidbook.ru",
+   "profile_url": "https://www.svidbook.ru/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:threads",
+   "name": "threads",
+   "category": "",
+   "host": "threads.net",
+   "profile_url": "https://www.threads.net/@{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:toster",
+   "name": "toster",
+   "category": "",
+   "host": "toster.ru",
+   "profile_url": "https://www.toster.ru/user/{username}/answers",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:tumblr",
+   "name": "tumblr",
+   "category": "",
+   "host": "x.tumblr.com",
+   "profile_url": "https://{username}.tumblr.com/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:uid",
+   "name": "uid",
+   "category": "",
+   "host": "uid.me",
+   "profile_url": "http://uid.me/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:write.as",
+   "name": "write.as",
+   "category": "",
+   "host": "write.as",
+   "profile_url": "https://write.as/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:xhamster",
+   "name": "xHamster",
+   "category": "",
+   "host": "xhamster.com",
+   "profile_url": "https://xhamster.com/users/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:znanylekarz.pl",
+   "name": "znanylekarz.pl",
+   "category": "",
+   "host": "znanylekarz.pl",
+   "profile_url": "https://www.znanylekarz.pl/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:platzi",
+   "name": "Platzi",
+   "category": "",
+   "host": "platzi.com",
+   "profile_url": "https://platzi.com/p/{username}/",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:babyru",
+   "name": "BabyRu",
+   "category": "",
+   "host": "baby.ru",
+   "profile_url": "https://www.baby.ru/u/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:wowhead",
+   "name": "Wowhead",
+   "category": "",
+   "host": "wowhead.com",
+   "profile_url": "https://wowhead.com/user={username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:addons.wago.io",
+   "name": "addons.wago.io",
+   "category": "",
+   "host": "addons.wago.io",
+   "profile_url": "https://addons.wago.io/user/{username}",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  },
+  {
+   "id": "sherlock:curseforge",
+   "name": "CurseForge",
+   "category": "",
+   "host": "curseforge.com",
+   "profile_url": "https://www.curseforge.com/members/{username}/projects",
+   "valid": true,
+   "username_pattern": "",
+   "countries": []
+  }
+ ]
+}

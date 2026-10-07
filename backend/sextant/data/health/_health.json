@@ -1,0 +1,533 @@
+{
+ "connectors": {
+  "github": {
+   "transform": "github.username_lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:05+00:00",
+   "seconds": 1.2,
+   "entities": 6
+  },
+  "gitlab": {
+   "transform": "gitlab.username_lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:06+00:00",
+   "seconds": 0.5,
+   "entities": 3
+  },
+  "codeberg": {
+   "transform": "codeberg.username_lookup",
+   "status": "not_found",
+   "message": "No Codeberg account “octocat”",
+   "checked_at": "2026-10-06T13:10:06+00:00",
+   "seconds": 0.2,
+   "entities": 0
+  },
+  "crates": {
+   "transform": "crates.username_lookup",
+   "status": "not_found",
+   "message": "No crates.io account “octocat”",
+   "checked_at": "2026-10-06T13:10:06+00:00",
+   "seconds": 0.4,
+   "entities": 0
+  },
+  "dockerhub": {
+   "transform": "dockerhub.username_lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:07+00:00",
+   "seconds": 0.5,
+   "entities": 3
+  },
+  "huggingface": {
+   "transform": "huggingface.username_lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:08+00:00",
+   "seconds": 0.8,
+   "entities": 3
+  },
+  "npm": {
+   "transform": "npm.maintainer_lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:08+00:00",
+   "seconds": 0.4,
+   "entities": 2
+  },
+  "codeforces": {
+   "transform": "codeforces.username_lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:08+00:00",
+   "seconds": 0.3,
+   "entities": 4
+  },
+  "devto": {
+   "transform": "devto.username_lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:09+00:00",
+   "seconds": 0.9,
+   "entities": 9
+  },
+  "hackernews": {
+   "transform": "hackernews.username_lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:10+00:00",
+   "seconds": 0.7,
+   "entities": 1
+  },
+  "keybase": {
+   "transform": "keybase.username_lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:11+00:00",
+   "seconds": 1.3,
+   "entities": 10
+  },
+  "lobsters": {
+   "transform": "lobsters.username_lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:12+00:00",
+   "seconds": 0.8,
+   "entities": 4
+  },
+  "lemmy": {
+   "transform": "lemmy.username_lookup",
+   "status": "not_found",
+   "message": "No Lemmy (lemmy.world) account “sextantprobe9q” — Checked on lemmy.world (federated users from other instances are not covered)",
+   "checked_at": "2026-10-06T13:10:12+00:00",
+   "seconds": 0.4,
+   "entities": 0
+  },
+  "lichess": {
+   "transform": "lichess.username_lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:13+00:00",
+   "seconds": 0.3,
+   "entities": 1
+  },
+  "chesscom": {
+   "transform": "chesscom.username_lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:13+00:00",
+   "seconds": 0.5,
+   "entities": 4
+  },
+  "stackexchange": {
+   "transform": "stackexchange.username_lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:13+00:00",
+   "seconds": 0.3,
+   "entities": 2
+  },
+  "bluesky": {
+   "transform": "bluesky.username_lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:14:36+00:00",
+   "seconds": 1.9,
+   "entities": 3
+  },
+  "mastodon": {
+   "transform": "mastodon.username_lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:16+00:00",
+   "seconds": 2.8,
+   "entities": 15
+  },
+  "profile_probes": {
+   "transform": "profile_probes.sweep",
+   "status": "found",
+   "message": "18 public APIs checked: 9 found, 9 not found, 0 blocked, 0 inconclusive",
+   "checked_at": "2026-10-06T13:14:37+00:00",
+   "seconds": 1.2,
+   "entities": 13
+  },
+  "dns": {
+   "transform": "dns.records",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:19+00:00",
+   "seconds": 0.2,
+   "entities": 4
+  },
+  "rdap": {
+   "transform": "rdap.domain",
+   "status": "empty",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:20+00:00",
+   "seconds": 0.3,
+   "entities": 0
+  },
+  "crtsh": {
+   "transform": "crtsh.subdomains",
+   "status": "error",
+   "message": "crt.sh answered HTTP 502",
+   "checked_at": "2026-10-06T13:16:36+00:00",
+   "seconds": 34.0,
+   "entities": 0
+  },
+  "certspotter": {
+   "transform": "certspotter.subdomains",
+   "status": "empty",
+   "message": "",
+   "checked_at": "2026-10-06T13:10:22+00:00",
+   "seconds": 0.6,
+   "entities": 0
+  },
+  "wayback": {
+   "transform": "wayback.domain_history",
+   "status": "timeout",
+   "message": "Timed out (ReadTimeout)",
+   "checked_at": "2026-10-06T13:17:18+00:00",
+   "seconds": 42.1,
+   "entities": 0
+  },
+  "website": {
+   "transform": "website.pages",
+   "status": "empty",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:05+00:00",
+   "seconds": 0.2,
+   "entities": 0
+  },
+  "tech_fingerprint": {
+   "transform": "tech_fingerprint.fingerprint",
+   "status": "empty",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:05+00:00",
+   "seconds": 0.2,
+   "entities": 0
+  },
+  "ripestat": {
+   "transform": "ripestat.network",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:05+00:00",
+   "seconds": 0.4,
+   "entities": 1
+  },
+  "shodan_internetdb": {
+   "transform": "shodan_internetdb.lookup",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:05+00:00",
+   "seconds": 0.2,
+   "entities": 2
+  },
+  "gravatar": {
+   "transform": "gravatar.profile",
+   "status": "not_found",
+   "message": "No public Gravatar profile for this address",
+   "checked_at": "2026-10-06T13:11:06+00:00",
+   "seconds": 0.6,
+   "entities": 0
+  },
+  "openpgp_keyserver": {
+   "transform": "openpgp_keyserver.key_lookup",
+   "status": "not_found",
+   "message": "No verified OpenPGP key published for this address",
+   "checked_at": "2026-10-06T13:11:06+00:00",
+   "seconds": 0.4,
+   "entities": 0
+  },
+  "email_analysis": {
+   "transform": "email_analysis.analyse",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:06+00:00",
+   "seconds": 0.1,
+   "entities": 1
+  },
+  "phone_offline": {
+   "transform": "phone_offline.analyse",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:07+00:00",
+   "seconds": 0.1,
+   "entities": 1
+  },
+  "nominatim": {
+   "transform": "nominatim.geocode",
+   "status": "empty",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:07+00:00",
+   "seconds": 0.4,
+   "entities": 0
+  },
+  "gleif": {
+   "transform": "gleif.search",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:08+00:00",
+   "seconds": 0.7,
+   "entities": 5
+  },
+  "wikidata": {
+   "transform": "wikidata.organization",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:15+00:00",
+   "seconds": 7.4,
+   "entities": 11
+  },
+  "no_brreg": {
+   "transform": "no_brreg.entities",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:16+00:00",
+   "seconds": 0.9,
+   "entities": 83
+  },
+  "fi_prh": {
+   "transform": "fi_prh.companies",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:18+00:00",
+   "seconds": 1.9,
+   "entities": 1
+  },
+  "fr_entreprises": {
+   "transform": "fr_entreprises.companies",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:18+00:00",
+   "seconds": 0.4,
+   "entities": 17
+  },
+  "cz_ares": {
+   "transform": "cz_ares.subjects",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:19+00:00",
+   "seconds": 0.5,
+   "entities": 21
+  },
+  "ee_ariregister": {
+   "transform": "ee_ariregister.companies",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:19+00:00",
+   "seconds": 0.4,
+   "entities": 1
+  },
+  "sec_edgar": {
+   "transform": "sec_edgar.full_text",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:21+00:00",
+   "seconds": 1.7,
+   "entities": 21
+  },
+  "usaspending": {
+   "transform": "usaspending.recipients",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:22+00:00",
+   "seconds": 1.1,
+   "entities": 6
+  },
+  "ted_procurement": {
+   "transform": "ted_procurement.notices",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:11:22+00:00",
+   "seconds": 0.4,
+   "entities": 15
+  },
+  "uk_contracts_finder": {
+   "transform": "uk_contracts_finder.notices",
+   "status": "not_found",
+   "message": "No UK contract notices name this organization",
+   "checked_at": "2026-10-06T13:11:23+00:00",
+   "seconds": 1.1,
+   "entities": 0
+  },
+  "icij_offshore": {
+   "transform": "icij_offshore.reconcile",
+   "status": "not_found",
+   "message": "No close match in the Offshore Leaks database",
+   "checked_at": "2026-10-06T13:17:19+00:00",
+   "seconds": 0.7,
+   "entities": 0
+  },
+  "gdelt": {
+   "transform": "gdelt.articles",
+   "status": "rate_limited",
+   "message": "Source is rate limiting requests (HTTP 429)",
+   "checked_at": "2026-10-06T13:17:56+00:00",
+   "seconds": 37.3,
+   "entities": 0
+  },
+  "openalex": {
+   "transform": "openalex.authors",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:12:02+00:00",
+   "seconds": 0.6,
+   "entities": 9
+  },
+  "orcid": {
+   "transform": "orcid.by_name",
+   "status": "not_found",
+   "message": "No ORCID record with this name",
+   "checked_at": "2026-10-06T13:12:03+00:00",
+   "seconds": 0.4,
+   "entities": 0
+  },
+  "crossref": {
+   "transform": "crossref.works",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:12:04+00:00",
+   "seconds": 1.7,
+   "entities": 12
+  },
+  "courtlistener": {
+   "transform": "courtlistener.dockets",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:12:09+00:00",
+   "seconds": 4.1,
+   "entities": 20
+  },
+  "uk_find_case_law": {
+   "transform": "uk_find_case_law.judgments",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:12:09+00:00",
+   "seconds": 0.7,
+   "entities": 20
+  },
+  "us_npi": {
+   "transform": "us_npi.providers",
+   "status": "not_found",
+   "message": "No provider with this name",
+   "checked_at": "2026-10-06T13:12:10+00:00",
+   "seconds": 0.7,
+   "entities": 0
+  },
+  "fec": {
+   "transform": "fec.contributions",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T13:13:13+00:00",
+   "seconds": 62.5,
+   "entities": 46
+  },
+  "fbi_wanted": {
+   "transform": "fbi_wanted.match",
+   "status": "empty",
+   "message": "887 listed persons checked locally — no name match(es)",
+   "checked_at": "2026-10-06T13:13:15+00:00",
+   "seconds": 2.0,
+   "entities": 0
+  },
+  "whatsmyname": {
+   "transform": "whatsmyname.sweep",
+   "status": "found",
+   "message": "618 sites checked: 94 found, 214 not found, 48 blocked, 126 inconclusive, 126 skipped (robots.txt), 10 unreachable; 76 excluded by policy",
+   "checked_at": "2026-10-06T13:16:02+00:00",
+   "seconds": 84.4,
+   "entities": 131
+  },
+  "un_sanctions": {
+   "transform": "un_sanctions.match",
+   "status": "empty",
+   "message": "733 listed persons checked locally — no name match(es)",
+   "checked_at": "2026-10-06T13:17:58+00:00",
+   "seconds": 2.6,
+   "entities": 0
+  },
+  "ofac_sdn": {
+   "transform": "ofac_sdn.match",
+   "status": "empty",
+   "message": "7,492 listed persons checked locally — no name match(es)",
+   "checked_at": "2026-10-06T13:18:04+00:00",
+   "seconds": 5.6,
+   "entities": 0
+  },
+  "uk_sanctions": {
+   "transform": "uk_sanctions.match",
+   "status": "empty",
+   "message": "4,050 listed persons checked locally — no name match(es)",
+   "checked_at": "2026-10-06T13:18:12+00:00",
+   "seconds": 7.6,
+   "entities": 0
+  },
+  "eu_sanctions": {
+   "transform": "eu_sanctions.match",
+   "status": "empty",
+   "message": "4,461 listed persons checked locally — no name match(es)",
+   "checked_at": "2026-10-06T13:18:18+00:00",
+   "seconds": 5.9,
+   "entities": 0
+  },
+  "lv_ur": {
+   "transform": "lv_ur.companies",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T16:16:58+00:00",
+   "seconds": 0.8,
+   "entities": 5
+  },
+  "sk_rpo": {
+   "transform": "sk_rpo.entities",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T16:17:02+00:00",
+   "seconds": 4.5,
+   "entities": 4
+  },
+  "il_companies": {
+   "transform": "il_companies.companies",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T16:17:44+00:00",
+   "seconds": 0.4,
+   "entities": 1
+  },
+  "tw_gcis": {
+   "transform": "tw_gcis.companies",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T16:18:02+00:00",
+   "seconds": 3.0,
+   "entities": 1
+  },
+  "co_secop": {
+   "transform": "co_secop.contracts",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T16:17:12+00:00",
+   "seconds": 4.0,
+   "entities": 1
+  },
+  "maigret": {
+   "transform": "maigret.search",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T17:08:04+00:00",
+   "seconds": 55.5,
+   "entities": 171
+  },
+  "sherlock": {
+   "transform": "sherlock.search",
+   "status": "found",
+   "message": "",
+   "checked_at": "2026-10-06T17:15:16+00:00",
+   "seconds": 43.1,
+   "entities": 108
+  }
+ },
+ "checked_at": "2026-10-06T17:15:16+00:00"
+}

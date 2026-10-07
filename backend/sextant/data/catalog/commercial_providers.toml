@@ -1,0 +1,368 @@
+# Commercial data / intelligence providers, listed so the investigator knows they exist and what access looks like.
+# They are catalog entries, not connectors: Sextant never queries them. A provider becomes queryable only through a
+# connector configured with YOUR licence (then its status changes from "Connector interface only — contact provider").
+#
+# Metadata rules: data categories are worded as each provider describes its own offering on its public website, at a
+# general level; nothing here claims that a provider sells a particular field about a particular person.
+# `last_verified` is empty until someone checks the entry against the provider (Data Sources shows "Not verified").
+# More providers: add them in the UI (+ Add source, provider type "commercial") or through Data Sources → Discover
+# sources; this file is only the starting set.
+#
+# [source.commercial]
+#   access_models    free · free_tier · trial · per_query · subscription · enterprise · manual
+#   api              documented (public docs) · enterprise (for customers) · none · unknown
+#   web_app          a web application exists
+#   data_categories  as described by the provider (general)
+#   limitations      what to keep in mind (legal regime, regional coverage, contract terms)
+
+# ------------------------------------------------------------------ B2B / sales intelligence
+
+[[source]]
+name = "zoominfo"
+title = "ZoomInfo"
+category = "b2b_sales_intelligence"
+description = "B2B go-to-market platform: company and business-contact data for sales and marketing."
+access = "enterprise"
+cost = "Enterprise subscription"
+website = "https://www.zoominfo.com/"
+documentation = "https://api-docs.zoominfo.com/"
+reliability = "medium"
+coverage = "Global, strongest for North America (as described by the provider; not verified)"
+capabilities = ["business contacts", "company firmographics", "org charts"]
+input_entities = ["person", "organization", "email"]
+output_entities = ["person", "organization", "email", "phone"]
+status_note = "API available to enterprise customers only."
+[source.commercial]
+access_models = ["subscription", "enterprise"]
+api = "enterprise"
+web_app = true
+auth = "Enterprise account + API credentials"
+data_categories = ["Business contact data", "Company / firmographic data", "Intent data"]
+limitations = "B2B use under the provider's licence; GDPR/CCPA obligations apply to personal data."
+last_verified = ""
+
+[[source]]
+name = "apollo"
+title = "Apollo.io"
+category = "b2b_sales_intelligence"
+description = "Sales intelligence and engagement platform with a B2B contact and company database."
+access = "metered"
+cost = "Free plan with limited credits; paid plans and API credits"
+website = "https://www.apollo.io/"
+documentation = "https://docs.apollo.io/"
+reliability = "medium"
+coverage = "Global (as described by the provider; not verified)"
+capabilities = ["business contacts", "company data", "contact enrichment"]
+input_entities = ["person", "organization", "email", "domain"]
+output_entities = ["person", "organization", "email", "phone"]
+status_note = "Documented API with your own plan; no Sextant connector yet."
+[source.commercial]
+access_models = ["free_tier", "subscription", "per_query"]
+api = "documented"
+web_app = true
+auth = "API key"
+data_categories = ["Business contact data", "Company data", "Enrichment"]
+limitations = "Credits per export/enrichment; B2B use under the provider's terms."
+last_verified = ""
+
+[[source]]
+name = "lusha"
+title = "Lusha"
+category = "business_contact_data"
+description = "B2B contact and company data platform with enrichment API."
+access = "metered"
+cost = "Free plan with limited credits; paid plans"
+website = "https://www.lusha.com/"
+documentation = "https://docs.lusha.com/"
+reliability = "medium"
+coverage = "Global (as described by the provider; not verified)"
+capabilities = ["business contacts", "contact enrichment", "company data"]
+input_entities = ["person", "organization", "email", "domain"]
+output_entities = ["person", "email", "phone", "organization"]
+status_note = "Documented API with your own plan; no Sextant connector yet."
+[source.commercial]
+access_models = ["free_tier", "subscription"]
+api = "documented"
+web_app = true
+auth = "API key"
+data_categories = ["Business contact data", "Company data"]
+limitations = "Credits per reveal; B2B use; GDPR obligations for EU data subjects."
+last_verified = ""
+
+[[source]]
+name = "kaspr"
+title = "Kaspr"
+category = "contact_enrichment"
+description = "B2B contact enrichment, mainly from professional profiles (browser extension and API)."
+access = "metered"
+cost = "Free plan with limited credits; paid plans"
+website = "https://www.kaspr.io/"
+documentation = "https://www.kaspr.io/"
+reliability = "medium"
+coverage = "Europe-focused (as described by the provider; not verified)"
+capabilities = ["business contact enrichment"]
+input_entities = ["person", "organization"]
+output_entities = ["email", "phone"]
+status_note = "No Sextant connector. Check whether your plan includes API access."
+[source.commercial]
+access_models = ["free_tier", "subscription"]
+api = "unknown"
+web_app = true
+auth = "Account"
+data_categories = ["Business contact data", "Enrichment"]
+limitations = "Built around professional-network profiles; check the provider's and the platform's terms."
+last_verified = ""
+
+[[source]]
+name = "uplead"
+title = "UpLead"
+category = "b2b_sales_intelligence"
+description = "B2B contact and company database with email verification."
+access = "paid"
+cost = "Subscription; trial available"
+website = "https://www.uplead.com/"
+documentation = "https://www.uplead.com/"
+reliability = "medium"
+coverage = "Global (as described by the provider; not verified)"
+capabilities = ["business contacts", "company data"]
+input_entities = ["person", "organization", "domain"]
+output_entities = ["person", "email", "phone", "organization"]
+status_note = "No Sextant connector. API access depends on the plan."
+[source.commercial]
+access_models = ["trial", "subscription"]
+api = "unknown"
+web_app = true
+auth = "Account / API key"
+data_categories = ["Business contact data", "Company data"]
+limitations = "B2B use under the provider's licence."
+last_verified = ""
+
+[[source]]
+name = "lead411"
+title = "Lead411"
+category = "b2b_sales_intelligence"
+description = "B2B contact and company data with sales triggers."
+access = "paid"
+cost = "Subscription; trial available"
+website = "https://www.lead411.com/"
+documentation = "https://www.lead411.com/"
+reliability = "medium"
+coverage = "Mainly North America (as described by the provider; not verified)"
+capabilities = ["business contacts", "company data"]
+input_entities = ["person", "organization"]
+output_entities = ["person", "email", "phone", "organization"]
+status_note = "No Sextant connector."
+[source.commercial]
+access_models = ["trial", "subscription"]
+api = "unknown"
+web_app = true
+auth = "Account"
+data_categories = ["Business contact data", "Company data"]
+limitations = "B2B use under the provider's licence."
+last_verified = ""
+
+# ------------------------------------------------------------------ consumer / data intelligence
+
+[[source]]
+name = "acxiom"
+title = "Acxiom"
+category = "consumer_data"
+description = "Marketing data and identity solutions for brands and agencies."
+access = "enterprise"
+cost = "Enterprise contract"
+website = "https://www.acxiom.com/"
+documentation = "https://www.acxiom.com/"
+reliability = "medium"
+coverage = "Several markets (as described by the provider; not verified)"
+capabilities = ["marketing data", "audience data", "identity resolution for marketing"]
+input_entities = ["person", "email"]
+output_entities = ["person"]
+status_note = "Enterprise data provider; not an investigative lookup service. Contact the provider."
+[source.commercial]
+access_models = ["enterprise"]
+api = "enterprise"
+web_app = false
+auth = "Enterprise contract"
+data_categories = ["Consumer / marketing data", "Identity resolution (marketing)"]
+limitations = "Licensed for marketing purposes; investigative use is generally not a permitted purpose."
+last_verified = ""
+
+[[source]]
+name = "experian"
+title = "Experian"
+category = "consumer_data"
+description = "Credit bureau and data company: credit, identity verification, fraud and marketing data services."
+access = "enterprise"
+cost = "Enterprise contract (permissible purpose required for credit data)"
+website = "https://www.experian.com/"
+documentation = "https://developer.experian.com/"
+reliability = "high"
+coverage = "Country-specific bureaus (as described by the provider; not verified)"
+capabilities = ["identity verification", "credit data (regulated)", "business information"]
+input_entities = ["person", "organization"]
+output_entities = ["person", "organization", "public_record"]
+legal = "Credit data is regulated (FCRA in the US, national credit laws, GDPR): access needs a permissible purpose."
+status_note = "Developer portal for contracted customers. Contact the provider."
+[source.commercial]
+access_models = ["enterprise"]
+api = "enterprise"
+web_app = true
+auth = "Contract + credentials"
+data_categories = ["Credit data (regulated)", "Identity verification", "Business information", "Marketing data"]
+limitations = "Regulated data: only for permitted purposes with a contract; not for general OSINT."
+last_verified = ""
+
+[[source]]
+name = "equifax"
+title = "Equifax"
+category = "consumer_data"
+description = "Credit bureau: credit, identity verification and workforce data services."
+access = "enterprise"
+cost = "Enterprise contract (permissible purpose required)"
+website = "https://www.equifax.com/"
+documentation = "https://developer.equifax.com/"
+reliability = "high"
+coverage = "Country-specific bureaus (as described by the provider; not verified)"
+capabilities = ["identity verification", "credit data (regulated)"]
+input_entities = ["person", "organization"]
+output_entities = ["person", "organization"]
+legal = "Credit data is regulated (FCRA in the US, national credit laws, GDPR): access needs a permissible purpose."
+status_note = "Developer portal for contracted customers. Contact the provider."
+[source.commercial]
+access_models = ["enterprise"]
+api = "enterprise"
+web_app = true
+auth = "Contract + credentials"
+data_categories = ["Credit data (regulated)", "Identity verification", "Business information"]
+limitations = "Regulated data: only for permitted purposes with a contract; not for general OSINT."
+last_verified = ""
+
+[[source]]
+name = "nielsen"
+title = "Nielsen"
+category = "marketing_data"
+description = "Audience measurement and consumer analytics."
+access = "enterprise"
+cost = "Enterprise contract"
+website = "https://www.nielsen.com/"
+documentation = "https://www.nielsen.com/"
+reliability = "medium"
+coverage = "Many markets (as described by the provider; not verified)"
+capabilities = ["audience measurement", "aggregate consumer analytics"]
+input_entities = ["organization"]
+output_entities = ["organization"]
+status_note = "Aggregate audience data; not a person lookup service."
+[source.commercial]
+access_models = ["enterprise"]
+api = "enterprise"
+web_app = true
+auth = "Enterprise contract"
+data_categories = ["Audience measurement", "Aggregate consumer data"]
+limitations = "Aggregate data; does not identify individuals."
+last_verified = ""
+
+# ------------------------------------------------------------------ people search / public-record aggregation (US)
+
+[[source]]
+name = "spokeo"
+title = "Spokeo"
+category = "public_records_aggregation"
+description = "US people-search website aggregating public records and other data."
+access = "paid"
+cost = "Subscription or per report"
+website = "https://www.spokeo.com/"
+documentation = "https://www.spokeo.com/"
+reliability = "low"
+supported_countries = ["US"]
+coverage = "United States"
+capabilities = ["people search (US)", "public-record aggregation"]
+input_entities = ["person", "phone", "email"]
+output_entities = ["person", "location", "phone", "email"]
+legal = "Not a consumer reporting agency: its data may not be used for FCRA purposes (employment, tenancy, credit)."
+status_note = "Web application only for Sextant purposes; no connector."
+[source.commercial]
+access_models = ["subscription", "per_query", "manual"]
+api = "unknown"
+web_app = true
+auth = "Account"
+data_categories = ["People search (US)", "Public-record aggregation"]
+limitations = "US only; aggregated data can be outdated or mix up namesakes; FCRA restrictions."
+last_verified = ""
+
+[[source]]
+name = "whitepages"
+title = "Whitepages"
+category = "people_search"
+description = "US people and phone directory with premium background reports."
+access = "paid"
+cost = "Free basic listings; premium subscription"
+website = "https://www.whitepages.com/"
+documentation = "https://www.whitepages.com/"
+reliability = "low"
+supported_countries = ["US"]
+coverage = "United States"
+capabilities = ["people search (US)", "phone directory"]
+input_entities = ["person", "phone"]
+output_entities = ["person", "location", "phone"]
+legal = "Not a consumer reporting agency: its data may not be used for FCRA purposes."
+status_note = "Web application; no Sextant connector."
+[source.commercial]
+access_models = ["free", "subscription", "manual"]
+api = "unknown"
+web_app = true
+auth = "Account for premium"
+data_categories = ["People / phone directory (US)", "Background reports"]
+limitations = "US only; FCRA restrictions; namesakes."
+last_verified = ""
+
+[[source]]
+name = "intelius"
+title = "Intelius"
+category = "public_records_aggregation"
+description = "US people-search and background-report website."
+access = "paid"
+cost = "Subscription or per report"
+website = "https://www.intelius.com/"
+documentation = "https://www.intelius.com/"
+reliability = "low"
+supported_countries = ["US"]
+coverage = "United States"
+capabilities = ["people search (US)", "public-record aggregation"]
+input_entities = ["person", "phone", "email"]
+output_entities = ["person", "location", "phone"]
+legal = "Not a consumer reporting agency: its data may not be used for FCRA purposes."
+status_note = "Web application; no Sextant connector."
+[source.commercial]
+access_models = ["subscription", "per_query", "manual"]
+api = "unknown"
+web_app = true
+auth = "Account"
+data_categories = ["People search (US)", "Public-record aggregation"]
+limitations = "US only; FCRA restrictions; namesakes."
+last_verified = ""
+
+[[source]]
+name = "peoplefinders"
+title = "PeopleFinders"
+category = "public_records_aggregation"
+description = "US people-search and public-records website."
+access = "paid"
+cost = "Subscription or per report"
+website = "https://www.peoplefinders.com/"
+documentation = "https://www.peoplefinders.com/"
+reliability = "low"
+supported_countries = ["US"]
+coverage = "United States"
+capabilities = ["people search (US)", "public-record aggregation"]
+input_entities = ["person", "phone"]
+output_entities = ["person", "location", "phone"]
+legal = "Not a consumer reporting agency: its data may not be used for FCRA purposes."
+status_note = "Web application; no Sextant connector."
+[source.commercial]
+access_models = ["subscription", "per_query", "manual"]
+api = "unknown"
+web_app = true
+auth = "Account"
+data_categories = ["People search (US)", "Public-record aggregation"]
+limitations = "US only; FCRA restrictions; namesakes."
+last_verified = ""

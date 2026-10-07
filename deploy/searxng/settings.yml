@@ -1,0 +1,28 @@
+# Minimal SearXNG configuration for Sextant (inherits everything else from SearXNG's defaults).
+use_default_settings: true
+
+general:
+  instance_name: "Sextant local search"
+  enable_metrics: false          # no usage statistics
+
+server:
+  secret_key: "CHANGE_ME_RUN_SETUP_SH"   # setup.sh replaces this with a random key
+  limiter: false                 # single local user behind 127.0.0.1 — no bot limiter / valkey needed
+  public_instance: false
+  image_proxy: true              # thumbnails are fetched by SearXNG, not your browser
+  method: "GET"
+
+search:
+  safe_search: 0
+  autocomplete: ""               # no autocomplete requests to third parties
+  formats:
+    - html
+    - json                       # REQUIRED: Sextant talks to SearXNG's JSON API
+
+outgoing:
+  request_timeout: 6.0
+  max_request_timeout: 15.0
+  pool_connections: 50
+
+ui:
+  query_in_title: false          # don't leak queries into browser history titles

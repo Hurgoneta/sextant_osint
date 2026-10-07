@@ -1,0 +1,299 @@
+# Social networks. `check` names the connector that checks existence:
+#   a dedicated connector (official/public API) | "whatsmyname" (community rules, public profile page)
+#   | "manual" (terms forbid automated access or login wall — the investigator opens the link).
+# Regexes are TOML literal strings, matched against "host/path" (lower-cased host, no "www.").
+
+[[platform]]
+id = "x"
+name = "X (Twitter)"
+category = "microblogging"
+url = "https://x.com"
+profile_url = "https://x.com/{username}"
+hosts = ["x.com", "twitter.com", "mobile.twitter.com"]
+url_patterns = ['^(?:mobile\.)?(?:x|twitter)\.com/(?!home|search|i/|intent|share|hashtag|explore|settings|login|messages|notifications|compose|tos|privacy)([A-Za-z0-9_]{1,15})/?$']
+username_pattern = '^[A-Za-z0-9_]{1,15}$'
+api = "paid"
+public_profile = "login_wall"
+search_methods = ["username", "name"]
+extraction = ["display_name", "bio", "location", "website", "created_at", "avatar", "followers"]
+auth = "Bearer token (pay-per-use developer account)"
+rate_limit = "pay-per-use (~$0.01 per user lookup, 2026)"
+check = "x_api"
+notes = "Profiles require login in a browser. Automated lookups only through the official paid API with your own developer account."
+
+[[platform]]
+id = "instagram"
+name = "Instagram"
+category = "social"
+url = "https://www.instagram.com"
+profile_url = "https://www.instagram.com/{username}/"
+url_patterns = ['^instagram\.com/(?!p/|reel/|reels/|explore|accounts|stories|direct|about|developer|legal)([A-Za-z0-9_.]{1,30})/?$']
+username_pattern = '^[A-Za-z0-9_.]{1,30}$'
+api = "restricted"
+public_profile = "login_wall"
+extraction = ["display_name", "bio", "website", "avatar", "followers"]
+auth = "Meta app + Instagram business account token (Business Discovery)"
+check = "instagram_business"
+notes = "Only public business/creator accounts via the Graph API Business Discovery endpoint; personal accounts cannot be looked up. Scraping and third-party mirrors are not used."
+
+[[platform]]
+id = "facebook"
+name = "Facebook"
+category = "social"
+url = "https://www.facebook.com"
+profile_url = "https://www.facebook.com/{username}"
+hosts = ["facebook.com", "m.facebook.com", "fb.com"]
+url_patterns = ['^(?:m\.)?facebook\.com/(?!pages/|groups/|events/|watch|marketplace|login|sharer|share|people/|profile\.php|help|policies|privacy|settings|gaming|reel/)([A-Za-z0-9.]{5,50})/?$']
+username_pattern = '^[A-Za-z0-9.]{5,50}$'
+api = "none"
+public_profile = "login_wall"
+check = "manual"
+notes = "No lookup API; terms forbid automated access. Open the link yourself."
+
+[[platform]]
+id = "threads"
+name = "Threads"
+category = "microblogging"
+url = "https://www.threads.com"
+profile_url = "https://www.threads.com/@{username}"
+hosts = ["threads.net", "threads.com"]
+url_patterns = ['^threads\.(?:net|com)/@([A-Za-z0-9_.]{1,30})/?$']
+username_pattern = '^[A-Za-z0-9_.]{1,30}$'
+api = "restricted"
+public_profile = "partial"
+check = "manual"
+notes = "The Threads API only returns the authorised user's own profile."
+
+[[platform]]
+id = "tiktok"
+name = "TikTok"
+category = "social"
+url = "https://www.tiktok.com"
+profile_url = "https://www.tiktok.com/@{username}"
+url_patterns = ['^tiktok\.com/@([A-Za-z0-9_.]{2,24})/?$']
+username_pattern = '^[A-Za-z0-9_.]{2,24}$'
+api = "restricted"
+public_profile = "partial"
+check = "manual"
+notes = "Research API limited to approved academic researchers; anti-bot protection on profile pages."
+
+[[platform]]
+id = "snapchat"
+name = "Snapchat"
+category = "social"
+url = "https://www.snapchat.com"
+profile_url = "https://www.snapchat.com/add/{username}"
+url_patterns = ['^snapchat\.com/(?:add/|@)([A-Za-z0-9._-]{3,15})/?$']
+username_pattern = '^[A-Za-z][A-Za-z0-9._-]{2,14}$'
+public_profile = "partial"
+check = "manual"
+notes = "Terms prohibit automated access."
+
+[[platform]]
+id = "bluesky"
+name = "Bluesky"
+category = "microblogging"
+url = "https://bsky.app"
+profile_url = "https://bsky.app/profile/{username}.bsky.social"
+url_patterns = ['^bsky\.app/profile/([A-Za-z0-9.-]{3,253})/?$']
+username_pattern = '^[A-Za-z0-9][A-Za-z0-9-]{1,17}$'
+api = "public"
+search_methods = ["username", "name"]
+extraction = ["display_name", "bio", "created_at", "avatar", "followers"]
+rate_limit = "public AppView, generous"
+check = "bluesky"
+notes = "Custom-domain handles are resolved too when the handle is a domain."
+
+[[platform]]
+id = "mastodon"
+name = "Mastodon / Fediverse"
+category = "microblogging"
+url = "https://joinmastodon.org"
+profile_url = "https://mastodon.social/@{username}"
+hosts = ["mastodon.social", "mastodon.online", "fosstodon.org", "hachyderm.io", "infosec.exchange", "mstdn.social", "mas.to", "techhub.social"]
+url_patterns = ['^[a-z0-9.-]+/@([A-Za-z0-9_]{1,30})(?:@[a-z0-9.-]+)?/?$']
+username_pattern = '^[A-Za-z0-9_]{1,30}$'
+api = "public"
+search_methods = ["username", "handle"]
+extraction = ["display_name", "bio", "links", "verified_links", "created_at", "avatar", "followers"]
+check = "mastodon"
+notes = "Thousands of independent servers. A bare username is checked on a list of large servers; a full handle (user@server) is resolved by WebFinger on its own server. rel=me verified links are strong evidence."
+
+[[platform]]
+id = "pixelfed"
+name = "Pixelfed"
+category = "photography"
+url = "https://pixelfed.social"
+profile_url = "https://pixelfed.social/{username}"
+api = "public"
+check = "whatsmyname"
+
+[[platform]]
+id = "vk"
+name = "VK"
+category = "social"
+url = "https://vk.com"
+profile_url = "https://vk.com/{username}"
+hosts = ["vk.com", "m.vk.com"]
+username_pattern = '^[A-Za-z0-9_.]{5,32}$'
+api = "key"
+countries = ["RU", "BY", "KZ", "UA"]
+check = "whatsmyname"
+
+[[platform]]
+id = "ok"
+name = "Odnoklassniki (OK.ru)"
+category = "social"
+url = "https://ok.ru"
+profile_url = "https://ok.ru/{username}"
+countries = ["RU", "BY", "KZ"]
+check = "whatsmyname"
+
+[[platform]]
+id = "pinterest"
+name = "Pinterest"
+category = "social"
+url = "https://www.pinterest.com"
+profile_url = "https://www.pinterest.com/{username}/"
+hosts = ["pinterest.com", "pinterest.co.uk", "pinterest.ca", "pinterest.com.au", "pinterest.de", "pinterest.fr", "pinterest.es",
+         "pinterest.it", "pinterest.at", "pinterest.ch", "pinterest.ie", "pinterest.nz", "pinterest.pt", "pinterest.se",
+         "pinterest.dk", "pinterest.jp", "pinterest.com.mx", "pinterest.cl", "pinterest.ph", "pinterest.ru", "pinterest.co.kr"]
+url_patterns = ['^(?:[a-z]{2}\.)?pinterest\.[a-z.]+/(?!pin/|search|ideas|today|business)([A-Za-z0-9_]{3,30})/?$']
+username_pattern = '^[A-Za-z0-9_]{3,30}$'
+api = "restricted"
+check = "whatsmyname"
+notes = "robots.txt disallows automated clients; skipped unless you disable robots.txt respect."
+
+[[platform]]
+id = "tumblr"
+name = "Tumblr"
+category = "microblogging"
+url = "https://www.tumblr.com"
+profile_url = "https://{username}.tumblr.com"
+url_patterns = ['^([a-z0-9-]{1,32})\.tumblr\.com/?$', '^tumblr\.com/([a-z0-9-]{1,32})/?$']
+username_pattern = '^[A-Za-z0-9-]{1,32}$'
+api = "key"
+check = "whatsmyname"
+
+[[platform]]
+id = "telegram"
+name = "Telegram (public channels & usernames)"
+category = "messaging"
+url = "https://telegram.org"
+profile_url = "https://t.me/{username}"
+hosts = ["t.me", "telegram.me"]
+url_patterns = ['^(?:t|telegram)\.me/(?!s/|joinchat|addstickers|share|\+)([A-Za-z0-9_]{5,32})/?$']
+username_pattern = '^[A-Za-z][A-Za-z0-9_]{4,31}$'
+public_profile = "partial"
+check = "whatsmyname"
+notes = "The public t.me page shows public usernames/channels; phone-number discovery is never used."
+
+[[platform]]
+id = "discord"
+name = "Discord"
+category = "messaging"
+url = "https://discord.com"
+api = "none"
+public_profile = "none"
+check = "none"
+notes = "User profiles are not public. Public servers are listed in directories such as DISBOARD (see Community)."
+private_accounts = true
+
+[[platform]]
+id = "weibo"
+name = "Weibo"
+category = "microblogging"
+url = "https://weibo.com"
+profile_url = "https://weibo.com/{username}"
+countries = ["CN"]
+public_profile = "login_wall"
+check = "manual"
+notes = "Login wall; robots.txt disallows automated clients."
+
+[[platform]]
+id = "bilibili"
+name = "Bilibili"
+category = "video"
+url = "https://www.bilibili.com"
+profile_url = "https://space.bilibili.com/{username}"
+username_pattern = '^[0-9]{1,15}$'
+countries = ["CN"]
+check = "whatsmyname"
+
+[[platform]]
+id = "pikabu"
+name = "Pikabu"
+category = "social"
+url = "https://pikabu.ru"
+profile_url = "https://pikabu.ru/@{username}"
+countries = ["RU"]
+check = "whatsmyname"
+
+[[platform]]
+id = "livejournal"
+name = "LiveJournal"
+category = "writing"
+url = "https://www.livejournal.com"
+profile_url = "https://{username}.livejournal.com"
+username_pattern = '^[A-Za-z0-9_-]{1,15}$'
+check = "whatsmyname"
+
+[[platform]]
+id = "gab"
+name = "Gab"
+category = "microblogging"
+url = "https://gab.com"
+profile_url = "https://gab.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "truthsocial"
+name = "Truth Social"
+category = "microblogging"
+url = "https://truthsocial.com"
+profile_url = "https://truthsocial.com/@{username}"
+public_profile = "partial"
+check = "whatsmyname"
+
+[[platform]]
+id = "minds"
+name = "Minds"
+category = "social"
+url = "https://www.minds.com"
+profile_url = "https://www.minds.com/{username}/"
+check = "whatsmyname"
+
+[[platform]]
+id = "lemmy"
+name = "Lemmy (lemmy.world)"
+category = "forums"
+url = "https://lemmy.world"
+profile_url = "https://lemmy.world/u/{username}"
+hosts = ["lemmy.world", "lemmy.ml", "sh.itjust.works", "lemm.ee", "programming.dev", "beehaw.org"]
+url_patterns = ['^[a-z0-9.-]+/u/([A-Za-z0-9_]{3,30})/?$']
+username_pattern = '^[A-Za-z0-9_]{3,30}$'
+api = "public"
+check = "lemmy"
+
+[[platform]]
+id = "linkedin"
+name = "LinkedIn"
+category = "professional"
+url = "https://www.linkedin.com"
+profile_url = "https://www.linkedin.com/in/{username}/"
+url_patterns = ['^(?:[a-z]{2}\.)?linkedin\.com/in/([A-Za-z0-9_%-]{3,100})/?$']
+username_pattern = '^[A-Za-z0-9_-]{3,100}$'
+api = "restricted"
+public_profile = "login_wall"
+check = "manual"
+notes = "Terms prohibit automated access and it is actively enforced. Profiles surface through web search results instead."
+
+[[platform]]
+id = "xing"
+name = "XING"
+category = "professional"
+url = "https://www.xing.com"
+profile_url = "https://www.xing.com/profile/{username}"
+countries = ["DE", "AT", "CH"]
+public_profile = "login_wall"
+check = "manual"

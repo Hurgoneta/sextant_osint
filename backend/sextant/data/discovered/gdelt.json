@@ -1,0 +1,844 @@
+{
+ "dataset": "gdelt",
+ "source_url": "http://data.gdeltproject.org/api/v2/guides/LOOKUP-COUNTRIES.TXT",
+ "license": "GDELT Project lookup tables — free and open, with attribution",
+ "retrieved_at": "2026-10-06T12:35:06+00:00",
+ "items": {
+  "AD": {
+   "fips": "AN",
+   "gdelt_name": "Andorra"
+  },
+  "AE": {
+   "fips": "AE",
+   "gdelt_name": "United Arab Emirates"
+  },
+  "AF": {
+   "fips": "AF",
+   "gdelt_name": "Afghanistan"
+  },
+  "AG": {
+   "fips": "AC",
+   "gdelt_name": "Antigua and Barbuda"
+  },
+  "AL": {
+   "fips": "AL",
+   "gdelt_name": "Albania"
+  },
+  "AM": {
+   "fips": "AM",
+   "gdelt_name": "Armenia"
+  },
+  "AO": {
+   "fips": "AO",
+   "gdelt_name": "Angola"
+  },
+  "AR": {
+   "fips": "AR",
+   "gdelt_name": "Argentina"
+  },
+  "AT": {
+   "fips": "AU",
+   "gdelt_name": "Austria"
+  },
+  "AU": {
+   "fips": "AS",
+   "gdelt_name": "Australia"
+  },
+  "AZ": {
+   "fips": "AJ",
+   "gdelt_name": "Azerbaijan"
+  },
+  "BA": {
+   "fips": "BK",
+   "gdelt_name": "Bosnia-Herzegovina"
+  },
+  "BB": {
+   "fips": "BB",
+   "gdelt_name": "Barbados"
+  },
+  "BD": {
+   "fips": "BG",
+   "gdelt_name": "Bangladesh"
+  },
+  "BE": {
+   "fips": "BE",
+   "gdelt_name": "Belgium"
+  },
+  "BF": {
+   "fips": "UV",
+   "gdelt_name": "Burkina Faso"
+  },
+  "BG": {
+   "fips": "BU",
+   "gdelt_name": "Bulgaria"
+  },
+  "BH": {
+   "fips": "BA",
+   "gdelt_name": "Bahrain"
+  },
+  "BI": {
+   "fips": "BY",
+   "gdelt_name": "Burundi"
+  },
+  "BJ": {
+   "fips": "BN",
+   "gdelt_name": "Benin"
+  },
+  "BM": {
+   "fips": "BD",
+   "gdelt_name": "Bermuda"
+  },
+  "BN": {
+   "fips": "BX",
+   "gdelt_name": "Brunei"
+  },
+  "BO": {
+   "fips": "BL",
+   "gdelt_name": "Bolivia"
+  },
+  "BR": {
+   "fips": "BR",
+   "gdelt_name": "Brazil"
+  },
+  "BS": {
+   "fips": "BF",
+   "gdelt_name": "Bahamas, The"
+  },
+  "BT": {
+   "fips": "BT",
+   "gdelt_name": "Bhutan"
+  },
+  "BW": {
+   "fips": "BC",
+   "gdelt_name": "Botswana"
+  },
+  "BY": {
+   "fips": "BO",
+   "gdelt_name": "Belarus"
+  },
+  "BZ": {
+   "fips": "BH",
+   "gdelt_name": "Belize"
+  },
+  "CA": {
+   "fips": "CA",
+   "gdelt_name": "Canada"
+  },
+  "CD": {
+   "fips": "CG",
+   "gdelt_name": "Democratic Republic of the Congo"
+  },
+  "CF": {
+   "fips": "CT",
+   "gdelt_name": "Central African Republic"
+  },
+  "CG": {
+   "fips": "CF",
+   "gdelt_name": "Congo"
+  },
+  "CH": {
+   "fips": "SZ",
+   "gdelt_name": "Switzerland"
+  },
+  "CI": {
+   "fips": "IV",
+   "gdelt_name": "Cote dIvoire"
+  },
+  "CL": {
+   "fips": "CI",
+   "gdelt_name": "Chile"
+  },
+  "CM": {
+   "fips": "CM",
+   "gdelt_name": "Cameroon"
+  },
+  "CN": {
+   "fips": "CH",
+   "gdelt_name": "China"
+  },
+  "CO": {
+   "fips": "CO",
+   "gdelt_name": "Colombia"
+  },
+  "CR": {
+   "fips": "CS",
+   "gdelt_name": "Costa Rica"
+  },
+  "CU": {
+   "fips": "CU",
+   "gdelt_name": "Cuba"
+  },
+  "CV": {
+   "fips": "CV",
+   "gdelt_name": "Cape Verde"
+  },
+  "CY": {
+   "fips": "CY",
+   "gdelt_name": "Cyprus"
+  },
+  "CZ": {
+   "fips": "EZ",
+   "gdelt_name": "Czech Republic"
+  },
+  "DE": {
+   "fips": "GM",
+   "gdelt_name": "Germany"
+  },
+  "DJ": {
+   "fips": "DJ",
+   "gdelt_name": "Djibouti"
+  },
+  "DK": {
+   "fips": "DA",
+   "gdelt_name": "Denmark"
+  },
+  "DM": {
+   "fips": "DO",
+   "gdelt_name": "Dominica"
+  },
+  "DO": {
+   "fips": "DR",
+   "gdelt_name": "Dominican Republic"
+  },
+  "DZ": {
+   "fips": "AG",
+   "gdelt_name": "Algeria"
+  },
+  "EC": {
+   "fips": "EC",
+   "gdelt_name": "Ecuador"
+  },
+  "EE": {
+   "fips": "EN",
+   "gdelt_name": "Estonia"
+  },
+  "EG": {
+   "fips": "EG",
+   "gdelt_name": "Egypt"
+  },
+  "ER": {
+   "fips": "ER",
+   "gdelt_name": "Eritrea"
+  },
+  "ES": {
+   "fips": "SP",
+   "gdelt_name": "Spain"
+  },
+  "ET": {
+   "fips": "ET",
+   "gdelt_name": "Ethiopia"
+  },
+  "FI": {
+   "fips": "FI",
+   "gdelt_name": "Finland"
+  },
+  "FJ": {
+   "fips": "FJ",
+   "gdelt_name": "Fiji"
+  },
+  "FM": {
+   "fips": "FM",
+   "gdelt_name": "Micronesia"
+  },
+  "FO": {
+   "fips": "FO",
+   "gdelt_name": "Faroe Islands"
+  },
+  "FR": {
+   "fips": "FR",
+   "gdelt_name": "France"
+  },
+  "GA": {
+   "fips": "GB",
+   "gdelt_name": "Gabon"
+  },
+  "GB": {
+   "fips": "UK",
+   "gdelt_name": "United Kingdom"
+  },
+  "GD": {
+   "fips": "GJ",
+   "gdelt_name": "Grenada"
+  },
+  "GE": {
+   "fips": "GG",
+   "gdelt_name": "Georgia"
+  },
+  "GG": {
+   "fips": "GK",
+   "gdelt_name": "Guernsey"
+  },
+  "GH": {
+   "fips": "GH",
+   "gdelt_name": "Ghana"
+  },
+  "GI": {
+   "fips": "GI",
+   "gdelt_name": "Gibraltar"
+  },
+  "GL": {
+   "fips": "GL",
+   "gdelt_name": "Greenland"
+  },
+  "GM": {
+   "fips": "GA",
+   "gdelt_name": "Gambia"
+  },
+  "GN": {
+   "fips": "GV",
+   "gdelt_name": "Equatorial Guinea"
+  },
+  "GQ": {
+   "fips": "EK",
+   "gdelt_name": "Equatorial Guinea"
+  },
+  "GR": {
+   "fips": "GR",
+   "gdelt_name": "Greece"
+  },
+  "GT": {
+   "fips": "GT",
+   "gdelt_name": "Guatemala"
+  },
+  "GW": {
+   "fips": "PU",
+   "gdelt_name": "Guinea-Bissau"
+  },
+  "GY": {
+   "fips": "GY",
+   "gdelt_name": "Guyana"
+  },
+  "HK": {
+   "fips": "HK",
+   "gdelt_name": "Hong Kong"
+  },
+  "HN": {
+   "fips": "HO",
+   "gdelt_name": "Honduras"
+  },
+  "HR": {
+   "fips": "HR",
+   "gdelt_name": "Croatia"
+  },
+  "HT": {
+   "fips": "HA",
+   "gdelt_name": "Haiti"
+  },
+  "HU": {
+   "fips": "HU",
+   "gdelt_name": "Hungary"
+  },
+  "ID": {
+   "fips": "ID",
+   "gdelt_name": "Indonesia"
+  },
+  "IE": {
+   "fips": "EI",
+   "gdelt_name": "Ireland"
+  },
+  "IL": {
+   "fips": "IS",
+   "gdelt_name": "Israel"
+  },
+  "IM": {
+   "fips": "IM",
+   "gdelt_name": "Isle of Man"
+  },
+  "IN": {
+   "fips": "IN",
+   "gdelt_name": "India"
+  },
+  "IQ": {
+   "fips": "IZ",
+   "gdelt_name": "Iraq"
+  },
+  "IR": {
+   "fips": "IR",
+   "gdelt_name": "Iran"
+  },
+  "IS": {
+   "fips": "IC",
+   "gdelt_name": "Iceland"
+  },
+  "IT": {
+   "fips": "IT",
+   "gdelt_name": "Italy"
+  },
+  "JE": {
+   "fips": "JE",
+   "gdelt_name": "Jersey"
+  },
+  "JM": {
+   "fips": "JM",
+   "gdelt_name": "Jamaica"
+  },
+  "JO": {
+   "fips": "JO",
+   "gdelt_name": "Jordan"
+  },
+  "JP": {
+   "fips": "JA",
+   "gdelt_name": "Japan"
+  },
+  "KE": {
+   "fips": "KE",
+   "gdelt_name": "Kenya"
+  },
+  "KG": {
+   "fips": "KG",
+   "gdelt_name": "Kyrgyzstan"
+  },
+  "KH": {
+   "fips": "CB",
+   "gdelt_name": "Cambodia"
+  },
+  "KI": {
+   "fips": "KR",
+   "gdelt_name": "Kiribati"
+  },
+  "KM": {
+   "fips": "CN",
+   "gdelt_name": "Comoros"
+  },
+  "KN": {
+   "fips": "SC",
+   "gdelt_name": "Saint Kitts and Nevis"
+  },
+  "KP": {
+   "fips": "KN",
+   "gdelt_name": "North Korea"
+  },
+  "KR": {
+   "fips": "KS",
+   "gdelt_name": "South Korea"
+  },
+  "KW": {
+   "fips": "KU",
+   "gdelt_name": "Kuwait"
+  },
+  "KY": {
+   "fips": "CJ",
+   "gdelt_name": "Cayman Islands"
+  },
+  "KZ": {
+   "fips": "KZ",
+   "gdelt_name": "Kazakhstan"
+  },
+  "LA": {
+   "fips": "LA",
+   "gdelt_name": "Laos"
+  },
+  "LB": {
+   "fips": "LE",
+   "gdelt_name": "Lebanon"
+  },
+  "LC": {
+   "fips": "ST",
+   "gdelt_name": "Saint Lucia"
+  },
+  "LI": {
+   "fips": "LS",
+   "gdelt_name": "Liechtenstein"
+  },
+  "LK": {
+   "fips": "CE",
+   "gdelt_name": "Sri Lanka"
+  },
+  "LR": {
+   "fips": "LI",
+   "gdelt_name": "Liberia"
+  },
+  "LS": {
+   "fips": "LT",
+   "gdelt_name": "Lesotho"
+  },
+  "LT": {
+   "fips": "LH",
+   "gdelt_name": "Lithuania"
+  },
+  "LU": {
+   "fips": "LU",
+   "gdelt_name": "Luxembourg"
+  },
+  "LV": {
+   "fips": "LG",
+   "gdelt_name": "Latvia"
+  },
+  "LY": {
+   "fips": "LY",
+   "gdelt_name": "Libya"
+  },
+  "MA": {
+   "fips": "MO",
+   "gdelt_name": "Morocco"
+  },
+  "MC": {
+   "fips": "MN",
+   "gdelt_name": "Monaco"
+  },
+  "MD": {
+   "fips": "MD",
+   "gdelt_name": "Moldova"
+  },
+  "ME": {
+   "fips": "MJ",
+   "gdelt_name": "Montenegro"
+  },
+  "MG": {
+   "fips": "MA",
+   "gdelt_name": "Madagascar"
+  },
+  "MH": {
+   "fips": "RM",
+   "gdelt_name": "Marshall Islands"
+  },
+  "MK": {
+   "fips": "MK",
+   "gdelt_name": "Macedonia"
+  },
+  "ML": {
+   "fips": "ML",
+   "gdelt_name": "Mali"
+  },
+  "MM": {
+   "fips": "BM",
+   "gdelt_name": "Myanmar"
+  },
+  "MN": {
+   "fips": "MG",
+   "gdelt_name": "Mongolia"
+  },
+  "MO": {
+   "fips": "MC",
+   "gdelt_name": "Macau"
+  },
+  "MR": {
+   "fips": "MR",
+   "gdelt_name": "Mauritania"
+  },
+  "MT": {
+   "fips": "MT",
+   "gdelt_name": "Malta"
+  },
+  "MU": {
+   "fips": "MP",
+   "gdelt_name": "Mauritius"
+  },
+  "MV": {
+   "fips": "MV",
+   "gdelt_name": "Maldives"
+  },
+  "MW": {
+   "fips": "MI",
+   "gdelt_name": "Malawi"
+  },
+  "MX": {
+   "fips": "MX",
+   "gdelt_name": "Mexico"
+  },
+  "MY": {
+   "fips": "MY",
+   "gdelt_name": "Malaysia"
+  },
+  "MZ": {
+   "fips": "MZ",
+   "gdelt_name": "Mozambique"
+  },
+  "NA": {
+   "fips": "WA",
+   "gdelt_name": "Namibia"
+  },
+  "NE": {
+   "fips": "NG",
+   "gdelt_name": "Niger"
+  },
+  "NG": {
+   "fips": "NI",
+   "gdelt_name": "Nigeria"
+  },
+  "NI": {
+   "fips": "NU",
+   "gdelt_name": "Nicaragua"
+  },
+  "NL": {
+   "fips": "NL",
+   "gdelt_name": "Netherlands"
+  },
+  "NO": {
+   "fips": "NO",
+   "gdelt_name": "Norway"
+  },
+  "NP": {
+   "fips": "NP",
+   "gdelt_name": "Nepal"
+  },
+  "NR": {
+   "fips": "NR",
+   "gdelt_name": "Nauru"
+  },
+  "NZ": {
+   "fips": "NZ",
+   "gdelt_name": "New Zealand"
+  },
+  "OM": {
+   "fips": "MU",
+   "gdelt_name": "Oman"
+  },
+  "PA": {
+   "fips": "PM",
+   "gdelt_name": "Panama"
+  },
+  "PE": {
+   "fips": "PE",
+   "gdelt_name": "Peru"
+  },
+  "PG": {
+   "fips": "PP",
+   "gdelt_name": "Papua New Guinea"
+  },
+  "PH": {
+   "fips": "RP",
+   "gdelt_name": "Philippines"
+  },
+  "PK": {
+   "fips": "PK",
+   "gdelt_name": "Pakistan"
+  },
+  "PL": {
+   "fips": "PL",
+   "gdelt_name": "Poland"
+  },
+  "PR": {
+   "fips": "RQ",
+   "gdelt_name": "Puerto Rico"
+  },
+  "PS": {
+   "fips": "WE",
+   "gdelt_name": "West Bank"
+  },
+  "PT": {
+   "fips": "PO",
+   "gdelt_name": "Portugal"
+  },
+  "PW": {
+   "fips": "PS",
+   "gdelt_name": "Palau"
+  },
+  "PY": {
+   "fips": "PA",
+   "gdelt_name": "Paraguay"
+  },
+  "QA": {
+   "fips": "QA",
+   "gdelt_name": "Qatar"
+  },
+  "RO": {
+   "fips": "RO",
+   "gdelt_name": "Romania"
+  },
+  "RS": {
+   "fips": "RI",
+   "gdelt_name": "Serbia"
+  },
+  "RU": {
+   "fips": "RS",
+   "gdelt_name": "Russia"
+  },
+  "RW": {
+   "fips": "RW",
+   "gdelt_name": "Rwanda"
+  },
+  "SA": {
+   "fips": "SA",
+   "gdelt_name": "Saudi Arabia"
+  },
+  "SB": {
+   "fips": "BP",
+   "gdelt_name": "Solomon Islands"
+  },
+  "SC": {
+   "fips": "SE",
+   "gdelt_name": "Seychelles"
+  },
+  "SD": {
+   "fips": "SU",
+   "gdelt_name": "Sudan"
+  },
+  "SE": {
+   "fips": "SW",
+   "gdelt_name": "Sweden"
+  },
+  "SG": {
+   "fips": "SN",
+   "gdelt_name": "Singapore"
+  },
+  "SI": {
+   "fips": "SI",
+   "gdelt_name": "Slovenia"
+  },
+  "SK": {
+   "fips": "LO",
+   "gdelt_name": "Czechoslovakia"
+  },
+  "SL": {
+   "fips": "SL",
+   "gdelt_name": "Sierra Leone"
+  },
+  "SM": {
+   "fips": "SM",
+   "gdelt_name": "San Marino"
+  },
+  "SN": {
+   "fips": "SG",
+   "gdelt_name": "Senegal"
+  },
+  "SO": {
+   "fips": "SO",
+   "gdelt_name": "Somalia"
+  },
+  "SR": {
+   "fips": "NS",
+   "gdelt_name": "Suriname"
+  },
+  "SS": {
+   "fips": "OD",
+   "gdelt_name": "South Sudan"
+  },
+  "ST": {
+   "fips": "TP",
+   "gdelt_name": "Sao Tome and Principe"
+  },
+  "SV": {
+   "fips": "ES",
+   "gdelt_name": "El Salvador"
+  },
+  "SY": {
+   "fips": "SY",
+   "gdelt_name": "Syria"
+  },
+  "SZ": {
+   "fips": "WZ",
+   "gdelt_name": "Swaziland"
+  },
+  "TD": {
+   "fips": "CD",
+   "gdelt_name": "Chad"
+  },
+  "TG": {
+   "fips": "TO",
+   "gdelt_name": "Togo"
+  },
+  "TH": {
+   "fips": "TH",
+   "gdelt_name": "Thailand"
+  },
+  "TJ": {
+   "fips": "TI",
+   "gdelt_name": "Tajikistan"
+  },
+  "TL": {
+   "fips": "TT",
+   "gdelt_name": "East Timor"
+  },
+  "TM": {
+   "fips": "TX",
+   "gdelt_name": "Turkmenistan"
+  },
+  "TN": {
+   "fips": "TS",
+   "gdelt_name": "Tunisia"
+  },
+  "TO": {
+   "fips": "TN",
+   "gdelt_name": "Tonga"
+  },
+  "TR": {
+   "fips": "TU",
+   "gdelt_name": "Turkey"
+  },
+  "TT": {
+   "fips": "TD",
+   "gdelt_name": "Trinidad and Tobago"
+  },
+  "TV": {
+   "fips": "TV",
+   "gdelt_name": "Tuvalu"
+  },
+  "TW": {
+   "fips": "TW",
+   "gdelt_name": "Taiwan"
+  },
+  "TZ": {
+   "fips": "TZ",
+   "gdelt_name": "Tanzania"
+  },
+  "UA": {
+   "fips": "UP",
+   "gdelt_name": "Ukraine"
+  },
+  "UG": {
+   "fips": "UG",
+   "gdelt_name": "Uganda"
+  },
+  "US": {
+   "fips": "US",
+   "gdelt_name": "United States"
+  },
+  "UY": {
+   "fips": "UY",
+   "gdelt_name": "Uruguay"
+  },
+  "UZ": {
+   "fips": "UZ",
+   "gdelt_name": "Uzbekistan"
+  },
+  "VA": {
+   "fips": "VT",
+   "gdelt_name": "Vatican City"
+  },
+  "VC": {
+   "fips": "VC",
+   "gdelt_name": "Saint Vincent and the Grenadines"
+  },
+  "VE": {
+   "fips": "VE",
+   "gdelt_name": "Venezuela"
+  },
+  "VG": {
+   "fips": "VI",
+   "gdelt_name": "British Virgin Islands"
+  },
+  "VN": {
+   "fips": "VM",
+   "gdelt_name": "Vietnam, Democratic Republic of"
+  },
+  "VU": {
+   "fips": "NH",
+   "gdelt_name": "Vanuatu"
+  },
+  "WS": {
+   "fips": "WS",
+   "gdelt_name": "Samoa"
+  },
+  "XK": {
+   "fips": "KV",
+   "gdelt_name": "Kosovo"
+  },
+  "YE": {
+   "fips": "YM",
+   "gdelt_name": "Yemen"
+  },
+  "ZA": {
+   "fips": "SF",
+   "gdelt_name": "South Africa"
+  },
+  "ZM": {
+   "fips": "ZA",
+   "gdelt_name": "Zambia"
+  },
+  "ZW": {
+   "fips": "ZI",
+   "gdelt_name": "Zimbabwe"
+  }
+ }
+}

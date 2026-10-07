@@ -1,0 +1,6443 @@
+{
+ "dataset": "whatsmyname",
+ "source_url": "https://raw.githubusercontent.com/WebBreacher/WhatsMyName/main/wmn-data.json",
+ "license": "CC BY-SA 4.0 — WhatsMyName by WebBreacher and contributors",
+ "retrieved_at": "2026-10-06T17:19:22+00:00",
+ "items": [
+  {
+   "id": "wmn:247ctf",
+   "name": "247CTF",
+   "category": "tech",
+   "host": "247ctf.com",
+   "profile_url": "https://247ctf.com/progress/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:247sports",
+   "name": "247sports",
+   "category": "hobby",
+   "host": "247sports.com",
+   "profile_url": "https://247sports.com/User/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:35photo",
+   "name": "35photo",
+   "category": "hobby",
+   "host": "35photo.pro",
+   "profile_url": "https://35photo.pro/@{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:3dtoday",
+   "name": "3dtoday",
+   "category": "hobby",
+   "host": "3dtoday.ru",
+   "profile_url": "https://3dtoday.ru/blogs/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:7cup",
+   "name": "7cup",
+   "category": "social",
+   "host": "7cups.com",
+   "profile_url": "https://www.7cups.com/@{username}",
+   "valid": false,
+   "countries": []
+  },
+  {
+   "id": "wmn:7dach",
+   "name": "7dach",
+   "category": "social",
+   "host": "7dach.ru",
+   "profile_url": "https://7dach.ru/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:about_me",
+   "name": "about.me",
+   "category": "social",
+   "host": "about.me",
+   "profile_url": "https://about.me/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:acf",
+   "name": "ACF",
+   "category": "coding",
+   "host": "support.advancedcustomfields.com",
+   "profile_url": "https://support.advancedcustomfields.com/forums/users/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:admireme_vip",
+   "name": "AdmireMe.VIP",
+   "category": "xx NSFW xx",
+   "host": "admireme.vip",
+   "profile_url": "https://admireme.vip/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:adultism",
+   "name": "adultism",
+   "category": "xx NSFW xx",
+   "host": "adultism.com",
+   "profile_url": "https://www.adultism.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:advfn",
+   "name": "ADVFN",
+   "category": "finance",
+   "host": "uk.advfn.com",
+   "profile_url": "https://uk.advfn.com/forum/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:albicla",
+   "name": "Albicla",
+   "category": "social",
+   "host": "albicla.com",
+   "profile_url": "https://albicla.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:alik",
+   "name": "alik",
+   "category": "social",
+   "host": "alik.cz",
+   "profile_url": "https://www.alik.cz/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:alura",
+   "name": "Alura",
+   "category": "tech",
+   "host": "cursos.alura.com.br",
+   "profile_url": "https://cursos.alura.com.br/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:ameblo",
+   "name": "Ameblo",
+   "category": "blog",
+   "host": "ameblo.jp",
+   "profile_url": "https://ameblo.jp/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:americanthinker",
+   "name": "AmericanThinker",
+   "category": "political",
+   "host": "americanthinker.com",
+   "profile_url": "https://www.americanthinker.com/author/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:anilist",
+   "name": "AniList",
+   "category": "social",
+   "host": "anilist.co",
+   "profile_url": "https://anilist.co/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:anime_planet",
+   "name": "Anime-Planet",
+   "category": "social",
+   "host": "anime-planet.com",
+   "profile_url": "https://www.anime-planet.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:aparat",
+   "name": "Aparat",
+   "category": "video",
+   "host": "aparat.com",
+   "profile_url": "https://www.aparat.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:apex_legends",
+   "name": "Apex Legends",
+   "category": "gaming",
+   "host": "apex.tracker.gg",
+   "profile_url": "https://apex.tracker.gg/apex/profile/origin/{username}/overview",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:appian_community",
+   "name": "appian Community",
+   "category": "tech",
+   "host": "community.appian.com",
+   "profile_url": "https://community.appian.com/members/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:arch_linux_gitlab",
+   "name": "Arch Linux GitLab",
+   "category": "social",
+   "host": "gitlab.archlinux.org",
+   "profile_url": "https://gitlab.archlinux.org/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:arduino_forum",
+   "name": "Arduino (Forum)",
+   "category": "tech",
+   "host": "forum.arduino.cc",
+   "profile_url": "https://forum.arduino.cc/u/{username}/summary",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:arduino_project_hub",
+   "name": "Arduino (Project Hub)",
+   "category": "tech",
+   "host": "projecthub.arduino.cc",
+   "profile_url": "https://projecthub.arduino.cc/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:armorgames",
+   "name": "ArmorGames",
+   "category": "gaming",
+   "host": "armorgames.com",
+   "profile_url": "https://armorgames.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:arsmate",
+   "name": "Arsmate",
+   "category": "xx NSFW xx",
+   "host": "arsmate.com",
+   "profile_url": "https://arsmate.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:artbreeder",
+   "name": "Artbreeder",
+   "category": "art",
+   "host": "artbreeder.com",
+   "profile_url": "https://www.artbreeder.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:artstation",
+   "name": "ArtStation",
+   "category": "art",
+   "host": "artstation.com",
+   "profile_url": "https://www.artstation.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:asciinema",
+   "name": "asciinema",
+   "category": "coding",
+   "host": "asciinema.org",
+   "profile_url": "https://asciinema.org/~{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:atcoder",
+   "name": "AtCoder",
+   "category": "coding",
+   "host": "atcoder.jp",
+   "profile_url": "https://atcoder.jp/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:au_ru",
+   "name": "au.ru",
+   "category": "misc",
+   "host": "au.ru",
+   "profile_url": "https://au.ru/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:audiojungle",
+   "name": "Audiojungle",
+   "category": "music",
+   "host": "audiojungle.net",
+   "profile_url": "https://audiojungle.net/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:avid_community",
+   "name": "Avid Community",
+   "category": "music",
+   "host": "community.avid.com",
+   "profile_url": "https://community.avid.com/members/{username}/default.aspx",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:babepedia",
+   "name": "babepedia",
+   "category": "xx NSFW xx",
+   "host": "babepedia.com",
+   "profile_url": "https://www.babepedia.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:babypips",
+   "name": "BabyPips",
+   "category": "social",
+   "host": "forums.babypips.com",
+   "profile_url": "https://forums.babypips.com/u/{username}/summary",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bandcamp",
+   "name": "Bandcamp",
+   "category": "music",
+   "host": "bandcamp.com",
+   "profile_url": "https://bandcamp.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bandlab",
+   "name": "Bandlab",
+   "category": "music",
+   "host": "bandlab.com",
+   "profile_url": "https://www.bandlab.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bblog_ru",
+   "name": "bblog_ru",
+   "category": "misc",
+   "host": "babyblog.ru",
+   "profile_url": "https://www.babyblog.ru/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bdsmlr",
+   "name": "BDSMLR",
+   "category": "xx NSFW xx",
+   "host": "bdsmlr.com",
+   "profile_url": "https://bdsmlr.com/blog/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bdsmsingles",
+   "name": "bdsmsingles",
+   "category": "xx NSFW xx",
+   "host": "bdsmsingles.com",
+   "profile_url": "https://www.bdsmsingles.com/members/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:beacons",
+   "name": "Beacons",
+   "category": "social",
+   "host": "beacons.ai",
+   "profile_url": "https://beacons.ai/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:behance",
+   "name": "Behance",
+   "category": "business",
+   "host": "behance.net",
+   "profile_url": "https://www.behance.net/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bentbox",
+   "name": "Bentbox",
+   "category": "xx NSFW xx",
+   "host": "bentbox.co",
+   "profile_url": "https://bentbox.co/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:biggerpockets",
+   "name": "BiggerPockets",
+   "category": "finance",
+   "host": "biggerpockets.com",
+   "profile_url": "https://www.biggerpockets.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bigo_live",
+   "name": "BIGO Live",
+   "category": "gaming",
+   "host": "bigo.tv",
+   "profile_url": "https://www.bigo.tv/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bimpos",
+   "name": "Bimpos",
+   "category": "tech",
+   "host": "ask.bimpos.com",
+   "profile_url": "https://ask.bimpos.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bio_site",
+   "name": "Bio Site",
+   "category": "social",
+   "host": "bio.site",
+   "profile_url": "https://bio.site/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:biolink",
+   "name": "biolink",
+   "category": "misc",
+   "host": "bio.link",
+   "profile_url": "https://bio.link/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bitbucket",
+   "name": "Bitbucket",
+   "category": "coding",
+   "host": "bitbucket.org",
+   "profile_url": "https://bitbucket.org/{username}/workspace/repositories/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bitchute",
+   "name": "Bitchute",
+   "category": "political",
+   "host": "bitchute.com",
+   "profile_url": "https://www.bitchute.com/channel/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:blogi_pl",
+   "name": "blogi.pl",
+   "category": "blog",
+   "host": "blogi.pl",
+   "profile_url": "https://www.blogi.pl/osoba,{username}.html",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:blogmarks",
+   "name": "Blogmarks",
+   "category": "misc",
+   "host": "blogmarks.net",
+   "profile_url": "http://blogmarks.net/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:blogspot",
+   "name": "Blogspot",
+   "category": "blog",
+   "host": "x.blogspot.com",
+   "profile_url": "https://{username}.blogspot.com/?hl=en-US",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bluesky_domain_as_user",
+   "name": "Bluesky Domain as User",
+   "category": "social",
+   "host": "bsky.app",
+   "profile_url": "https://bsky.app/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bluesky_username",
+   "name": "Bluesky Username",
+   "category": "social",
+   "host": "bsky.app",
+   "profile_url": "https://bsky.app/profile/{username}.bsky.social",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:boardgamegeek",
+   "name": "BoardGameGeek",
+   "category": "gaming",
+   "host": "boardgamegeek.com",
+   "profile_url": "https://boardgamegeek.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bookcrossing",
+   "name": "Bookcrossing",
+   "category": "hobby",
+   "host": "bookcrossing.com",
+   "profile_url": "https://www.bookcrossing.com/mybookshelf/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:booknode",
+   "name": "Booknode",
+   "category": "hobby",
+   "host": "booknode.com",
+   "profile_url": "https://booknode.com/profil/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:boosty",
+   "name": "Boosty",
+   "category": "social",
+   "host": "boosty.to",
+   "profile_url": "https://boosty.to/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:booth",
+   "name": "Booth",
+   "category": "shopping",
+   "host": "x.booth.pm",
+   "profile_url": "https://{username}.booth.pm/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:brickset",
+   "name": "Brickset",
+   "category": "hobby",
+   "host": "brickset.com",
+   "profile_url": "https://brickset.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bugcrowd",
+   "name": "Bugcrowd",
+   "category": "tech",
+   "host": "bugcrowd.com",
+   "profile_url": "https://bugcrowd.com/h/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:bunpro",
+   "name": "Bunpro",
+   "category": "social",
+   "host": "community.bunpro.jp",
+   "profile_url": "https://community.bunpro.jp/u/{username}.json",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:buy_me_a_coffee",
+   "name": "Buy Me a Coffee",
+   "category": "finance",
+   "host": "buymeacoffee.com",
+   "profile_url": "https://buymeacoffee.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:buzzfeed",
+   "name": "BuzzFeed",
+   "category": "social",
+   "host": "buzzfeed.com",
+   "profile_url": "https://www.buzzfeed.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:cafecito",
+   "name": "cafecito",
+   "category": "misc",
+   "host": "cafecito.app",
+   "profile_url": "https://cafecito.app/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:calendy",
+   "name": "Calendy",
+   "category": "misc",
+   "host": "calendly.com",
+   "profile_url": "https://calendly.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:cameo",
+   "name": "Cameo",
+   "category": "shopping",
+   "host": "cameo.com",
+   "profile_url": "https://www.cameo.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:carbonmade",
+   "name": "Carbonmade",
+   "category": "business",
+   "host": "x.carbonmade.com",
+   "profile_url": "https://{username}.carbonmade.com/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:career_habr",
+   "name": "Career.habr",
+   "category": "business",
+   "host": "career.habr.com",
+   "profile_url": "https://career.habr.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:carrd_co",
+   "name": "carrd.co",
+   "category": "business",
+   "host": "x.carrd.co",
+   "profile_url": "https://{username}.carrd.co",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:castingcallclub",
+   "name": "CastingCallClub",
+   "category": "business",
+   "host": "castingcall.club",
+   "profile_url": "https://www.castingcall.club/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:cda_pl",
+   "name": "cda.pl",
+   "category": "video",
+   "host": "cda.pl",
+   "profile_url": "https://www.cda.pl/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:cent",
+   "name": "Cent",
+   "category": "social",
+   "host": "beta.cent.co",
+   "profile_url": "https://beta.cent.co/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:cfx_re",
+   "name": "cfx.re",
+   "category": "gaming",
+   "host": "forum.cfx.re",
+   "profile_url": "https://forum.cfx.re/u/{username}/summary",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:championat",
+   "name": "championat",
+   "category": "news",
+   "host": "championat.com",
+   "profile_url": "https://www.championat.com/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:chamsko",
+   "name": "Chamsko",
+   "category": "images",
+   "host": "chamsko.pl",
+   "profile_url": "https://www.chamsko.pl/profil/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:chatango_com",
+   "name": "chatango.com",
+   "category": "social",
+   "host": "x.chatango.com",
+   "profile_url": "https://{username}.chatango.com",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:cheezburger",
+   "name": "CHEEZburger",
+   "category": "news",
+   "host": "cheezburger.com",
+   "profile_url": "https://cheezburger.com/Editor/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:chess_com",
+   "name": "Chess.com",
+   "category": "gaming",
+   "host": "chess.com",
+   "profile_url": "https://www.chess.com/member/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:chocolatey",
+   "name": "Chocolatey",
+   "category": "tech",
+   "host": "community.chocolatey.org",
+   "profile_url": "https://community.chocolatey.org/profiles/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:choko_link",
+   "name": "Choko.Link",
+   "category": "social",
+   "host": "choko.link",
+   "profile_url": "https://choko.link/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:chomikuj_pl",
+   "name": "Chomikuj.pl",
+   "category": "misc",
+   "host": "chomikuj.pl",
+   "profile_url": "https://chomikuj.pl/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:chyoa",
+   "name": "Chyoa",
+   "category": "xx NSFW xx",
+   "host": "chyoa.com",
+   "profile_url": "https://chyoa.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:cloudflare",
+   "name": "Cloudflare",
+   "category": "tech",
+   "host": "community.cloudflare.com",
+   "profile_url": "https://community.cloudflare.com/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:clubhouse",
+   "name": "Clubhouse",
+   "category": "social",
+   "host": "clubhouse.com",
+   "profile_url": "https://www.clubhouse.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:cnet",
+   "name": "cnet",
+   "category": "news",
+   "host": "cnet.com",
+   "profile_url": "https://www.cnet.com/profiles/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:coda",
+   "name": "Coda",
+   "category": "hobby",
+   "host": "coda.io",
+   "profile_url": "https://coda.io/@{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:codeberg",
+   "name": "Codeberg",
+   "category": "coding",
+   "host": "codeberg.org",
+   "profile_url": "https://codeberg.org/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:codecademy",
+   "name": "Codecademy",
+   "category": "coding",
+   "host": "codecademy.com",
+   "profile_url": "https://www.codecademy.com/profiles/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:codechef",
+   "name": "CodeChef",
+   "category": "coding",
+   "host": "codechef.com",
+   "profile_url": "https://www.codechef.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:codeforces",
+   "name": "Codeforces",
+   "category": "coding",
+   "host": "codeforces.com",
+   "profile_url": "https://codeforces.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:codementor",
+   "name": "codementor",
+   "category": "coding",
+   "host": "codementor.io",
+   "profile_url": "https://www.codementor.io/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:codepen",
+   "name": "CodePen",
+   "category": "coding",
+   "host": "codepen.io",
+   "profile_url": "https://codepen.io/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:coderwall",
+   "name": "Coderwall",
+   "category": "coding",
+   "host": "coderwall.com",
+   "profile_url": "https://coderwall.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:codesandbox",
+   "name": "CodeSandbox",
+   "category": "coding",
+   "host": "codesandbox.io",
+   "profile_url": "https://codesandbox.io/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:codewars",
+   "name": "Codewars",
+   "category": "coding",
+   "host": "codewars.com",
+   "profile_url": "https://www.codewars.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:colourlovers",
+   "name": "COLOURlovers",
+   "category": "hobby",
+   "host": "colourlovers.com",
+   "profile_url": "https://www.colourlovers.com/lover/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:commudle",
+   "name": "Commudle",
+   "category": "tech",
+   "host": "commudle.com",
+   "profile_url": "https://www.commudle.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:community_adobe",
+   "name": "Community Adobe",
+   "category": "tech",
+   "host": "community.adobe.com",
+   "profile_url": "https://community.adobe.com/t5/forums/searchpage/tab/user?q={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:coroflot",
+   "name": "coroflot",
+   "category": "art",
+   "host": "coroflot.com",
+   "profile_url": "https://www.coroflot.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:coub",
+   "name": "Coub",
+   "category": "social",
+   "host": "coub.com",
+   "profile_url": "https://coub.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:cowboys4angels",
+   "name": "cowboys4angels",
+   "category": "xx NSFW xx",
+   "host": "cowboys4angels.com",
+   "profile_url": "https://cowboys4angels.com/cowboy/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:cracked",
+   "name": "Cracked",
+   "category": "social",
+   "host": "cracked.com",
+   "profile_url": "https://www.cracked.com/members/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:crevado",
+   "name": "crevado",
+   "category": "images",
+   "host": "x.crevado.com",
+   "profile_url": "https://{username}.crevado.com/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:cropty",
+   "name": "Cropty",
+   "category": "finance",
+   "host": "cropty.io",
+   "profile_url": "https://www.cropty.io/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:crowdin",
+   "name": "Crowdin",
+   "category": "hobby",
+   "host": "crowdin.com",
+   "profile_url": "https://crowdin.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:cults3d",
+   "name": "Cults3D",
+   "category": "hobby",
+   "host": "cults3d.com",
+   "profile_url": "https://cults3d.com/en/users/{username}/creations",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:cytoid",
+   "name": "Cytoid",
+   "category": "gaming",
+   "host": "cytoid.io",
+   "profile_url": "https://cytoid.io/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:daily_kos",
+   "name": "Daily Kos",
+   "category": "news",
+   "host": "dailykos.com",
+   "profile_url": "https://www.dailykos.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:dailymotion",
+   "name": "Dailymotion",
+   "category": "video",
+   "host": "dailymotion.com",
+   "profile_url": "https://www.dailymotion.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:darudar",
+   "name": "darudar",
+   "category": "misc",
+   "host": "darudar.org",
+   "profile_url": "https://darudar.org/users/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:dateinasia",
+   "name": "dateinasia",
+   "category": "dating",
+   "host": "dateinasia.com",
+   "profile_url": "https://www.dateinasia.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:datezone",
+   "name": "datezone",
+   "category": "xx NSFW xx",
+   "host": "en.datezone.com",
+   "profile_url": "https://en.datezone.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:dating_ru",
+   "name": "Dating.ru",
+   "category": "dating",
+   "host": "dating.ru",
+   "profile_url": "https://dating.ru/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:demotywatory",
+   "name": "Demotywatory",
+   "category": "images",
+   "host": "demotywatory.pl",
+   "profile_url": "https://demotywatory.pl/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:depop",
+   "name": "depop",
+   "category": "shopping",
+   "host": "depop.com",
+   "profile_url": "https://www.depop.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:designspriation",
+   "name": "Designspriation",
+   "category": "art",
+   "host": "designspiration.com",
+   "profile_url": "https://www.designspiration.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:destream",
+   "name": "destream",
+   "category": "finance",
+   "host": "destream.net",
+   "profile_url": "https://destream.net/live/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:destructoid",
+   "name": "Destructoid",
+   "category": "social",
+   "host": "destructoid.com",
+   "profile_url": "https://www.destructoid.com/?name={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:dev_to",
+   "name": "dev.to",
+   "category": "coding",
+   "host": "dev.to",
+   "profile_url": "https://dev.to/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:deviantart",
+   "name": "DeviantArt",
+   "category": "images",
+   "host": "deviantart.com",
+   "profile_url": "https://www.deviantart.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:devrant",
+   "name": "devRant",
+   "category": "coding",
+   "host": "devrant.com",
+   "profile_url": "https://devrant.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:dfg",
+   "name": "DFG",
+   "category": "gaming",
+   "host": "dfg.com.br",
+   "profile_url": "https://www.dfg.com.br/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:diablo",
+   "name": "Diablo",
+   "category": "gaming",
+   "host": "diablo2.io",
+   "profile_url": "https://diablo2.io/member/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:dibiz",
+   "name": "DIBIZ",
+   "category": "business",
+   "host": "dibiz.com",
+   "profile_url": "https://www.dibiz.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:digitalspy",
+   "name": "Digitalspy",
+   "category": "social",
+   "host": "forums.digitalspy.com",
+   "profile_url": "https://forums.digitalspy.com/profile/discussions/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:diigo",
+   "name": "diigo",
+   "category": "images",
+   "host": "diigo.com",
+   "profile_url": "https://www.diigo.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:discogs",
+   "name": "Discogs",
+   "category": "music",
+   "host": "discogs.com",
+   "profile_url": "https://www.discogs.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:discord_invite",
+   "name": "Discord (Invite)",
+   "category": "social",
+   "host": "discord.com",
+   "profile_url": "https://discord.com/invite/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:discourse",
+   "name": "Discourse",
+   "category": "misc",
+   "host": "meta.discourse.org",
+   "profile_url": "https://meta.discourse.org/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:discuss_elastic_co",
+   "name": "discuss.elastic.co",
+   "category": "tech",
+   "host": "discuss.elastic.co",
+   "profile_url": "https://discuss.elastic.co/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:disqus",
+   "name": "Disqus",
+   "category": "social",
+   "host": "disqus.com",
+   "profile_url": "https://disqus.com/by/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:dissenter",
+   "name": "Dissenter",
+   "category": "political",
+   "host": "dissenter.com",
+   "profile_url": "https://dissenter.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:docker_hub_organization",
+   "name": "Docker Hub (Organization)",
+   "category": "coding",
+   "host": "hub.docker.com",
+   "profile_url": "https://hub.docker.com/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:docker_hub_user",
+   "name": "Docker Hub (User)",
+   "category": "coding",
+   "host": "hub.docker.com",
+   "profile_url": "https://hub.docker.com/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:dojoverse",
+   "name": "Dojoverse",
+   "category": "hobby",
+   "host": "dojoverse.com",
+   "profile_url": "https://dojoverse.com/members/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:donate_stream",
+   "name": "donate.stream",
+   "category": "finance",
+   "host": "donate.stream",
+   "profile_url": "https://donate.stream/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:donatello",
+   "name": "Donatello",
+   "category": "finance",
+   "host": "donatello.to",
+   "profile_url": "https://donatello.to/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:donatik",
+   "name": "Donatik",
+   "category": "finance",
+   "host": "x.donatik.ua",
+   "profile_url": "https://{username}.donatik.ua/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:donation_alerts",
+   "name": "Donation Alerts",
+   "category": "finance",
+   "host": "donationalerts.com",
+   "profile_url": "https://www.donationalerts.com/r/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:donationpay",
+   "name": "DonationPay",
+   "category": "finance",
+   "host": "give.donationpay.org",
+   "profile_url": "https://give.donationpay.org/hopewell-fund/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:donatty",
+   "name": "Donatty",
+   "category": "business",
+   "host": "donatty.com",
+   "profile_url": "https://donatty.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:dot_cards",
+   "name": "dot.cards",
+   "category": "business",
+   "host": "dot.cards",
+   "profile_url": "https://dot.cards/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:dota2_ru",
+   "name": "Dota2.ru",
+   "category": "gaming",
+   "host": "dota2.ru",
+   "profile_url": "https://dota2.ru/forum/search/?type=user&keywords={username}&sort_by=username",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:dotafire",
+   "name": "DOTAFire",
+   "category": "gaming",
+   "host": "dotafire.com",
+   "profile_url": "https://www.dotafire.com/ajax/searchSite?text={username}&search=members",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:dou",
+   "name": "DOU",
+   "category": "social",
+   "host": "dou.ua",
+   "profile_url": "https://dou.ua/users/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:dribbble",
+   "name": "Dribbble",
+   "category": "art",
+   "host": "dribbble.com",
+   "profile_url": "https://dribbble.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:drive2_ru",
+   "name": "DRIVE2.RU",
+   "category": "social",
+   "host": "drive2.ru",
+   "profile_url": "https://www.drive2.ru/users/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:droners",
+   "name": "Droners",
+   "category": "hobby",
+   "host": "droners.io",
+   "profile_url": "https://droners.io/accounts/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:duolingo",
+   "name": "Duolingo",
+   "category": "hobby",
+   "host": "duolingo.com",
+   "profile_url": "https://www.duolingo.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:easyen",
+   "name": "easyen",
+   "category": "social",
+   "host": "easyen.ru",
+   "profile_url": "https://easyen.ru/index/8-0-{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:ebay",
+   "name": "eBay",
+   "category": "shopping",
+   "host": "ebay.com",
+   "profile_url": "https://www.ebay.com/usr/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:ebay_stores",
+   "name": "ebay_stores",
+   "category": "shopping",
+   "host": "ebay.com",
+   "profile_url": "https://www.ebay.com/str/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:electrobel",
+   "name": "Electrobel",
+   "category": "social",
+   "host": "be.electrobel.org",
+   "profile_url": "https://be.electrobel.org/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:engadget",
+   "name": "Engadget",
+   "category": "tech",
+   "host": "engadget.com",
+   "profile_url": "https://www.engadget.com/about/editors/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:eporner",
+   "name": "EPORNER",
+   "category": "xx NSFW xx",
+   "host": "eporner.com",
+   "profile_url": "https://www.eporner.com/profile/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:etoro",
+   "name": "Etoro",
+   "category": "finance",
+   "host": "etoro.com",
+   "profile_url": "https://www.etoro.com/people/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:etsy",
+   "name": "Etsy",
+   "category": "shopping",
+   "host": "etsy.com",
+   "profile_url": "https://www.etsy.com/people/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:evolution_cms",
+   "name": "Evolution CMS",
+   "category": "tech",
+   "host": "community.evocms.ru",
+   "profile_url": "https://community.evocms.ru/users/?search={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:expressional_social_mastodon_instance",
+   "name": "Expressional.social (Mastodon Instance)",
+   "category": "social",
+   "host": "expressional.social",
+   "profile_url": "https://expressional.social/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fabswingers",
+   "name": "Fabswingers",
+   "category": "dating",
+   "host": "fabswingers.com",
+   "profile_url": "https://www.fabswingers.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:facebook",
+   "name": "Facebook",
+   "category": "social",
+   "host": "facebook.com",
+   "profile_url": "https://www.facebook.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:faceit",
+   "name": "FACEIT",
+   "category": "gaming",
+   "host": "faceit.com",
+   "profile_url": "https://www.faceit.com/en/players/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:faktopedia",
+   "name": "Faktopedia",
+   "category": "images",
+   "host": "faktopedia.pl",
+   "profile_url": "https://faktopedia.pl/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fancentro",
+   "name": "FanCentro",
+   "category": "xx NSFW xx",
+   "host": "fancentro.com",
+   "profile_url": "https://fancentro.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fandom",
+   "name": "Fandom",
+   "category": "gaming",
+   "host": "fandom.com",
+   "profile_url": "https://www.fandom.com/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fanpop",
+   "name": "fanpop",
+   "category": "social",
+   "host": "fanpop.com",
+   "profile_url": "https://www.fanpop.com/fans/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fanslist_onlyfans",
+   "name": "Fanslist (OnlyFans)",
+   "category": "xx NSFW xx",
+   "host": "fanslist.com",
+   "profile_url": "https://fanslist.com/search?q={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fansly",
+   "name": "Fansly",
+   "category": "xx NSFW xx",
+   "host": "fansly.com",
+   "profile_url": "https://fansly.com/{username}/posts",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fark",
+   "name": "Fark",
+   "category": "social",
+   "host": "fark.com",
+   "profile_url": "https://www.fark.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:federated_press_mastodon_instance",
+   "name": "Federated.press (Mastodon Instance)",
+   "category": "social",
+   "host": "federated.press",
+   "profile_url": "https://federated.press/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:figma",
+   "name": "Figma",
+   "category": "tech",
+   "host": "figma.com",
+   "profile_url": "https://www.figma.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:filmot_channel_search",
+   "name": "Filmot Channel Search",
+   "category": "archived",
+   "host": "filmot.com",
+   "profile_url": "https://filmot.com/channelsearch/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:filmot_unlisted_videos",
+   "name": "Filmot Unlisted Videos",
+   "category": "archived",
+   "host": "filmot.com",
+   "profile_url": "https://filmot.com/unlistedSearch?channelQuery={username}&sortField=uploaddate&sortOrder=desc&",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:filmweb",
+   "name": "Filmweb",
+   "category": "hobby",
+   "host": "filmweb.pl",
+   "profile_url": "https://www.filmweb.pl/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fine_art_america",
+   "name": "fine_art_america",
+   "category": "shopping",
+   "host": "fineartamerica.com",
+   "profile_url": "https://fineartamerica.com/profiles/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fiverr",
+   "name": "Fiverr",
+   "category": "shopping",
+   "host": "fiverr.com",
+   "profile_url": "https://www.fiverr.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fl_ru",
+   "name": "FL.ru",
+   "category": "social",
+   "host": "fl.ru",
+   "profile_url": "https://www.fl.ru/users/{username}/portfolio/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:flickr",
+   "name": "Flickr",
+   "category": "images",
+   "host": "flickr.com",
+   "profile_url": "https://www.flickr.com/photos/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:flightradar24",
+   "name": "Flightradar24",
+   "category": "misc",
+   "host": "my.flightradar24.com",
+   "profile_url": "https://my.flightradar24.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:flipboard",
+   "name": "Flipboard",
+   "category": "tech",
+   "host": "flipboard.com",
+   "profile_url": "https://flipboard.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:flowcode",
+   "name": "flowcode",
+   "category": "social",
+   "host": "flow.page",
+   "profile_url": "https://www.flow.page/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fodors_forum",
+   "name": "Fodors Forum",
+   "category": "social",
+   "host": "fodors.com",
+   "profile_url": "https://www.fodors.com/community/profile/{username}/forum-activity",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:folkd",
+   "name": "Folkd",
+   "category": "social",
+   "host": "folkd.com",
+   "profile_url": "https://www.folkd.com/search/?q={username}&quick=1&type=core_members",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fortnite_tracker",
+   "name": "Fortnite Tracker",
+   "category": "gaming",
+   "host": "fortnitetracker.com",
+   "profile_url": "https://fortnitetracker.com/profile/all/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:forumprawne_org",
+   "name": "forumprawne.org",
+   "category": "misc",
+   "host": "forumprawne.org",
+   "profile_url": "https://forumprawne.org/members/{username}.html",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fosstodon_org_mastodon_instance",
+   "name": "Fosstodon.org (Mastodon Instance)",
+   "category": "social",
+   "host": "fosstodon.org",
+   "profile_url": "https://fosstodon.org/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fotka",
+   "name": "fotka",
+   "category": "social",
+   "host": "fotka.com",
+   "profile_url": "https://fotka.com/profil/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fotolog_archived_profile",
+   "name": "Fotolog Archived Profile",
+   "category": "archived",
+   "host": "web.archive.org",
+   "profile_url": "https://web.archive.org/web/2/fotolog.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:foursquare",
+   "name": "Foursquare",
+   "category": "social",
+   "host": "foursquare.com",
+   "profile_url": "https://foursquare.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:freecodecamp",
+   "name": "freeCodeCamp",
+   "category": "coding",
+   "host": "freecodecamp.org",
+   "profile_url": "https://www.freecodecamp.org/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:freelance_ru",
+   "name": "Freelance.RU",
+   "category": "business",
+   "host": "freelance.ru",
+   "profile_url": "https://freelance.ru/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:freelance_ua",
+   "name": "Freelance.ua",
+   "category": "social",
+   "host": "freelance.ua",
+   "profile_url": "https://freelance.ua/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:freelancehunt_employer",
+   "name": "Freelancehunt (Employer)",
+   "category": "social",
+   "host": "freelancehunt.com",
+   "profile_url": "https://freelancehunt.com/en/employer/{username}.html",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:freelancehunt_freelancer",
+   "name": "Freelancehunt (Freelancer)",
+   "category": "social",
+   "host": "freelancehunt.com",
+   "profile_url": "https://freelancehunt.com/en/freelancer/{username}.html",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:freelancer",
+   "name": "Freelancer",
+   "category": "business",
+   "host": "freelancer.com",
+   "profile_url": "https://www.freelancer.com/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:freesound",
+   "name": "freesound",
+   "category": "music",
+   "host": "freesound.org",
+   "profile_url": "https://freesound.org/people/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:friendfinder",
+   "name": "FriendFinder",
+   "category": "dating",
+   "host": "friendfinder.com",
+   "profile_url": "https://friendfinder.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:friendfinder_x",
+   "name": "FriendFinder-X",
+   "category": "dating",
+   "host": "friendfinder-x.com",
+   "profile_url": "https://www.friendfinder-x.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:fur_affinity",
+   "name": "Fur Affinity",
+   "category": "images",
+   "host": "furaffinity.net",
+   "profile_url": "https://www.furaffinity.net/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gab",
+   "name": "Gab",
+   "category": "political",
+   "host": "gab.com",
+   "profile_url": "https://gab.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:game_jolt",
+   "name": "Game Jolt",
+   "category": "gaming",
+   "host": "gamejolt.com",
+   "profile_url": "https://gamejolt.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:game_debate",
+   "name": "game_debate",
+   "category": "gaming",
+   "host": "game-debate.com",
+   "profile_url": "https://www.game-debate.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gamer_dvr",
+   "name": "Gamer DVR",
+   "category": "gaming",
+   "host": "gamerdvr.com",
+   "profile_url": "https://gamerdvr.com/gamer/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gamespot",
+   "name": "Gamespot",
+   "category": "gaming",
+   "host": "gamespot.com",
+   "profile_url": "https://www.gamespot.com/profile/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:garmin_connect",
+   "name": "Garmin Connect",
+   "category": "health",
+   "host": "connect.garmin.com",
+   "profile_url": "https://connect.garmin.com/app/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gdbrowser",
+   "name": "GDBrowser",
+   "category": "gaming",
+   "host": "gdbrowser.com",
+   "profile_url": "https://gdbrowser.com/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:geeksforgeeks",
+   "name": "GeeksForGeeks",
+   "category": "coding",
+   "host": "geeksforgeeks.org",
+   "profile_url": "https://www.geeksforgeeks.org/profile/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:genius_artist",
+   "name": "Genius (Artist)",
+   "category": "music",
+   "host": "genius.com",
+   "profile_url": "https://genius.com/artists/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:genius_user",
+   "name": "Genius (User)",
+   "category": "music",
+   "host": "genius.com",
+   "profile_url": "https://genius.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:geocaching",
+   "name": "Geocaching",
+   "category": "social",
+   "host": "geocaching.com",
+   "profile_url": "https://www.geocaching.com/p/?u={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:getmonero",
+   "name": "getmonero",
+   "category": "misc",
+   "host": "forum.getmonero.org",
+   "profile_url": "https://forum.getmonero.org/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gettr",
+   "name": "Gettr",
+   "category": "social",
+   "host": "gettr.com",
+   "profile_url": "https://gettr.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gigapan",
+   "name": "Gigapan",
+   "category": "hobby",
+   "host": "gigapan.com",
+   "profile_url": "https://www.gigapan.com/profiles/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:giphy_channel",
+   "name": "Giphy (Channel)",
+   "category": "images",
+   "host": "giphy.com",
+   "profile_url": "https://giphy.com/channel/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gitea",
+   "name": "Gitea",
+   "category": "coding",
+   "host": "gitea.com",
+   "profile_url": "https://gitea.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gitee",
+   "name": "Gitee",
+   "category": "coding",
+   "host": "gitee.com",
+   "profile_url": "https://gitee.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:github_gists",
+   "name": "GitHub (Gists)",
+   "category": "coding",
+   "host": "gist.github.com",
+   "profile_url": "https://gist.github.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:github_user",
+   "name": "GitHub (User)",
+   "category": "coding",
+   "host": "github.com",
+   "profile_url": "https://github.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gitlab",
+   "name": "GitLab",
+   "category": "coding",
+   "host": "gitlab.com",
+   "profile_url": "https://gitlab.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gloria_tv",
+   "name": "gloria.tv",
+   "category": "social",
+   "host": "gloria.tv",
+   "profile_url": "https://gloria.tv/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gnome_gitlab",
+   "name": "GNOME (GitLab)",
+   "category": "coding",
+   "host": "gitlab.gnome.org",
+   "profile_url": "https://gitlab.gnome.org/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gnome_shell_extensions",
+   "name": "GNOME (Shell Extensions)",
+   "category": "coding",
+   "host": "extensions.gnome.org",
+   "profile_url": "https://extensions.gnome.org/accounts/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gog",
+   "name": "GOG",
+   "category": "gaming",
+   "host": "gog.com",
+   "profile_url": "https://www.gog.com/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:goodgame_russia",
+   "name": "Goodgame_Russia",
+   "category": "gaming",
+   "host": "goodgame.ru",
+   "profile_url": "https://goodgame.ru/channel/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gpodder_net",
+   "name": "gpodder.net",
+   "category": "music",
+   "host": "gpodder.net",
+   "profile_url": "https://gpodder.net/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:grandprof",
+   "name": "grandprof",
+   "category": "misc",
+   "host": "grandprof.org",
+   "profile_url": "https://grandprof.org/communaute/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:graphics_social_mastodon_instance",
+   "name": "Graphics.social (Mastodon Instance)",
+   "category": "social",
+   "host": "graphics.social",
+   "profile_url": "https://graphics.social/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gravatar",
+   "name": "Gravatar",
+   "category": "images",
+   "host": "en.gravatar.com",
+   "profile_url": "https://en.gravatar.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:greasy_fork",
+   "name": "Greasy Fork",
+   "category": "tech",
+   "host": "greasyfork.org",
+   "profile_url": "https://greasyfork.org/en/users?q={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gtainside_com",
+   "name": "GTAinside.com",
+   "category": "gaming",
+   "host": "gtainside.com",
+   "profile_url": "https://www.gtainside.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:gumroad",
+   "name": "gumroad",
+   "category": "shopping",
+   "host": "x.gumroad.com",
+   "profile_url": "https://{username}.gumroad.com/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:habbo_com",
+   "name": "Habbo.com",
+   "category": "gaming",
+   "host": "habbo.com",
+   "profile_url": "https://www.habbo.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:habbo_com_br",
+   "name": "Habbo.com.br",
+   "category": "gaming",
+   "host": "habbo.com.br",
+   "profile_url": "https://www.habbo.com.br/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:habbo_com_tr",
+   "name": "Habbo.com.tr",
+   "category": "gaming",
+   "host": "habbo.com.tr",
+   "profile_url": "https://www.habbo.com.tr/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:habbo_de",
+   "name": "Habbo.de",
+   "category": "gaming",
+   "host": "habbo.de",
+   "profile_url": "https://www.habbo.de/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:habbo_es",
+   "name": "Habbo.es",
+   "category": "gaming",
+   "host": "habbo.es",
+   "profile_url": "https://www.habbo.es/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:habbo_fi",
+   "name": "Habbo.fi",
+   "category": "gaming",
+   "host": "habbo.fi",
+   "profile_url": "https://www.habbo.fi/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:habbo_fr",
+   "name": "Habbo.fr",
+   "category": "gaming",
+   "host": "habbo.fr",
+   "profile_url": "https://www.habbo.fr/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:habbo_it",
+   "name": "Habbo.it",
+   "category": "gaming",
+   "host": "habbo.it",
+   "profile_url": "https://www.habbo.it/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:habbo_nl",
+   "name": "Habbo.nl",
+   "category": "gaming",
+   "host": "habbo.nl",
+   "profile_url": "https://www.habbo.nl/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:habr_q_a",
+   "name": "Habr (Q&A)",
+   "category": "coding",
+   "host": "qna.habr.com",
+   "profile_url": "https://qna.habr.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:habr_user",
+   "name": "Habr (User)",
+   "category": "social",
+   "host": "habr.com",
+   "profile_url": "https://habr.com/ru/users/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:habtium",
+   "name": "Habtium",
+   "category": "gaming",
+   "host": "habtium.es",
+   "profile_url": "https://habtium.es/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hackaday_io",
+   "name": "Hackaday.io",
+   "category": "hobby",
+   "host": "hackaday.io",
+   "profile_url": "https://hackaday.io/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hackadvisor",
+   "name": "HackAdvisor",
+   "category": "tech",
+   "host": "hackadvisor.io",
+   "profile_url": "https://hackadvisor.io/hacker/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hacker_news",
+   "name": "Hacker News",
+   "category": "tech",
+   "host": "news.ycombinator.com",
+   "profile_url": "https://news.ycombinator.com/user?id={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hackerearth",
+   "name": "hackerearth",
+   "category": "coding",
+   "host": "hackerearth.com",
+   "profile_url": "https://www.hackerearth.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hackernoon",
+   "name": "Hackernoon",
+   "category": "tech",
+   "host": "hackernoon.com",
+   "profile_url": "https://hackernoon.com/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hackerone",
+   "name": "HackerOne",
+   "category": "tech",
+   "host": "hackerone.com",
+   "profile_url": "https://hackerone.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hackerrank",
+   "name": "HackerRank",
+   "category": "tech",
+   "host": "hackerrank.com",
+   "profile_url": "https://www.hackerrank.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hackrocks",
+   "name": "hackrocks",
+   "category": "tech",
+   "host": "hackrocks.com",
+   "profile_url": "https://hackrocks.com/id/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hackster",
+   "name": "Hackster",
+   "category": "coding",
+   "host": "hackster.io",
+   "profile_url": "https://www.hackster.io/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hamaha",
+   "name": "hamaha",
+   "category": "finance",
+   "host": "hamaha.net",
+   "profile_url": "https://hamaha.net/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hanime",
+   "name": "Hanime",
+   "category": "xx NSFW xx",
+   "host": "hanime.tv",
+   "profile_url": "https://hanime.tv/channels/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hashnode",
+   "name": "Hashnode",
+   "category": "tech",
+   "host": "hashnode.com",
+   "profile_url": "https://hashnode.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hcommons_social_mastodon_instance",
+   "name": "Hcommons.social (Mastodon Instance)",
+   "category": "social",
+   "host": "hcommons.social",
+   "profile_url": "https://hcommons.social/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:heylink",
+   "name": "Heylink",
+   "category": "misc",
+   "host": "heylink.me",
+   "profile_url": "https://heylink.me/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hiberworld",
+   "name": "hiberworld",
+   "category": "gaming",
+   "host": "hiberworld.com",
+   "profile_url": "https://hiberworld.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hihello",
+   "name": "HiHello",
+   "category": "business",
+   "host": "hihello.com",
+   "profile_url": "https://www.hihello.com/author/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:holopin",
+   "name": "Holopin",
+   "category": "hobby",
+   "host": "holopin.io",
+   "profile_url": "https://holopin.io/@{username}#",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:home_design_3d",
+   "name": "Home Design 3D",
+   "category": "hobby",
+   "host": "homedesign3d.net",
+   "profile_url": "https://www.homedesign3d.net/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hometech_social_mastodon_instance",
+   "name": "Hometech.social (Mastodon Instance)",
+   "category": "social",
+   "host": "hometech.social",
+   "profile_url": "https://hometech.social/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hoo_be",
+   "name": "hoo.be",
+   "category": "business",
+   "host": "hoo.be",
+   "profile_url": "https://hoo.be/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hostux_social_mastodon_instance",
+   "name": "Hostux.social (Mastodon Instance)",
+   "category": "social",
+   "host": "hostux.social",
+   "profile_url": "https://hostux.social/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:houzz",
+   "name": "Houzz",
+   "category": "hobby",
+   "host": "houzz.com",
+   "profile_url": "https://www.houzz.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hubpages",
+   "name": "HubPages",
+   "category": "blog",
+   "host": "hubpages.com",
+   "profile_url": "https://hubpages.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hubski",
+   "name": "Hubski",
+   "category": "social",
+   "host": "hubski.com",
+   "profile_url": "https://hubski.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hudsonrock",
+   "name": "HudsonRock",
+   "category": "tech",
+   "host": "cavalier.hudsonrock.com",
+   "profile_url": "https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-username?username={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:huggingface",
+   "name": "HuggingFace",
+   "category": "tech",
+   "host": "huggingface.co",
+   "profile_url": "https://huggingface.co/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:hulkshare",
+   "name": "HulkShare",
+   "category": "social",
+   "host": "hulkshare.com",
+   "profile_url": "https://www.hulkshare.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:icq_chat",
+   "name": "icq-chat",
+   "category": "social",
+   "host": "icq.icqchat.co",
+   "profile_url": "https://icq.icqchat.co/members/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:ifttt",
+   "name": "IFTTT",
+   "category": "misc",
+   "host": "ifttt.com",
+   "profile_url": "https://ifttt.com/p/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:ifunny",
+   "name": "ifunny",
+   "category": "misc",
+   "host": "ifunny.co",
+   "profile_url": "https://ifunny.co/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:igromania",
+   "name": "igromania",
+   "category": "social",
+   "host": "forum.igromania.ru",
+   "profile_url": "https://forum.igromania.ru/member.php?username={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:ilgm_growers_forum",
+   "name": "ILGM Growers Forum",
+   "category": "social",
+   "host": "ilgmforum.com",
+   "profile_url": "https://ilgmforum.com/u/{username}/summary",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:imagefap",
+   "name": "imagefap",
+   "category": "xx NSFW xx",
+   "host": "imagefap.com",
+   "profile_url": "https://www.imagefap.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:imageshack",
+   "name": "ImageShack",
+   "category": "images",
+   "host": "imageshack.com",
+   "profile_url": "https://imageshack.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:imgsrc_ru",
+   "name": "iMGSRC.RU",
+   "category": "images",
+   "host": "imgsrc.ru",
+   "profile_url": "https://imgsrc.ru/main/user.php?lang=ru&user={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:imgur",
+   "name": "Imgur",
+   "category": "images",
+   "host": "imgur.com",
+   "profile_url": "https://imgur.com/user/{username}/about",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:immunefi",
+   "name": "Immunefi",
+   "category": "tech",
+   "host": "immunefi.com",
+   "profile_url": "https://immunefi.com/profile/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:inaturalist",
+   "name": "inaturalist",
+   "category": "hobby",
+   "host": "inaturalist.nz",
+   "profile_url": "https://inaturalist.nz/people/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:independent_academia",
+   "name": "Independent academia",
+   "category": "hobby",
+   "host": "independent.academia.edu",
+   "profile_url": "https://independent.academia.edu/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:inkbunny",
+   "name": "InkBunny",
+   "category": "xx NSFW xx",
+   "host": "inkbunny.net",
+   "profile_url": "https://inkbunny.net/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:insanejournal",
+   "name": "InsaneJournal",
+   "category": "social",
+   "host": "x.insanejournal.com",
+   "profile_url": "https://{username}.insanejournal.com/profile",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:instagram",
+   "name": "Instagram",
+   "category": "social",
+   "host": "instagram.com",
+   "profile_url": "https://www.instagram.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:instagram_imginn",
+   "name": "Instagram (Imginn)",
+   "category": "social",
+   "host": "imginn.com",
+   "profile_url": "https://imginn.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:instagram_archives",
+   "name": "Instagram_archives",
+   "category": "social",
+   "host": "archive.org",
+   "profile_url": "https://archive.org/wayback/available?url=https://instagram.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:instructables",
+   "name": "Instructables",
+   "category": "hobby",
+   "host": "instructables.com",
+   "profile_url": "https://www.instructables.com/member/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:internet_archive_user_contribution_search",
+   "name": "Internet Archive User Contribution Search",
+   "category": "misc",
+   "host": "archive.org",
+   "profile_url": "https://archive.org/search.php?query=creator:{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:internet_archive_username_mentions",
+   "name": "Internet Archive Username Mentions",
+   "category": "misc",
+   "host": "archive.org",
+   "profile_url": "https://archive.org/search.php?query={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:interpals",
+   "name": "interpals",
+   "category": "dating",
+   "host": "interpals.net",
+   "profile_url": "https://www.interpals.net/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:intigriti",
+   "name": "Intigriti",
+   "category": "tech",
+   "host": "app.intigriti.com",
+   "profile_url": "https://app.intigriti.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:issuu",
+   "name": "Issuu",
+   "category": "social",
+   "host": "issuu.com",
+   "profile_url": "https://issuu.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:itch_io",
+   "name": "itch.io",
+   "category": "gaming",
+   "host": "itch.io",
+   "profile_url": "https://itch.io/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:ixbt_forum",
+   "name": "iXBT Forum",
+   "category": "tech",
+   "host": "forum.ixbt.com",
+   "profile_url": "https://forum.ixbt.com/users.cgi?id=info:{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:japandict",
+   "name": "JapanDict",
+   "category": "social",
+   "host": "forum.japandict.com",
+   "profile_url": "https://forum.japandict.com/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:jbzd",
+   "name": "JBZD",
+   "category": "images",
+   "host": "jbzd.com.pl",
+   "profile_url": "https://jbzd.com.pl/uzytkownik/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:jeja_pl",
+   "name": "jeja.pl",
+   "category": "misc",
+   "host": "jeja.pl",
+   "profile_url": "https://www.jeja.pl/user,{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:jeuxvideo",
+   "name": "Jeuxvideo",
+   "category": "gaming",
+   "host": "jeuxvideo.com",
+   "profile_url": "https://www.jeuxvideo.com/profil/{username}?mode=infos",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:joe_monster",
+   "name": "Joe Monster",
+   "category": "misc",
+   "host": "joemonster.org",
+   "profile_url": "https://joemonster.org/bojownik/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:jsfiddle",
+   "name": "JSFiddle",
+   "category": "coding",
+   "host": "jsfiddle.net",
+   "profile_url": "https://jsfiddle.net/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:justforfans",
+   "name": "Justforfans",
+   "category": "xx NSFW xx",
+   "host": "justfor.fans",
+   "profile_url": "https://justfor.fans/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:kaggle",
+   "name": "Kaggle",
+   "category": "coding",
+   "host": "kaggle.com",
+   "profile_url": "https://www.kaggle.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:kashipara",
+   "name": "kashipara",
+   "category": "tech",
+   "host": "kashipara.com",
+   "profile_url": "https://www.kashipara.com/profile/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:keybase",
+   "name": "Keybase",
+   "category": "social",
+   "host": "keybase.io",
+   "profile_url": "https://keybase.io/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:kick",
+   "name": "Kick",
+   "category": "social",
+   "host": "kick.com",
+   "profile_url": "https://kick.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:kickstarter",
+   "name": "Kickstarter",
+   "category": "shopping",
+   "host": "kickstarter.com",
+   "profile_url": "https://www.kickstarter.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:kik",
+   "name": "kik",
+   "category": "social",
+   "host": "kik.me",
+   "profile_url": "https://kik.me/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:kipin",
+   "name": "kipin",
+   "category": "business",
+   "host": "kipin.app",
+   "profile_url": "https://kipin.app/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:knowyourmeme",
+   "name": "KnowYourMeme",
+   "category": "social",
+   "host": "knowyourmeme.com",
+   "profile_url": "https://knowyourmeme.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:ko_fi",
+   "name": "Ko-Fi",
+   "category": "social",
+   "host": "ko-fi.com",
+   "profile_url": "https://ko-fi.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:komi",
+   "name": "komi",
+   "category": "social",
+   "host": "x.komi.io",
+   "profile_url": "https://{username}.komi.io",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:kongregate",
+   "name": "Kongregate",
+   "category": "gaming",
+   "host": "kongregate.com",
+   "profile_url": "https://www.kongregate.com/accounts/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:kwai",
+   "name": "Kwai",
+   "category": "social",
+   "host": "kwai.com",
+   "profile_url": "https://www.kwai.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:kwejk_pl",
+   "name": "kwejk.pl",
+   "category": "images",
+   "host": "kwejk.pl",
+   "profile_url": "https://kwejk.pl/uzytkownik/{username}#/tablica/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:kwork",
+   "name": "Kwork",
+   "category": "social",
+   "host": "kwork.ru",
+   "profile_url": "https://kwork.ru/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:last_fm",
+   "name": "Last.fm",
+   "category": "music",
+   "host": "last.fm",
+   "profile_url": "https://www.last.fm/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:leakix",
+   "name": "LeakIX",
+   "category": "tech",
+   "host": "leakix.net",
+   "profile_url": "https://leakix.net/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:learn_cw_online",
+   "name": "Learn CW Online",
+   "category": "hobby",
+   "host": "lcwo.net",
+   "profile_url": "https://lcwo.net/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:leetcode",
+   "name": "LeetCode",
+   "category": "coding",
+   "host": "leetcode.com",
+   "profile_url": "https://leetcode.com/u/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:lemon8",
+   "name": "Lemon8",
+   "category": "social",
+   "host": "lemon8-app.com",
+   "profile_url": "https://www.lemon8-app.com/{username}?region=us",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:letterboxd",
+   "name": "Letterboxd",
+   "category": "social",
+   "host": "letterboxd.com",
+   "profile_url": "https://letterboxd.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:levelblue",
+   "name": "LevelBlue",
+   "category": "social",
+   "host": "otx.alienvault.com",
+   "profile_url": "https://otx.alienvault.com/user/{username}/pulses",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:liberapay",
+   "name": "Liberapay",
+   "category": "finance",
+   "host": "liberapay.com",
+   "profile_url": "https://liberapay.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:librarything",
+   "name": "LibraryThing",
+   "category": "hobby",
+   "host": "librarything.com",
+   "profile_url": "https://www.librarything.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:libretooth_gr_mastodon_instance",
+   "name": "Libretooth.gr (Mastodon Instance)",
+   "category": "social",
+   "host": "libretooth.gr",
+   "profile_url": "https://libretooth.gr/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:lichess_org",
+   "name": "lichess.org",
+   "category": "gaming",
+   "host": "lichess.org",
+   "profile_url": "https://lichess.org/@/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:line",
+   "name": "LINE",
+   "category": "social",
+   "host": "line.me",
+   "profile_url": "https://line.me/R/ti/p/@{username}?from=page",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:linktree",
+   "name": "Linktree",
+   "category": "social",
+   "host": "linktr.ee",
+   "profile_url": "https://linktr.ee/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:linux_org_ru",
+   "name": "linux.org.ru",
+   "category": "tech",
+   "host": "linux.org.ru",
+   "profile_url": "https://www.linux.org.ru/people/{username}/profile",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:livejasmin",
+   "name": "LiveJasmin",
+   "category": "xx NSFW xx",
+   "host": "livejasmin.com",
+   "profile_url": "https://www.livejasmin.com/en/chat/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:livejournal",
+   "name": "Livejournal",
+   "category": "blog",
+   "host": "x.livejournal.com",
+   "profile_url": "https://{username}.livejournal.com",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:livemaster_ru",
+   "name": "livemaster.ru",
+   "category": "shopping",
+   "host": "livemaster.ru",
+   "profile_url": "https://www.livemaster.ru/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:lobste_rs",
+   "name": "lobste.rs",
+   "category": "tech",
+   "host": "lobste.rs",
+   "profile_url": "https://lobste.rs/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:lolprofile",
+   "name": "LoLProfile",
+   "category": "gaming",
+   "host": "lolprofile.net",
+   "profile_url": "https://lolprofile.net/search/world/{username}-world",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:lor_sh_mastodon_instance",
+   "name": "Lor.sh (Mastodon Instance)",
+   "category": "social",
+   "host": "lor.sh",
+   "profile_url": "https://lor.sh/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:lowcygier_pl",
+   "name": "lowcygier.pl",
+   "category": "gaming",
+   "host": "bazar.lowcygier.pl",
+   "profile_url": "https://bazar.lowcygier.pl/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:magabook",
+   "name": "MAGABOOK",
+   "category": "social",
+   "host": "magabook.com",
+   "profile_url": "https://magabook.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:magix",
+   "name": "Magix",
+   "category": "music",
+   "host": "magix.info",
+   "profile_url": "https://www.magix.info/us/users/profile/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:magnific",
+   "name": "Magnific",
+   "category": "art",
+   "host": "magnific.com",
+   "profile_url": "https://www.magnific.com/app/creator/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:malpedia_actors",
+   "name": "Malpedia Actors",
+   "category": "tech",
+   "host": "malpedia.caad.fkie.fraunhofer.de",
+   "profile_url": "https://malpedia.caad.fkie.fraunhofer.de/actor/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mapmytracks",
+   "name": "MapMyTracks",
+   "category": "health",
+   "host": "mapmytracks.com",
+   "profile_url": "https://www.mapmytracks.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mapstodon_space_mastodon_instance",
+   "name": "Mapstodon.space (Mastodon Instance)",
+   "category": "social",
+   "host": "mapstodon.space",
+   "profile_url": "https://mapstodon.space/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:maroc_nl",
+   "name": "Maroc_nl",
+   "category": "social",
+   "host": "maroc.nl",
+   "profile_url": "https://www.maroc.nl/forums/members/{username}.html",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:marshmallow",
+   "name": "Marshmallow",
+   "category": "social",
+   "host": "marshmallow-qa.com",
+   "profile_url": "https://marshmallow-qa.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:martech",
+   "name": "Martech",
+   "category": "business",
+   "host": "martech.org",
+   "profile_url": "https://martech.org/author/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:massage_anywhere",
+   "name": "Massage Anywhere",
+   "category": "health",
+   "host": "massageanywhere.com",
+   "profile_url": "https://www.massageanywhere.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:masto_ai",
+   "name": "masto.ai",
+   "category": "social",
+   "host": "masto.ai",
+   "profile_url": "https://masto.ai/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:masto_nyc_mastodon_instance",
+   "name": "Masto.nyc (Mastodon Instance)",
+   "category": "social",
+   "host": "masto.nyc",
+   "profile_url": "https://masto.nyc/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mastodon_api",
+   "name": "Mastodon API",
+   "category": "social",
+   "host": "mastodon.social",
+   "profile_url": "https://mastodon.social/api/v2/search?q={username}&type=accounts",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mastodon_101010_pl",
+   "name": "Mastodon-101010.pl",
+   "category": "social",
+   "host": "101010.pl",
+   "profile_url": "https://101010.pl/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mastodon_c_im",
+   "name": "Mastodon-C.IM",
+   "category": "social",
+   "host": "c.im",
+   "profile_url": "https://c.im/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mastodon_chaos_social",
+   "name": "Mastodon-Chaos.social",
+   "category": "social",
+   "host": "chaos.social",
+   "profile_url": "https://chaos.social/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mastodon_defcon",
+   "name": "Mastodon-Defcon",
+   "category": "social",
+   "host": "defcon.social",
+   "profile_url": "https://defcon.social/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mastodon_mastodon",
+   "name": "Mastodon-mastodon",
+   "category": "social",
+   "host": "mastodon.social",
+   "profile_url": "https://mastodon.social/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mastodon_meow_social",
+   "name": "Mastodon-meow.social",
+   "category": "social",
+   "host": "meow.social",
+   "profile_url": "https://meow.social/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mastodon_mstdn_io",
+   "name": "Mastodon-mstdn.io",
+   "category": "social",
+   "host": "mstdn.io",
+   "profile_url": "https://mstdn.io/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mastodon_rigcz_club",
+   "name": "Mastodon-rigcz.club",
+   "category": "social",
+   "host": "rigcz.club",
+   "profile_url": "https://rigcz.club/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mastodon_social_tchncs",
+   "name": "Mastodon-social_tchncs",
+   "category": "social",
+   "host": "social.tchncs.de",
+   "profile_url": "https://social.tchncs.de/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mastodon_toot_community",
+   "name": "Mastodon-Toot.Community",
+   "category": "social",
+   "host": "toot.community",
+   "profile_url": "https://toot.community/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mastodon_online",
+   "name": "Mastodon.online",
+   "category": "social",
+   "host": "mastodon.online",
+   "profile_url": "https://mastodon.online/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mastodonbooks_net_mastodon_instance",
+   "name": "Mastodonbooks.net (Mastodon Instance)",
+   "category": "social",
+   "host": "mastodonbooks.net",
+   "profile_url": "https://mastodonbooks.net/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:max",
+   "name": "MAX",
+   "category": "social",
+   "host": "max.ru",
+   "profile_url": "https://max.ru/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mcuuid_minecraft",
+   "name": "MCUUID (Minecraft)",
+   "category": "gaming",
+   "host": "mcuuid.net",
+   "profile_url": "https://mcuuid.net/?q={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:medium",
+   "name": "Medium",
+   "category": "news",
+   "host": "medium.com",
+   "profile_url": "https://medium.com/@{username}/about",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:meet_me",
+   "name": "meet me",
+   "category": "dating",
+   "host": "meetme.com",
+   "profile_url": "https://www.meetme.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:meta_wiki_wikimedia",
+   "name": "Meta-Wiki (Wikimedia)",
+   "category": "news",
+   "host": "meta.wikimedia.org",
+   "profile_url": "https://meta.wikimedia.org/wiki/Special:CentralAuth?target={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:metacritic",
+   "name": "Metacritic",
+   "category": "hobby",
+   "host": "metacritic.com",
+   "profile_url": "https://www.metacritic.com/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:microsoft_learn",
+   "name": "Microsoft Learn",
+   "category": "tech",
+   "host": "learn.microsoft.com",
+   "profile_url": "https://learn.microsoft.com/en-us/users/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:minds",
+   "name": "Minds",
+   "category": "social",
+   "host": "minds.com",
+   "profile_url": "https://www.minds.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:minecraft_list",
+   "name": "Minecraft List",
+   "category": "gaming",
+   "host": "minecraftlist.com",
+   "profile_url": "https://minecraftlist.com/players/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mintme",
+   "name": "mintme",
+   "category": "finance",
+   "host": "mintme.com",
+   "profile_url": "https://www.mintme.com/token/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mistrzowie",
+   "name": "Mistrzowie",
+   "category": "images",
+   "host": "mistrzowie.org",
+   "profile_url": "https://mistrzowie.org/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mix",
+   "name": "Mix",
+   "category": "social",
+   "host": "mix.com",
+   "profile_url": "https://mix.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mixcloud",
+   "name": "Mixcloud",
+   "category": "music",
+   "host": "mixcloud.com",
+   "profile_url": "https://www.mixcloud.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mixi",
+   "name": "Mixi",
+   "category": "social",
+   "host": "mixi.jp",
+   "profile_url": "https://mixi.jp/view_community.pl?id={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mixlr",
+   "name": "Mixlr",
+   "category": "music",
+   "host": "mixlr.com",
+   "profile_url": "https://mixlr.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mmorpg",
+   "name": "Mmorpg",
+   "category": "gaming",
+   "host": "forums.mmorpg.com",
+   "profile_url": "https://forums.mmorpg.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mobilegta_net",
+   "name": "MobileGTA.net",
+   "category": "gaming",
+   "host": "mobilegta.net",
+   "profile_url": "https://www.mobilegta.net/en/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mod_db",
+   "name": "Mod DB",
+   "category": "gaming",
+   "host": "moddb.com",
+   "profile_url": "https://www.moddb.com/members/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:modx_im",
+   "name": "MODX.im",
+   "category": "tech",
+   "host": "modx.evo.im",
+   "profile_url": "https://modx.evo.im/profile/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:monkeytype",
+   "name": "Monkeytype",
+   "category": "coding",
+   "host": "monkeytype.com",
+   "profile_url": "https://monkeytype.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:moto_trip",
+   "name": "Moto Trip",
+   "category": "hobby",
+   "host": "moto-trip.com",
+   "profile_url": "https://moto-trip.com/profil/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:motokiller",
+   "name": "Motokiller",
+   "category": "images",
+   "host": "mklr.pl",
+   "profile_url": "https://mklr.pl/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:moxfield",
+   "name": "Moxfield",
+   "category": "gaming",
+   "host": "moxfield.com",
+   "profile_url": "https://www.moxfield.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mssg_me",
+   "name": "mssg.me",
+   "category": "social",
+   "host": "x.mssg.me",
+   "profile_url": "https://{username}.mssg.me/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:muck_rack",
+   "name": "Muck Rack",
+   "category": "news",
+   "host": "muckrack.com",
+   "profile_url": "https://muckrack.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:musician_social_mastodon_instance",
+   "name": "Musician.social (Mastodon Instance)",
+   "category": "social",
+   "host": "musician.social",
+   "profile_url": "https://musician.social/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:musictraveler",
+   "name": "musictraveler",
+   "category": "music",
+   "host": "musictraveler.com",
+   "profile_url": "https://www.musictraveler.com/en/users/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:muyzorras",
+   "name": "MUYZORRAS",
+   "category": "xx NSFW xx",
+   "host": "muyzorras.com",
+   "profile_url": "https://www.muyzorras.com/usuarios/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:my_instants",
+   "name": "my_instants",
+   "category": "music",
+   "host": "myinstants.com",
+   "profile_url": "https://www.myinstants.com/en/profile/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:myanimelist",
+   "name": "MyAnimeList",
+   "category": "social",
+   "host": "myanimelist.net",
+   "profile_url": "https://myanimelist.net/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mybuilder_com",
+   "name": "MyBuilder.com",
+   "category": "social",
+   "host": "mybuilder.com",
+   "profile_url": "https://www.mybuilder.com/profile/view/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:myfitnesspal_author",
+   "name": "MyFitnessPal Author",
+   "category": "health",
+   "host": "blog.myfitnesspal.com",
+   "profile_url": "https://blog.myfitnesspal.com/author/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:myfitnesspal_community",
+   "name": "MyFitnessPal Community",
+   "category": "health",
+   "host": "community.myfitnesspal.com",
+   "profile_url": "https://community.myfitnesspal.com/en/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mylot",
+   "name": "MyLot",
+   "category": "social",
+   "host": "mylot.com",
+   "profile_url": "https://www.mylot.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mym",
+   "name": "MYM",
+   "category": "social",
+   "host": "mym.fans",
+   "profile_url": "https://mym.fans/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mynickname",
+   "name": "MyNickname",
+   "category": "misc",
+   "host": "mynickname.com",
+   "profile_url": "https://mynickname.com/en/search?q={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:myportfolio",
+   "name": "myportfolio",
+   "category": "misc",
+   "host": "x.myportfolio.com",
+   "profile_url": "https://{username}.myportfolio.com/work",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:myspace",
+   "name": "MySpace",
+   "category": "social",
+   "host": "myspace.com",
+   "profile_url": "https://myspace.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:myspreadshop",
+   "name": "Myspreadshop",
+   "category": "business",
+   "host": "x.myspreadshop.com",
+   "profile_url": "https://{username}.myspreadshop.com",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:mywishboard",
+   "name": "myWishBoard",
+   "category": "shopping",
+   "host": "mywishboard.com",
+   "profile_url": "https://mywishboard.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:naija_planet",
+   "name": "naija_planet",
+   "category": "dating",
+   "host": "naijaplanet.com",
+   "profile_url": "https://naijaplanet.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:nairaland",
+   "name": "nairaland",
+   "category": "news",
+   "host": "nairaland.com",
+   "profile_url": "https://www.nairaland.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:naturalnews",
+   "name": "NaturalNews",
+   "category": "political",
+   "host": "naturalnews.com",
+   "profile_url": "https://naturalnews.com/author/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:naver",
+   "name": "Naver",
+   "category": "social",
+   "host": "blog.naver.com",
+   "profile_url": "https://blog.naver.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:neocities",
+   "name": "Neocities",
+   "category": "social",
+   "host": "neocities.org",
+   "profile_url": "https://neocities.org/site/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:newgrounds",
+   "name": "Newgrounds",
+   "category": "gaming",
+   "host": "x.newgrounds.com",
+   "profile_url": "https://{username}.newgrounds.com/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:newmeet",
+   "name": "newmeet",
+   "category": "dating",
+   "host": "newmeet.com",
+   "profile_url": "https://www.newmeet.com/en/profile/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:nifty_gateway",
+   "name": "Nifty Gateway",
+   "category": "social",
+   "host": "niftygateway.com",
+   "profile_url": "https://www.niftygateway.com/profile/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:nightbot",
+   "name": "Nightbot",
+   "category": "social",
+   "host": "nightbot.tv",
+   "profile_url": "https://nightbot.tv/t/{username}/commands",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:nih_buat_jajan",
+   "name": "Nih Buat Jajan",
+   "category": "social",
+   "host": "nihbuatjajan.com",
+   "profile_url": "https://www.nihbuatjajan.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:nitecrew_mastodon_instance",
+   "name": "Nitecrew (Mastodon Instance)",
+   "category": "social",
+   "host": "nitecrew.rip",
+   "profile_url": "https://nitecrew.rip/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:nnru",
+   "name": "nnru",
+   "category": "social",
+   "host": "x.www.nn.ru",
+   "profile_url": "https://{username}.www.nn.ru",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:notabug",
+   "name": "NotABug",
+   "category": "coding",
+   "host": "notabug.org",
+   "profile_url": "https://notabug.org/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:note",
+   "name": "Note",
+   "category": "social",
+   "host": "note.com",
+   "profile_url": "https://note.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:npm",
+   "name": "npm",
+   "category": "coding",
+   "host": "npmjs.com",
+   "profile_url": "https://www.npmjs.com/~{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:oglaszamy24h_pl",
+   "name": "oglaszamy24h.pl",
+   "category": "shopping",
+   "host": "oglaszamy24h.pl",
+   "profile_url": "https://oglaszamy24h.pl/profil,{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:ok_ru",
+   "name": "ok.ru",
+   "category": "social",
+   "host": "ok.ru",
+   "profile_url": "https://ok.ru/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:okidoki",
+   "name": "okidoki",
+   "category": "misc",
+   "host": "m.okidoki.ee",
+   "profile_url": "https://m.okidoki.ee/ru/users/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:omg_lol",
+   "name": "omg.lol",
+   "category": "social",
+   "host": "x.omg.lol",
+   "profile_url": "https://{username}.omg.lol",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:opencollective",
+   "name": "Opencollective",
+   "category": "finance",
+   "host": "opencollective.com",
+   "profile_url": "https://opencollective.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:opensource",
+   "name": "OpenSource",
+   "category": "tech",
+   "host": "opensource.com",
+   "profile_url": "https://opensource.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:openstreetmap",
+   "name": "OpenStreetMap",
+   "category": "social",
+   "host": "openstreetmap.org",
+   "profile_url": "https://www.openstreetmap.org/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:openstreetmap_wiki",
+   "name": "OpenStreetMap Wiki",
+   "category": "social",
+   "host": "wiki.openstreetmap.org",
+   "profile_url": "https://wiki.openstreetmap.org/wiki/User:{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:oper_ru",
+   "name": "Oper.ru",
+   "category": "tech",
+   "host": "oper.ru",
+   "profile_url": "https://oper.ru/visitors/info.php?t={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:opgg",
+   "name": "OPGG",
+   "category": "gaming",
+   "host": "eune.op.gg",
+   "profile_url": "https://eune.op.gg/summoners/eune/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:orbys",
+   "name": "Orbys",
+   "category": "social",
+   "host": "orbys.net",
+   "profile_url": "https://orbys.net/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:origins_habbo_com",
+   "name": "Origins.Habbo.com",
+   "category": "gaming",
+   "host": "origins.habbo.com",
+   "profile_url": "https://origins.habbo.com/api/public/users?name={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:origins_habbo_com_br",
+   "name": "Origins.Habbo.com.br",
+   "category": "gaming",
+   "host": "origins.habbo.com.br",
+   "profile_url": "https://origins.habbo.com.br/api/public/users?name={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:origins_habbo_es",
+   "name": "Origins.Habbo.es",
+   "category": "gaming",
+   "host": "origins.habbo.es",
+   "profile_url": "https://origins.habbo.es/api/public/users?name={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:osu",
+   "name": "osu!",
+   "category": "gaming",
+   "host": "osu.ppy.sh",
+   "profile_url": "https://osu.ppy.sh/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:our_freedom_book",
+   "name": "Our Freedom Book",
+   "category": "social",
+   "host": "ourfreedombook.com",
+   "profile_url": "https://www.ourfreedombook.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:palnet",
+   "name": "palnet",
+   "category": "social",
+   "host": "palnet.io",
+   "profile_url": "https://www.palnet.io/@{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:paragraph",
+   "name": "Paragraph",
+   "category": "blog",
+   "host": "paragraph.com",
+   "profile_url": "https://paragraph.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:parler",
+   "name": "Parler",
+   "category": "social",
+   "host": "parler.com",
+   "profile_url": "https://parler.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:parler_archived_posts",
+   "name": "Parler archived posts",
+   "category": "archived",
+   "host": "web.archive.org",
+   "profile_url": "https://web.archive.org/web/2/https://parler.com/profile/{username}/posts",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:parler_archived_profile",
+   "name": "Parler archived profile",
+   "category": "archived",
+   "host": "web.archive.org",
+   "profile_url": "https://web.archive.org/web/2/https://parler.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pastebin",
+   "name": "Pastebin",
+   "category": "tech",
+   "host": "pastebin.com",
+   "profile_url": "https://pastebin.com/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:patch",
+   "name": "patch",
+   "category": "news",
+   "host": "patch.com",
+   "profile_url": "https://patch.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:patientslikeme",
+   "name": "PatientsLikeMe",
+   "category": "health",
+   "host": "patientslikeme.com",
+   "profile_url": "https://www.patientslikeme.com/members/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:patreon",
+   "name": "Patreon",
+   "category": "finance",
+   "host": "patreon.com",
+   "profile_url": "https://www.patreon.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:patriots_win",
+   "name": "Patriots Win",
+   "category": "political",
+   "host": "patriots.win",
+   "profile_url": "https://patriots.win/u/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:patronite",
+   "name": "Patronite",
+   "category": "finance",
+   "host": "patronite.pl",
+   "profile_url": "https://patronite.pl/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:paypal_business",
+   "name": "PayPal Business",
+   "category": "finance",
+   "host": "paypal.com",
+   "profile_url": "https://www.paypal.com/biz/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:paypal_me",
+   "name": "PayPal.Me",
+   "category": "finance",
+   "host": "paypal.com",
+   "profile_url": "https://www.paypal.com/paypalme/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pcpartpicker",
+   "name": "PCPartPicker",
+   "category": "tech",
+   "host": "pcpartpicker.com",
+   "profile_url": "https://pcpartpicker.com/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:peerlist",
+   "name": "Peerlist",
+   "category": "coding",
+   "host": "peerlist.io",
+   "profile_url": "https://peerlist.io/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:peing",
+   "name": "Peing",
+   "category": "social",
+   "host": "peing.net",
+   "profile_url": "https://peing.net/en/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:peoople_creator",
+   "name": "Peoople (Creator)",
+   "category": "social",
+   "host": "peoople.app",
+   "profile_url": "https://peoople.app/en/creator/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:peoople_influencer",
+   "name": "Peoople (Influencer)",
+   "category": "social",
+   "host": "peoople.app",
+   "profile_url": "https://peoople.app/en/influencer/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:peoople_star",
+   "name": "Peoople (Star)",
+   "category": "social",
+   "host": "peoople.app",
+   "profile_url": "https://peoople.app/en/star/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:peoople_unicorn",
+   "name": "Peoople (Unicorn)",
+   "category": "social",
+   "host": "peoople.app",
+   "profile_url": "https://peoople.app/en/unicorn/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:periscope",
+   "name": "Periscope",
+   "category": "video",
+   "host": "periscope.tv",
+   "profile_url": "https://www.periscope.tv/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pewex",
+   "name": "Pewex",
+   "category": "misc",
+   "host": "retro.pewex.pl",
+   "profile_url": "https://retro.pewex.pl/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:picsart",
+   "name": "Picsart",
+   "category": "art",
+   "host": "picsart.com",
+   "profile_url": "https://picsart.com/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:piekielni",
+   "name": "Piekielni",
+   "category": "misc",
+   "host": "piekielni.pl",
+   "profile_url": "https://piekielni.pl/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pikabu",
+   "name": "Pikabu",
+   "category": "social",
+   "host": "pikabu.ru",
+   "profile_url": "https://pikabu.ru/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pillowfort",
+   "name": "Pillowfort",
+   "category": "social",
+   "host": "pillowfort.social",
+   "profile_url": "https://www.pillowfort.social/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pinkbike",
+   "name": "PinkBike",
+   "category": "hobby",
+   "host": "pinkbike.com",
+   "profile_url": "https://www.pinkbike.com/u/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pinterest",
+   "name": "Pinterest",
+   "category": "social",
+   "host": "pinterest.com",
+   "profile_url": "https://www.pinterest.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pixelfed_social",
+   "name": "pixelfed.social",
+   "category": "social",
+   "host": "pixelfed.social",
+   "profile_url": "https://pixelfed.social/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:planoly",
+   "name": "Planoly",
+   "category": "misc",
+   "host": "planoly.store",
+   "profile_url": "https://planoly.store/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:playstation_network",
+   "name": "Playstation Network",
+   "category": "gaming",
+   "host": "psnprofiles.com",
+   "profile_url": "https://psnprofiles.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:plink",
+   "name": "Plink",
+   "category": "gaming",
+   "host": "plink.gg",
+   "profile_url": "https://plink.gg/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:plurk",
+   "name": "Plurk",
+   "category": "social",
+   "host": "plurk.com",
+   "profile_url": "https://www.plurk.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:poe_com",
+   "name": "Poe.com",
+   "category": "tech",
+   "host": "poe.com",
+   "profile_url": "https://poe.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pokec",
+   "name": "Pokec",
+   "category": "social",
+   "host": "pokec.azet.sk",
+   "profile_url": "https://pokec.azet.sk/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pokemonshowdown",
+   "name": "pokemonshowdown",
+   "category": "gaming",
+   "host": "pokemonshowdown.com",
+   "profile_url": "https://pokemonshowdown.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:polarsteps",
+   "name": "Polarsteps",
+   "category": "hobby",
+   "host": "polarsteps.com",
+   "profile_url": "https://www.polarsteps.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:polchat_pl",
+   "name": "Polchat.pl",
+   "category": "social",
+   "host": "polczat.pl",
+   "profile_url": "https://polczat.pl/forum/profile/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:policja2009",
+   "name": "policja2009",
+   "category": "misc",
+   "host": "policja2009.fora.pl",
+   "profile_url": "http://www.policja2009.fora.pl/search.php?search_author={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:poll_everywhere",
+   "name": "Poll Everywhere",
+   "category": "tech",
+   "host": "pollev.com",
+   "profile_url": "https://pollev.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:polygon",
+   "name": "polygon",
+   "category": "gaming",
+   "host": "polygon.com",
+   "profile_url": "https://www.polygon.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:popl",
+   "name": "popl",
+   "category": "business",
+   "host": "poplme.co",
+   "profile_url": "https://poplme.co/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pornhub_model",
+   "name": "Pornhub (Model)",
+   "category": "xx NSFW xx",
+   "host": "pornhub.com",
+   "profile_url": "https://www.pornhub.com/model/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pornhub_pornstar",
+   "name": "Pornhub (Pornstar)",
+   "category": "xx NSFW xx",
+   "host": "pornhub.com",
+   "profile_url": "https://www.pornhub.com/pornstar/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pornhub_user",
+   "name": "Pornhub (User)",
+   "category": "xx NSFW xx",
+   "host": "pornhub.com",
+   "profile_url": "https://www.pornhub.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:poshmark",
+   "name": "Poshmark",
+   "category": "shopping",
+   "host": "poshmark.com",
+   "profile_url": "https://poshmark.com/closet/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:postcrossing",
+   "name": "postcrossing",
+   "category": "social",
+   "host": "postcrossing.com",
+   "profile_url": "https://www.postcrossing.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:poweredbygay_social_mastodon_instance",
+   "name": "Poweredbygay.social (Mastodon Instance)",
+   "category": "social",
+   "host": "poweredbygay.social",
+   "profile_url": "https://poweredbygay.social/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pr0gramm",
+   "name": "Pr0gramm",
+   "category": "social",
+   "host": "pr0gramm.com",
+   "profile_url": "https://pr0gramm.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pravda_me",
+   "name": "Pravda.me",
+   "category": "social",
+   "host": "pravda.me",
+   "profile_url": "https://pravda.me/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:privacy_guides",
+   "name": "Privacy Guides",
+   "category": "tech",
+   "host": "discuss.privacyguides.net",
+   "profile_url": "https://discuss.privacyguides.net/u/{username}/summary",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:producthunt",
+   "name": "Producthunt",
+   "category": "business",
+   "host": "producthunt.com",
+   "profile_url": "https://www.producthunt.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:promodj",
+   "name": "PromoDJ",
+   "category": "music",
+   "host": "promodj.com",
+   "profile_url": "https://promodj.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pronouns_page",
+   "name": "Pronouns.Page",
+   "category": "social",
+   "host": "pronouns.page",
+   "profile_url": "https://pronouns.page/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pronouny",
+   "name": "Pronouny",
+   "category": "social",
+   "host": "pronouny.xyz",
+   "profile_url": "https://pronouny.xyz/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:prose",
+   "name": "Prose",
+   "category": "blog",
+   "host": "prose.astral.camp",
+   "profile_url": "https://prose.astral.camp/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:prv_pl",
+   "name": "prv.pl",
+   "category": "tech",
+   "host": "prv.pl",
+   "profile_url": "https://www.prv.pl/osoba/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:public_com",
+   "name": "Public.com",
+   "category": "finance",
+   "host": "public.com",
+   "profile_url": "https://public.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:pypi",
+   "name": "pypi",
+   "category": "coding",
+   "host": "pypi.org",
+   "profile_url": "https://pypi.org/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:queer_pl",
+   "name": "QUEER PL",
+   "category": "social",
+   "host": "queer.pl",
+   "profile_url": "https://queer.pl/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:quitter_pl",
+   "name": "quitter.pl",
+   "category": "social",
+   "host": "quitter.pl",
+   "profile_url": "https://quitter.pl/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:quizlet",
+   "name": "Quizlet",
+   "category": "hobby",
+   "host": "quizlet.com",
+   "profile_url": "https://quizlet.com/user/{username}/sets",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:quora",
+   "name": "Quora",
+   "category": "social",
+   "host": "quora.com",
+   "profile_url": "https://www.quora.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:raddle_me",
+   "name": "Raddle.me",
+   "category": "social",
+   "host": "raddle.me",
+   "profile_url": "https://raddle.me/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:rant_li",
+   "name": "Rant.li",
+   "category": "blog",
+   "host": "rant.li",
+   "profile_url": "https://rant.li/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:rarible",
+   "name": "Rarible",
+   "category": "tech",
+   "host": "rarible.com",
+   "profile_url": "https://rarible.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:redbubble",
+   "name": "redbubble",
+   "category": "shopping",
+   "host": "redbubble.com",
+   "profile_url": "https://www.redbubble.com/people/{username}/shop",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:reddit",
+   "name": "Reddit",
+   "category": "social",
+   "host": "reddit.com",
+   "profile_url": "https://www.reddit.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:redgifs",
+   "name": "RedGIFs",
+   "category": "xx NSFW xx",
+   "host": "redgifs.com",
+   "profile_url": "https://www.redgifs.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:refsheet",
+   "name": "Refsheet",
+   "category": "hobby",
+   "host": "refsheet.net",
+   "profile_url": "https://refsheet.net/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:replit",
+   "name": "Replit",
+   "category": "coding",
+   "host": "replit.com",
+   "profile_url": "https://replit.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:researchgate",
+   "name": "Researchgate",
+   "category": "hobby",
+   "host": "researchgate.net",
+   "profile_url": "https://www.researchgate.net/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:resumes_actorsaccess",
+   "name": "resumes_actorsaccess",
+   "category": "social",
+   "host": "resumes.actorsaccess.com",
+   "profile_url": "https://resumes.actorsaccess.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:revolut",
+   "name": "Revolut",
+   "category": "finance",
+   "host": "revolut.me",
+   "profile_url": "https://revolut.me/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:risk_ru",
+   "name": "risk.ru",
+   "category": "hobby",
+   "host": "risk.ru",
+   "profile_url": "https://risk.ru/people/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:roberts_space_industries",
+   "name": "Roberts Space Industries",
+   "category": "gaming",
+   "host": "robertsspaceindustries.com",
+   "profile_url": "https://robertsspaceindustries.com/community-hub/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:roblox",
+   "name": "Roblox",
+   "category": "gaming",
+   "host": "roblox.com",
+   "profile_url": "https://www.roblox.com/search/users?keyword={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:routinehub",
+   "name": "RoutineHub",
+   "category": "social",
+   "host": "routinehub.co",
+   "profile_url": "https://routinehub.co/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:ru_123rf",
+   "name": "ru_123rf",
+   "category": "hobby",
+   "host": "ru.123rf.com",
+   "profile_url": "https://ru.123rf.com/profile_{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:rubygems_org",
+   "name": "RubyGems.org",
+   "category": "coding",
+   "host": "rubygems.org",
+   "profile_url": "https://rubygems.org/profiles/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:rumblechannel",
+   "name": "RumbleChannel",
+   "category": "political",
+   "host": "rumble.com",
+   "profile_url": "https://rumble.com/c/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:rumbleuser",
+   "name": "RumbleUser",
+   "category": "political",
+   "host": "rumble.com",
+   "profile_url": "https://rumble.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:runescape",
+   "name": "RuneScape",
+   "category": "hobby",
+   "host": "apps.runescape.com",
+   "profile_url": "https://apps.runescape.com/runemetrics/app/overview/player/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:rutracker_org",
+   "name": "RuTracker.org",
+   "category": "misc",
+   "host": "rutracker.org",
+   "profile_url": "https://rutracker.org/forum/profile.php?mode=viewprofile&u={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:ruvoip_net",
+   "name": "ruVoIP.net",
+   "category": "tech",
+   "host": "ruvoip.net",
+   "profile_url": "https://ruvoip.net/members/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:salon24",
+   "name": "Salon24",
+   "category": "blog",
+   "host": "salon24.pl",
+   "profile_url": "https://www.salon24.pl/u/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:scammer_info",
+   "name": "Scammer.info",
+   "category": "misc",
+   "host": "scammer.info",
+   "profile_url": "https://scammer.info/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:scored",
+   "name": "Scored",
+   "category": "social",
+   "host": "scored.co",
+   "profile_url": "https://scored.co/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:scoutwiki",
+   "name": "ScoutWiki",
+   "category": "social",
+   "host": "en.scoutwiki.org",
+   "profile_url": "https://en.scoutwiki.org/User:{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:scratch",
+   "name": "Scratch",
+   "category": "coding",
+   "host": "scratch.mit.edu",
+   "profile_url": "https://scratch.mit.edu/users/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:scribd_document",
+   "name": "Scribd (Document)",
+   "category": "hobby",
+   "host": "scribd.com",
+   "profile_url": "https://www.scribd.com/search?query={username}&verbatim=true",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:searchengines",
+   "name": "Searchengines",
+   "category": "hobby",
+   "host": "searchengines.guru",
+   "profile_url": "https://searchengines.guru/ru/search?keyword=&author={username}&sortByDate=true",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:seneporno",
+   "name": "Seneporno",
+   "category": "xx NSFW xx",
+   "host": "seneporno.com",
+   "profile_url": "https://seneporno.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:sentimente",
+   "name": "sentimente",
+   "category": "dating",
+   "host": "sentimente.com",
+   "profile_url": "https://www.sentimente.com/amp/{username}.html",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:seoclerks",
+   "name": "SEOClerks",
+   "category": "social",
+   "host": "seoclerks.com",
+   "profile_url": "https://www.seoclerks.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:sepia_search_peertube",
+   "name": "Sepia Search (PeerTube)",
+   "category": "video",
+   "host": "sepiasearch.org",
+   "profile_url": "https://sepiasearch.org/search?search=%22{username}%22&page=1&resultType=channels",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:setlist_fm",
+   "name": "setlist.fm",
+   "category": "music",
+   "host": "setlist.fm",
+   "profile_url": "https://www.setlist.fm/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:sfd",
+   "name": "SFD",
+   "category": "health",
+   "host": "sfd.pl",
+   "profile_url": "https://www.sfd.pl/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:shesfreaky",
+   "name": "Shesfreaky",
+   "category": "xx NSFW xx",
+   "host": "shesfreaky.com",
+   "profile_url": "https://www.shesfreaky.com/profile/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:shikimori",
+   "name": "Shikimori",
+   "category": "social",
+   "host": "shikimori.io",
+   "profile_url": "https://shikimori.io/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:shopify",
+   "name": "shopify",
+   "category": "shopping",
+   "host": "x.myshopify.com",
+   "profile_url": "https://{username}.myshopify.com",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:showup_tv",
+   "name": "Showup.tv",
+   "category": "xx NSFW xx",
+   "host": "showup.tv",
+   "profile_url": "https://showup.tv/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:shutterstock",
+   "name": "shutterstock",
+   "category": "images",
+   "host": "shutterstock.com",
+   "profile_url": "https://www.shutterstock.com/g/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:simpleplanes",
+   "name": "SimplePlanes",
+   "category": "gaming",
+   "host": "simpleplanes.com",
+   "profile_url": "https://www.simpleplanes.com/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:skeb",
+   "name": "skeb",
+   "category": "art",
+   "host": "skeb.jp",
+   "profile_url": "https://skeb.jp/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:slackholes",
+   "name": "SlackHoles",
+   "category": "xx NSFW xx",
+   "host": "slackholes.com",
+   "profile_url": "https://slackholes.com/actor/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:slant",
+   "name": "Slant",
+   "category": "shopping",
+   "host": "slant.co",
+   "profile_url": "https://www.slant.co/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:slides",
+   "name": "slides",
+   "category": "social",
+   "host": "slides.com",
+   "profile_url": "https://slides.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:slideshare",
+   "name": "Slideshare",
+   "category": "social",
+   "host": "slideshare.net",
+   "profile_url": "https://www.slideshare.net/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:smashrun",
+   "name": "SmashRun",
+   "category": "health",
+   "host": "smashrun.com",
+   "profile_url": "https://smashrun.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:smugmug",
+   "name": "SmugMug",
+   "category": "images",
+   "host": "x.smugmug.com",
+   "profile_url": "https://{username}.smugmug.com",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:smule",
+   "name": "smule",
+   "category": "music",
+   "host": "smule.com",
+   "profile_url": "https://www.smule.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:snapchat",
+   "name": "Snapchat",
+   "category": "social",
+   "host": "snapchat.com",
+   "profile_url": "https://www.snapchat.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:soc_citizen4_eu",
+   "name": "soc.citizen4.eu",
+   "category": "social",
+   "host": "soc.citizen4.eu",
+   "profile_url": "https://soc.citizen4.eu/profile/{username}/profile",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:social_bund_de",
+   "name": "social.bund.de",
+   "category": "social",
+   "host": "social.bund.de",
+   "profile_url": "https://social.bund.de/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:sofurry",
+   "name": "sofurry",
+   "category": "art",
+   "host": "x.sofurry.com",
+   "profile_url": "https://{username}.sofurry.com",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:solo_to",
+   "name": "solo.to",
+   "category": "social",
+   "host": "solo.to",
+   "profile_url": "https://solo.to/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:soundcloud",
+   "name": "SoundCloud",
+   "category": "music",
+   "host": "soundcloud.com",
+   "profile_url": "https://soundcloud.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:soup",
+   "name": "Soup",
+   "category": "blog",
+   "host": "soup.io",
+   "profile_url": "https://www.soup.io/author/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:sourceforge",
+   "name": "Sourceforge",
+   "category": "coding",
+   "host": "sourceforge.net",
+   "profile_url": "https://sourceforge.net/u/{username}/profile",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:speaker_deck",
+   "name": "Speaker Deck",
+   "category": "social",
+   "host": "speakerdeck.com",
+   "profile_url": "https://speakerdeck.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:speedrun",
+   "name": "speedrun",
+   "category": "gaming",
+   "host": "speedrun.com",
+   "profile_url": "https://www.speedrun.com/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:spiceworks",
+   "name": "SpiceWorks",
+   "category": "tech",
+   "host": "community.spiceworks.com",
+   "profile_url": "https://community.spiceworks.com/people/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:spoj",
+   "name": "SPOJ",
+   "category": "coding",
+   "host": "spoj.com",
+   "profile_url": "https://www.spoj.com/users/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:sporcle",
+   "name": "sporcle",
+   "category": "gaming",
+   "host": "sporcle.com",
+   "profile_url": "https://www.sporcle.com/user/{username}/people/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:sports_tracker",
+   "name": "Sports Tracker",
+   "category": "health",
+   "host": "sports-tracker.com",
+   "profile_url": "https://sports-tracker.com/view_profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:spotify",
+   "name": "Spotify",
+   "category": "music",
+   "host": "open.spotify.com",
+   "profile_url": "https://open.spotify.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:stackoverflow",
+   "name": "StackOverflow",
+   "category": "coding",
+   "host": "stackoverflow.com",
+   "profile_url": "https://stackoverflow.com/users/filter?search={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:stackshare",
+   "name": "StackShare",
+   "category": "tech",
+   "host": "stackshare.io",
+   "profile_url": "https://stackshare.io/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:stats_fm",
+   "name": "stats.fm",
+   "category": "music",
+   "host": "stats.fm",
+   "profile_url": "https://stats.fm/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:statuspage",
+   "name": "Statuspage",
+   "category": "tech",
+   "host": "x.statuspage.io",
+   "profile_url": "https://{username}.statuspage.io/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:steam",
+   "name": "Steam",
+   "category": "gaming",
+   "host": "steamcommunity.com",
+   "profile_url": "https://steamcommunity.com/id/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:steamgifts",
+   "name": "SteamGifts",
+   "category": "gaming",
+   "host": "steamgifts.com",
+   "profile_url": "https://www.steamgifts.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:steemit",
+   "name": "Steemit",
+   "category": "social",
+   "host": "steemit.com",
+   "profile_url": "https://steemit.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:steller",
+   "name": "steller",
+   "category": "shopping",
+   "host": "steller.co",
+   "profile_url": "https://steller.co/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:storycorps",
+   "name": "StoryCorps",
+   "category": "blog",
+   "host": "archive.storycorps.org",
+   "profile_url": "https://archive.storycorps.org/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:strava",
+   "name": "Strava",
+   "category": "social",
+   "host": "strava.com",
+   "profile_url": "https://www.strava.com/athletes/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:streamelements",
+   "name": "StreamElements",
+   "category": "finance",
+   "host": "streamelements.com",
+   "profile_url": "https://streamelements.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:streamlabs",
+   "name": "StreamLabs",
+   "category": "finance",
+   "host": "streamlabs.com",
+   "profile_url": "https://streamlabs.com/{username}/tip",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:stripchat",
+   "name": "Stripchat",
+   "category": "xx NSFW xx",
+   "host": "stripchat.com",
+   "profile_url": "https://stripchat.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:subscribestar",
+   "name": "Subscribestar",
+   "category": "xx NSFW xx",
+   "host": "subscribestar.adult",
+   "profile_url": "https://subscribestar.adult/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:substack",
+   "name": "Substack",
+   "category": "social",
+   "host": "substack.com",
+   "profile_url": "https://substack.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:sukebei_nyaa_si",
+   "name": "sukebei.nyaa.si",
+   "category": "xx NSFW xx",
+   "host": "sukebei.nyaa.si",
+   "profile_url": "https://sukebei.nyaa.si/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:suzuri",
+   "name": "Suzuri",
+   "category": "business",
+   "host": "suzuri.jp",
+   "profile_url": "https://suzuri.jp/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:szmer_info",
+   "name": "szmer.info",
+   "category": "social",
+   "host": "szmer.info",
+   "profile_url": "https://szmer.info/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tabletoptournament",
+   "name": "tabletoptournament",
+   "category": "misc",
+   "host": "tabletoptournaments.net",
+   "profile_url": "https://www.tabletoptournaments.net/eu/player/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tamtam",
+   "name": "TamTam",
+   "category": "social",
+   "host": "tamtam.chat",
+   "profile_url": "https://tamtam.chat/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tanuki_pl",
+   "name": "Tanuki.pl",
+   "category": "hobby",
+   "host": "tanuki.pl",
+   "profile_url": "https://tanuki.pl/profil/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tapitag",
+   "name": "TAPiTAG",
+   "category": "business",
+   "host": "account.tapitag.co",
+   "profile_url": "https://account.tapitag.co/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tappy",
+   "name": "Tappy",
+   "category": "business",
+   "host": "tappy.tech",
+   "profile_url": "https://www.tappy.tech/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:taringa",
+   "name": "Taringa",
+   "category": "social",
+   "host": "taringa.net",
+   "profile_url": "https://www.taringa.net/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:taringa_archived_profile",
+   "name": "Taringa Archived Profile",
+   "category": "archived",
+   "host": "web.archive.org",
+   "profile_url": "https://web.archive.org/web/2/taringa.net/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:taskrabbit",
+   "name": "taskrabbit",
+   "category": "business",
+   "host": "taskrabbit.com",
+   "profile_url": "https://www.taskrabbit.com/profile/{username}/about",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:teamtreehouse",
+   "name": "Teamtreehouse",
+   "category": "coding",
+   "host": "teamtreehouse.com",
+   "profile_url": "https://teamtreehouse.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:teespring",
+   "name": "Teespring",
+   "category": "business",
+   "host": "x.creator-spring.com",
+   "profile_url": "https://{username}.creator-spring.com",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:teknik",
+   "name": "Teknik",
+   "category": "tech",
+   "host": "user.teknik.io",
+   "profile_url": "https://user.teknik.io/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:telegram",
+   "name": "Telegram",
+   "category": "social",
+   "host": "t.me",
+   "profile_url": "https://t.me/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:teletype",
+   "name": "Teletype",
+   "category": "blog",
+   "host": "teletype.in",
+   "profile_url": "https://teletype.in/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tellonym",
+   "name": "Tellonym",
+   "category": "social",
+   "host": "tellonym.me",
+   "profile_url": "https://tellonym.me/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tenor",
+   "name": "Tenor",
+   "category": "images",
+   "host": "tenor.com",
+   "profile_url": "https://tenor.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tetr_io",
+   "name": "TETR.IO",
+   "category": "gaming",
+   "host": "ch.tetr.io",
+   "profile_url": "https://ch.tetr.io/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tf2_backpack_examiner",
+   "name": "TF2 Backpack Examiner",
+   "category": "gaming",
+   "host": "tf2items.com",
+   "profile_url": "https://www.tf2items.com/id/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:the_gateway_pundit",
+   "name": "The Gateway Pundit",
+   "category": "political",
+   "host": "thegatewaypundit.com",
+   "profile_url": "https://www.thegatewaypundit.com/author/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:theguardian",
+   "name": "theguardian",
+   "category": "news",
+   "host": "theguardian.com",
+   "profile_url": "https://www.theguardian.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:themeforest",
+   "name": "themeforest",
+   "category": "art",
+   "host": "themeforest.net",
+   "profile_url": "https://themeforest.net/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:thetattooforum",
+   "name": "Thetattooforum",
+   "category": "art",
+   "host": "thetattooforum.com",
+   "profile_url": "https://www.thetattooforum.com/members/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:thoughts",
+   "name": "thoughts",
+   "category": "hobby",
+   "host": "thoughts.com",
+   "profile_url": "https://thoughts.com/members/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:threads",
+   "name": "Threads",
+   "category": "social",
+   "host": "threads.com",
+   "profile_url": "https://www.threads.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tiktok",
+   "name": "TikTok",
+   "category": "social",
+   "host": "tiktok.com",
+   "profile_url": "https://www.tiktok.com/@{username}?lang=en",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tilde_zone_mastodon_instance",
+   "name": "Tilde.zone (Mastodon Instance)",
+   "category": "social",
+   "host": "tilde.zone",
+   "profile_url": "https://tilde.zone/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tinder",
+   "name": "Tinder",
+   "category": "dating",
+   "host": "tinder.com",
+   "profile_url": "https://tinder.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tindie",
+   "name": "Tindie",
+   "category": "shopping",
+   "host": "tindie.com",
+   "profile_url": "https://www.tindie.com/stores/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tipeeestream",
+   "name": "TipeeeStream",
+   "category": "finance",
+   "host": "tipeeestream.com",
+   "profile_url": "https://www.tipeeestream.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tooting_ch_mastodon_instance",
+   "name": "Tooting.ch (Mastodon Instance)",
+   "category": "social",
+   "host": "tooting.ch",
+   "profile_url": "https://tooting.ch/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:topcoder",
+   "name": "Topcoder",
+   "category": "coding",
+   "host": "profiles.topcoder.com",
+   "profile_url": "https://profiles.topcoder.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:toyhou_se",
+   "name": "toyhou.se",
+   "category": "hobby",
+   "host": "toyhou.se",
+   "profile_url": "https://toyhou.se/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tradingview",
+   "name": "TradingView",
+   "category": "finance",
+   "host": "tradingview.com",
+   "profile_url": "https://www.tradingview.com/u/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:trakt",
+   "name": "trakt",
+   "category": "video",
+   "host": "trakt.tv",
+   "profile_url": "https://trakt.tv/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:traktrain",
+   "name": "TRAKTRAIN",
+   "category": "music",
+   "host": "traktrain.com",
+   "profile_url": "https://traktrain.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:trello",
+   "name": "Trello",
+   "category": "social",
+   "host": "trello.com",
+   "profile_url": "https://trello.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tripadvisor",
+   "name": "tripadvisor",
+   "category": "social",
+   "host": "tripadvisor.com",
+   "profile_url": "https://www.tripadvisor.com/Profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:truckersmp",
+   "name": "TruckersMP",
+   "category": "gaming",
+   "host": "truckersmp.com",
+   "profile_url": "https://truckersmp.com/user/search?search={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:truckersmp_ru",
+   "name": "TruckersMP.Ru",
+   "category": "gaming",
+   "host": "truckersmp.ru",
+   "profile_url": "https://truckersmp.ru/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:truth_social",
+   "name": "Truth Social",
+   "category": "social",
+   "host": "truthsocial.com",
+   "profile_url": "https://truthsocial.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tryhackme",
+   "name": "TryHackMe",
+   "category": "tech",
+   "host": "tryhackme.com",
+   "profile_url": "https://tryhackme.com/r/p/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tryst",
+   "name": "Tryst",
+   "category": "xx NSFW xx",
+   "host": "tryst.link",
+   "profile_url": "https://tryst.link/escort/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tumblr",
+   "name": "tumblr",
+   "category": "images",
+   "host": "tumblr.com",
+   "profile_url": "https://www.tumblr.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tunefind",
+   "name": "tunefind",
+   "category": "music",
+   "host": "tunefind.com",
+   "profile_url": "https://www.tunefind.com/user/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:tweetapus",
+   "name": "Tweetapus",
+   "category": "social",
+   "host": "tweeta.tiago.zip",
+   "profile_url": "https://tweeta.tiago.zip/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:twitcast",
+   "name": "Twitcast",
+   "category": "social",
+   "host": "twitcasting.tv",
+   "profile_url": "https://twitcasting.tv/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:twitch",
+   "name": "Twitch",
+   "category": "gaming",
+   "host": "twitch.tv",
+   "profile_url": "https://twitch.tv/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:twitter_archived_profile",
+   "name": "Twitter archived profile",
+   "category": "archived",
+   "host": "web.archive.org",
+   "profile_url": "https://web.archive.org/web/2/https://twitter.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:twitter_archived_tweets",
+   "name": "Twitter archived tweets",
+   "category": "archived",
+   "host": "web.archive.org",
+   "profile_url": "https://web.archive.org/web/*/https://twitter.com/{username}/status/*",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:twpro",
+   "name": "twpro",
+   "category": "social",
+   "host": "twpro.jp",
+   "profile_url": "https://twpro.jp/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:udemy",
+   "name": "Udemy",
+   "category": "tech",
+   "host": "udemy.com",
+   "profile_url": "https://www.udemy.com/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:uef_connect",
+   "name": "UEF CONNECT",
+   "category": "business",
+   "host": "uefconnect.uef.fi",
+   "profile_url": "https://uefconnect.uef.fi/en/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:ultimate_guitar",
+   "name": "Ultimate Guitar",
+   "category": "hobby",
+   "host": "ultimate-guitar.com",
+   "profile_url": "https://www.ultimate-guitar.com/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:ultras_diary",
+   "name": "Ultras Diary",
+   "category": "hobby",
+   "host": "ultrasdiary.pl",
+   "profile_url": "http://ultrasdiary.pl/u/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:unlisted_videos",
+   "name": "Unlisted Videos",
+   "category": "archived",
+   "host": "unlistedvideos.com",
+   "profile_url": "https://unlistedvideos.com/search.php?user={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:unsplash",
+   "name": "unsplash",
+   "category": "images",
+   "host": "unsplash.com",
+   "profile_url": "https://unsplash.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:untappd",
+   "name": "Untappd",
+   "category": "social",
+   "host": "untappd.com",
+   "profile_url": "https://untappd.com/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:usa_life",
+   "name": "USA Life",
+   "category": "social",
+   "host": "usa.life",
+   "profile_url": "https://usa.life/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:utip_io",
+   "name": "utip.io",
+   "category": "finance",
+   "host": "utip.io",
+   "profile_url": "https://utip.io/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:uwu_ai",
+   "name": "uwu.ai",
+   "category": "social",
+   "host": "x.uwu.ai",
+   "profile_url": "https://{username}.uwu.ai/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:uwumarket",
+   "name": "Uwumarket",
+   "category": "business",
+   "host": "uwumarket.us",
+   "profile_url": "https://uwumarket.us/collections/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:vapenews",
+   "name": "vapenews",
+   "category": "hobby",
+   "host": "vapenews.ru",
+   "profile_url": "https://vapenews.ru/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:venmo",
+   "name": "Venmo",
+   "category": "finance",
+   "host": "account.venmo.com",
+   "profile_url": "https://account.venmo.com/u/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:vero",
+   "name": "Vero",
+   "category": "art",
+   "host": "vero.co",
+   "profile_url": "https://vero.co/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:vibilagare",
+   "name": "vibilagare",
+   "category": "misc",
+   "host": "vibilagare.se",
+   "profile_url": "https://www.vibilagare.se/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:viewbug",
+   "name": "VIEWBUG",
+   "category": "hobby",
+   "host": "viewbug.com",
+   "profile_url": "https://www.viewbug.com/member/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:vimeo",
+   "name": "Vimeo",
+   "category": "video",
+   "host": "vimeo.com",
+   "profile_url": "https://vimeo.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:vine",
+   "name": "Vine",
+   "category": "video",
+   "host": "vine.co",
+   "profile_url": "https://vine.co/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:vip_blog",
+   "name": "VIP-blog",
+   "category": "blog",
+   "host": "x.vip-blog.com",
+   "profile_url": "https://{username}.vip-blog.com/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:virustotal",
+   "name": "VirusTotal",
+   "category": "misc",
+   "host": "virustotal.com",
+   "profile_url": "https://www.virustotal.com/gui/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:visnesscard",
+   "name": "visnesscard",
+   "category": "business",
+   "host": "my.visnesscard.com",
+   "profile_url": "https://my.visnesscard.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:vivino",
+   "name": "Vivino",
+   "category": "shopping",
+   "host": "vivino.com",
+   "profile_url": "https://www.vivino.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:vk",
+   "name": "VK",
+   "category": "social",
+   "host": "vk.com",
+   "profile_url": "https://vk.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:vkl_world_mastodon_instance",
+   "name": "Vkl.world (Mastodon Instance)",
+   "category": "social",
+   "host": "vkl.world",
+   "profile_url": "https://vkl.world/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:vmst_io_mastodon_instance",
+   "name": "Vmst.io (Mastodon Instance)",
+   "category": "social",
+   "host": "vmst.io",
+   "profile_url": "https://vmst.io/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:voice123",
+   "name": "Voice123",
+   "category": "hobby",
+   "host": "voice123.com",
+   "profile_url": "https://voice123.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:voices_com",
+   "name": "Voices.com",
+   "category": "business",
+   "host": "voices.com",
+   "profile_url": "https://www.voices.com/profile/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:vsco",
+   "name": "vsco",
+   "category": "social",
+   "host": "vsco.co",
+   "profile_url": "https://vsco.co/{username}/gallery",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:vsetop",
+   "name": "VseTop",
+   "category": "tech",
+   "host": "vsetop.org",
+   "profile_url": "https://vsetop.org/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:w3schools",
+   "name": "W3Schools",
+   "category": "tech",
+   "host": "pathfinder-api.kai.w3spaces.com",
+   "profile_url": "https://pathfinder-api.kai.w3spaces.com/public-profile-api/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wakatime",
+   "name": "Wakatime",
+   "category": "coding",
+   "host": "wakatime.com",
+   "profile_url": "https://wakatime.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:warmerise",
+   "name": "Warmerise",
+   "category": "gaming",
+   "host": "warmerise.com",
+   "profile_url": "https://warmerise.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:warriorforum",
+   "name": "warriorforum",
+   "category": "hobby",
+   "host": "warriorforum.com",
+   "profile_url": "https://www.warriorforum.com/members/{username}.html",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:watchmemore_com",
+   "name": "watchmemore.com",
+   "category": "xx NSFW xx",
+   "host": "watchmemore.com",
+   "profile_url": "https://watchmemore.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:watchmyfeed",
+   "name": "Watchmyfeed",
+   "category": "xx NSFW xx",
+   "host": "watchmyfeed.com",
+   "profile_url": "https://watchmyfeed.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wattpad",
+   "name": "Wattpad",
+   "category": "social",
+   "host": "wattpad.com",
+   "profile_url": "https://www.wattpad.com/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:waytohey",
+   "name": "waytohey",
+   "category": "social",
+   "host": "waytohey.com",
+   "profile_url": "https://waytohey.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:weasyl",
+   "name": "Weasyl",
+   "category": "images",
+   "host": "weasyl.com",
+   "profile_url": "https://www.weasyl.com/~{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:weblancer",
+   "name": "Weblancer",
+   "category": "social",
+   "host": "weblancer.net",
+   "profile_url": "https://www.weblancer.net/users/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:weblate",
+   "name": "Weblate",
+   "category": "hobby",
+   "host": "hosted.weblate.org",
+   "profile_url": "https://hosted.weblate.org/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:weebly",
+   "name": "weebly",
+   "category": "misc",
+   "host": "x.weebly.com",
+   "profile_url": "https://{username}.weebly.com/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wego",
+   "name": "wego",
+   "category": "political",
+   "host": "wego.social",
+   "profile_url": "https://wego.social/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:weheartit",
+   "name": "weheartit",
+   "category": "social",
+   "host": "weheartit.com",
+   "profile_url": "https://weheartit.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:weibo",
+   "name": "Weibo",
+   "category": "social",
+   "host": "weibo.com",
+   "profile_url": "https://weibo.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wetransfer",
+   "name": "WeTransfer",
+   "category": "art",
+   "host": "wepresent.wetransfer.com",
+   "profile_url": "https://wepresent.wetransfer.com/artists/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wikidot",
+   "name": "Wikidot",
+   "category": "social",
+   "host": "wikidot.com",
+   "profile_url": "https://www.wikidot.com/user:info/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wikimapia",
+   "name": "Wikimapia",
+   "category": "social",
+   "host": "wikimapia.org",
+   "profile_url": "https://wikimapia.org/user/tools/users_rating/?username={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wimkin_publicprofile",
+   "name": "Wimkin-PublicProfile",
+   "category": "political",
+   "host": "wimkin.com",
+   "profile_url": "https://wimkin.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wireclub",
+   "name": "Wireclub",
+   "category": "social",
+   "host": "wireclub.com",
+   "profile_url": "https://www.wireclub.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wishlistr",
+   "name": "Wishlistr",
+   "category": "shopping",
+   "host": "wishlistr.com",
+   "profile_url": "https://www.wishlistr.com/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wordnik",
+   "name": "wordnik",
+   "category": "gaming",
+   "host": "wordnik.com",
+   "profile_url": "https://www.wordnik.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wordpress_com_deleted",
+   "name": "WordPress.com (Deleted)",
+   "category": "blog",
+   "host": "x.wordpress.com",
+   "profile_url": "https://{username}.wordpress.com",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wordpress_com_private",
+   "name": "WordPress.com (Private)",
+   "category": "blog",
+   "host": "x.wordpress.com",
+   "profile_url": "https://{username}.wordpress.com",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wordpress_com_public",
+   "name": "WordPress.com (Public)",
+   "category": "blog",
+   "host": "x.wordpress.com",
+   "profile_url": "https://{username}.wordpress.com",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wordpress_org_forums",
+   "name": "WordPress.org (Forums)",
+   "category": "blog",
+   "host": "wordpress.org",
+   "profile_url": "https://wordpress.org/support/users/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wordpress_org_profiles",
+   "name": "WordPress.org (Profiles)",
+   "category": "blog",
+   "host": "profiles.wordpress.org",
+   "profile_url": "https://profiles.wordpress.org/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wowhead",
+   "name": "Wowhead",
+   "category": "gaming",
+   "host": "wowhead.com",
+   "profile_url": "https://www.wowhead.com/user={username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:wykop",
+   "name": "Wykop",
+   "category": "social",
+   "host": "wykop.pl",
+   "profile_url": "https://wykop.pl/ludzie/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:x",
+   "name": "X",
+   "category": "social",
+   "host": "x.com",
+   "profile_url": "https://x.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:xakep_ru",
+   "name": "Xakep.ru",
+   "category": "tech",
+   "host": "xakep.ru",
+   "profile_url": "https://xakep.ru/author/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:xanga",
+   "name": "Xanga",
+   "category": "blog",
+   "host": "x.xanga.com",
+   "profile_url": "https://{username}.xanga.com/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:xbox_gamertag",
+   "name": "Xbox Gamertag",
+   "category": "gaming",
+   "host": "xboxgamertag.com",
+   "profile_url": "https://www.xboxgamertag.com/search/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:xhamster",
+   "name": "xHamster",
+   "category": "xx NSFW xx",
+   "host": "xhamster.com",
+   "profile_url": "https://xhamster.com/users/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:xing",
+   "name": "Xing",
+   "category": "social",
+   "host": "xing.com",
+   "profile_url": "https://www.xing.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:xnxx",
+   "name": "XNXX",
+   "category": "xx NSFW xx",
+   "host": "xnxx.com",
+   "profile_url": "https://www.xnxx.com/mobile/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:xvideos",
+   "name": "XVideos",
+   "category": "xx NSFW xx",
+   "host": "xvideos.com",
+   "profile_url": "https://www.xvideos.com/profiles/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:yahoo_japan_auction",
+   "name": "Yahoo! JAPAN Auction",
+   "category": "shopping",
+   "host": "auctions.yahoo.co.jp",
+   "profile_url": "https://auctions.yahoo.co.jp/follow/list/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:yapishu",
+   "name": "yapishu",
+   "category": "hobby",
+   "host": "yapishu.net",
+   "profile_url": "https://yapishu.net/user/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:yazawaj",
+   "name": "Yazawaj",
+   "category": "dating",
+   "host": "yazawaj.com",
+   "profile_url": "https://www.yazawaj.com/profile/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:yeswehack",
+   "name": "YesWeHack",
+   "category": "tech",
+   "host": "yeswehack.com",
+   "profile_url": "https://yeswehack.com/hunters/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:younow",
+   "name": "YouNow",
+   "category": "social",
+   "host": "younow.com",
+   "profile_url": "https://www.younow.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:youpic",
+   "name": "youpic",
+   "category": "hobby",
+   "host": "youpic.com",
+   "profile_url": "https://youpic.com/photographer/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:youtube_channel",
+   "name": "YouTube Channel",
+   "category": "video",
+   "host": "youtube.com",
+   "profile_url": "https://www.youtube.com/c/{username}/about",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:youtube_user",
+   "name": "YouTube User",
+   "category": "video",
+   "host": "youtube.com",
+   "profile_url": "https://www.youtube.com/user/{username}/about",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:youtube_user2",
+   "name": "YouTube User2",
+   "category": "video",
+   "host": "youtube.com",
+   "profile_url": "https://www.youtube.com/@{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:zbiornik",
+   "name": "Zbiornik",
+   "category": "xx NSFW xx",
+   "host": "mini.zbiornik.com",
+   "profile_url": "https://mini.zbiornik.com/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:zenn",
+   "name": "Zenn",
+   "category": "coding",
+   "host": "zenn.dev",
+   "profile_url": "https://zenn.dev/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:zepeto",
+   "name": "Zepeto",
+   "category": "social",
+   "host": "web.zepeto.me",
+   "profile_url": "https://web.zepeto.me/share/user/profile/{username}?language=en",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:zhihu",
+   "name": "zhihu",
+   "category": "social",
+   "host": "zhihu.com",
+   "profile_url": "https://www.zhihu.com/people/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:zillow",
+   "name": "Zillow",
+   "category": "shopping",
+   "host": "zillow.com",
+   "profile_url": "https://www.zillow.com/profile/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:zmarsa_com",
+   "name": "zmarsa.com",
+   "category": "xx NSFW xx",
+   "host": "zmarsa.com",
+   "profile_url": "https://zmarsa.com/uzytkownik/{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:znanija",
+   "name": "Znanija",
+   "category": "misc",
+   "host": "google.com",
+   "profile_url": "https://www.google.com/search?q=site:znanija.com+intext:{username}",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:zomato",
+   "name": "Zomato",
+   "category": "social",
+   "host": "zomato.com",
+   "profile_url": "https://www.zomato.com/{username}/reviews",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:zoomitir",
+   "name": "zoomitir",
+   "category": "tech",
+   "host": "zoomit.ir",
+   "profile_url": "https://www.zoomit.ir/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:",
+   "name": "Военное обозрение",
+   "category": "hobby",
+   "host": "topwar.ru",
+   "profile_url": "https://topwar.ru/user/{username}/",
+   "valid": true,
+   "countries": []
+  },
+  {
+   "id": "wmn:net",
+   "name": "Чатовка.net",
+   "category": "social",
+   "host": "chatovka.net",
+   "profile_url": "https://chatovka.net/search?user_nick=+{username}&user_sex_m=on&user_sex_f=on",
+   "valid": true,
+   "countries": []
+  }
+ ]
+}

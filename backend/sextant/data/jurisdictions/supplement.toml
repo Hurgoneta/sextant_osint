@@ -1,0 +1,251 @@
+# Hand-written additions for countries whose main entries come from curated_global.toml (generated) — national
+# legal information institutes, procurement portals and registers known to be official and public. Tables here are
+# merged with the country's other tables. Links are re-checked by `python -m sextant.tools.verify_catalog`.
+
+[[country]]
+code = "MW"
+[[country.source]]
+id = "mw-malawilii"
+title = "MalawiLII — Malawi Legal Information Institute (judgments)"
+kind = "judgments"
+url = "https://malawilii.org/"
+name_search = true
+
+[[country]]
+code = "ZW"
+[[country.source]]
+id = "zw-zimlii"
+title = "ZimLII — Zimbabwe Legal Information Institute (judgments)"
+kind = "judgments"
+url = "https://zimlii.org/"
+name_search = true
+
+[[country]]
+code = "LS"
+[[country.source]]
+id = "ls-lesotholii"
+title = "LesothoLII — Lesotho Legal Information Institute (judgments)"
+kind = "judgments"
+url = "https://lesotholii.org/"
+name_search = true
+
+[[country]]
+code = "NA"
+[[country.source]]
+id = "na-namiblii"
+title = "NamibLII — Namibia Legal Information Institute (judgments)"
+kind = "judgments"
+url = "https://namiblii.org/"
+name_search = true
+
+[[country]]
+code = "SC"
+[[country.source]]
+id = "sc-seylii"
+title = "SeyLII — Seychelles Legal Information Institute (judgments)"
+kind = "judgments"
+url = "https://seylii.org/"
+name_search = true
+
+[[country]]
+code = "SZ"
+[[country.source]]
+id = "sz-eswatinilii"
+title = "EswatiniLII — Eswatini Legal Information Institute (judgments)"
+kind = "judgments"
+url = "https://eswatinilii.org/"
+name_search = true
+
+[[country]]
+code = "SL"
+[[country.source]]
+id = "sl-sierralii"
+title = "SierraLII — Sierra Leone Legal Information Institute (judgments)"
+kind = "judgments"
+url = "https://sierralii.gov.sl/"
+name_search = true
+
+[[country]]
+code = "LR"
+[[country.source]]
+id = "lr-liberlii"
+title = "LiberLII — Liberia Legal Information Institute (judgments)"
+kind = "judgments"
+url = "https://liberlii.org/"
+name_search = true
+
+[[country]]
+code = "RW"
+[[country.source]]
+id = "rw-rwandalii"
+title = "RwandaLII — Rwanda Legal Information Institute (judgments)"
+kind = "judgments"
+url = "https://rwandalii.org/"
+name_search = true
+[[country.source]]
+id = "rw-umucyo"
+title = "Umucyo — Rwanda e-procurement"
+kind = "procurement"
+url = "https://www.umucyo.gov.rw/"
+
+[[country]]
+code = "MA"
+[[country.source]]
+id = "ma-marchespublics"
+title = "Portail marocain des marchés publics"
+kind = "procurement"
+url = "https://www.marchespublics.gov.ma/"
+[[country.source]]
+id = "ma-ompic"
+title = "OMPIC — Office marocain de la propriété industrielle et commerciale (registre central du commerce)"
+kind = "company_registry"
+url = "https://www.ompic.ma/"
+
+[[country]]
+code = "TN"
+[[country.source]]
+id = "tn-rne"
+title = "Registre National des Entreprises (RNE)"
+kind = "company_registry"
+url = "https://www.registre-entreprises.tn/"
+[[country.source]]
+id = "tn-tuneps"
+title = "TUNEPS — Tunisia online e-procurement system"
+kind = "procurement"
+url = "https://www.tuneps.tn/"
+
+[[country]]
+code = "EG"
+[[country.source]]
+id = "eg-etenders"
+title = "Egyptian Government e-Tenders portal"
+kind = "procurement"
+url = "https://etenders.gov.eg/"
+[[country.source]]
+id = "eg-gafi"
+title = "GAFI — General Authority for Investment and Free Zones (company establishment)"
+kind = "company_registry"
+url = "https://www.gafi.gov.eg/"
+
+[[country]]
+code = "CI"
+[[country.source]]
+id = "ci-cepici"
+title = "CEPICI — Centre de Promotion des Investissements en Côte d'Ivoire (guichet unique de création d'entreprises)"
+kind = "company_registry"
+url = "https://www.cepici.gouv.ci/"
+
+[[country]]
+code = "ET"
+[[country.source]]
+id = "et-etrade"
+title = "Ministry of Trade and Regional Integration — eTrade business registration and licensing"
+kind = "company_registry"
+url = "https://etrade.gov.et/"
+
+[[country]]
+code = "BD"
+[[country.source]]
+id = "bd-egp"
+title = "e-GP — Bangladesh electronic government procurement"
+kind = "procurement"
+url = "https://www.eprocure.gov.bd/"
+
+[[country]]
+code = "RU"
+legal_notes = "The Federal Tax Service's EGRUL/EGRIP extracts are public (company directors and founders by name). Arbitration (commercial) court case files are public in kad.arbitr.ru, searchable by party. Many Russian government sites refuse connections from outside Russia."
+[[country.source]]
+id = "ru-egrul"
+title = "EGRUL/EGRIP — Federal Tax Service register of legal entities and entrepreneurs"
+kind = "company_registry"
+url = "https://egrul.nalog.ru/"
+name_search = true
+person_data = "directors and founders (names, tax numbers) in extracts"
+[[country.source]]
+id = "ru-kad-arbitr"
+title = "Card index of arbitration cases (kad.arbitr.ru)"
+kind = "court_portal"
+url = "https://kad.arbitr.ru/"
+name_search = true
+[[country.source]]
+id = "ru-fedresurs"
+title = "Fedresurs — Unified Federal Register of Bankruptcy Information"
+kind = "insolvency"
+url = "https://fedresurs.ru/"
+name_search = true
+[[country.source]]
+id = "ru-zakupki"
+title = "Unified Procurement Information System (zakupki.gov.ru)"
+kind = "procurement"
+url = "https://zakupki.gov.ru/"
+
+[[country]]
+code = "BY"
+[[country.source]]
+id = "by-egr"
+title = "Unified State Register of Legal Entities and Individual Entrepreneurs (egr.gov.by)"
+kind = "company_registry"
+url = "https://egr.gov.by/"
+
+[[country]]
+code = "AL"
+[[country.source]]
+id = "al-app"
+title = "APP — Public Procurement Agency of Albania"
+kind = "procurement"
+url = "https://www.app.gov.al/"
+
+[[country]]
+code = "MK"
+[[country.source]]
+id = "mk-crm"
+title = "Central Registry of the Republic of North Macedonia"
+kind = "company_registry"
+url = "https://www.crm.com.mk/"
+[[country.source]]
+id = "mk-enabavki"
+title = "e-Nabavki — electronic public procurement system"
+kind = "procurement"
+url = "https://e-nabavki.gov.mk/"
+
+[[country]]
+code = "PK"
+[[country.source]]
+id = "pk-ppra"
+title = "PPRA — Public Procurement Regulatory Authority (tenders)"
+kind = "procurement"
+url = "https://www.ppra.org.pk/"
+
+[[country]]
+code = "AL"
+[[country.source]]
+id = "al-qkb"
+title = "QKB — National Business Center (business register)"
+kind = "company_registry"
+url = "https://qkb.gov.al/"
+name_search = true
+person_data = "administrators and partners in company extracts"
+
+[[country]]
+code = "NA"
+[[country.source]]
+id = "na-bipa"
+title = "BIPA — Business and Intellectual Property Authority"
+kind = "company_registry"
+url = "https://www.bipa.na/"
+
+[[country]]
+code = "NP"
+[[country.source]]
+id = "np-ocr"
+title = "Office of the Company Registrar"
+kind = "company_registry"
+url = "https://ocr.gov.np/"
+
+[[country]]
+code = "MV"
+[[country.source]]
+id = "mv-business"
+title = "Business Registration Portal — Ministry of Economic Development"
+kind = "company_registry"
+url = "https://business.egov.mv/"

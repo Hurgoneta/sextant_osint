@@ -1,0 +1,265 @@
+# Commercial intelligence providers, attached to each country they cover. They are listed so the investigator knows
+# they exist; Sextant never bypasses payment. `access = "paid"` = subscription (some offer limited free web search).
+# Where a Sextant connector exists, `connector` points to it ("Configure" in Data Sources).
+
+[[regional]]
+id = "com-northdata"
+title = "North Data — company and officer data from European registers (premium / API)"
+kind = "commercial_provider"
+url = "https://www.northdata.com/"
+access = "paid"
+name_search = true
+notes = "Free limited web search; history, networks, exports and API need a subscription."
+countries = ["DE", "AT", "CH", "NL", "BE", "LU", "FR", "ES", "IT", "PL", "DK", "SE", "NO", "FI", "GB"]
+
+[[regional]]
+id = "com-creditreform"
+title = "Creditreform — company credit reports"
+kind = "commercial_provider"
+url = "https://www.creditreform.com/"
+access = "paid"
+countries = ["DE", "AT", "CH", "LU", "PL", "CZ", "SK", "HU", "RO", "BG", "HR", "SI", "RS", "LV", "LT", "EE", "RU"]
+
+[[regional]]
+id = "com-orbis"
+title = "Orbis (Moody's / Bureau van Dijk) — global company and ownership database"
+kind = "commercial_provider"
+url = "https://www.moodys.com/web/en/us/capabilities/company-reference-data/orbis.html"
+access = "paid"
+notes = "Enterprise subscription."
+countries = ["US", "GB", "DE", "FR", "IT", "ES", "NL", "BE", "SE", "NO", "DK", "FI", "PL", "RO", "HU", "CZ", "AT", "CH",
+             "PT", "IE", "GR", "JP", "KR", "CN", "IN", "BR", "MX", "AR", "CA", "AU", "NZ", "ZA", "NG", "KE", "EG", "TR",
+             "AE", "SA", "IL", "SG", "MY", "TH", "ID", "PH", "VN", "RU", "UA"]
+
+[[regional]]
+id = "com-dnb"
+title = "Dun & Bradstreet — D-U-N-S company data"
+kind = "commercial_provider"
+url = "https://www.dnb.com/"
+access = "paid"
+connector = "dnb"
+notes = "Enterprise contract; Sextant lists the connector interface only."
+countries = ["US", "CA", "GB", "IE", "DE", "FR", "IT", "ES", "NL", "BE", "SE", "NO", "DK", "FI", "PL", "CZ", "HU", "RO",
+             "AT", "CH", "IN", "JP", "CN", "BR", "MX", "AU", "ZA", "SG", "AE"]
+
+[[regional]]
+id = "com-creditsafe"
+title = "Creditsafe — company credit reports"
+kind = "commercial_provider"
+url = "https://www.creditsafe.com/"
+access = "paid"
+countries = ["GB", "IE", "US", "CA", "DE", "FR", "IT", "ES", "NL", "BE", "LU", "SE", "NO", "DK", "FI", "JP"]
+
+[[country]]
+code = "HU"
+[[country.source]]
+id = "hu-com-opten"
+title = "Opten — company information and credit reports"
+kind = "commercial_provider"
+url = "https://www.opten.hu/"
+access = "paid"
+name_search = true
+
+[[country]]
+code = "RO"
+[[country.source]]
+id = "ro-com-termene"
+title = "Termene.ro — company information, officers, court cases"
+kind = "commercial_provider"
+url = "https://termene.ro/"
+access = "paid"
+name_search = true
+[[country.source]]
+id = "ro-com-listafirme"
+title = "ListaFirme.ro — company information"
+kind = "commercial_provider"
+url = "https://www.listafirme.ro/"
+access = "paid"
+
+[[country]]
+code = "UA"
+[[country.source]]
+id = "ua-com-youcontrol"
+title = "YouControl — company and person due-diligence"
+kind = "commercial_provider"
+url = "https://youcontrol.com.ua/"
+access = "paid"
+name_search = true
+[[country.source]]
+id = "ua-com-opendatabot"
+title = "Opendatabot — registers, courts and company monitoring"
+kind = "commercial_provider"
+url = "https://opendatabot.ua/"
+access = "paid"
+name_search = true
+
+[[country]]
+code = "RU"
+[[country.source]]
+id = "ru-com-spark"
+title = "SPARK-Interfax — company due-diligence"
+kind = "commercial_provider"
+url = "https://spark-interfax.ru/"
+access = "paid"
+[[country.source]]
+id = "ru-com-rusprofile"
+title = "Rusprofile — company information"
+kind = "commercial_provider"
+url = "https://www.rusprofile.ru/"
+access = "paid"
+
+[[country]]
+code = "CN"
+[[country.source]]
+id = "cn-com-qcc"
+title = "Qichacha (QCC) — company and shareholder information"
+kind = "commercial_provider"
+url = "https://www.qcc.com/"
+access = "paid"
+name_search = true
+[[country.source]]
+id = "cn-com-tianyancha"
+title = "Tianyancha — company and shareholder information"
+kind = "commercial_provider"
+url = "https://www.tianyancha.com/"
+access = "paid"
+name_search = true
+
+[[country]]
+code = "JP"
+[[country.source]]
+id = "jp-com-tdb"
+title = "Teikoku Databank — company credit research"
+kind = "commercial_provider"
+url = "https://www.tdb.co.jp/"
+access = "paid"
+[[country.source]]
+id = "jp-com-tsr"
+title = "Tokyo Shoko Research — company credit research"
+kind = "commercial_provider"
+url = "https://www.tsr-net.co.jp/"
+access = "paid"
+
+[[country]]
+code = "IN"
+[[country.source]]
+id = "in-com-zauba"
+title = "Zauba Corp — MCA company and director data"
+kind = "commercial_provider"
+url = "https://www.zaubacorp.com/"
+access = "paid"
+name_search = true
+[[country.source]]
+id = "in-com-tofler"
+title = "Tofler — company and director reports"
+kind = "commercial_provider"
+url = "https://www.tofler.in/"
+access = "paid"
+name_search = true
+
+[[country]]
+code = "GB"
+[[country.source]]
+id = "gb-com-endole"
+title = "Endole — company and director reports"
+kind = "commercial_provider"
+url = "https://www.endole.co.uk/"
+access = "paid"
+name_search = true
+
+[[country]]
+code = "SK"
+[[country.source]]
+id = "sk-com-finstat"
+title = "FinStat — company financials and connections"
+kind = "commercial_provider"
+url = "https://finstat.sk/"
+access = "paid"
+name_search = true
+
+[[country]]
+code = "PL"
+[[country.source]]
+id = "pl-com-rejestrio"
+title = "Rejestr.io — KRS company and person connections"
+kind = "commercial_provider"
+url = "https://rejestr.io/"
+access = "paid"
+name_search = true
+
+[[country]]
+code = "LV"
+[[country.source]]
+id = "lv-com-lursoft"
+title = "Lursoft — company and person data"
+kind = "commercial_provider"
+url = "https://www.lursoft.lv/"
+access = "paid"
+name_search = true
+
+[[country]]
+code = "EE"
+[[country.source]]
+id = "ee-com-inforegister"
+title = "Inforegister — company and person data"
+kind = "commercial_provider"
+url = "https://www.inforegister.ee/"
+access = "paid"
+name_search = true
+
+[[country]]
+code = "FI"
+[[country.source]]
+id = "fi-com-asiakastieto"
+title = "Asiakastieto — company and credit information"
+kind = "commercial_provider"
+url = "https://www.asiakastieto.fi/"
+access = "paid"
+
+[[country]]
+code = "IT"
+[[country.source]]
+id = "it-com-cerved"
+title = "Cerved — company information"
+kind = "commercial_provider"
+url = "https://www.cerved.com/"
+access = "paid"
+
+[[country]]
+code = "ES"
+[[country.source]]
+id = "es-com-einforma"
+title = "eInforma — company and director information"
+kind = "commercial_provider"
+url = "https://www.einforma.com/"
+access = "paid"
+name_search = true
+
+[[country]]
+code = "FR"
+[[country.source]]
+id = "fr-com-societe"
+title = "Societe.com — company and director information"
+kind = "commercial_provider"
+url = "https://www.societe.com/"
+access = "paid"
+name_search = true
+
+[[country]]
+code = "BE"
+[[country.source]]
+id = "be-com-companyweb"
+title = "Companyweb — company and director information"
+kind = "commercial_provider"
+url = "https://www.companyweb.be/"
+access = "paid"
+name_search = true
+
+[[country]]
+code = "BR"
+[[country.source]]
+id = "br-com-serasa"
+title = "Serasa Experian — company and credit information"
+kind = "commercial_provider"
+url = "https://www.serasaexperian.com.br/"
+access = "paid"

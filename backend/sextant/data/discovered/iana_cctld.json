@@ -1,0 +1,2000 @@
+{
+ "dataset": "iana",
+ "source_url": [
+  "https://www.iana.org/domains/root/db",
+  "https://data.iana.org/rdap/dns.json"
+ ],
+ "license": "IANA root zone database / RDAP bootstrap registry — public registry data",
+ "retrieved_at": "2026-10-06T12:57:12+00:00",
+ "rdap_bootstrap_publication": "2026-09-30T23:00:03Z",
+ "items": {
+  "AD": {
+   "tld": ".ad",
+   "country": "AD",
+   "manager": "Andorra Telecom",
+   "iana_url": "https://www.iana.org/domains/root/db/ad.html",
+   "rdap": [
+    "https://rdap.nic.ad/"
+   ],
+   "registry_url": "https://www.domini.ad",
+   "whois": "whois.nic.ad"
+  },
+  "AE": {
+   "tld": ".ae",
+   "country": "AE",
+   "manager": "Telecommunications and Digital Government Regulatory Authority (TDRA)",
+   "iana_url": "https://www.iana.org/domains/root/db/ae.html",
+   "rdap": [],
+   "registry_url": "http://aeda.ae/",
+   "whois": "whois.aeda.net.ae"
+  },
+  "AF": {
+   "tld": ".af",
+   "country": "AF",
+   "manager": "Ministry of Communications and IT",
+   "iana_url": "https://www.iana.org/domains/root/db/af.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.af",
+   "whois": "whois.nic.af"
+  },
+  "AG": {
+   "tld": ".ag",
+   "country": "AG",
+   "manager": "UHSA School of Medicine",
+   "iana_url": "https://www.iana.org/domains/root/db/ag.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.ag",
+   "whois": "whois.nic.ag"
+  },
+  "AL": {
+   "tld": ".al",
+   "country": "AL",
+   "manager": "Electronic and Postal Communications Authority - AKEP",
+   "iana_url": "https://www.iana.org/domains/root/db/al.html",
+   "rdap": [],
+   "registry_url": "https://akep.al/e-aplikime-domain/",
+   "whois": ""
+  },
+  "AM": {
+   "tld": ".am",
+   "country": "AM",
+   "manager": "\"Internet Society\" Non-governmental Organization",
+   "iana_url": "https://www.iana.org/domains/root/db/am.html",
+   "rdap": [],
+   "registry_url": "https://www.amnic.net/",
+   "whois": "whois.amnic.net"
+  },
+  "AO": {
+   "tld": ".ao",
+   "country": "AO",
+   "manager": "Ministry of Telecommunications and Information Technologies (MTTI)",
+   "iana_url": "https://www.iana.org/domains/root/db/ao.html",
+   "rdap": [],
+   "registry_url": "http://www.dns.ao/",
+   "whois": ""
+  },
+  "AR": {
+   "tld": ".ar",
+   "country": "AR",
+   "manager": "Presidencia de la Nación , Secretaría Legal y Técnica",
+   "iana_url": "https://www.iana.org/domains/root/db/ar.html",
+   "rdap": [
+    "https://rdap.nic.ar/"
+   ],
+   "registry_url": "https://nic.ar",
+   "whois": "whois.nic.ar"
+  },
+  "AT": {
+   "tld": ".at",
+   "country": "AT",
+   "manager": "nic.at GmbH",
+   "iana_url": "https://www.iana.org/domains/root/db/at.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.at/",
+   "whois": "whois.nic.at"
+  },
+  "AU": {
+   "tld": ".au",
+   "country": "AU",
+   "manager": ".au Domain Administration (auDA)",
+   "iana_url": "https://www.iana.org/domains/root/db/au.html",
+   "rdap": [
+    "https://rdap.cctld.au/rdap/"
+   ],
+   "registry_url": "https://www.auda.org.au/domains/au-domains/",
+   "whois": "whois.auda.org.au"
+  },
+  "AZ": {
+   "tld": ".az",
+   "country": "AZ",
+   "manager": "IntraNS",
+   "iana_url": "https://www.iana.org/domains/root/db/az.html",
+   "rdap": [],
+   "registry_url": "http://www.whois.az/",
+   "whois": ""
+  },
+  "BA": {
+   "tld": ".ba",
+   "country": "BA",
+   "manager": "University Tele-Informatic Center (UTIC)",
+   "iana_url": "https://www.iana.org/domains/root/db/ba.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.ba",
+   "whois": ""
+  },
+  "BB": {
+   "tld": ".bb",
+   "country": "BB",
+   "manager": "Ministry of Innovation, Science and Smart Technology",
+   "iana_url": "https://www.iana.org/domains/root/db/bb.html",
+   "rdap": [],
+   "registry_url": "http://www.whois.telecoms.gov.bb/",
+   "whois": ""
+  },
+  "BD": {
+   "tld": ".bd",
+   "country": "BD",
+   "manager": "Posts and Telecommunications Division",
+   "iana_url": "https://www.iana.org/domains/root/db/bd.html",
+   "rdap": [],
+   "registry_url": "https://bdia.btcl.com.bd/",
+   "whois": ""
+  },
+  "BE": {
+   "tld": ".be",
+   "country": "BE",
+   "manager": "DNS Belgium vzw/asbl",
+   "iana_url": "https://www.iana.org/domains/root/db/be.html",
+   "rdap": [],
+   "registry_url": "https://www.dnsbelgium.be",
+   "whois": "whois.dns.be"
+  },
+  "BF": {
+   "tld": ".bf",
+   "country": "BF",
+   "manager": "Autorité de Régulation des Communications Electroniques et des Postes (ARCEP)",
+   "iana_url": "https://www.iana.org/domains/root/db/bf.html",
+   "rdap": [],
+   "registry_url": "https://www.registre.bf",
+   "whois": "whois.registre.bf"
+  },
+  "BG": {
+   "tld": ".bg",
+   "country": "BG",
+   "manager": "Register.BG",
+   "iana_url": "https://www.iana.org/domains/root/db/bg.html",
+   "rdap": [],
+   "registry_url": "http://www.register.bg",
+   "whois": "whois.register.bg"
+  },
+  "BH": {
+   "tld": ".bh",
+   "country": "BH",
+   "manager": "Telecommunications Regulatory Authority (TRA)",
+   "iana_url": "https://www.iana.org/domains/root/db/bh.html",
+   "rdap": [
+    "https://rdap.bhregistry.bh/rdap/"
+   ],
+   "registry_url": "https://register.bh",
+   "whois": "whois.bhregistry.bh"
+  },
+  "BI": {
+   "tld": ".bi",
+   "country": "BI",
+   "manager": "Centre National de l'Informatique",
+   "iana_url": "https://www.iana.org/domains/root/db/bi.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.bi",
+   "whois": "whois1.nic.bi"
+  },
+  "BJ": {
+   "tld": ".bj",
+   "country": "BJ",
+   "manager": "Autorité de Régulation des Communications Electroniques et de la Poste du Bénin (ARCEP BENIN)",
+   "iana_url": "https://www.iana.org/domains/root/db/bj.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.bj",
+   "whois": "whois.nic.bj"
+  },
+  "BM": {
+   "tld": ".bm",
+   "country": "BM",
+   "manager": "Registry General Department, Ministry of Home Affairs",
+   "iana_url": "https://www.iana.org/domains/root/db/bm.html",
+   "rdap": [
+    "https://rdap.identitydigital.services/rdap/"
+   ],
+   "registry_url": "http://www.bermudanic.bm",
+   "whois": "whois.nic.bm"
+  },
+  "BN": {
+   "tld": ".bn",
+   "country": "BN",
+   "manager": "Authority for Info-communications Technology Industry of Brunei Darussalam (AITI)",
+   "iana_url": "https://www.iana.org/domains/root/db/bn.html",
+   "rdap": [],
+   "registry_url": "http://www.bnnic.bn",
+   "whois": "whois.bnnic.bn"
+  },
+  "BO": {
+   "tld": ".bo",
+   "country": "BO",
+   "manager": "Agencia de Gobierno Electrónico y Tecnologías de Información y Comunicación",
+   "iana_url": "https://www.iana.org/domains/root/db/bo.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.bo",
+   "whois": "whois.nic.bo"
+  },
+  "BR": {
+   "tld": ".br",
+   "country": "BR",
+   "manager": "Comite Gestor da Internet no Brasil",
+   "iana_url": "https://www.iana.org/domains/root/db/br.html",
+   "rdap": [
+    "https://rdap.registro.br/"
+   ],
+   "registry_url": "http://registro.br/",
+   "whois": "whois.registro.br"
+  },
+  "BS": {
+   "tld": ".bs",
+   "country": "BS",
+   "manager": "University of The Bahamas",
+   "iana_url": "https://www.iana.org/domains/root/db/bs.html",
+   "rdap": [],
+   "registry_url": "http://www.register.bs",
+   "whois": ""
+  },
+  "BT": {
+   "tld": ".bt",
+   "country": "BT",
+   "manager": "Ministry of Information and Communications",
+   "iana_url": "https://www.iana.org/domains/root/db/bt.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.bt",
+   "whois": ""
+  },
+  "BW": {
+   "tld": ".bw",
+   "country": "BW",
+   "manager": "Botswana Communications Regulatory Authority (BOCRA)",
+   "iana_url": "https://www.iana.org/domains/root/db/bw.html",
+   "rdap": [],
+   "registry_url": "http://nic.net.bw",
+   "whois": "whois.nic.net.bw"
+  },
+  "BY": {
+   "tld": ".by",
+   "country": "BY",
+   "manager": "Belarusian Cloud Technologies LLC",
+   "iana_url": "https://www.iana.org/domains/root/db/by.html",
+   "rdap": [],
+   "registry_url": "https://cctld.by",
+   "whois": "whois.cctld.by"
+  },
+  "BZ": {
+   "tld": ".bz",
+   "country": "BZ",
+   "manager": "University of Belize",
+   "iana_url": "https://www.iana.org/domains/root/db/bz.html",
+   "rdap": [],
+   "registry_url": "http://www.belizenic.bz",
+   "whois": ""
+  },
+  "CA": {
+   "tld": ".ca",
+   "country": "CA",
+   "manager": "Canadian Internet Registration Authority (CIRA) Autorité Canadienne pour les enregistrements Internet (ACEI)",
+   "iana_url": "https://www.iana.org/domains/root/db/ca.html",
+   "rdap": [
+    "https://rdap.ca.fury.ca/rdap/"
+   ],
+   "registry_url": "http://www.cira.ca/",
+   "whois": "whois.cira.ca"
+  },
+  "CD": {
+   "tld": ".cd",
+   "country": "CD",
+   "manager": "Office Congolais des Postes et Télécommunications - OCPT",
+   "iana_url": "https://www.iana.org/domains/root/db/cd.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.cd/",
+   "whois": ""
+  },
+  "CF": {
+   "tld": ".cf",
+   "country": "CF",
+   "manager": "Societe Centrafricaine de Telecommunications (SOCATEL)",
+   "iana_url": "https://www.iana.org/domains/root/db/cf.html",
+   "rdap": [],
+   "registry_url": "http://www.dot.cf",
+   "whois": "whois.dot.cf"
+  },
+  "CG": {
+   "tld": ".cg",
+   "country": "CG",
+   "manager": "Interpoint Switzerland",
+   "iana_url": "https://www.iana.org/domains/root/db/cg.html",
+   "rdap": [],
+   "registry_url": "https://www.dnsafrica.net",
+   "whois": ""
+  },
+  "CH": {
+   "tld": ".ch",
+   "country": "CH",
+   "manager": "SWITCH The Swiss Education & Research Network",
+   "iana_url": "https://www.iana.org/domains/root/db/ch.html",
+   "rdap": [],
+   "registry_url": "https://www.nic.ch/",
+   "whois": "whois.nic.ch"
+  },
+  "CI": {
+   "tld": ".ci",
+   "country": "CI",
+   "manager": "Autorité de Régulation des Télécommunications/TIC de Côte d’lvoire (ARTCI)",
+   "iana_url": "https://www.iana.org/domains/root/db/ci.html",
+   "rdap": [],
+   "registry_url": "https://registry.nic.ci/login.jsp",
+   "whois": "whois.nic.ci"
+  },
+  "CL": {
+   "tld": ".cl",
+   "country": "CL",
+   "manager": "NIC Chile (University of Chile)",
+   "iana_url": "https://www.iana.org/domains/root/db/cl.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.cl/",
+   "whois": "whois.nic.cl"
+  },
+  "CM": {
+   "tld": ".cm",
+   "country": "CM",
+   "manager": "Agence Nationale des Technologies de l'Information et de la Communication (ANTIC)",
+   "iana_url": "https://www.iana.org/domains/root/db/cm.html",
+   "rdap": [
+    "https://rdap.nic.cm/"
+   ],
+   "registry_url": "https://www.nic.cm",
+   "whois": "whois.nic.cm"
+  },
+  "CN": {
+   "tld": ".cn",
+   "country": "CN",
+   "manager": "China Internet Network Information Center (CNNIC)",
+   "iana_url": "https://www.iana.org/domains/root/db/cn.html",
+   "rdap": [],
+   "registry_url": "http://www.cnnic.cn/",
+   "whois": "whois.cnnic.cn"
+  },
+  "CO": {
+   "tld": ".co",
+   "country": "CO",
+   "manager": "Ministry of Information and Communications Technologies (MinTIC)",
+   "iana_url": "https://www.iana.org/domains/root/db/co.html",
+   "rdap": [],
+   "registry_url": "http://www.registry.co",
+   "whois": "whois.registry.co"
+  },
+  "CR": {
+   "tld": ".cr",
+   "country": "CR",
+   "manager": "National Academy of Sciences (Academia Nacional de Ciencias)",
+   "iana_url": "https://www.iana.org/domains/root/db/cr.html",
+   "rdap": [
+    "https://rdap.nic.cr/"
+   ],
+   "registry_url": "http://www.nic.cr/",
+   "whois": "whois.nic.cr"
+  },
+  "CU": {
+   "tld": ".cu",
+   "country": "CU",
+   "manager": "CENIAInternet",
+   "iana_url": "https://www.iana.org/domains/root/db/cu.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.cu",
+   "whois": ""
+  },
+  "CV": {
+   "tld": ".cv",
+   "country": "CV",
+   "manager": "Agência Reguladora Multissectorial da Economia (ARME)",
+   "iana_url": "https://www.iana.org/domains/root/db/cv.html",
+   "rdap": [
+    "https://rdap.nic.cv/"
+   ],
+   "registry_url": "http://www.dns.cv/",
+   "whois": "whois.nic.cv"
+  },
+  "CY": {
+   "tld": ".cy",
+   "country": "CY",
+   "manager": "University of Cyprus",
+   "iana_url": "https://www.iana.org/domains/root/db/cy.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.cy",
+   "whois": ""
+  },
+  "CZ": {
+   "tld": ".cz",
+   "country": "CZ",
+   "manager": "CZ.NIC, z.s.p.o",
+   "iana_url": "https://www.iana.org/domains/root/db/cz.html",
+   "rdap": [
+    "https://rdap.nic.cz/"
+   ],
+   "registry_url": "http://www.nic.cz/",
+   "whois": "whois.nic.cz"
+  },
+  "DE": {
+   "tld": ".de",
+   "country": "DE",
+   "manager": "DENIC eG",
+   "iana_url": "https://www.iana.org/domains/root/db/de.html",
+   "rdap": [],
+   "registry_url": "http://www.denic.de/",
+   "whois": "whois.denic.de"
+  },
+  "DJ": {
+   "tld": ".dj",
+   "country": "DJ",
+   "manager": "Djibouti Telecom S.A",
+   "iana_url": "https://www.iana.org/domains/root/db/dj.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.dj",
+   "whois": ""
+  },
+  "DK": {
+   "tld": ".dk",
+   "country": "DK",
+   "manager": "Dansk Internet Forum",
+   "iana_url": "https://www.iana.org/domains/root/db/dk.html",
+   "rdap": [],
+   "registry_url": "https://punktum.dk/",
+   "whois": "whois.punktum.dk"
+  },
+  "DM": {
+   "tld": ".dm",
+   "country": "DM",
+   "manager": "DotDM Corporation",
+   "iana_url": "https://www.iana.org/domains/root/db/dm.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.dm",
+   "whois": "whois.dmdomains.dm"
+  },
+  "DO": {
+   "tld": ".do",
+   "country": "DO",
+   "manager": "Pontificia Universidad Catolica Madre y Maestra, Recinto Santo Tomas de Aquino",
+   "iana_url": "https://www.iana.org/domains/root/db/do.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.do",
+   "whois": "whois.nic.do"
+  },
+  "DZ": {
+   "tld": ".dz",
+   "country": "DZ",
+   "manager": "CERIST",
+   "iana_url": "https://www.iana.org/domains/root/db/dz.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.dz",
+   "whois": "whois.nic.dz"
+  },
+  "EC": {
+   "tld": ".ec",
+   "country": "EC",
+   "manager": "ECUADORDOMAIN S.A.",
+   "iana_url": "https://www.iana.org/domains/root/db/ec.html",
+   "rdap": [
+    "https://rdap.registry.ec/"
+   ],
+   "registry_url": "http://www.nic.ec",
+   "whois": "whois.nic.ec"
+  },
+  "EE": {
+   "tld": ".ee",
+   "country": "EE",
+   "manager": "Eesti Interneti Sihtasutus (EIS)",
+   "iana_url": "https://www.iana.org/domains/root/db/ee.html",
+   "rdap": [],
+   "registry_url": "http://www.internet.ee",
+   "whois": "whois.tld.ee"
+  },
+  "EG": {
+   "tld": ".eg",
+   "country": "EG",
+   "manager": "Egyptian Universities Network (EUN), Supreme Council of Universities",
+   "iana_url": "https://www.iana.org/domains/root/db/eg.html",
+   "rdap": [],
+   "registry_url": "http://www.egregistry.eg/",
+   "whois": ""
+  },
+  "ER": {
+   "tld": ".er",
+   "country": "ER",
+   "manager": "Eritrea Telecommunication Services Corporation (EriTel)",
+   "iana_url": "https://www.iana.org/domains/root/db/er.html",
+   "rdap": [],
+   "registry_url": "",
+   "whois": ""
+  },
+  "ES": {
+   "tld": ".es",
+   "country": "ES",
+   "manager": "Red.es",
+   "iana_url": "https://www.iana.org/domains/root/db/es.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.es/",
+   "whois": "whois.nic.es"
+  },
+  "ET": {
+   "tld": ".et",
+   "country": "ET",
+   "manager": "Ethio telecom",
+   "iana_url": "https://www.iana.org/domains/root/db/et.html",
+   "rdap": [],
+   "registry_url": "http://www.ethiotelecom.et",
+   "whois": ""
+  },
+  "FI": {
+   "tld": ".fi",
+   "country": "FI",
+   "manager": "Finnish Transport and Communications Agency Traficom",
+   "iana_url": "https://www.iana.org/domains/root/db/fi.html",
+   "rdap": [
+    "https://rdap.fi/rdap/rdap/"
+   ],
+   "registry_url": "https://domain.fi",
+   "whois": "whois.fi"
+  },
+  "FJ": {
+   "tld": ".fj",
+   "country": "FJ",
+   "manager": "The University of the South Pacific IT Services",
+   "iana_url": "https://www.iana.org/domains/root/db/fj.html",
+   "rdap": [
+    "https://www.rdap.fj/"
+   ],
+   "registry_url": "https://www.domains.fj/",
+   "whois": "www.whois.fj"
+  },
+  "FM": {
+   "tld": ".fm",
+   "country": "FM",
+   "manager": "FSM Telecommunications Corporation",
+   "iana_url": "https://www.iana.org/domains/root/db/fm.html",
+   "rdap": [
+    "https://rdap.centralnic.com/fm/"
+   ],
+   "registry_url": "https://www.dot.fm/",
+   "whois": "whois.nic.fm"
+  },
+  "FO": {
+   "tld": ".fo",
+   "country": "FO",
+   "manager": "FO Council",
+   "iana_url": "https://www.iana.org/domains/root/db/fo.html",
+   "rdap": [
+    "https://rdap.centralnic.com/fo/"
+   ],
+   "registry_url": "http://www.nic.fo/",
+   "whois": "whois.nic.fo"
+  },
+  "FR": {
+   "tld": ".fr",
+   "country": "FR",
+   "manager": "Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.)",
+   "iana_url": "https://www.iana.org/domains/root/db/fr.html",
+   "rdap": [
+    "https://rdap.nic.fr/"
+   ],
+   "registry_url": "https://www.nic.fr",
+   "whois": "whois.nic.fr"
+  },
+  "GA": {
+   "tld": ".ga",
+   "country": "GA",
+   "manager": "Agence Nationale des Infrastructures Numériques et des Fréquences (ANINF)",
+   "iana_url": "https://www.iana.org/domains/root/db/ga.html",
+   "rdap": [],
+   "registry_url": "",
+   "whois": ""
+  },
+  "GD": {
+   "tld": ".gd",
+   "country": "GD",
+   "manager": "The National Telecommunications Regulatory Commission (NTRC)",
+   "iana_url": "https://www.iana.org/domains/root/db/gd.html",
+   "rdap": [
+    "https://rdap.centralnic.com/gd/"
+   ],
+   "registry_url": "http://nic.gd",
+   "whois": "whois.nic.gd"
+  },
+  "GE": {
+   "tld": ".ge",
+   "country": "GE",
+   "manager": "Caucasus Online LLC",
+   "iana_url": "https://www.iana.org/domains/root/db/ge.html",
+   "rdap": [],
+   "registry_url": "http://nic.ge",
+   "whois": "whois.nic.ge"
+  },
+  "GG": {
+   "tld": ".gg",
+   "country": "GG",
+   "manager": "Island Networks Ltd.",
+   "iana_url": "https://www.iana.org/domains/root/db/gg.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.gg",
+   "whois": "whois.gg"
+  },
+  "GH": {
+   "tld": ".gh",
+   "country": "GH",
+   "manager": "Network Computer Systems Limited",
+   "iana_url": "https://www.iana.org/domains/root/db/gh.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.gh",
+   "whois": "whois.nic.gh"
+  },
+  "GI": {
+   "tld": ".gi",
+   "country": "GI",
+   "manager": "Sapphire Networks",
+   "iana_url": "https://www.iana.org/domains/root/db/gi.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.gi",
+   "whois": "whois.identitydigital.services"
+  },
+  "GL": {
+   "tld": ".gl",
+   "country": "GL",
+   "manager": "TELE Greenland A/S",
+   "iana_url": "https://www.iana.org/domains/root/db/gl.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.gl/",
+   "whois": "whois.nic.gl"
+  },
+  "GM": {
+   "tld": ".gm",
+   "country": "GM",
+   "manager": "GM-NIC",
+   "iana_url": "https://www.iana.org/domains/root/db/gm.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.gm",
+   "whois": ""
+  },
+  "GN": {
+   "tld": ".gn",
+   "country": "GN",
+   "manager": "Centre National des Sciences Halieutiques de Boussoura",
+   "iana_url": "https://www.iana.org/domains/root/db/gn.html",
+   "rdap": [],
+   "registry_url": "https://ande.gov.gn/dns-gn/",
+   "whois": "whois.ande.gov.gn"
+  },
+  "GQ": {
+   "tld": ".gq",
+   "country": "GQ",
+   "manager": "GETESA",
+   "iana_url": "https://www.iana.org/domains/root/db/gq.html",
+   "rdap": [],
+   "registry_url": "http://www.dominio.gq",
+   "whois": "whois.dominio.gq"
+  },
+  "GR": {
+   "tld": ".gr",
+   "country": "GR",
+   "manager": "ICS-FORTH GR",
+   "iana_url": "https://www.iana.org/domains/root/db/gr.html",
+   "rdap": [],
+   "registry_url": "http://www.gr",
+   "whois": ""
+  },
+  "GT": {
+   "tld": ".gt",
+   "country": "GT",
+   "manager": "Universidad del Valle de Guatemala",
+   "iana_url": "https://www.iana.org/domains/root/db/gt.html",
+   "rdap": [],
+   "registry_url": "http://www.gt",
+   "whois": ""
+  },
+  "GW": {
+   "tld": ".gw",
+   "country": "GW",
+   "manager": "Autoridade Reguladora Nacional - Tecnologias de Informação e Comunicação da Guiné-Bissau",
+   "iana_url": "https://www.iana.org/domains/root/db/gw.html",
+   "rdap": [],
+   "registry_url": "",
+   "whois": ""
+  },
+  "GY": {
+   "tld": ".gy",
+   "country": "GY",
+   "manager": "University of Guyana",
+   "iana_url": "https://www.iana.org/domains/root/db/gy.html",
+   "rdap": [
+    "https://rdap.registry.gy/"
+   ],
+   "registry_url": "https://registry.gy/",
+   "whois": "whois.registry.gy"
+  },
+  "HK": {
+   "tld": ".hk",
+   "country": "HK",
+   "manager": "Hong Kong Internet Registration Corporation Ltd.",
+   "iana_url": "https://www.iana.org/domains/root/db/hk.html",
+   "rdap": [],
+   "registry_url": "http://www.hkirc.hk",
+   "whois": "whois.hkirc.hk"
+  },
+  "HN": {
+   "tld": ".hn",
+   "country": "HN",
+   "manager": "Red de Desarrollo Sostenible Honduras",
+   "iana_url": "https://www.iana.org/domains/root/db/hn.html",
+   "rdap": [
+    "https://rdap.nic.hn/"
+   ],
+   "registry_url": "https://www.nic.hn",
+   "whois": "whois.nic.hn"
+  },
+  "HR": {
+   "tld": ".hr",
+   "country": "HR",
+   "manager": "CARNet - Croatian Academic and Research Network",
+   "iana_url": "https://www.iana.org/domains/root/db/hr.html",
+   "rdap": [],
+   "registry_url": "http://www.dns.hr",
+   "whois": "whois.dns.hr"
+  },
+  "HT": {
+   "tld": ".ht",
+   "country": "HT",
+   "manager": "Consortium FDS/RDDH",
+   "iana_url": "https://www.iana.org/domains/root/db/ht.html",
+   "rdap": [
+    "https://rdap.nic.ht/"
+   ],
+   "registry_url": "http://www.nic.ht",
+   "whois": "whois.nic.ht"
+  },
+  "HU": {
+   "tld": ".hu",
+   "country": "HU",
+   "manager": "Council of Hungarian Internet Providers (CHIP)",
+   "iana_url": "https://www.iana.org/domains/root/db/hu.html",
+   "rdap": [],
+   "registry_url": "https://www.domain.hu",
+   "whois": "whois.nic.hu"
+  },
+  "ID": {
+   "tld": ".id",
+   "country": "ID",
+   "manager": "Perkumpulan Pengelola Nama Domain Internet Indonesia (PANDI)",
+   "iana_url": "https://www.iana.org/domains/root/db/id.html",
+   "rdap": [
+    "https://rdap.pandi.id/rdap/"
+   ],
+   "registry_url": "https://pandi.id",
+   "whois": "whois.id"
+  },
+  "IE": {
+   "tld": ".ie",
+   "country": "IE",
+   "manager": "IE Domain Registry CLG",
+   "iana_url": "https://www.iana.org/domains/root/db/ie.html",
+   "rdap": [],
+   "registry_url": "http://www.weare.ie",
+   "whois": "whois.weare.ie"
+  },
+  "IL": {
+   "tld": ".il",
+   "country": "IL",
+   "manager": "The Israel Internet Association (RA)",
+   "iana_url": "https://www.iana.org/domains/root/db/il.html",
+   "rdap": [],
+   "registry_url": "http://www.isoc.org.il/domains",
+   "whois": "whois.isoc.org.il"
+  },
+  "IM": {
+   "tld": ".im",
+   "country": "IM",
+   "manager": "Isle of Man Government",
+   "iana_url": "https://www.iana.org/domains/root/db/im.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.im",
+   "whois": "whois.nic.im"
+  },
+  "IN": {
+   "tld": ".in",
+   "country": "IN",
+   "manager": "National Internet Exchange of India",
+   "iana_url": "https://www.iana.org/domains/root/db/in.html",
+   "rdap": [
+    "https://rdap.nixiregistry.in/rdap/"
+   ],
+   "registry_url": "https://registry.in",
+   "whois": "whois.nixiregistry.in"
+  },
+  "IQ": {
+   "tld": ".iq",
+   "country": "IQ",
+   "manager": "Communications and Media Commission (CMC)",
+   "iana_url": "https://www.iana.org/domains/root/db/iq.html",
+   "rdap": [],
+   "registry_url": "https://registrar.cmc.iq",
+   "whois": "whois.cmc.iq"
+  },
+  "IR": {
+   "tld": ".ir",
+   "country": "IR",
+   "manager": "Institute for Research in Fundamental Sciences",
+   "iana_url": "https://www.iana.org/domains/root/db/ir.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.ir",
+   "whois": "whois.nic.ir"
+  },
+  "IS": {
+   "tld": ".is",
+   "country": "IS",
+   "manager": "ISNIC - Internet á Íslandi hf.",
+   "iana_url": "https://www.iana.org/domains/root/db/is.html",
+   "rdap": [
+    "https://rdap.isnic.is/rdap/"
+   ],
+   "registry_url": "https://www.isnic.is/",
+   "whois": "whois.isnic.is"
+  },
+  "IT": {
+   "tld": ".it",
+   "country": "IT",
+   "manager": "IIT - CNR",
+   "iana_url": "https://www.iana.org/domains/root/db/it.html",
+   "rdap": [],
+   "registry_url": "https://www.nic.it/",
+   "whois": "whois.nic.it"
+  },
+  "JE": {
+   "tld": ".je",
+   "country": "JE",
+   "manager": "Island Networks (Jersey) Ltd.",
+   "iana_url": "https://www.iana.org/domains/root/db/je.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.je",
+   "whois": "whois.je"
+  },
+  "JM": {
+   "tld": ".jm",
+   "country": "JM",
+   "manager": "University of West Indies",
+   "iana_url": "https://www.iana.org/domains/root/db/jm.html",
+   "rdap": [],
+   "registry_url": "",
+   "whois": ""
+  },
+  "JO": {
+   "tld": ".jo",
+   "country": "JO",
+   "manager": "Ministry of Digital Economy and Entrepreneurship (MoDEE)",
+   "iana_url": "https://www.iana.org/domains/root/db/jo.html",
+   "rdap": [],
+   "registry_url": "https://www.dns.jo",
+   "whois": "whois.nic.net.jo"
+  },
+  "JP": {
+   "tld": ".jp",
+   "country": "JP",
+   "manager": "Japan Registry Services Co., Ltd.",
+   "iana_url": "https://www.iana.org/domains/root/db/jp.html",
+   "rdap": [],
+   "registry_url": "https://jprs.jp/",
+   "whois": "whois.jprs.jp"
+  },
+  "KE": {
+   "tld": ".ke",
+   "country": "KE",
+   "manager": "Kenya Network Information Center (KeNIC)",
+   "iana_url": "https://www.iana.org/domains/root/db/ke.html",
+   "rdap": [
+    "https://rdap.kenic.or.ke/"
+   ],
+   "registry_url": "http://www.kenic.or.ke",
+   "whois": "whois.kenic.or.ke"
+  },
+  "KG": {
+   "tld": ".kg",
+   "country": "KG",
+   "manager": "AsiaInfo Telecommunication Enterprise",
+   "iana_url": "https://www.iana.org/domains/root/db/kg.html",
+   "rdap": [
+    "http://rdap.cctld.kg/"
+   ],
+   "registry_url": "https://www.cctld.kg/",
+   "whois": "whois.kg"
+  },
+  "KH": {
+   "tld": ".kh",
+   "country": "KH",
+   "manager": "Telecommunication Regulator of Cambodia (TRC)",
+   "iana_url": "https://www.iana.org/domains/root/db/kh.html",
+   "rdap": [],
+   "registry_url": "http://www.trc.gov.kh",
+   "whois": ""
+  },
+  "KI": {
+   "tld": ".ki",
+   "country": "KI",
+   "manager": "Ministry of Information, Communications and Transport (MICT)",
+   "iana_url": "https://www.iana.org/domains/root/db/ki.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.ki",
+   "whois": "whois.nic.ki"
+  },
+  "KM": {
+   "tld": ".km",
+   "country": "KM",
+   "manager": "Comores Telecom",
+   "iana_url": "https://www.iana.org/domains/root/db/km.html",
+   "rdap": [],
+   "registry_url": "http://www.domaine.km/",
+   "whois": ""
+  },
+  "KN": {
+   "tld": ".kn",
+   "country": "KN",
+   "manager": "Ministry of Finance, Sustainable Development Information & Technology",
+   "iana_url": "https://www.iana.org/domains/root/db/kn.html",
+   "rdap": [],
+   "registry_url": "",
+   "whois": "whois.nic.kn"
+  },
+  "KP": {
+   "tld": ".kp",
+   "country": "KP",
+   "manager": "Star Joint Venture Company",
+   "iana_url": "https://www.iana.org/domains/root/db/kp.html",
+   "rdap": [],
+   "registry_url": "http://www.star.co.kp",
+   "whois": ""
+  },
+  "KR": {
+   "tld": ".kr",
+   "country": "KR",
+   "manager": "Korea Internet & Security Agency (KISA)",
+   "iana_url": "https://www.iana.org/domains/root/db/kr.html",
+   "rdap": [
+    "https://rdap.nic.or.kr/"
+   ],
+   "registry_url": "http://www.nic.or.kr/",
+   "whois": "whois.kr"
+  },
+  "KW": {
+   "tld": ".kw",
+   "country": "KW",
+   "manager": "Communications and Information Technology Regulatory Authority",
+   "iana_url": "https://www.iana.org/domains/root/db/kw.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.kw",
+   "whois": ""
+  },
+  "KY": {
+   "tld": ".ky",
+   "country": "KY",
+   "manager": "Utility Regulation and Competition Office (OfReg)",
+   "iana_url": "https://www.iana.org/domains/root/db/ky.html",
+   "rdap": [
+    "https://whois.kyregistry.ky/rdap/"
+   ],
+   "registry_url": "http://uniregistry.com",
+   "whois": "whois.kyregistry.ky"
+  },
+  "KZ": {
+   "tld": ".kz",
+   "country": "KZ",
+   "manager": "Association of IT Companies of Kazakhstan",
+   "iana_url": "https://www.iana.org/domains/root/db/kz.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.kz",
+   "whois": "whois.nic.kz"
+  },
+  "LA": {
+   "tld": ".la",
+   "country": "LA",
+   "manager": "Lao National Internet Center (LANIC), Ministry of Technology and Communications",
+   "iana_url": "https://www.iana.org/domains/root/db/la.html",
+   "rdap": [],
+   "registry_url": "http://www.la",
+   "whois": "whois.nic.la"
+  },
+  "LB": {
+   "tld": ".lb",
+   "country": "LB",
+   "manager": "Internet Society Lebanon",
+   "iana_url": "https://www.iana.org/domains/root/db/lb.html",
+   "rdap": [
+    "https://rdap.lbdr.org.lb/"
+   ],
+   "registry_url": "https://www.lbdr.org.lb",
+   "whois": "whois.lbdr.org.lb"
+  },
+  "LC": {
+   "tld": ".lc",
+   "country": "LC",
+   "manager": "University of Puerto Rico",
+   "iana_url": "https://www.iana.org/domains/root/db/lc.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.lc",
+   "whois": ""
+  },
+  "LI": {
+   "tld": ".li",
+   "country": "LI",
+   "manager": "SWITCH The Swiss Education & Research Network",
+   "iana_url": "https://www.iana.org/domains/root/db/li.html",
+   "rdap": [],
+   "registry_url": "https://www.nic.li",
+   "whois": "whois.nic.li"
+  },
+  "LK": {
+   "tld": ".lk",
+   "country": "LK",
+   "manager": "Council for Information Technology LK Domain Registrar",
+   "iana_url": "https://www.iana.org/domains/root/db/lk.html",
+   "rdap": [],
+   "registry_url": "http://www.domains.lk/",
+   "whois": ""
+  },
+  "LR": {
+   "tld": ".lr",
+   "country": "LR",
+   "manager": "Data Technology Solutions, Inc.",
+   "iana_url": "https://www.iana.org/domains/root/db/lr.html",
+   "rdap": [],
+   "registry_url": "http://psg.com/dns/lr",
+   "whois": ""
+  },
+  "LS": {
+   "tld": ".ls",
+   "country": "LS",
+   "manager": "Lesotho Network Information Centre Proprietary (LSNIC)",
+   "iana_url": "https://www.iana.org/domains/root/db/ls.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.ls",
+   "whois": "whois.nic.ls"
+  },
+  "LT": {
+   "tld": ".lt",
+   "country": "LT",
+   "manager": "Kaunas University of Technology",
+   "iana_url": "https://www.iana.org/domains/root/db/lt.html",
+   "rdap": [],
+   "registry_url": "http://www.domreg.lt",
+   "whois": "whois.domreg.lt"
+  },
+  "LU": {
+   "tld": ".lu",
+   "country": "LU",
+   "manager": "RESTENA",
+   "iana_url": "https://www.iana.org/domains/root/db/lu.html",
+   "rdap": [],
+   "registry_url": "http://www.dns.lu",
+   "whois": "whois.dns.lu"
+  },
+  "LV": {
+   "tld": ".lv",
+   "country": "LV",
+   "manager": "University of Latvia, Institute of Mathematics and Computer Science, Department of Network Solutions (DNS)",
+   "iana_url": "https://www.iana.org/domains/root/db/lv.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.lv/",
+   "whois": "whois.nic.lv"
+  },
+  "LY": {
+   "tld": ".ly",
+   "country": "LY",
+   "manager": "General Authority of Communications and Informatics (GACI)",
+   "iana_url": "https://www.iana.org/domains/root/db/ly.html",
+   "rdap": [
+    "https://rdap.nic.ly/"
+   ],
+   "registry_url": "https://wsm.ltt.ly/",
+   "whois": "whois.nic.ly"
+  },
+  "MA": {
+   "tld": ".ma",
+   "country": "MA",
+   "manager": "Agence Nationale de Réglementation des Télécommunications (ANRT)",
+   "iana_url": "https://www.iana.org/domains/root/db/ma.html",
+   "rdap": [],
+   "registry_url": "http://www.registre.ma",
+   "whois": "whois.registre.ma"
+  },
+  "MC": {
+   "tld": ".mc",
+   "country": "MC",
+   "manager": "Direction des Plateformes et des Ressources Numériques",
+   "iana_url": "https://www.iana.org/domains/root/db/mc.html",
+   "rdap": [],
+   "registry_url": "https://www.nic.mc/",
+   "whois": "whois.nic.mc"
+  },
+  "MD": {
+   "tld": ".md",
+   "country": "MD",
+   "manager": "IP Serviciul Tehnologia Informatiei si Securitate Cibernetica",
+   "iana_url": "https://www.iana.org/domains/root/db/md.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.md",
+   "whois": "whois.nic.md"
+  },
+  "ME": {
+   "tld": ".me",
+   "country": "ME",
+   "manager": "Government of Montenegro",
+   "iana_url": "https://www.iana.org/domains/root/db/me.html",
+   "rdap": [],
+   "registry_url": "http://www.domain.me",
+   "whois": "whois.nic.me"
+  },
+  "MG": {
+   "tld": ".mg",
+   "country": "MG",
+   "manager": "NIC-MG (Network Information Center Madagascar)",
+   "iana_url": "https://www.iana.org/domains/root/db/mg.html",
+   "rdap": [
+    "http://rdap.nic.mg/"
+   ],
+   "registry_url": "http://www.nic.mg",
+   "whois": "whois.nic.mg"
+  },
+  "MH": {
+   "tld": ".mh",
+   "country": "MH",
+   "manager": "Office of the Cabinet",
+   "iana_url": "https://www.iana.org/domains/root/db/mh.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.net.mh/",
+   "whois": ""
+  },
+  "MK": {
+   "tld": ".mk",
+   "country": "MK",
+   "manager": "Macedonian Academic Research Network Skopje",
+   "iana_url": "https://www.iana.org/domains/root/db/mk.html",
+   "rdap": [],
+   "registry_url": "http://marnet.mk/",
+   "whois": "whois.marnet.mk"
+  },
+  "ML": {
+   "tld": ".ml",
+   "country": "ML",
+   "manager": "Agence des Technologies de l’Information et de la Communication",
+   "iana_url": "https://www.iana.org/domains/root/db/ml.html",
+   "rdap": [
+    "https://rdap.nic.ml/"
+   ],
+   "registry_url": "http://www.nic.ml",
+   "whois": "whois.nic.ml"
+  },
+  "MM": {
+   "tld": ".mm",
+   "country": "MM",
+   "manager": "Ministry of Transport and Communications",
+   "iana_url": "https://www.iana.org/domains/root/db/mm.html",
+   "rdap": [],
+   "registry_url": "http://www.ptd.gov.mm/",
+   "whois": "whois.registry.gov.mm"
+  },
+  "MN": {
+   "tld": ".mn",
+   "country": "MN",
+   "manager": "Datacom Co., Ltd.",
+   "iana_url": "https://www.iana.org/domains/root/db/mn.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.mn",
+   "whois": "whois.nic.mn"
+  },
+  "MO": {
+   "tld": ".mo",
+   "country": "MO",
+   "manager": "Macao Post and Telecommunications Bureau (CTT)",
+   "iana_url": "https://www.iana.org/domains/root/db/mo.html",
+   "rdap": [],
+   "registry_url": "https://www.monic.mo",
+   "whois": "whois.monic.mo"
+  },
+  "MR": {
+   "tld": ".mr",
+   "country": "MR",
+   "manager": "Université de Nouakchott Al Aasriya",
+   "iana_url": "https://www.iana.org/domains/root/db/mr.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.mr",
+   "whois": "whois.nic.mr"
+  },
+  "MT": {
+   "tld": ".mt",
+   "country": "MT",
+   "manager": "NIC (Malta)",
+   "iana_url": "https://www.iana.org/domains/root/db/mt.html",
+   "rdap": [],
+   "registry_url": "https://www.nic.org.mt/",
+   "whois": ""
+  },
+  "MU": {
+   "tld": ".mu",
+   "country": "MU",
+   "manager": "Internet Direct Ltd",
+   "iana_url": "https://www.iana.org/domains/root/db/mu.html",
+   "rdap": [
+    "https://rdap.identitydigital.services/rdap/"
+   ],
+   "registry_url": "http://www.nic.mu/",
+   "whois": "whois.tld.mu"
+  },
+  "MV": {
+   "tld": ".mv",
+   "country": "MV",
+   "manager": "Dhivehi Raajjeyge Gulhun PLC",
+   "iana_url": "https://www.iana.org/domains/root/db/mv.html",
+   "rdap": [],
+   "registry_url": "",
+   "whois": ""
+  },
+  "MW": {
+   "tld": ".mw",
+   "country": "MW",
+   "manager": "Malawi Sustainable Development Network Programme (Malawi SDNP)",
+   "iana_url": "https://www.iana.org/domains/root/db/mw.html",
+   "rdap": [],
+   "registry_url": "http://www.registrar.mw",
+   "whois": "whois.nic.mw"
+  },
+  "MX": {
+   "tld": ".mx",
+   "country": "MX",
+   "manager": "NIC-Mexico ITESM - Campus Monterrey",
+   "iana_url": "https://www.iana.org/domains/root/db/mx.html",
+   "rdap": [],
+   "registry_url": "http://www.registry.mx/",
+   "whois": "whois.mx"
+  },
+  "MY": {
+   "tld": ".my",
+   "country": "MY",
+   "manager": "MYNIC Berhad",
+   "iana_url": "https://www.iana.org/domains/root/db/my.html",
+   "rdap": [],
+   "registry_url": "http://www.mynic.my",
+   "whois": "whois.mynic.my"
+  },
+  "MZ": {
+   "tld": ".mz",
+   "country": "MZ",
+   "manager": "Centro de Informatica de Universidade Eduardo Mondlane",
+   "iana_url": "https://www.iana.org/domains/root/db/mz.html",
+   "rdap": [],
+   "registry_url": "",
+   "whois": "whois.nic.mz"
+  },
+  "NA": {
+   "tld": ".na",
+   "country": "NA",
+   "manager": "Namibian Network Information Center",
+   "iana_url": "https://www.iana.org/domains/root/db/na.html",
+   "rdap": [
+    "https://keetmans.omadhina.co.na/"
+   ],
+   "registry_url": "http://www.na-nic.com.na/",
+   "whois": ""
+  },
+  "NE": {
+   "tld": ".ne",
+   "country": "NE",
+   "manager": "Niger Télécoms SA (NIGERTELECOMS)",
+   "iana_url": "https://www.iana.org/domains/root/db/ne.html",
+   "rdap": [],
+   "registry_url": "http://www.intnet.ne",
+   "whois": ""
+  },
+  "NG": {
+   "tld": ".ng",
+   "country": "NG",
+   "manager": "Nigeria Internet Registration Association",
+   "iana_url": "https://www.iana.org/domains/root/db/ng.html",
+   "rdap": [
+    "https://rdap.nic.net.ng/"
+   ],
+   "registry_url": "https://www.nira.org.ng/",
+   "whois": "whois.nic.net.ng"
+  },
+  "NI": {
+   "tld": ".ni",
+   "country": "NI",
+   "manager": "Universidad Nacional del Ingernieria. Division de Tecnologias de la Informacion.",
+   "iana_url": "https://www.iana.org/domains/root/db/ni.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.ni",
+   "whois": ""
+  },
+  "NL": {
+   "tld": ".nl",
+   "country": "NL",
+   "manager": "SIDN (Stichting Internet Domeinregistratie Nederland)",
+   "iana_url": "https://www.iana.org/domains/root/db/nl.html",
+   "rdap": [
+    "https://rdap.sidn.nl/"
+   ],
+   "registry_url": "https://www.sidn.nl/",
+   "whois": "whois.domain-registry.nl"
+  },
+  "NO": {
+   "tld": ".no",
+   "country": "NO",
+   "manager": "Norid A/S",
+   "iana_url": "https://www.iana.org/domains/root/db/no.html",
+   "rdap": [
+    "https://rdap.norid.no/"
+   ],
+   "registry_url": "http://www.norid.no",
+   "whois": "whois.norid.no"
+  },
+  "NP": {
+   "tld": ".np",
+   "country": "NP",
+   "manager": "Mercantile Communications Pvt. Ltd.",
+   "iana_url": "https://www.iana.org/domains/root/db/np.html",
+   "rdap": [],
+   "registry_url": "http://www.mos.com.np",
+   "whois": ""
+  },
+  "NR": {
+   "tld": ".nr",
+   "country": "NR",
+   "manager": "CENPAC NET",
+   "iana_url": "https://www.iana.org/domains/root/db/nr.html",
+   "rdap": [],
+   "registry_url": "http://www.cenpac.net.nr",
+   "whois": ""
+  },
+  "NZ": {
+   "tld": ".nz",
+   "country": "NZ",
+   "manager": "InternetNZ",
+   "iana_url": "https://www.iana.org/domains/root/db/nz.html",
+   "rdap": [],
+   "registry_url": "http://www.dnc.org.nz/",
+   "whois": "whois.irs.net.nz"
+  },
+  "OM": {
+   "tld": ".om",
+   "country": "OM",
+   "manager": "Telecommunications Regulatory Authority (TRA)",
+   "iana_url": "https://www.iana.org/domains/root/db/om.html",
+   "rdap": [],
+   "registry_url": "http://www.registry.om/om/en/?page_id=197",
+   "whois": "whois.registry.om"
+  },
+  "PA": {
+   "tld": ".pa",
+   "country": "PA",
+   "manager": "Universidad Tecnologica de Panama",
+   "iana_url": "https://www.iana.org/domains/root/db/pa.html",
+   "rdap": [],
+   "registry_url": "https://nic.pa",
+   "whois": ""
+  },
+  "PE": {
+   "tld": ".pe",
+   "country": "PE",
+   "manager": "Red Cientifica Peruana",
+   "iana_url": "https://www.iana.org/domains/root/db/pe.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.pe",
+   "whois": "kero.yachay.pe"
+  },
+  "PG": {
+   "tld": ".pg",
+   "country": "PG",
+   "manager": "PNG DNS Administration, Vice Chancellors Office, The Papua New Guinea University of Technology",
+   "iana_url": "https://www.iana.org/domains/root/db/pg.html",
+   "rdap": [
+    "https://rdap.nic.pg/"
+   ],
+   "registry_url": "",
+   "whois": "whois.nic.pg"
+  },
+  "PH": {
+   "tld": ".ph",
+   "country": "PH",
+   "manager": "PH Domain Foundation",
+   "iana_url": "https://www.iana.org/domains/root/db/ph.html",
+   "rdap": [],
+   "registry_url": "http://dot.ph",
+   "whois": ""
+  },
+  "PK": {
+   "tld": ".pk",
+   "country": "PK",
+   "manager": "PKNIC",
+   "iana_url": "https://www.iana.org/domains/root/db/pk.html",
+   "rdap": [],
+   "registry_url": "http://www.pknic.net.pk/",
+   "whois": "whois.pknic.net.pk"
+  },
+  "PL": {
+   "tld": ".pl",
+   "country": "PL",
+   "manager": "Research and Academic Computer Network",
+   "iana_url": "https://www.iana.org/domains/root/db/pl.html",
+   "rdap": [
+    "https://rdap.dns.pl/"
+   ],
+   "registry_url": "https://www.dns.pl/en/",
+   "whois": "whois.dns.pl"
+  },
+  "PR": {
+   "tld": ".pr",
+   "country": "PR",
+   "manager": "Gauss Research Laboratory Inc.",
+   "iana_url": "https://www.iana.org/domains/root/db/pr.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.pr",
+   "whois": "whois.afilias-srs.net"
+  },
+  "PS": {
+   "tld": ".ps",
+   "country": "PS",
+   "manager": "Ministry of Telecommunications & Information Technology, Government Computer Center",
+   "iana_url": "https://www.iana.org/domains/root/db/ps.html",
+   "rdap": [],
+   "registry_url": "http://www.pnina.ps",
+   "whois": ""
+  },
+  "PT": {
+   "tld": ".pt",
+   "country": "PT",
+   "manager": "Associação DNS.PT",
+   "iana_url": "https://www.iana.org/domains/root/db/pt.html",
+   "rdap": [],
+   "registry_url": "http://www.dns.pt/",
+   "whois": "whois.dns.pt"
+  },
+  "PW": {
+   "tld": ".pw",
+   "country": "PW",
+   "manager": "Micronesia Investment and Development Corporation",
+   "iana_url": "https://www.iana.org/domains/root/db/pw.html",
+   "rdap": [
+    "https://rdap.radix.host/rdap/"
+   ],
+   "registry_url": "http://www.registry.pw",
+   "whois": "whois.nic.pw"
+  },
+  "PY": {
+   "tld": ".py",
+   "country": "PY",
+   "manager": "NIC-PY",
+   "iana_url": "https://www.iana.org/domains/root/db/py.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.py",
+   "whois": ""
+  },
+  "QA": {
+   "tld": ".qa",
+   "country": "QA",
+   "manager": "Communications Regulatory Authority",
+   "iana_url": "https://www.iana.org/domains/root/db/qa.html",
+   "rdap": [],
+   "registry_url": "https://www.cra.gov.qa/",
+   "whois": "whois.registry.qa"
+  },
+  "RO": {
+   "tld": ".ro",
+   "country": "RO",
+   "manager": "National Institute for R&D in Informatics",
+   "iana_url": "https://www.iana.org/domains/root/db/ro.html",
+   "rdap": [],
+   "registry_url": "http://www.rotld.ro/",
+   "whois": "whois.rotld.ro"
+  },
+  "RS": {
+   "tld": ".rs",
+   "country": "RS",
+   "manager": "Serbian National Internet Domain Registry (RNIDS)",
+   "iana_url": "https://www.iana.org/domains/root/db/rs.html",
+   "rdap": [],
+   "registry_url": "http://www.rnids.rs",
+   "whois": "whois.rnids.rs"
+  },
+  "RU": {
+   "tld": ".ru",
+   "country": "RU",
+   "manager": "Coordination Center for TLD RU",
+   "iana_url": "https://www.iana.org/domains/root/db/ru.html",
+   "rdap": [],
+   "registry_url": "http://www.cctld.ru/en",
+   "whois": "whois.tcinet.ru"
+  },
+  "RW": {
+   "tld": ".rw",
+   "country": "RW",
+   "manager": "Rwanda Internet Community and Technology Alliance (RICTA) Ltd",
+   "iana_url": "https://www.iana.org/domains/root/db/rw.html",
+   "rdap": [
+    "https://rdap.ricta.org.rw/"
+   ],
+   "registry_url": "https://registry.ricta.org.rw",
+   "whois": "whois.ricta.org.rw"
+  },
+  "SA": {
+   "tld": ".sa",
+   "country": "SA",
+   "manager": "Communications, Space and Technology Commission",
+   "iana_url": "https://www.iana.org/domains/root/db/sa.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.net.sa/",
+   "whois": "whois.nic.net.sa"
+  },
+  "SB": {
+   "tld": ".sb",
+   "country": "SB",
+   "manager": "Solomon Telekom Company Limited",
+   "iana_url": "https://www.iana.org/domains/root/db/sb.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.net.sb/",
+   "whois": "whois.nic.net.sb"
+  },
+  "SC": {
+   "tld": ".sc",
+   "country": "SC",
+   "manager": "VCS Pty Ltd",
+   "iana_url": "https://www.iana.org/domains/root/db/sc.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.sc",
+   "whois": "whois.nic.sc"
+  },
+  "SD": {
+   "tld": ".sd",
+   "country": "SD",
+   "manager": "Sudan Internet Society",
+   "iana_url": "https://www.iana.org/domains/root/db/sd.html",
+   "rdap": [
+    "https://rdap.nic.sd/"
+   ],
+   "registry_url": "http://www.isoc.sd",
+   "whois": "whois.nic.sd"
+  },
+  "SE": {
+   "tld": ".se",
+   "country": "SE",
+   "manager": "The Internet Infrastructure Foundation",
+   "iana_url": "https://www.iana.org/domains/root/db/se.html",
+   "rdap": [],
+   "registry_url": "https://www.internetstiftelsen.se",
+   "whois": "whois.iis.se"
+  },
+  "SG": {
+   "tld": ".sg",
+   "country": "SG",
+   "manager": "Singapore Network Information Centre (SGNIC) Pte Ltd",
+   "iana_url": "https://www.iana.org/domains/root/db/sg.html",
+   "rdap": [
+    "https://rdap.sgnic.sg/rdap/"
+   ],
+   "registry_url": "http://www.sgnic.sg",
+   "whois": "whois.sgnic.sg"
+  },
+  "SI": {
+   "tld": ".si",
+   "country": "SI",
+   "manager": "Academic and Research Network of Slovenia (ARNES)",
+   "iana_url": "https://www.iana.org/domains/root/db/si.html",
+   "rdap": [
+    "https://rdap.register.si/"
+   ],
+   "registry_url": "https://www.registry.si/",
+   "whois": "whois.register.si"
+  },
+  "SK": {
+   "tld": ".sk",
+   "country": "SK",
+   "manager": "SK-NIC, a.s.",
+   "iana_url": "https://www.iana.org/domains/root/db/sk.html",
+   "rdap": [],
+   "registry_url": "http://www.sk-nic.sk",
+   "whois": "whois.sk-nic.sk"
+  },
+  "SL": {
+   "tld": ".sl",
+   "country": "SL",
+   "manager": "Sierratel",
+   "iana_url": "https://www.iana.org/domains/root/db/sl.html",
+   "rdap": [],
+   "registry_url": "https://www.nic.sl",
+   "whois": ""
+  },
+  "SM": {
+   "tld": ".sm",
+   "country": "SM",
+   "manager": "Telecom Italia San Marino S.p.A.",
+   "iana_url": "https://www.iana.org/domains/root/db/sm.html",
+   "rdap": [],
+   "registry_url": "https://www.nic.sm",
+   "whois": "whois.nic.sm"
+  },
+  "SN": {
+   "tld": ".sn",
+   "country": "SN",
+   "manager": "Universite Cheikh Anta Diop",
+   "iana_url": "https://www.iana.org/domains/root/db/sn.html",
+   "rdap": [
+    "https://rdap.nic.sn/whois43/"
+   ],
+   "registry_url": "https://www.cctld.sn",
+   "whois": "whois.nic.sn"
+  },
+  "SO": {
+   "tld": ".so",
+   "country": "SO",
+   "manager": "Ministry of Post and Telecommunications",
+   "iana_url": "https://www.iana.org/domains/root/db/so.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.so/",
+   "whois": "whois.nic.so"
+  },
+  "SR": {
+   "tld": ".sr",
+   "country": "SR",
+   "manager": "Telesur",
+   "iana_url": "https://www.iana.org/domains/root/db/sr.html",
+   "rdap": [
+    "https://whois.sr/rdap/"
+   ],
+   "registry_url": "https://isp.datasur.sr/",
+   "whois": "whois.sr"
+  },
+  "SS": {
+   "tld": ".ss",
+   "country": "SS",
+   "manager": "National Communication Authority (NCA)",
+   "iana_url": "https://www.iana.org/domains/root/db/ss.html",
+   "rdap": [
+    "https://rdap.nic.ss/"
+   ],
+   "registry_url": "https://nic.ss/",
+   "whois": "whois.nic.ss"
+  },
+  "ST": {
+   "tld": ".st",
+   "country": "ST",
+   "manager": "Tecnisys",
+   "iana_url": "https://www.iana.org/domains/root/db/st.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.st",
+   "whois": "whois.nic.st"
+  },
+  "SV": {
+   "tld": ".sv",
+   "country": "SV",
+   "manager": "SVNet",
+   "iana_url": "https://www.iana.org/domains/root/db/sv.html",
+   "rdap": [],
+   "registry_url": "http://www.svnet.sv",
+   "whois": ""
+  },
+  "SY": {
+   "tld": ".sy",
+   "country": "SY",
+   "manager": "National Authority for Information Technology Services (NAITS)",
+   "iana_url": "https://www.iana.org/domains/root/db/sy.html",
+   "rdap": [],
+   "registry_url": "http://tld.sy",
+   "whois": "whois.tld.sy"
+  },
+  "SZ": {
+   "tld": ".sz",
+   "country": "SZ",
+   "manager": "University of Swaziland Department of Computer Science",
+   "iana_url": "https://www.iana.org/domains/root/db/sz.html",
+   "rdap": [],
+   "registry_url": "http://www.sispa.org.sz/",
+   "whois": ""
+  },
+  "TD": {
+   "tld": ".td",
+   "country": "TD",
+   "manager": "l'Agence de Développement des Technologies de l'Information et de la Communication (ADETIC)",
+   "iana_url": "https://www.iana.org/domains/root/db/td.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.td",
+   "whois": "whois.nic.td"
+  },
+  "TG": {
+   "tld": ".tg",
+   "country": "TG",
+   "manager": "Autorité de Régulation des Communications Electroniques et des Postes (ARCEP)",
+   "iana_url": "https://www.iana.org/domains/root/db/tg.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.tg",
+   "whois": "whois.nic.tg"
+  },
+  "TH": {
+   "tld": ".th",
+   "country": "TH",
+   "manager": "Thai Network Information Center Foundation",
+   "iana_url": "https://www.iana.org/domains/root/db/th.html",
+   "rdap": [
+    "https://rdap.thains.co.th/"
+   ],
+   "registry_url": "http://www.thnic.co.th",
+   "whois": "whois.thnic.co.th"
+  },
+  "TJ": {
+   "tld": ".tj",
+   "country": "TJ",
+   "manager": "Information Technology Center",
+   "iana_url": "https://www.iana.org/domains/root/db/tj.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.tj",
+   "whois": ""
+  },
+  "TL": {
+   "tld": ".tl",
+   "country": "TL",
+   "manager": "Autoridade Nacional de Comunicações",
+   "iana_url": "https://www.iana.org/domains/root/db/tl.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.tl",
+   "whois": "whois.nic.tl"
+  },
+  "TM": {
+   "tld": ".tm",
+   "country": "TM",
+   "manager": "TM Domain Registry Ltd",
+   "iana_url": "https://www.iana.org/domains/root/db/tm.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.tm/",
+   "whois": "whois.nic.tm"
+  },
+  "TN": {
+   "tld": ".tn",
+   "country": "TN",
+   "manager": "Agence Tunisienne d'Internet",
+   "iana_url": "https://www.iana.org/domains/root/db/tn.html",
+   "rdap": [],
+   "registry_url": "http://whois.ati.tn",
+   "whois": "whois.ati.tn"
+  },
+  "TO": {
+   "tld": ".to",
+   "country": "TO",
+   "manager": "Government of the Kingdom of Tonga, H.R.H. Crown Prince Tupouto'a, c/o Consulate of Tonga",
+   "iana_url": "https://www.iana.org/domains/root/db/to.html",
+   "rdap": [
+    "https://rdap.tonicregistry.to/rdap/"
+   ],
+   "registry_url": "http://www.tonic.to/",
+   "whois": "whois.tonicregistry.to"
+  },
+  "TR": {
+   "tld": ".tr",
+   "country": "TR",
+   "manager": "Bilgi Teknolojileri ve İletişim Kurumu (BTK)",
+   "iana_url": "https://www.iana.org/domains/root/db/tr.html",
+   "rdap": [],
+   "registry_url": "http://www.trabis.gov.tr",
+   "whois": "whois.trabis.gov.tr"
+  },
+  "TT": {
+   "tld": ".tt",
+   "country": "TT",
+   "manager": "University of the West Indies, Faculty of Engineering",
+   "iana_url": "https://www.iana.org/domains/root/db/tt.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.tt",
+   "whois": ""
+  },
+  "TV": {
+   "tld": ".tv",
+   "country": "TV",
+   "manager": "Ministry of Transport, Energy, Communications and Innovations",
+   "iana_url": "https://www.iana.org/domains/root/db/tv.html",
+   "rdap": [
+    "https://rdap.nic.tv/"
+   ],
+   "registry_url": "https://turnon.tv/",
+   "whois": "whois.nic.tv"
+  },
+  "TW": {
+   "tld": ".tw",
+   "country": "TW",
+   "manager": "Taiwan Network Information Center (TWNIC)",
+   "iana_url": "https://www.iana.org/domains/root/db/tw.html",
+   "rdap": [
+    "https://ccrdap.twnic.tw/tw/"
+   ],
+   "registry_url": "http://rs.twnic.net.tw",
+   "whois": "whois.twnic.net.tw"
+  },
+  "TZ": {
+   "tld": ".tz",
+   "country": "TZ",
+   "manager": "Tanzania Communications Regulatory Authority",
+   "iana_url": "https://www.iana.org/domains/root/db/tz.html",
+   "rdap": [
+    "https://rdap.tznic.or.tz/"
+   ],
+   "registry_url": "https://karibu.tz",
+   "whois": "whois.tznic.or.tz"
+  },
+  "UA": {
+   "tld": ".ua",
+   "country": "UA",
+   "manager": "Hostmaster Ltd.",
+   "iana_url": "https://www.iana.org/domains/root/db/ua.html",
+   "rdap": [
+    "https://rdap.hostmaster.ua/"
+   ],
+   "registry_url": "https://www.hostmaster.ua/",
+   "whois": "whois.ua"
+  },
+  "UG": {
+   "tld": ".ug",
+   "country": "UG",
+   "manager": "Uganda Online Ltd.",
+   "iana_url": "https://www.iana.org/domains/root/db/ug.html",
+   "rdap": [],
+   "registry_url": "http://www.registry.co.ug",
+   "whois": "whois.co.ug"
+  },
+  "GB": {
+   "tld": ".uk",
+   "country": "GB",
+   "manager": "Nominet UK",
+   "iana_url": "https://www.iana.org/domains/root/db/uk.html",
+   "rdap": [
+    "https://rdap.nominet.uk/uk/"
+   ],
+   "registry_url": "http://www.nic.uk/",
+   "whois": ""
+  },
+  "US": {
+   "tld": ".us",
+   "country": "US",
+   "manager": "Registry Services, LLC",
+   "iana_url": "https://www.iana.org/domains/root/db/us.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.us",
+   "whois": "whois.nic.us"
+  },
+  "UY": {
+   "tld": ".uy",
+   "country": "UY",
+   "manager": "SeCIU - Universidad de la Republica",
+   "iana_url": "https://www.iana.org/domains/root/db/uy.html",
+   "rdap": [],
+   "registry_url": "http://www.nic.org.uy/",
+   "whois": "whois.nic.org.uy"
+  },
+  "UZ": {
+   "tld": ".uz",
+   "country": "UZ",
+   "manager": "Single Integrator for Creation and Support of State Information Systems UZINFOCOM",
+   "iana_url": "https://www.iana.org/domains/root/db/uz.html",
+   "rdap": [
+    "https://rdap.cctld.uz/"
+   ],
+   "registry_url": "http://www.cctld.uz/",
+   "whois": "whois.cctld.uz"
+  },
+  "VA": {
+   "tld": ".va",
+   "country": "VA",
+   "manager": "Holy See - Vatican City State",
+   "iana_url": "https://www.iana.org/domains/root/db/va.html",
+   "rdap": [],
+   "registry_url": "",
+   "whois": ""
+  },
+  "VC": {
+   "tld": ".vc",
+   "country": "VC",
+   "manager": "Ministry of Telecommunications, Science, Technology and Industry",
+   "iana_url": "https://www.iana.org/domains/root/db/vc.html",
+   "rdap": [],
+   "registry_url": "",
+   "whois": "whois.identitydigital.services"
+  },
+  "VE": {
+   "tld": ".ve",
+   "country": "VE",
+   "manager": "Comisión Nacional de Telecomunicaciones (CONATEL)",
+   "iana_url": "https://www.iana.org/domains/root/db/ve.html",
+   "rdap": [],
+   "registry_url": "https://nic.ve/",
+   "whois": "whois.nic.ve"
+  },
+  "VG": {
+   "tld": ".vg",
+   "country": "VG",
+   "manager": "Telecommunications Regulatory Commission of the Virgin Islands",
+   "iana_url": "https://www.iana.org/domains/root/db/vg.html",
+   "rdap": [
+    "https://rdap.centralnic.com/vg/"
+   ],
+   "registry_url": "http://nic.vg",
+   "whois": "whois.nic.vg"
+  },
+  "VN": {
+   "tld": ".vn",
+   "country": "VN",
+   "manager": "Viet Nam Internet Network Information Center (VNNIC)",
+   "iana_url": "https://www.iana.org/domains/root/db/vn.html",
+   "rdap": [],
+   "registry_url": "https://www.vnnic.vn/",
+   "whois": ""
+  },
+  "VU": {
+   "tld": ".vu",
+   "country": "VU",
+   "manager": "Telecommunications Radiocommunications and Broadcasting Regulator (TRBR)",
+   "iana_url": "https://www.iana.org/domains/root/db/vu.html",
+   "rdap": [],
+   "registry_url": "http://www.hello.vu",
+   "whois": "whois.dnrs.vu"
+  },
+  "WS": {
+   "tld": ".ws",
+   "country": "WS",
+   "manager": "Government of Samoa Ministry of Foreign Affairs & Trade",
+   "iana_url": "https://www.iana.org/domains/root/db/ws.html",
+   "rdap": [],
+   "registry_url": "http://www.website.ws",
+   "whois": "whois.website.ws"
+  },
+  "YE": {
+   "tld": ".ye",
+   "country": "YE",
+   "manager": "TeleYemen",
+   "iana_url": "https://www.iana.org/domains/root/db/ye.html",
+   "rdap": [
+    "https://rdap.y.net.ye/"
+   ],
+   "registry_url": "",
+   "whois": "whois.y.net.ye"
+  },
+  "ZA": {
+   "tld": ".za",
+   "country": "ZA",
+   "manager": "ZA Domain Name Authority",
+   "iana_url": "https://www.iana.org/domains/root/db/za.html",
+   "rdap": [],
+   "registry_url": "http://www.zadna.org.za/",
+   "whois": ""
+  },
+  "ZM": {
+   "tld": ".zm",
+   "country": "ZM",
+   "manager": "Zambia Information and Communications Technology Authority (ZICTA)",
+   "iana_url": "https://www.iana.org/domains/root/db/zm.html",
+   "rdap": [
+    "https://rdap.nic.zm/"
+   ],
+   "registry_url": "https://registry.zicta.zm",
+   "whois": "whois.zicta.zm"
+  },
+  "ZW": {
+   "tld": ".zw",
+   "country": "ZW",
+   "manager": "Postal and Telecommunications Regulatory Authority of Zimbabwe (POTRAZ)",
+   "iana_url": "https://www.iana.org/domains/root/db/zw.html",
+   "rdap": [],
+   "registry_url": "",
+   "whois": ""
+  }
+ }
+}

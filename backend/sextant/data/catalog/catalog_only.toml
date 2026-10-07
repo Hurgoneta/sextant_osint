@@ -1,0 +1,235 @@
+# Catalog-only sources. They appear in the Data Sources catalog and the coverage matrix so the
+# investigator knows they exist. Either they have no publicly documented API (enterprise contracts),
+# or they are deliberately excluded by policy. No implementation, and nothing is faked: their status is
+# "Connector interface only — contact provider", "Retired" or "Excluded by policy".
+#
+# Implementing one later is structurally identical to any other connector: write a Connector with
+# the same `name` and it replaces the catalog entry automatically.
+
+[[source]]
+name = "lexisnexis"
+title = "LexisNexis (Accurint / Nexis)"
+category = "people_search"
+description = "Public records, legal research, news archives and identity data (US-centric)."
+access = "enterprise"
+cost = "Enterprise contract with permissible-purpose verification"
+website = "https://www.lexisnexis.com/"
+legal = "US: FCRA/GLBA/DPPA permissible purposes; strict credentialing."
+reliability = "high"
+capabilities = ["people records", "court records", "news archives", "corporate records"]
+input_entities = ["person", "phone", "email", "organization"]
+output_entities = ["person", "public_record", "organization", "location"]
+status_note = "No public API documentation — available to contracted customers. Contact the provider."
+
+[[source]]
+name = "westlaw"
+title = "Thomson Reuters Westlaw / CLEAR"
+category = "legal_records"
+description = "Case law, dockets and (CLEAR) public-records investigations."
+access = "enterprise"
+cost = "Enterprise subscription"
+website = "https://legal.thomsonreuters.com/en/products/clear-investigation-software"
+reliability = "high"
+capabilities = ["case law", "dockets", "public records", "asset searches"]
+input_entities = ["person", "organization"]
+output_entities = ["public_record", "organization"]
+status_note = "Enterprise product without a public API. Contact the provider."
+
+[[source]]
+name = "dnb"
+title = "Dun & Bradstreet (D-U-N-S)"
+category = "companies"
+description = "Global company data: D-U-N-S numbers, corporate family trees, risk scores."
+access = "enterprise"
+cost = "Commercial licence"
+website = "https://www.dnb.com/"
+reliability = "high"
+capabilities = ["company identifiers", "corporate linkage", "officers", "risk indicators"]
+input_entities = ["organization"]
+output_entities = ["organization", "person"]
+status_note = "D&B Direct+ API requires a commercial agreement."
+
+[[source]]
+name = "social_links"
+title = "Social Links (SL API)"
+category = "people_search"
+description = "Commercial OSINT data platform with social-media and messenger data."
+access = "enterprise"
+cost = "Enterprise subscription"
+website = "https://sociallinks.io/"
+reliability = "medium"
+capabilities = ["social-media search", "messenger data", "people search"]
+input_entities = ["person", "username", "email", "phone"]
+output_entities = ["account", "person"]
+status_note = "Enterprise API — contact the provider. Check its data sources against your legal basis."
+
+[[source]]
+name = "crunchbase"
+title = "Crunchbase"
+category = "companies"
+description = "Startup and company data: founders, funding, acquisitions."
+access = "paid"
+cost = "Paid API plans"
+website = "https://www.crunchbase.com/"
+documentation = "https://data.crunchbase.com/docs"
+reliability = "medium"
+capabilities = ["founders and executives", "funding rounds", "acquisitions"]
+input_entities = ["organization", "person"]
+output_entities = ["organization", "person"]
+status_note = "Interface not implemented yet — a connector can be added with the same name."
+
+[[source]]
+name = "whoisxml"
+title = "WhoisXML API (historical WHOIS / reverse WHOIS)"
+category = "rdap"
+description = "Historical WHOIS records and reverse WHOIS (domains by registrant)."
+access = "paid"
+cost = "Credit packs"
+website = "https://whoisxmlapi.com/"
+documentation = "https://whois-history.whoisxmlapi.com/api/documentation/making-requests"
+reliability = "high"
+capabilities = ["historical WHOIS", "reverse WHOIS by email/name", "registrant changes"]
+input_entities = ["domain", "email", "person"]
+output_entities = ["domain", "email", "organization"]
+status_note = "Interface not implemented yet — a connector can be added with the same name."
+
+[[source]]
+name = "domaintools"
+title = "DomainTools Iris"
+category = "domains"
+description = "Domain and DNS intelligence, historical WHOIS, pivots on registrant data."
+access = "enterprise"
+cost = "Enterprise subscription"
+website = "https://www.domaintools.com/"
+reliability = "high"
+capabilities = ["historical WHOIS", "passive DNS", "registrant pivots", "risk scoring"]
+input_entities = ["domain", "ip", "email"]
+output_entities = ["domain", "ip", "email", "organization"]
+status_note = "Enterprise API — contact the provider."
+
+[[source]]
+name = "censys"
+title = "Censys Platform"
+category = "infrastructure"
+description = "Internet-wide host and certificate scan data."
+access = "paid"
+cost = "Free tier (limited) / paid"
+website = "https://censys.com/"
+documentation = "https://docs.censys.com/"
+reliability = "high"
+capabilities = ["host services", "certificates", "historical host data"]
+input_entities = ["ip", "domain"]
+output_entities = ["ip", "domain"]
+status_note = "Censys moved to a new Platform API in 2025 — connector pending verification against the new API."
+
+[[source]]
+name = "spycloud"
+title = "SpyCloud"
+category = "breach_metadata"
+description = "Recaptured breach and malware data for account-takeover prevention."
+access = "enterprise"
+cost = "Enterprise subscription"
+website = "https://spycloud.com/"
+reliability = "high"
+capabilities = ["breach exposure", "malware infections"]
+input_entities = ["email", "domain"]
+output_entities = ["breach"]
+status_note = "Enterprise product. Sextant would ingest exposure metadata only, never credentials."
+
+[[source]]
+name = "bing_web_search"
+title = "Bing Web Search API"
+category = "search"
+description = "Microsoft's web search API."
+access = "paid"
+website = "https://learn.microsoft.com/en-us/bing/search-apis/"
+status = "retired"
+status_note = "Retired by Microsoft in August 2025."
+reliability = "low"
+input_entities = ["person", "email", "username", "domain", "phone"]
+output_entities = ["website"]
+
+[[source]]
+name = "dehashed"
+title = "DeHashed"
+category = "breach_metadata"
+description = "Search engine over leaked databases that returns raw records, including passwords and hashes."
+access = "paid"
+website = "https://dehashed.com/"
+status = "excluded"
+status_note = "Excluded by policy: returns raw leaked credentials. Sextant handles breach metadata only."
+reliability = "low"
+input_entities = ["email", "username", "phone", "domain"]
+
+[[source]]
+name = "intelx"
+title = "Intelligence X"
+category = "breach_metadata"
+description = "Search engine and archive including leaked datasets and darknet content."
+access = "paid"
+website = "https://intelx.io/"
+status = "excluded"
+status_note = "Excluded by policy: distributes full leaked content (credentials, personal data dumps)."
+reliability = "low"
+input_entities = ["email", "domain", "ip", "phone"]
+
+[[source]]
+name = "pimeyes"
+title = "PimEyes / FaceCheck.ID (face recognition)"
+category = "images"
+description = "Face-recognition search engines returning look-alike faces across the web."
+access = "paid"
+website = "https://pimeyes.com/"
+status = "excluded"
+status_note = "Excluded by policy: processes biometric data (GDPR Art. 9) and returns look-alikes, not identities. TinEye (same-image matching) is supported instead."
+reliability = "low"
+input_entities = ["image"]
+
+[[source]]
+name = "holehe"
+title = "holehe (account existence via password-reset flows)"
+category = "email"
+description = "Infers whether an email is registered on sites by triggering their password-reset/registration endpoints."
+access = "tool"
+website = "https://github.com/megadose/holehe"
+license = "GPL-3.0"
+status = "excluded"
+status_note = "Excluded by policy: abuses authentication flows of third-party sites."
+reliability = "low"
+input_entities = ["email"]
+
+[[source]]
+name = "ghunt"
+title = "GHunt (Google account investigation)"
+category = "email"
+description = "Queries Google internal APIs about an email/Gaia ID using the investigator's Google session cookies."
+access = "tool"
+website = "https://github.com/mxrch/GHunt"
+license = "AGPL-3.0"
+status = "excluded"
+status_note = "Excluded by policy: requires your Google session cookies and internal, undocumented APIs."
+reliability = "low"
+input_entities = ["email"]
+
+[[source]]
+name = "tiktok_research"
+title = "TikTok Research API"
+category = "social"
+description = "Official TikTok API for approved academic researchers."
+access = "restricted"
+website = "https://developers.tiktok.com/products/research-api/"
+status_note = "Only for approved non-profit academic researchers in eligible regions. Profiles otherwise stay manual links."
+reliability = "high"
+input_entities = ["username"]
+output_entities = ["account"]
+
+[[source]]
+name = "linkedin"
+title = "LinkedIn"
+category = "professional_networks"
+description = "Professional network. No profile-lookup API; terms forbid automated access."
+access = "manual"
+website = "https://www.linkedin.com"
+status_note = "Manual only: profiles appear via web search results; open them yourself."
+reliability = "high"
+input_entities = ["person", "username"]

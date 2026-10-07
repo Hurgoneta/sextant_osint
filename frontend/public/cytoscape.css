@@ -1,0 +1,3 @@
+/* Cytoscape looks for an element with this id and otherwise injects an inline <style>, which the strict CSP
+   (style-src 'self') would block. Shipping the rule as a file keeps the CSP strict. */
+.__________cytoscape_container { position: relative; }

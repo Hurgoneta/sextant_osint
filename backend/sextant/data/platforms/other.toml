@@ -1,0 +1,338 @@
+# Forums, blogs, gaming, identity/link pages, marketplaces, hobbies and regional platforms.
+
+[[platform]]
+id = "reddit"
+name = "Reddit"
+category = "forums"
+url = "https://www.reddit.com"
+profile_url = "https://www.reddit.com/user/{username}"
+hosts = ["reddit.com", "old.reddit.com"]
+url_patterns = ['^(?:old\.)?reddit\.com/(?:u|user)/([A-Za-z0-9_-]{3,20})/?']
+username_pattern = '^[A-Za-z0-9_-]{3,20}$'
+api = "restricted"
+extraction = ["display_name", "bio", "created_at", "avatar", "karma"]
+auth = "approved Reddit app (Responsible Builder Policy, Nov 2025)"
+rate_limit = "100 requests/minute per OAuth client"
+check = "reddit"
+notes = "Unauthenticated API access returns 403; new API access requires Reddit's approval."
+
+[[platform]]
+id = "quora"
+name = "Quora"
+category = "qa"
+url = "https://www.quora.com"
+profile_url = "https://www.quora.com/profile/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "disqus"
+name = "Disqus"
+category = "forums"
+url = "https://disqus.com"
+profile_url = "https://disqus.com/by/{username}/"
+check = "whatsmyname"
+
+[[platform]]
+id = "habr"
+name = "Habr"
+category = "forums"
+url = "https://habr.com"
+profile_url = "https://habr.com/en/users/{username}/"
+url_patterns = ['^habr\.com/(?:[a-z]{2}/)?users/([A-Za-z0-9_-]{2,40})/?']
+countries = ["RU"]
+check = "whatsmyname"
+
+[[platform]]
+id = "medium"
+name = "Medium"
+category = "writing"
+url = "https://medium.com"
+profile_url = "https://medium.com/@{username}"
+url_patterns = ['^medium\.com/@([A-Za-z0-9_.-]{1,50})/?$']
+check = "whatsmyname"
+
+[[platform]]
+id = "substack"
+name = "Substack"
+category = "newsletters"
+url = "https://substack.com"
+profile_url = "https://substack.com/@{username}"
+url_patterns = ['^([a-z0-9-]{2,40})\.substack\.com/?$', '^substack\.com/@([A-Za-z0-9_-]{2,40})/?$']
+check = "whatsmyname"
+
+[[platform]]
+id = "wordpress"
+name = "WordPress.com"
+category = "writing"
+url = "https://wordpress.com"
+profile_url = "https://{username}.wordpress.com"
+check = "whatsmyname"
+
+[[platform]]
+id = "blogger"
+name = "Blogger"
+category = "writing"
+url = "https://www.blogger.com"
+profile_url = "https://{username}.blogspot.com"
+hosts = ["blogspot.com", "blogger.com"]
+check = "whatsmyname"
+
+[[platform]]
+id = "wattpad"
+name = "Wattpad"
+category = "writing"
+url = "https://www.wattpad.com"
+profile_url = "https://www.wattpad.com/user/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "hashnode"
+name = "Hashnode"
+category = "writing"
+url = "https://hashnode.com"
+profile_url = "https://hashnode.com/@{username}"
+api = "public"
+check = "whatsmyname"
+
+[[platform]]
+id = "lichess"
+name = "Lichess"
+category = "gaming"
+url = "https://lichess.org"
+profile_url = "https://lichess.org/@/{username}"
+url_patterns = ['^lichess\.org/@/([A-Za-z0-9_-]{2,30})/?$']
+username_pattern = '^[A-Za-z0-9_-]{2,30}$'
+api = "public"
+extraction = ["display_name", "bio", "location", "links", "created_at"]
+check = "lichess"
+
+[[platform]]
+id = "chesscom"
+name = "Chess.com"
+category = "gaming"
+url = "https://www.chess.com"
+profile_url = "https://www.chess.com/member/{username}"
+url_patterns = ['^chess\.com/member/([A-Za-z0-9_-]{3,25})/?$']
+username_pattern = '^[A-Za-z0-9_-]{3,25}$'
+api = "public"
+extraction = ["display_name", "location", "country", "created_at", "avatar"]
+check = "chesscom"
+
+[[platform]]
+id = "steam"
+name = "Steam"
+category = "gaming"
+url = "https://steamcommunity.com"
+profile_url = "https://steamcommunity.com/id/{username}"
+url_patterns = ['^steamcommunity\.com/id/([A-Za-z0-9_-]{2,32})/?$', '^steamcommunity\.com/profiles/([0-9]{17})/?$']
+username_pattern = '^[A-Za-z0-9_-]{2,32}$'
+api = "key"
+extraction = ["display_name", "real_name", "country", "created_at", "avatar"]
+auth = "free Steam Web API key"
+check = "steam"
+
+[[platform]]
+id = "roblox"
+name = "Roblox"
+category = "gaming"
+url = "https://www.roblox.com"
+profile_url = "https://www.roblox.com/user.aspx?username={username}"
+url_patterns = ['^roblox\.com/users/([0-9]{1,15})/profile/?$']
+api = "public"
+check = "probe"
+probe = { url = "https://users.roblox.com/v1/usernames/users", method = "POST", body = "{\"usernames\":[\"{username}\"],\"excludeBannedUsers\":false}", list_path = "data", match = "name", fields = { display_name = "displayName", user_id = "id" }, docs = "https://create.roblox.com/docs/cloud/legacy/users/v1" }
+
+[[platform]]
+id = "speedrun"
+name = "Speedrun.com"
+category = "gaming"
+url = "https://www.speedrun.com"
+profile_url = "https://www.speedrun.com/users/{username}"
+api = "public"
+check = "whatsmyname"
+
+[[platform]]
+id = "itchio"
+name = "itch.io"
+category = "gaming"
+url = "https://itch.io"
+profile_url = "https://{username}.itch.io"
+check = "whatsmyname"
+
+[[platform]]
+id = "xbox"
+name = "Xbox Gamertag"
+category = "gaming"
+url = "https://www.xbox.com"
+api = "restricted"
+check = "none"
+notes = "No public gamertag lookup without a Microsoft login. Third-party trackers (TrueAchievements) index only some players."
+public_profile = "login_wall"
+private_accounts = true
+api_requirements = "Xbox services APIs need Microsoft partner access"
+
+[[platform]]
+id = "linktree"
+name = "Linktree"
+category = "identity"
+url = "https://linktr.ee"
+profile_url = "https://linktr.ee/{username}"
+check = "whatsmyname"
+notes = "Link pages list a person's other profiles — a strong pivot source."
+
+[[platform]]
+id = "aboutme"
+name = "about.me"
+category = "identity"
+url = "https://about.me"
+profile_url = "https://about.me/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "carrd"
+name = "Carrd"
+category = "identity"
+url = "https://carrd.co"
+profile_url = "https://{username}.carrd.co"
+check = "whatsmyname"
+
+[[platform]]
+id = "etsy"
+name = "Etsy"
+category = "marketplaces"
+url = "https://www.etsy.com"
+profile_url = "https://www.etsy.com/people/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "ebay"
+name = "eBay"
+category = "marketplaces"
+url = "https://www.ebay.com"
+profile_url = "https://www.ebay.com/usr/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "fiverr"
+name = "Fiverr"
+category = "freelance"
+url = "https://www.fiverr.com"
+profile_url = "https://www.fiverr.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "producthunt"
+name = "Product Hunt"
+category = "developer"
+url = "https://www.producthunt.com"
+profile_url = "https://www.producthunt.com/@{username}"
+api = "key"
+check = "whatsmyname"
+
+[[platform]]
+id = "goodreads"
+name = "Goodreads"
+category = "books"
+url = "https://www.goodreads.com"
+profile_url = "https://www.goodreads.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "letterboxd"
+name = "Letterboxd"
+category = "film"
+url = "https://letterboxd.com"
+profile_url = "https://letterboxd.com/{username}/"
+url_patterns = ['^letterboxd\.com/(?!film|films|lists|members|journal|search|settings|about|pro|apps)([A-Za-z0-9_]{2,40})/?$']
+check = "whatsmyname"
+
+[[platform]]
+id = "myanimelist"
+name = "MyAnimeList"
+category = "film"
+url = "https://myanimelist.net"
+profile_url = "https://myanimelist.net/profile/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "strava"
+name = "Strava"
+category = "fitness"
+url = "https://www.strava.com"
+api = "restricted"
+check = "manual"
+notes = "Athlete profiles are numeric and require login for most data."
+
+[[platform]]
+id = "duolingo"
+name = "Duolingo"
+category = "education"
+url = "https://www.duolingo.com"
+profile_url = "https://www.duolingo.com/profile/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "wikipedia"
+name = "Wikipedia (user page)"
+category = "reference"
+url = "https://en.wikipedia.org"
+profile_url = "https://en.wikipedia.org/wiki/User:{username}"
+api = "public"
+check = "whatsmyname"
+
+[[platform]]
+id = "openstreetmap"
+name = "OpenStreetMap"
+category = "reference"
+url = "https://www.openstreetmap.org"
+profile_url = "https://www.openstreetmap.org/user/{username}"
+api = "public"
+check = "whatsmyname"
+
+[[platform]]
+id = "archive_org"
+name = "Internet Archive (user)"
+category = "reference"
+url = "https://archive.org"
+profile_url = "https://archive.org/details/@{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "yandex_dzen"
+name = "Yandex Dzen"
+category = "writing"
+url = "https://dzen.ru"
+profile_url = "https://dzen.ru/{username}"
+countries = ["RU"]
+check = "manual"
+notes = "Every profile request is redirected to a Yandex login flow — no public existence signal."
+
+[[platform]]
+id = "naver_blog"
+name = "Naver Blog"
+category = "writing"
+url = "https://blog.naver.com"
+profile_url = "https://blog.naver.com/{username}"
+countries = ["KR"]
+check = "whatsmyname"
+
+[[platform]]
+id = "zhihu"
+name = "Zhihu"
+category = "qa"
+url = "https://www.zhihu.com"
+profile_url = "https://www.zhihu.com/people/{username}"
+countries = ["CN"]
+public_profile = "login_wall"
+check = "manual"
+
+[[platform]]
+id = "tinder"
+name = "Tinder"
+category = "dating"
+url = "https://tinder.com"
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+public_profile = "none"
+private_accounts = true
+

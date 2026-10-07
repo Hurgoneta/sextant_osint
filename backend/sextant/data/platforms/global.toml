@@ -1,0 +1,4512 @@
+# Platform registry — global and regional platforms beyond the original set (social, messaging, video, music,
+# podcasts, photography, art, writing, newsletters, professional, jobs, freelance, gaming, forums, Q&A, developer,
+# packages, academic, education, dating, fitness, travel, books, film, reviews, marketplaces, creator, crowdfunding,
+# events, identity, directories, reference, genealogy, adult).
+#
+# `check` says how Sextant checks a username: whatsmyname / maigret / sherlock = the community rule for the site
+# exists in that dataset (data/platforms/imported/); probe = a documented public API declared in [platform.probe];
+# manual = a link for the investigator (terms forbid automation, login wall, or no maintained rule);
+# none = no public profiles exist (private messengers, dating apps) — nothing is ever accessed.
+# public_profile: yes | partial | login_wall | none · public_search: can anyone search people there without login?
+# private_accounts: the platform has private accounts (never accessed) · status: active | defunct
+
+[[platform]]
+id = "whatsapp"
+name = "WhatsApp"
+category = "messaging"
+url = "https://www.whatsapp.com"
+api = "restricted"
+api_requirements = "WhatsApp Business Platform: messages with your own business number only; no lookup of other users"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Private messaging service: accounts, contacts, groups and messages are not public and are never accessed. Only WhatsApp Channels opened from public invite links are public."
+
+[[platform]]
+id = "whatsapp_channels"
+name = "WhatsApp Channels"
+category = "community"
+url = "https://www.whatsapp.com/channel"
+public_profile = "partial"
+public_search = "limited"
+check = "manual"
+notes = "Public one-way broadcast channels. The directory is inside the app; channel pages open from whatsapp.com/channel/<id> links."
+
+[[platform]]
+id = "messenger"
+name = "Facebook Messenger"
+category = "messaging"
+url = "https://www.messenger.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Private messaging service: accounts, contacts, groups and messages are not public and are never accessed. m.me links resolve only for public Facebook Pages."
+
+[[platform]]
+id = "signal"
+name = "Signal"
+category = "messaging"
+url = "https://signal.org"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Private messaging service: accounts, contacts, groups and messages are not public and are never accessed. Usernames are not discoverable and there is no public directory."
+
+[[platform]]
+id = "viber"
+name = "Viber"
+category = "messaging"
+url = "https://www.viber.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Private messaging service: accounts, contacts, groups and messages are not public and are never accessed. Public Viber Communities/Channels open only from invite links."
+
+[[platform]]
+id = "wechat"
+name = "WeChat (Weixin)"
+category = "messaging"
+url = "https://www.wechat.com"
+countries = ["CN"]
+region = "China"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Private messaging service: accounts, contacts, groups and messages are not public and are never accessed. Official Accounts' articles are indexed by Sogou WeChat search (weixin.sogou.com) — open it manually."
+
+[[platform]]
+id = "qq"
+name = "QQ"
+category = "messaging"
+url = "https://im.qq.com"
+countries = ["CN"]
+region = "China"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Private messaging service: accounts, contacts, groups and messages are not public and are never accessed."
+
+[[platform]]
+id = "line"
+name = "LINE"
+category = "messaging"
+url = "https://line.me"
+countries = ["JP", "TW", "TH"]
+region = "Japan, Taiwan, Thailand"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Private messaging service: accounts, contacts, groups and messages are not public and are never accessed. LINE Official Accounts have public pages (page.line.me); OpenChat rooms open from invite links."
+
+[[platform]]
+id = "line_openchat"
+name = "LINE OpenChat"
+category = "community"
+url = "https://openchat.line.me"
+countries = ["JP", "TW", "TH"]
+public_search = "limited"
+check = "manual"
+notes = "Public group chats; listed and searchable inside the LINE app only."
+
+[[platform]]
+id = "kakaotalk"
+name = "KakaoTalk"
+category = "messaging"
+url = "https://www.kakaocorp.com/page/service/service/KakaoTalk"
+countries = ["KR"]
+region = "South Korea"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Private messaging service: accounts, contacts, groups and messages are not public and are never accessed. Open Chat rooms are joined from links inside the app."
+
+[[platform]]
+id = "zalo"
+name = "Zalo"
+category = "messaging"
+url = "https://zalo.me"
+countries = ["VN"]
+region = "Vietnam"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Private messaging service: accounts, contacts, groups and messages are not public and are never accessed. Zalo Official Accounts have public pages."
+
+[[platform]]
+id = "threema"
+name = "Threema"
+category = "messaging"
+url = "https://threema.ch"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Private messaging service: accounts, contacts, groups and messages are not public and are never accessed."
+
+[[platform]]
+id = "kik"
+name = "Kik"
+category = "messaging"
+url = "https://www.kik.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Private messaging service: accounts, contacts, groups and messages are not public and are never accessed."
+
+[[platform]]
+id = "slack"
+name = "Slack"
+category = "messaging"
+url = "https://slack.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Workspaces are private. Public communities are listed by third-party directories."
+
+[[platform]]
+id = "matrix"
+name = "Matrix (matrix.org)"
+category = "messaging"
+url = "https://matrix.org"
+public_profile = "partial"
+check = "manual"
+notes = "Federated chat: user IDs look like @name:server. Public rooms are listed in each server's room directory."
+
+[[platform]]
+id = "eitaa"
+name = "Eitaa"
+category = "messaging"
+url = "https://eitaa.com"
+countries = ["IR"]
+region = "Iran"
+public_profile = "partial"
+check = "manual"
+notes = "Messenger with public channels at eitaa.com/<channel>. No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "rubika"
+name = "Rubika"
+category = "messaging"
+url = "https://rubika.ir"
+countries = ["IR"]
+region = "Iran"
+public_profile = "partial"
+private_accounts = true
+check = "manual"
+notes = "Super-app with public channels; private chats are never accessed."
+
+[[platform]]
+id = "skype"
+name = "Skype"
+category = "messaging"
+url = "https://www.skype.com"
+public_profile = "none"
+check = "none"
+status = "defunct"
+status_note = "Microsoft retired Skype on 5 May 2025."
+
+[[platform]]
+id = "icq"
+name = "ICQ"
+category = "messaging"
+url = "https://icq.com"
+public_profile = "none"
+check = "none"
+status = "defunct"
+status_note = "ICQ shut down on 26 June 2024."
+
+[[platform]]
+id = "disboard"
+name = "DISBOARD (Discord server directory)"
+category = "community"
+url = "https://disboard.org"
+public_search = "yes"
+check = "manual"
+notes = "Public directory of Discord servers that opted in; search by keyword or tag."
+
+[[platform]]
+id = "topgg"
+name = "Top.gg"
+category = "community"
+url = "https://top.gg"
+public_search = "yes"
+check = "manual"
+notes = "Directory of Discord bots and servers."
+
+[[platform]]
+id = "tgstat"
+name = "TGStat"
+category = "community"
+url = "https://tgstat.com"
+public_search = "yes"
+check = "manual"
+notes = "Third-party catalogue and analytics of public Telegram channels and chats (search by keyword or @username)."
+
+[[platform]]
+id = "telemetr"
+name = "Telemetr.io"
+category = "community"
+url = "https://telemetr.io"
+public_search = "yes"
+check = "manual"
+notes = "Third-party catalogue of public Telegram channels."
+
+[[platform]]
+id = "gettr"
+name = "GETTR"
+category = "microblogging"
+url = "https://gettr.com"
+profile_url = "https://gettr.com/user/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "koo"
+name = "Koo"
+category = "microblogging"
+url = "https://www.kooapp.com"
+countries = ["IN"]
+region = "India"
+public_profile = "none"
+check = "none"
+status = "defunct"
+status_note = "Koo shut down in July 2024."
+
+[[platform]]
+id = "plurk"
+name = "Plurk"
+category = "microblogging"
+url = "https://www.plurk.com"
+profile_url = "https://www.plurk.com/{username}"
+countries = ["TW"]
+region = "Taiwan"
+check = "whatsmyname"
+
+[[platform]]
+id = "misskey"
+name = "Misskey.io"
+category = "microblogging"
+url = "https://misskey.io"
+profile_url = "https://misskey.io/@{username}"
+countries = ["JP"]
+region = "Japan (fediverse)"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "nostr"
+name = "Nostr"
+category = "microblogging"
+url = "https://nostr.com"
+public_search = "yes"
+check = "manual"
+notes = "Decentralised protocol: profiles are public keys (npub). Use a NIP-05 identifier (name@domain) or a public relay search such as nostr.band."
+
+[[platform]]
+id = "farcaster"
+name = "Farcaster"
+category = "microblogging"
+url = "https://farcaster.xyz"
+profile_url = "https://farcaster.xyz/{username}"
+hosts = ["farcaster.xyz", "warpcast.com"]
+check = "maigret"
+
+[[platform]]
+id = "lens"
+name = "Hey (Lens Protocol)"
+category = "microblogging"
+url = "https://hey.xyz"
+profile_url = "https://hey.xyz/u/{username}"
+check = "maigret"
+
+[[platform]]
+id = "cohost"
+name = "Cohost"
+category = "microblogging"
+url = "https://cohost.org"
+public_profile = "none"
+check = "none"
+status = "defunct"
+status_note = "Cohost closed at the end of 2024."
+
+[[platform]]
+id = "vero"
+name = "VERO"
+category = "social"
+url = "https://vero.co"
+profile_url = "https://vero.co/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "mewe"
+name = "MeWe"
+category = "social"
+url = "https://mewe.com"
+profile_url = "https://mewe.com/i/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "lemon8"
+name = "Lemon8"
+category = "social"
+url = "https://www.lemon8-app.com"
+profile_url = "https://www.lemon8-app.com/@{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "myspace"
+name = "Myspace"
+category = "social"
+url = "https://myspace.com"
+profile_url = "https://myspace.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "bereal"
+name = "BeReal"
+category = "social"
+url = "https://bereal.com"
+profile_url = "https://bere.al/{username}"
+hosts = ["bere.al", "bereal.com"]
+public_profile = "partial"
+private_accounts = true
+check = "maigret"
+notes = "Posts are shared with friends only; public profile links show little."
+
+[[platform]]
+id = "clubhouse"
+name = "Clubhouse"
+category = "social"
+url = "https://www.clubhouse.com"
+profile_url = "https://www.clubhouse.com/@{username}"
+hosts = ["clubhouse.com", "joinclubhouse.com"]
+check = "whatsmyname"
+
+[[platform]]
+id = "douyin"
+name = "Douyin"
+category = "video"
+url = "https://www.douyin.com"
+countries = ["CN"]
+region = "China"
+public_profile = "partial"
+check = "manual"
+notes = "Chinese TikTok. Profile URLs use opaque IDs and pages sit behind anti-bot protection."
+
+[[platform]]
+id = "kuaishou"
+name = "Kuaishou"
+category = "video"
+url = "https://www.kuaishou.com"
+countries = ["CN"]
+region = "China"
+public_profile = "partial"
+check = "manual"
+
+[[platform]]
+id = "xiaohongshu"
+name = "Xiaohongshu (RED)"
+category = "social"
+url = "https://www.xiaohongshu.com"
+countries = ["CN"]
+region = "China"
+public_profile = "login_wall"
+check = "manual"
+
+[[platform]]
+id = "douban"
+name = "Douban"
+category = "social"
+url = "https://www.douban.com"
+profile_url = "https://www.douban.com/people/{username}/"
+countries = ["CN"]
+region = "China"
+check = "maigret"
+
+[[platform]]
+id = "tieba"
+name = "Baidu Tieba"
+category = "forums"
+url = "https://tieba.baidu.com"
+countries = ["CN"]
+region = "China"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "qzone"
+name = "Qzone"
+category = "social"
+url = "https://qzone.qq.com"
+countries = ["CN"]
+region = "China"
+public_profile = "login_wall"
+private_accounts = true
+check = "manual"
+
+[[platform]]
+id = "kwai"
+name = "Kwai"
+category = "video"
+url = "https://www.kwai.com"
+profile_url = "https://www.kwai.com/@{username}"
+region = "Brazil, Latin America, global"
+check = "whatsmyname"
+
+[[platform]]
+id = "sharechat"
+name = "ShareChat"
+category = "social"
+url = "https://sharechat.com"
+profile_url = "https://sharechat.com/profile/{username}"
+countries = ["IN"]
+region = "India"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "moj"
+name = "Moj"
+category = "video"
+url = "https://mojapp.in"
+profile_url = "https://mojapp.in/@{username}"
+countries = ["IN"]
+region = "India"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "likee"
+name = "Likee"
+category = "video"
+url = "https://likee.video"
+profile_url = "https://likee.video/@{username}"
+check = "maigret"
+
+[[platform]]
+id = "triller"
+name = "Triller"
+category = "video"
+url = "https://triller.co"
+profile_url = "https://triller.co/@{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "mixi"
+name = "mixi"
+category = "social"
+url = "https://mixi.jp"
+countries = ["JP"]
+region = "Japan"
+public_profile = "login_wall"
+check = "manual"
+
+[[platform]]
+id = "cyworld"
+name = "Cyworld"
+category = "social"
+url = "https://cyworld.com"
+countries = ["KR"]
+region = "South Korea"
+public_profile = "login_wall"
+check = "manual"
+
+[[platform]]
+id = "band"
+name = "BAND (Naver)"
+category = "social"
+url = "https://band.us"
+countries = ["KR"]
+region = "South Korea"
+public_profile = "login_wall"
+private_accounts = true
+check = "manual"
+notes = "Group communities; most bands are private."
+
+[[platform]]
+id = "kakaostory"
+name = "Kakao Story"
+category = "social"
+url = "https://story.kakao.com"
+profile_url = "https://story.kakao.com/{username}"
+countries = ["KR"]
+region = "South Korea"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "draugiem"
+name = "Draugiem.lv"
+category = "social"
+url = "https://www.draugiem.lv"
+countries = ["LV"]
+region = "Latvia"
+public_profile = "login_wall"
+check = "manual"
+
+[[platform]]
+id = "wykop"
+name = "Wykop"
+category = "forums"
+url = "https://wykop.pl"
+profile_url = "https://wykop.pl/ludzie/{username}"
+countries = ["PL"]
+region = "Poland"
+check = "whatsmyname"
+
+[[platform]]
+id = "skyrock"
+name = "Skyrock"
+category = "writing"
+url = "https://www.skyrock.com"
+profile_url = "https://{username}.skyrock.com"
+countries = ["FR"]
+region = "France"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "jappy"
+name = "Jappy"
+category = "social"
+url = "https://www.jappy.de"
+profile_url = "https://www.jappy.de/user/{username}"
+countries = ["DE"]
+region = "Germany"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "stayfriends"
+name = "StayFriends"
+category = "social"
+url = "https://www.stayfriends.de"
+countries = ["DE"]
+region = "Germany"
+public_profile = "login_wall"
+check = "manual"
+
+[[platform]]
+id = "my_mail_ru"
+name = "My.Mail.Ru (Moi Mir)"
+category = "social"
+url = "https://my.mail.ru"
+profile_url = "https://my.mail.ru/mail/{username}/"
+countries = ["RU"]
+region = "Russia"
+check = "maigret"
+
+[[platform]]
+id = "tenchat"
+name = "TenChat"
+category = "professional"
+url = "https://tenchat.ru"
+profile_url = "https://tenchat.ru/{username}"
+countries = ["RU"]
+region = "Russia"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "nextdoor"
+name = "Nextdoor"
+category = "social"
+url = "https://nextdoor.com"
+countries = ["US", "GB", "NL", "AU", "CA", "DE", "FR", "ES", "IT", "SE", "DK"]
+public_profile = "login_wall"
+check = "manual"
+notes = "Neighbourhood network; content is visible to verified neighbours only."
+
+[[platform]]
+id = "steemit"
+name = "Steemit"
+category = "writing"
+url = "https://steemit.com"
+profile_url = "https://steemit.com/@{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "hive"
+name = "Hive (hive.blog)"
+category = "writing"
+url = "https://hive.blog"
+profile_url = "https://hive.blog/@{username}"
+hosts = ["hive.blog", "peakd.com", "ecency.com"]
+username_pattern = "^[a-z][a-z0-9.-]{2,15}$"
+api = "public"
+api_requirements = "Public blockchain RPC (no key)"
+check = "probe"
+probe = { username_case = "lower", url = "https://api.hive.blog", method = "POST", body = "{\"jsonrpc\":\"2.0\",\"method\":\"condenser_api.get_accounts\",\"params\":[[\"{username}\"]],\"id\":1}", list_path = "result", match = "name", fields = { created_at = "created", user_id = "id" }, docs = "https://developers.hive.io/apidefinitions/" }
+
+[[platform]]
+id = "diaspora"
+name = "diaspora*"
+category = "social"
+url = "https://diasporafoundation.org"
+check = "manual"
+notes = "Federated network; profiles live on independent pods (user@pod)."
+
+[[platform]]
+id = "peertube"
+name = "PeerTube (federated video)"
+category = "video"
+url = "https://joinpeertube.org"
+public_search = "yes"
+check = "manual"
+notes = "Federated video; search across instances with Sepia Search."
+
+[[platform]]
+id = "orkut"
+name = "Orkut"
+category = "social"
+url = "https://www.orkut.com"
+countries = ["BR", "IN"]
+public_profile = "none"
+check = "none"
+status = "defunct"
+status_note = "Shut down in 2014."
+
+[[platform]]
+id = "google_plus"
+name = "Google+"
+category = "social"
+url = "https://plus.google.com"
+public_profile = "none"
+check = "none"
+status = "defunct"
+status_note = "Consumer Google+ shut down in April 2019; only archived copies remain."
+
+[[platform]]
+id = "nk_pl"
+name = "nk.pl (Nasza-klasa)"
+category = "social"
+url = "https://nk.pl"
+countries = ["PL"]
+public_profile = "none"
+check = "none"
+status = "defunct"
+status_note = "Closed in July 2021."
+
+[[platform]]
+id = "niconico"
+name = "Niconico"
+category = "video"
+url = "https://www.nicovideo.jp"
+countries = ["JP"]
+region = "Japan"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "rutube"
+name = "RUTUBE"
+category = "video"
+url = "https://rutube.ru"
+countries = ["RU"]
+region = "Russia"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "aparat"
+name = "Aparat"
+category = "video"
+url = "https://www.aparat.com"
+profile_url = "https://www.aparat.com/{username}"
+countries = ["IR"]
+region = "Iran"
+check = "whatsmyname"
+
+[[platform]]
+id = "bitchute"
+name = "BitChute"
+category = "video"
+url = "https://www.bitchute.com"
+profile_url = "https://www.bitchute.com/channel/{username}/"
+check = "whatsmyname"
+
+[[platform]]
+id = "trovo"
+name = "Trovo"
+category = "video"
+url = "https://trovo.live"
+profile_url = "https://trovo.live/s/{username}"
+check = "sherlock"
+
+[[platform]]
+id = "dlive"
+name = "DLive"
+category = "video"
+url = "https://dlive.tv"
+profile_url = "https://dlive.tv/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "soop"
+name = "SOOP (AfreecaTV)"
+category = "video"
+url = "https://www.sooplive.co.kr"
+profile_url = "https://ch.sooplive.co.kr/{username}"
+hosts = ["sooplive.co.kr", "afreecatv.com"]
+countries = ["KR"]
+region = "South Korea"
+check = "maigret"
+
+[[platform]]
+id = "chzzk"
+name = "CHZZK (Naver)"
+category = "video"
+url = "https://chzzk.naver.com"
+countries = ["KR"]
+region = "South Korea"
+check = "manual"
+
+[[platform]]
+id = "youku"
+name = "Youku"
+category = "video"
+url = "https://www.youku.com"
+countries = ["CN"]
+region = "China"
+check = "manual"
+
+[[platform]]
+id = "douyu"
+name = "Douyu"
+category = "video"
+url = "https://www.douyu.com"
+countries = ["CN"]
+region = "China"
+check = "manual"
+
+[[platform]]
+id = "younow"
+name = "YouNow"
+category = "video"
+url = "https://www.younow.com"
+profile_url = "https://www.younow.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "apple_music"
+name = "Apple Music"
+category = "music"
+url = "https://music.apple.com"
+api = "public"
+api_requirements = "iTunes Search API (no key) finds artists by name"
+public_search = "yes"
+check = "manual"
+notes = "Artist pages use numeric IDs; there are no user profiles."
+
+[[platform]]
+id = "deezer"
+name = "Deezer"
+category = "music"
+url = "https://www.deezer.com"
+api = "public"
+api_requirements = "Public API by numeric user ID (no username lookup)"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "tidal"
+name = "TIDAL"
+category = "music"
+url = "https://tidal.com"
+check = "manual"
+notes = "Artist pages only; user profiles are private."
+
+[[platform]]
+id = "audiomack"
+name = "Audiomack"
+category = "music"
+url = "https://audiomack.com"
+profile_url = "https://audiomack.com/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "reverbnation"
+name = "ReverbNation"
+category = "music"
+url = "https://www.reverbnation.com"
+profile_url = "https://www.reverbnation.com/{username}"
+check = "maigret"
+
+[[platform]]
+id = "genius"
+name = "Genius"
+category = "music"
+url = "https://genius.com"
+profile_url = "https://genius.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "smule"
+name = "Smule"
+category = "music"
+url = "https://www.smule.com"
+profile_url = "https://www.smule.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "audius"
+name = "Audius"
+category = "music"
+url = "https://audius.co"
+profile_url = "https://audius.co/{username}"
+api = "public"
+api_requirements = "Public API (no key)"
+check = "probe"
+probe = { url = "https://api.audius.co/v1/users/handle/{username}", require = "data.id", fields = { display_name = "data.name", bio = "data.bio", location = "data.location", followers = "data.follower_count", user_id = "data.id" }, docs = "https://docs.audius.org/" }
+
+[[platform]]
+id = "anghami"
+name = "Anghami"
+category = "music"
+url = "https://www.anghami.com"
+countries = ["AE", "SA", "EG", "LB", "JO", "KW", "QA", "BH", "OM", "MA", "DZ", "TN", "IQ"]
+region = "Middle East & North Africa"
+check = "manual"
+
+[[platform]]
+id = "boomplay"
+name = "Boomplay"
+category = "music"
+url = "https://www.boomplay.com"
+countries = ["NG", "KE", "GH", "TZ", "UG", "ZM", "CM", "CI"]
+region = "Africa"
+check = "manual"
+
+[[platform]]
+id = "netease_music"
+name = "NetEase Cloud Music"
+category = "music"
+url = "https://music.163.com"
+profile_url = "https://music.163.com/user/home?id={username}"
+countries = ["CN"]
+region = "China"
+check = "maigret"
+
+[[platform]]
+id = "yandex_music"
+name = "Yandex Music"
+category = "music"
+url = "https://music.yandex.ru"
+countries = ["RU", "BY", "KZ"]
+region = "Russia & CIS"
+check = "manual"
+
+[[platform]]
+id = "setlistfm"
+name = "setlist.fm"
+category = "music"
+url = "https://www.setlist.fm"
+profile_url = "https://www.setlist.fm/user/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "rateyourmusic"
+name = "Rate Your Music"
+category = "music"
+url = "https://rateyourmusic.com"
+profile_url = "https://rateyourmusic.com/~{username}"
+check = "sherlock"
+
+[[platform]]
+id = "musescore"
+name = "MuseScore"
+category = "music"
+url = "https://musescore.com"
+profile_url = "https://musescore.com/{username}"
+check = "maigret"
+
+[[platform]]
+id = "freesound"
+name = "Freesound"
+category = "music"
+url = "https://freesound.org"
+profile_url = "https://freesound.org/people/{username}/"
+check = "whatsmyname"
+
+[[platform]]
+id = "resident_advisor"
+name = "Resident Advisor"
+category = "music"
+url = "https://ra.co"
+profile_url = "https://ra.co/dj/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "hearthis"
+name = "hearthis.at"
+category = "music"
+url = "https://hearthis.at"
+profile_url = "https://hearthis.at/{username}/"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "apple_podcasts"
+name = "Apple Podcasts"
+category = "podcasts"
+url = "https://podcasts.apple.com"
+api = "public"
+api_requirements = "iTunes Search API (no key) — search shows and hosts by name"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "podcast_index"
+name = "Podcast Index"
+category = "podcasts"
+url = "https://podcastindex.org"
+api = "key"
+api_requirements = "Free API key"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "spreaker"
+name = "Spreaker"
+category = "podcasts"
+url = "https://www.spreaker.com"
+profile_url = "https://www.spreaker.com/user/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "podbean"
+name = "Podbean"
+category = "podcasts"
+url = "https://www.podbean.com"
+profile_url = "https://{username}.podbean.com"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "castbox"
+name = "Castbox"
+category = "podcasts"
+url = "https://castbox.fm"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "listennotes"
+name = "Listen Notes"
+category = "podcasts"
+url = "https://www.listennotes.com"
+api = "key"
+api_requirements = "API key (free tier)"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "vsco"
+name = "VSCO"
+category = "photography"
+url = "https://vsco.co"
+profile_url = "https://vsco.co/{username}/gallery"
+check = "whatsmyname"
+
+[[platform]]
+id = "pexels"
+name = "Pexels"
+category = "photography"
+url = "https://www.pexels.com"
+profile_url = "https://www.pexels.com/@{username}"
+check = "maigret"
+
+[[platform]]
+id = "pixabay"
+name = "Pixabay"
+category = "photography"
+url = "https://pixabay.com"
+check = "manual"
+notes = "Profile URLs include a numeric ID."
+
+[[platform]]
+id = "smugmug"
+name = "SmugMug"
+category = "photography"
+url = "https://www.smugmug.com"
+profile_url = "https://{username}.smugmug.com"
+check = "whatsmyname"
+
+[[platform]]
+id = "lomography"
+name = "Lomography"
+category = "photography"
+url = "https://www.lomography.com"
+profile_url = "https://www.lomography.com/homes/{username}"
+check = "maigret"
+
+[[platform]]
+id = "youpic"
+name = "YouPic"
+category = "photography"
+url = "https://youpic.com"
+profile_url = "https://youpic.com/photographer/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "glass_photo"
+name = "Glass"
+category = "photography"
+url = "https://glass.photo"
+profile_url = "https://glass.photo/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "35photo"
+name = "35PHOTO"
+category = "photography"
+url = "https://35photo.pro"
+profile_url = "https://35photo.pro/@{username}/"
+countries = ["RU"]
+region = "Russia"
+check = "whatsmyname"
+
+[[platform]]
+id = "photobucket"
+name = "Photobucket"
+category = "photography"
+url = "https://photobucket.com"
+check = "manual"
+
+[[platform]]
+id = "gurushots"
+name = "GuruShots"
+category = "photography"
+url = "https://gurushots.com"
+profile_url = "https://gurushots.com/{username}/photos"
+check = "maigret"
+
+[[platform]]
+id = "pixiv"
+name = "pixiv"
+category = "art"
+url = "https://www.pixiv.net"
+countries = ["JP"]
+region = "Japan"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "newgrounds"
+name = "Newgrounds"
+category = "art"
+url = "https://www.newgrounds.com"
+profile_url = "https://{username}.newgrounds.com"
+check = "whatsmyname"
+
+[[platform]]
+id = "sketchfab"
+name = "Sketchfab"
+category = "art"
+url = "https://sketchfab.com"
+profile_url = "https://sketchfab.com/{username}"
+check = "maigret"
+
+[[platform]]
+id = "cara"
+name = "Cara"
+category = "art"
+url = "https://cara.app"
+profile_url = "https://cara.app/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "furaffinity"
+name = "Fur Affinity"
+category = "art"
+url = "https://www.furaffinity.net"
+profile_url = "https://www.furaffinity.net/user/{username}/"
+check = "whatsmyname"
+
+[[platform]]
+id = "society6"
+name = "Society6"
+category = "art"
+url = "https://society6.com"
+profile_url = "https://society6.com/{username}"
+check = "maigret"
+
+[[platform]]
+id = "redbubble"
+name = "Redbubble"
+category = "art"
+url = "https://www.redbubble.com"
+profile_url = "https://www.redbubble.com/people/{username}/shop"
+check = "whatsmyname"
+
+[[platform]]
+id = "coroflot"
+name = "Coroflot"
+category = "art"
+url = "https://www.coroflot.com"
+profile_url = "https://www.coroflot.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "figma_community"
+name = "Figma Community"
+category = "art"
+url = "https://www.figma.com/community"
+profile_url = "https://www.figma.com/@{username}"
+hosts = ["figma.com"]
+check = "whatsmyname"
+
+[[platform]]
+id = "booth"
+name = "BOOTH"
+category = "marketplaces"
+url = "https://booth.pm"
+profile_url = "https://{username}.booth.pm"
+countries = ["JP"]
+region = "Japan"
+check = "whatsmyname"
+
+[[platform]]
+id = "skeb"
+name = "Skeb"
+category = "art"
+url = "https://skeb.jp"
+profile_url = "https://skeb.jp/@{username}"
+countries = ["JP"]
+region = "Japan"
+check = "whatsmyname"
+
+[[platform]]
+id = "dreamwidth"
+name = "Dreamwidth"
+category = "writing"
+url = "https://www.dreamwidth.org"
+profile_url = "https://{username}.dreamwidth.org"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "ao3"
+name = "Archive of Our Own"
+category = "writing"
+url = "https://archiveofourown.org"
+profile_url = "https://archiveofourown.org/users/{username}"
+check = "maigret"
+
+[[platform]]
+id = "fanfiction"
+name = "FanFiction.Net"
+category = "writing"
+url = "https://www.fanfiction.net"
+check = "manual"
+notes = "Author pages use numeric IDs and sit behind anti-bot protection."
+
+[[platform]]
+id = "writeas"
+name = "Write.as"
+category = "writing"
+url = "https://write.as"
+profile_url = "https://write.as/{username}/"
+check = "maigret"
+
+[[platform]]
+id = "mirror_xyz"
+name = "Mirror"
+category = "writing"
+url = "https://mirror.xyz"
+check = "manual"
+notes = "Authors are identified by wallet address or ENS name."
+
+[[platform]]
+id = "ameba"
+name = "Ameba Blog"
+category = "writing"
+url = "https://ameblo.jp"
+profile_url = "https://ameblo.jp/{username}/"
+countries = ["JP"]
+region = "Japan"
+check = "whatsmyname"
+
+[[platform]]
+id = "note_jp"
+name = "note"
+category = "writing"
+url = "https://note.com"
+profile_url = "https://note.com/{username}"
+countries = ["JP"]
+region = "Japan"
+check = "whatsmyname"
+
+[[platform]]
+id = "hatena"
+name = "Hatena"
+category = "writing"
+url = "https://hatenablog.com"
+profile_url = "https://profile.hatena.ne.jp/{username}/"
+hosts = ["hatena.ne.jp", "hatenablog.com"]
+countries = ["JP"]
+region = "Japan"
+check = "maigret"
+
+[[platform]]
+id = "tistory"
+name = "Tistory"
+category = "writing"
+url = "https://www.tistory.com"
+profile_url = "https://{username}.tistory.com"
+countries = ["KR"]
+region = "South Korea"
+check = "maigret"
+
+[[platform]]
+id = "brunch"
+name = "Brunch Story"
+category = "writing"
+url = "https://brunch.co.kr"
+profile_url = "https://brunch.co.kr/@{username}"
+countries = ["KR"]
+region = "South Korea"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "jianshu"
+name = "Jianshu"
+category = "writing"
+url = "https://www.jianshu.com"
+countries = ["CN"]
+region = "China"
+check = "manual"
+
+[[platform]]
+id = "teletype"
+name = "Teletype"
+category = "writing"
+url = "https://teletype.in"
+profile_url = "https://teletype.in/@{username}"
+countries = ["RU"]
+region = "Russia"
+check = "whatsmyname"
+
+[[platform]]
+id = "vc_ru"
+name = "vc.ru"
+category = "writing"
+url = "https://vc.ru"
+countries = ["RU"]
+region = "Russia"
+check = "manual"
+
+[[platform]]
+id = "telegraph"
+name = "Telegraph (telegra.ph)"
+category = "writing"
+url = "https://telegra.ph"
+check = "manual"
+notes = "Anonymous publishing tool: articles have no author pages."
+
+[[platform]]
+id = "ghost"
+name = "Ghost (self-hosted blogs)"
+category = "writing"
+url = "https://ghost.org"
+check = "manual"
+notes = "Blogs run on their own domains."
+
+[[platform]]
+id = "paragraph"
+name = "Paragraph"
+category = "newsletters"
+url = "https://paragraph.com"
+profile_url = "https://paragraph.com/@{username}"
+hosts = ["paragraph.com", "paragraph.xyz"]
+check = "whatsmyname"
+
+[[platform]]
+id = "buttondown"
+name = "Buttondown"
+category = "newsletters"
+url = "https://buttondown.com"
+profile_url = "https://buttondown.com/{username}"
+hosts = ["buttondown.com", "buttondown.email"]
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "beehiiv"
+name = "beehiiv"
+category = "newsletters"
+url = "https://www.beehiiv.com"
+check = "manual"
+notes = "Newsletters run on beehiiv subdomains or custom domains."
+
+[[platform]]
+id = "revue"
+name = "Revue"
+category = "newsletters"
+url = "https://www.getrevue.co"
+public_profile = "none"
+check = "none"
+status = "defunct"
+status_note = "Shut down in January 2023."
+
+[[platform]]
+id = "tinyletter"
+name = "TinyLetter"
+category = "newsletters"
+url = "https://tinyletter.com"
+public_profile = "none"
+check = "none"
+status = "defunct"
+status_note = "Shut down in February 2024."
+
+[[platform]]
+id = "wellfound"
+name = "Wellfound (AngelList Talent)"
+category = "jobs"
+url = "https://wellfound.com"
+profile_url = "https://wellfound.com/u/{username}"
+hosts = ["wellfound.com", "angel.co"]
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "indeed"
+name = "Indeed"
+category = "jobs"
+url = "https://www.indeed.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Résumés are visible to employers only."
+
+[[platform]]
+id = "glassdoor"
+name = "Glassdoor"
+category = "reviews"
+url = "https://www.glassdoor.com"
+public_search = "yes"
+check = "manual"
+notes = "Employer reviews are anonymous; useful for organizations, not for identifying people."
+
+[[platform]]
+id = "hh_ru"
+name = "hh.ru (HeadHunter)"
+category = "jobs"
+url = "https://hh.ru"
+countries = ["RU", "BY", "KZ"]
+region = "Russia & CIS"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "CVs are visible to registered employers only."
+
+[[platform]]
+id = "naukri"
+name = "Naukri"
+category = "jobs"
+url = "https://www.naukri.com"
+countries = ["IN"]
+region = "India"
+public_profile = "none"
+private_accounts = true
+check = "none"
+
+[[platform]]
+id = "djinni"
+name = "Djinni"
+category = "jobs"
+url = "https://djinni.co"
+countries = ["UA"]
+region = "Ukraine"
+check = "manual"
+
+[[platform]]
+id = "dou"
+name = "DOU"
+category = "developer"
+url = "https://dou.ua"
+profile_url = "https://dou.ua/users/{username}/"
+countries = ["UA"]
+region = "Ukraine"
+check = "whatsmyname"
+
+[[platform]]
+id = "crunchbase_people"
+name = "Crunchbase"
+category = "directories"
+url = "https://www.crunchbase.com"
+api = "paid"
+api_requirements = "Crunchbase API (paid plans)"
+public_search = "yes"
+check = "manual"
+notes = "People and company profiles; much of the detail is behind a subscription."
+
+[[platform]]
+id = "upwork"
+name = "Upwork"
+category = "freelance"
+url = "https://www.upwork.com"
+public_profile = "partial"
+check = "manual"
+notes = "Freelancer profiles use opaque IDs (~01…); search requires login."
+
+[[platform]]
+id = "freelancer_com"
+name = "Freelancer.com"
+category = "freelance"
+url = "https://www.freelancer.com"
+profile_url = "https://www.freelancer.com/u/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "toptal"
+name = "Toptal"
+category = "freelance"
+url = "https://www.toptal.com"
+profile_url = "https://www.toptal.com/resume/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "peopleperhour"
+name = "PeoplePerHour"
+category = "freelance"
+url = "https://www.peopleperhour.com"
+check = "manual"
+
+[[platform]]
+id = "guru"
+name = "Guru"
+category = "freelance"
+url = "https://www.guru.com"
+check = "manual"
+
+[[platform]]
+id = "99designs"
+name = "99designs"
+category = "freelance"
+url = "https://99designs.com"
+profile_url = "https://99designs.com/profiles/{username}"
+check = "maigret"
+
+[[platform]]
+id = "contra"
+name = "Contra"
+category = "freelance"
+url = "https://contra.com"
+profile_url = "https://contra.com/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "malt"
+name = "Malt"
+category = "freelance"
+url = "https://www.malt.fr"
+countries = ["FR", "DE", "ES", "NL", "BE"]
+region = "Western Europe"
+check = "manual"
+
+[[platform]]
+id = "workana"
+name = "Workana"
+category = "freelance"
+url = "https://www.workana.com"
+countries = ["BR", "AR", "MX", "CO", "CL", "PE"]
+region = "Latin America"
+check = "manual"
+
+[[platform]]
+id = "kwork"
+name = "Kwork"
+category = "freelance"
+url = "https://kwork.ru"
+profile_url = "https://kwork.ru/user/{username}"
+countries = ["RU"]
+region = "Russia"
+check = "whatsmyname"
+
+[[platform]]
+id = "fl_ru"
+name = "FL.ru"
+category = "freelance"
+url = "https://www.fl.ru"
+profile_url = "https://www.fl.ru/users/{username}/"
+countries = ["RU"]
+region = "Russia"
+check = "whatsmyname"
+
+[[platform]]
+id = "codementor"
+name = "Codementor"
+category = "freelance"
+url = "https://www.codementor.io"
+profile_url = "https://www.codementor.io/@{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "topcoder"
+name = "Topcoder"
+category = "developer"
+url = "https://www.topcoder.com"
+profile_url = "https://profiles.topcoder.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "playstation"
+name = "PlayStation Network"
+category = "gaming"
+url = "https://www.playstation.com"
+public_profile = "login_wall"
+private_accounts = true
+check = "none"
+notes = "No official public profile lookup. Third-party trackers such as PSNProfiles index only users who opted in."
+
+[[platform]]
+id = "psnprofiles"
+name = "PSNProfiles (third-party)"
+category = "gaming"
+url = "https://psnprofiles.com"
+profile_url = "https://psnprofiles.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "epicgames"
+name = "Epic Games"
+category = "gaming"
+url = "https://store.epicgames.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Epic accounts have no public profile pages."
+
+[[platform]]
+id = "battlenet"
+name = "Battle.net"
+category = "gaming"
+url = "https://battle.net"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "BattleTags are not publicly searchable; game armories show characters, not accounts."
+
+[[platform]]
+id = "riot_games"
+name = "Riot Games (Riot ID)"
+category = "gaming"
+url = "https://www.riotgames.com"
+api = "key"
+api_requirements = "Riot Developer API key (personal keys expire every 24 h; production keys need approval)"
+check = "manual"
+
+[[platform]]
+id = "ubisoft"
+name = "Ubisoft Connect"
+category = "gaming"
+url = "https://www.ubisoft.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+
+[[platform]]
+id = "ea"
+name = "EA app (Origin)"
+category = "gaming"
+url = "https://www.ea.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+
+[[platform]]
+id = "minecraft"
+name = "Minecraft (Java Edition names)"
+category = "gaming"
+url = "https://www.minecraft.net"
+profile_url = "https://namemc.com/profile/{username}"
+hosts = ["minecraft.net", "namemc.com", "api.mojang.com"]
+username_pattern = "^[A-Za-z0-9_]{3,16}$"
+api = "public"
+api_requirements = "Mojang public API (no key)"
+check = "probe"
+notes = "Profile link opens NameMC (third-party viewer)."
+probe = { url = "https://api.mojang.com/users/profiles/minecraft/{username}", missing_status = [404, 204], require = "id", fields = { display_name = "name", user_id = "id" }, docs = "https://minecraft.wiki/w/Mojang_API" }
+
+[[platform]]
+id = "gamejolt"
+name = "Game Jolt"
+category = "gaming"
+url = "https://gamejolt.com"
+profile_url = "https://gamejolt.com/@{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "osu"
+name = "osu!"
+category = "gaming"
+url = "https://osu.ppy.sh"
+profile_url = "https://osu.ppy.sh/users/{username}"
+api = "key"
+api_requirements = "OAuth client (free)"
+check = "whatsmyname"
+
+[[platform]]
+id = "faceit"
+name = "FACEIT"
+category = "gaming"
+url = "https://www.faceit.com"
+profile_url = "https://www.faceit.com/en/players/{username}"
+api = "key"
+api_requirements = "Free API key"
+check = "whatsmyname"
+
+[[platform]]
+id = "curseforge"
+name = "CurseForge"
+category = "gaming"
+url = "https://www.curseforge.com"
+profile_url = "https://www.curseforge.com/members/{username}"
+check = "maigret"
+
+[[platform]]
+id = "modrinth"
+name = "Modrinth"
+category = "gaming"
+url = "https://modrinth.com"
+profile_url = "https://modrinth.com/user/{username}"
+api = "public"
+api_requirements = "Public API (no key)"
+check = "probe"
+probe = { url = "https://api.modrinth.com/v2/user/{username}", require = "id", fields = { display_name = "name", bio = "bio", avatar_url = "avatar_url", created_at = "created", user_id = "id" }, docs = "https://docs.modrinth.com/api/" }
+
+[[platform]]
+id = "planetminecraft"
+name = "Planet Minecraft"
+category = "gaming"
+url = "https://www.planetminecraft.com"
+profile_url = "https://www.planetminecraft.com/member/{username}/"
+check = "maigret"
+
+[[platform]]
+id = "runescape"
+name = "RuneScape (hiscores)"
+category = "gaming"
+url = "https://www.runescape.com"
+profile_url = "https://secure.runescape.com/m=hiscore/compare?user1={username}"
+username_pattern = "^[A-Za-z0-9 _-]{1,12}$"
+api = "public"
+api_requirements = "Public hiscores (no key)"
+check = "probe"
+notes = "Only players ranked on the hiscores are found."
+probe = { url = "https://secure.runescape.com/m=hiscore/index_lite.ws?player={username}", format = "text", docs = "https://runescape.wiki/w/Application_programming_interface#Hiscores_Lite" }
+
+[[platform]]
+id = "gog"
+name = "GOG.com"
+category = "gaming"
+url = "https://www.gog.com"
+profile_url = "https://www.gog.com/u/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "kongregate"
+name = "Kongregate"
+category = "gaming"
+url = "https://www.kongregate.com"
+profile_url = "https://www.kongregate.com/accounts/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "boardgamegeek"
+name = "BoardGameGeek"
+category = "gaming"
+url = "https://boardgamegeek.com"
+profile_url = "https://boardgamegeek.com/user/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "backloggd"
+name = "Backloggd"
+category = "gaming"
+url = "https://www.backloggd.com"
+profile_url = "https://www.backloggd.com/u/{username}/"
+check = "maigret"
+
+[[platform]]
+id = "retroachievements"
+name = "RetroAchievements"
+category = "gaming"
+url = "https://retroachievements.org"
+profile_url = "https://retroachievements.org/user/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "trueachievements"
+name = "TrueAchievements"
+category = "gaming"
+url = "https://www.trueachievements.com"
+profile_url = "https://www.trueachievements.com/gamer/{username}"
+check = "maigret"
+
+[[platform]]
+id = "nexusmods"
+name = "Nexus Mods"
+category = "gaming"
+url = "https://www.nexusmods.com"
+check = "manual"
+notes = "Member pages use numeric IDs."
+
+[[platform]]
+id = "bahamut"
+name = "Bahamut (gamer.com.tw)"
+category = "forums"
+url = "https://www.gamer.com.tw"
+profile_url = "https://home.gamer.com.tw/profile/index.php?owner={username}"
+countries = ["TW"]
+region = "Taiwan"
+check = "maigret"
+
+[[platform]]
+id = "tracker_gg"
+name = "Tracker Network (tracker.gg)"
+category = "gaming"
+url = "https://tracker.gg"
+public_search = "yes"
+check = "manual"
+notes = "Third-party game statistics; search by in-game name per game."
+
+[[platform]]
+id = "codingame"
+name = "CodinGame"
+category = "developer"
+url = "https://www.codingame.com"
+check = "manual"
+notes = "Profiles use hexadecimal IDs."
+
+[[platform]]
+id = "flashback"
+name = "Flashback Forum"
+category = "forums"
+url = "https://www.flashback.org"
+countries = ["SE"]
+region = "Sweden"
+public_search = "yes"
+check = "manual"
+notes = "Large anonymous Swedish forum; posts are indexed by search engines. No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "familjeliv"
+name = "FamiljeLiv"
+category = "forums"
+url = "https://www.familjeliv.se"
+countries = ["SE"]
+region = "Sweden"
+public_search = "yes"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "nairaland"
+name = "Nairaland"
+category = "forums"
+url = "https://www.nairaland.com"
+profile_url = "https://www.nairaland.com/{username}"
+countries = ["NG"]
+region = "Nigeria"
+check = "whatsmyname"
+
+[[platform]]
+id = "kaskus"
+name = "Kaskus"
+category = "forums"
+url = "https://www.kaskus.co.id"
+profile_url = "https://www.kaskus.co.id/@{username}"
+countries = ["ID"]
+region = "Indonesia"
+check = "sherlock"
+
+[[platform]]
+id = "pantip"
+name = "Pantip"
+category = "forums"
+url = "https://pantip.com"
+countries = ["TH"]
+region = "Thailand"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "ptt"
+name = "PTT"
+category = "forums"
+url = "https://www.ptt.cc"
+countries = ["TW"]
+region = "Taiwan"
+public_search = "yes"
+check = "manual"
+notes = "Bulletin board system; the web view has boards and posts, not user pages."
+
+[[platform]]
+id = "dcard"
+name = "Dcard"
+category = "forums"
+url = "https://www.dcard.tw"
+profile_url = "https://www.dcard.tw/@{username}"
+countries = ["TW"]
+region = "Taiwan"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "mobile01"
+name = "Mobile01"
+category = "forums"
+url = "https://www.mobile01.com"
+countries = ["TW"]
+region = "Taiwan"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "dcinside"
+name = "DC Inside"
+category = "forums"
+url = "https://www.dcinside.com"
+countries = ["KR"]
+region = "South Korea"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "naver_cafe"
+name = "Naver Cafe"
+category = "forums"
+url = "https://section.cafe.naver.com"
+countries = ["KR"]
+region = "South Korea"
+public_search = "limited"
+check = "manual"
+notes = "Many cafés are members-only."
+
+[[platform]]
+id = "daum_cafe"
+name = "Daum Cafe"
+category = "forums"
+url = "https://top.cafe.daum.net"
+countries = ["KR"]
+region = "South Korea"
+public_search = "limited"
+check = "manual"
+
+[[platform]]
+id = "forocoches"
+name = "ForoCoches"
+category = "forums"
+url = "https://forocoches.com"
+countries = ["ES"]
+region = "Spain"
+check = "manual"
+
+[[platform]]
+id = "jeuxvideo"
+name = "Jeuxvideo.com forums"
+category = "forums"
+url = "https://www.jeuxvideo.com"
+profile_url = "https://www.jeuxvideo.com/profil/{username}?mode=infos"
+countries = ["FR"]
+region = "France"
+check = "whatsmyname"
+
+[[platform]]
+id = "gutefrage"
+name = "gutefrage.net"
+category = "qa"
+url = "https://www.gutefrage.net"
+profile_url = "https://www.gutefrage.net/nutzer/{username}"
+countries = ["DE", "AT", "CH"]
+region = "DACH"
+check = "maigret"
+
+[[platform]]
+id = "eksisozluk"
+name = "Ekşi Sözlük"
+category = "forums"
+url = "https://eksisozluk.com"
+profile_url = "https://eksisozluk.com/biri/{username}"
+countries = ["TR"]
+region = "Türkiye"
+check = "maigret"
+
+[[platform]]
+id = "insomnia_gr"
+name = "Insomnia.gr"
+category = "forums"
+url = "https://www.insomnia.gr"
+countries = ["GR"]
+region = "Greece"
+check = "manual"
+
+[[platform]]
+id = "suomi24"
+name = "Suomi24"
+category = "forums"
+url = "https://keskustelu.suomi24.fi"
+countries = ["FI"]
+region = "Finland"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "tweakers"
+name = "Tweakers"
+category = "forums"
+url = "https://tweakers.net"
+profile_url = "https://tweakers.net/gallery/{username}/"
+countries = ["NL", "BE"]
+region = "Netherlands"
+check = "maigret"
+
+[[platform]]
+id = "voz"
+name = "VOZ"
+category = "forums"
+url = "https://voz.vn"
+countries = ["VN"]
+region = "Vietnam"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "mumsnet"
+name = "Mumsnet"
+category = "forums"
+url = "https://www.mumsnet.com"
+countries = ["GB"]
+region = "United Kingdom"
+check = "manual"
+
+[[platform]]
+id = "gamefaqs"
+name = "GameFAQs"
+category = "forums"
+url = "https://gamefaqs.gamespot.com"
+profile_url = "https://gamefaqs.gamespot.com/community/{username}"
+check = "maigret"
+
+[[platform]]
+id = "slashdot"
+name = "Slashdot"
+category = "forums"
+url = "https://slashdot.org"
+profile_url = "https://slashdot.org/~{username}"
+check = "maigret"
+
+[[platform]]
+id = "tildes"
+name = "Tildes"
+category = "forums"
+url = "https://tildes.net"
+profile_url = "https://tildes.net/user/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "something_awful"
+name = "Something Awful Forums"
+category = "forums"
+url = "https://forums.somethingawful.com"
+public_profile = "login_wall"
+check = "manual"
+
+[[platform]]
+id = "4chan"
+name = "4chan"
+category = "forums"
+url = "https://www.4chan.org"
+public_profile = "none"
+check = "none"
+notes = "Anonymous imageboard: no accounts or usernames. Old threads survive only in third-party archives."
+
+[[platform]]
+id = "5ch"
+name = "5ch"
+category = "forums"
+url = "https://5ch.net"
+countries = ["JP"]
+region = "Japan"
+public_profile = "none"
+check = "none"
+notes = "Anonymous text board."
+
+[[platform]]
+id = "xda"
+name = "XDA Forums"
+category = "forums"
+url = "https://xdaforums.com"
+hosts = ["xdaforums.com", "xda-developers.com"]
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "meneame"
+name = "Menéame"
+category = "forums"
+url = "https://www.meneame.net"
+profile_url = "https://www.meneame.net/user/{username}"
+countries = ["ES"]
+region = "Spain"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "lowyat"
+name = "Lowyat.NET Forum"
+category = "forums"
+url = "https://forum.lowyat.net"
+countries = ["MY"]
+region = "Malaysia"
+check = "manual"
+
+[[platform]]
+id = "hardwarezone"
+name = "HardwareZone Forums"
+category = "forums"
+url = "https://forums.hardwarezone.com.sg"
+countries = ["SG"]
+region = "Singapore"
+check = "manual"
+
+[[platform]]
+id = "whirlpool"
+name = "Whirlpool Forums"
+category = "forums"
+url = "https://forums.whirlpool.net.au"
+countries = ["AU"]
+region = "Australia"
+check = "manual"
+
+[[platform]]
+id = "ozbargain"
+name = "OzBargain"
+category = "forums"
+url = "https://www.ozbargain.com.au"
+countries = ["AU"]
+region = "Australia"
+check = "manual"
+
+[[platform]]
+id = "redflagdeals"
+name = "RedFlagDeals Forums"
+category = "forums"
+url = "https://forums.redflagdeals.com"
+countries = ["CA"]
+region = "Canada"
+check = "manual"
+
+[[platform]]
+id = "mybroadband"
+name = "MyBroadband Forum"
+category = "forums"
+url = "https://mybroadband.co.za"
+countries = ["ZA"]
+region = "South Africa"
+check = "manual"
+
+[[platform]]
+id = "ask_fm"
+name = "ASKfm"
+category = "qa"
+url = "https://ask.fm"
+profile_url = "https://ask.fm/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "tellonym"
+name = "Tellonym"
+category = "qa"
+url = "https://tellonym.me"
+profile_url = "https://tellonym.me/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "yahoo_chiebukuro"
+name = "Yahoo! Chiebukuro"
+category = "qa"
+url = "https://chiebukuro.yahoo.co.jp"
+countries = ["JP"]
+region = "Japan"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "naver_kin"
+name = "Naver KnowledgeiN"
+category = "qa"
+url = "https://kin.naver.com"
+countries = ["KR"]
+region = "South Korea"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "brainly"
+name = "Brainly"
+category = "qa"
+url = "https://brainly.com"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "launchpad"
+name = "Launchpad"
+category = "developer"
+url = "https://launchpad.net"
+profile_url = "https://launchpad.net/~{username}"
+api = "public"
+api_requirements = "Public REST API (no key)"
+check = "probe"
+username_pattern = "^[a-z0-9][a-z0-9+.-]{1,63}$"
+probe = { username_case = "lower", url = "https://api.launchpad.net/1.0/~{username}", require = "name", fields = { display_name = "display_name", created_at = "date_created", website = "homepage_content" }, docs = "https://launchpad.net/+apidoc/" }
+
+[[platform]]
+id = "sourcehut"
+name = "SourceHut"
+category = "developer"
+url = "https://sr.ht"
+profile_url = "https://sr.ht/~{username}/"
+check = "maigret"
+
+[[platform]]
+id = "gitea_com"
+name = "Gitea.com"
+category = "developer"
+url = "https://gitea.com"
+profile_url = "https://gitea.com/{username}"
+api = "public"
+api_requirements = "Public REST API (no key)"
+check = "probe"
+probe = { url = "https://gitea.com/api/v1/users/{username}", require = "login", fields = { display_name = "full_name", bio = "description", location = "location", website = "website", avatar_url = "avatar_url", created_at = "created", user_id = "id" }, docs = "https://gitea.com/api/swagger" }
+
+[[platform]]
+id = "codesandbox"
+name = "CodeSandbox"
+category = "developer"
+url = "https://codesandbox.io"
+profile_url = "https://codesandbox.io/u/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "observable"
+name = "Observable"
+category = "developer"
+url = "https://observablehq.com"
+profile_url = "https://observablehq.com/@{username}"
+check = "maigret"
+
+[[platform]]
+id = "glitch"
+name = "Glitch"
+category = "developer"
+url = "https://glitch.com"
+public_profile = "none"
+check = "none"
+status = "defunct"
+status_note = "Project hosting and user profiles ended in July 2025."
+
+[[platform]]
+id = "hackerrank"
+name = "HackerRank"
+category = "developer"
+url = "https://www.hackerrank.com"
+profile_url = "https://www.hackerrank.com/profile/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "codechef"
+name = "CodeChef"
+category = "developer"
+url = "https://www.codechef.com"
+profile_url = "https://www.codechef.com/users/{username}"
+countries = ["IN"]
+region = "India (global users)"
+check = "whatsmyname"
+
+[[platform]]
+id = "atcoder"
+name = "AtCoder"
+category = "developer"
+url = "https://atcoder.jp"
+profile_url = "https://atcoder.jp/users/{username}"
+countries = ["JP"]
+region = "Japan (global users)"
+check = "whatsmyname"
+
+[[platform]]
+id = "exercism"
+name = "Exercism"
+category = "developer"
+url = "https://exercism.org"
+profile_url = "https://exercism.org/profiles/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "devpost"
+name = "Devpost"
+category = "developer"
+url = "https://devpost.com"
+profile_url = "https://devpost.com/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "hackster"
+name = "Hackster.io"
+category = "developer"
+url = "https://www.hackster.io"
+profile_url = "https://www.hackster.io/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "instructables"
+name = "Instructables"
+category = "developer"
+url = "https://www.instructables.com"
+profile_url = "https://www.instructables.com/member/{username}/"
+check = "whatsmyname"
+
+[[platform]]
+id = "thingiverse"
+name = "Thingiverse"
+category = "developer"
+url = "https://www.thingiverse.com"
+profile_url = "https://www.thingiverse.com/{username}/designs"
+check = "maigret"
+
+[[platform]]
+id = "printables"
+name = "Printables"
+category = "developer"
+url = "https://www.printables.com"
+profile_url = "https://www.printables.com/@{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "openhub"
+name = "Open Hub"
+category = "developer"
+url = "https://openhub.net"
+profile_url = "https://openhub.net/accounts/{username}"
+check = "maigret"
+
+[[platform]]
+id = "wakatime"
+name = "WakaTime"
+category = "developer"
+url = "https://wakatime.com"
+profile_url = "https://wakatime.com/@{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "qiita"
+name = "Qiita"
+category = "developer"
+url = "https://qiita.com"
+profile_url = "https://qiita.com/{username}"
+countries = ["JP"]
+region = "Japan"
+api = "public"
+api_requirements = "Public API v2 (no key; 60 requests/hour unauthenticated)"
+check = "probe"
+probe = { url = "https://qiita.com/api/v2/users/{username}", require = "id", fields = { display_name = "name", bio = "description", location = "location", website = "website_url", company = "organization", avatar_url = "profile_image_url", followers = "followers_count" }, docs = "https://qiita.com/api/v2/docs" }
+
+[[platform]]
+id = "zenn"
+name = "Zenn"
+category = "developer"
+url = "https://zenn.dev"
+profile_url = "https://zenn.dev/{username}"
+countries = ["JP"]
+region = "Japan"
+check = "whatsmyname"
+
+[[platform]]
+id = "viblo"
+name = "Viblo"
+category = "developer"
+url = "https://viblo.asia"
+profile_url = "https://viblo.asia/u/{username}"
+countries = ["VN"]
+region = "Vietnam"
+check = "maigret"
+
+[[platform]]
+id = "velog"
+name = "velog"
+category = "developer"
+url = "https://velog.io"
+profile_url = "https://velog.io/@{username}"
+countries = ["KR"]
+region = "South Korea"
+check = "maigret"
+
+[[platform]]
+id = "csdn"
+name = "CSDN"
+category = "developer"
+url = "https://www.csdn.net"
+profile_url = "https://blog.csdn.net/{username}"
+hosts = ["csdn.net"]
+countries = ["CN"]
+region = "China"
+check = "maigret"
+
+[[platform]]
+id = "cnblogs"
+name = "cnblogs"
+category = "developer"
+url = "https://www.cnblogs.com"
+profile_url = "https://www.cnblogs.com/{username}/"
+countries = ["CN"]
+region = "China"
+check = "maigret"
+
+[[platform]]
+id = "intigriti"
+name = "Intigriti"
+category = "developer"
+url = "https://www.intigriti.com"
+profile_url = "https://app.intigriti.com/profile/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "hackthebox"
+name = "Hack The Box"
+category = "developer"
+url = "https://www.hackthebox.com"
+check = "manual"
+notes = "Profiles use numeric IDs."
+
+[[platform]]
+id = "root_me"
+name = "Root Me"
+category = "developer"
+url = "https://www.root-me.org"
+profile_url = "https://www.root-me.org/{username}"
+countries = ["FR"]
+region = "France (global users)"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "indiehackers"
+name = "Indie Hackers"
+category = "developer"
+url = "https://www.indiehackers.com"
+profile_url = "https://www.indiehackers.com/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "wordpress_org"
+name = "WordPress.org profiles"
+category = "developer"
+url = "https://profiles.wordpress.org"
+profile_url = "https://profiles.wordpress.org/{username}/"
+check = "whatsmyname"
+
+[[platform]]
+id = "drupal_org"
+name = "Drupal.org"
+category = "developer"
+url = "https://www.drupal.org"
+profile_url = "https://www.drupal.org/u/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "nuget"
+name = "NuGet Gallery"
+category = "packages"
+url = "https://www.nuget.org"
+profile_url = "https://www.nuget.org/profiles/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "quay"
+name = "Quay.io"
+category = "packages"
+url = "https://quay.io"
+profile_url = "https://quay.io/user/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "hexpm"
+name = "Hex (Elixir/Erlang)"
+category = "packages"
+url = "https://hex.pm"
+profile_url = "https://hex.pm/users/{username}"
+api = "public"
+api_requirements = "Public API (no key)"
+check = "probe"
+probe = { url = "https://hex.pm/api/users/{username}", require = "username", fields = { display_name = "full_name", created_at = "inserted_at", emails = "email" }, docs = "https://github.com/hexpm/specifications/blob/main/apiary.apib" }
+
+[[platform]]
+id = "metacpan"
+name = "MetaCPAN (Perl / PAUSE)"
+category = "packages"
+url = "https://metacpan.org"
+profile_url = "https://metacpan.org/author/{username}"
+username_pattern = "^[A-Za-z][A-Za-z0-9-]{1,8}$"
+api = "public"
+api_requirements = "Public API (no key)"
+check = "probe"
+probe = { url = "https://fastapi.metacpan.org/v1/author/{username}", username_case = "upper", require = "pauseid", fields = { display_name = "name", location = "city", website = "website", emails = "email", links = "website" }, docs = "https://github.com/metacpan/metacpan-api/blob/master/docs/API-docs.md" }
+
+[[platform]]
+id = "hackage"
+name = "Hackage"
+category = "packages"
+url = "https://hackage.haskell.org"
+profile_url = "https://hackage.haskell.org/user/{username}"
+check = "maigret"
+
+[[platform]]
+id = "anaconda"
+name = "Anaconda.org"
+category = "packages"
+url = "https://anaconda.org"
+profile_url = "https://anaconda.org/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "snapcraft"
+name = "Snapcraft"
+category = "packages"
+url = "https://snapcraft.io"
+profile_url = "https://snapcraft.io/publisher/{username}"
+check = "maigret"
+
+[[platform]]
+id = "luarocks"
+name = "LuaRocks"
+category = "packages"
+url = "https://luarocks.org"
+profile_url = "https://luarocks.org/modules/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "semantic_scholar"
+name = "Semantic Scholar"
+category = "academic"
+url = "https://www.semanticscholar.org"
+api = "public"
+api_requirements = "Academic Graph API (key optional)"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "dblp"
+name = "dblp computer science bibliography"
+category = "academic"
+url = "https://dblp.org"
+api = "public"
+api_requirements = "Public search API (no key)"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "arxiv"
+name = "arXiv"
+category = "academic"
+url = "https://arxiv.org"
+api = "public"
+api_requirements = "Public API (no key)"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "ssrn"
+name = "SSRN"
+category = "academic"
+url = "https://www.ssrn.com"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "pubmed"
+name = "PubMed"
+category = "academic"
+url = "https://pubmed.ncbi.nlm.nih.gov"
+api = "public"
+api_requirements = "NCBI E-utilities (key optional)"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "zenodo"
+name = "Zenodo"
+category = "academic"
+url = "https://zenodo.org"
+api = "public"
+api_requirements = "Public REST API (no key for search)"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "figshare"
+name = "Figshare"
+category = "academic"
+url = "https://figshare.com"
+api = "public"
+api_requirements = "Public API"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "osf"
+name = "OSF (Open Science Framework)"
+category = "academic"
+url = "https://osf.io"
+api = "public"
+api_requirements = "Public API"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "mendeley"
+name = "Mendeley"
+category = "academic"
+url = "https://www.mendeley.com"
+api = "restricted"
+api_requirements = "Elsevier developer account"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "scopus"
+name = "Scopus (author search)"
+category = "academic"
+url = "https://www.scopus.com"
+api = "paid"
+api_requirements = "Elsevier API key + institutional subscription"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "webofscience"
+name = "Web of Science (ResearcherID)"
+category = "academic"
+url = "https://www.webofscience.com"
+api = "paid"
+api_requirements = "Clarivate subscription"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "hal"
+name = "HAL open archive"
+category = "academic"
+url = "https://hal.science"
+countries = ["FR"]
+api = "public"
+api_requirements = "Public search API (no key)"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "cinii"
+name = "CiNii Research"
+category = "academic"
+url = "https://cir.nii.ac.jp"
+countries = ["JP"]
+api = "public"
+api_requirements = "OpenSearch API (application ID)"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "scielo"
+name = "SciELO"
+category = "academic"
+url = "https://scielo.org"
+countries = ["BR", "AR", "CL", "CO", "MX", "PE", "UY", "VE", "CU", "CR", "EC", "PY", "BO", "ZA", "PT", "ES"]
+api = "public"
+api_requirements = "Public API"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "redalyc"
+name = "Redalyc"
+category = "academic"
+url = "https://www.redalyc.org"
+countries = ["MX", "AR", "BR", "CO", "CL", "PE", "CU", "VE", "EC", "ES", "PT"]
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "elibrary_ru"
+name = "eLIBRARY.RU"
+category = "academic"
+url = "https://www.elibrary.ru"
+countries = ["RU"]
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "cnki"
+name = "CNKI"
+category = "academic"
+url = "https://www.cnki.net"
+countries = ["CN"]
+api = "paid"
+api_requirements = "Institutional subscription"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "kci"
+name = "KCI (Korea Citation Index)"
+category = "academic"
+url = "https://www.kci.go.kr"
+countries = ["KR"]
+api = "public"
+api_requirements = "Open API (key)"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "repec"
+name = "RePEc / IDEAS"
+category = "academic"
+url = "https://ideas.repec.org"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "philpapers"
+name = "PhilPapers"
+category = "academic"
+url = "https://philpapers.org"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Search by author name; Sextant's OpenAlex, ORCID and Crossref connectors cover much of the same literature automatically."
+
+[[platform]]
+id = "khanacademy"
+name = "Khan Academy"
+category = "education"
+url = "https://www.khanacademy.org"
+profile_url = "https://www.khanacademy.org/profile/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "udemy"
+name = "Udemy"
+category = "education"
+url = "https://www.udemy.com"
+profile_url = "https://www.udemy.com/user/{username}/"
+check = "whatsmyname"
+
+[[platform]]
+id = "coursera"
+name = "Coursera"
+category = "education"
+url = "https://www.coursera.org"
+check = "manual"
+notes = "Learner profiles use opaque IDs."
+
+[[platform]]
+id = "codecademy"
+name = "Codecademy"
+category = "education"
+url = "https://www.codecademy.com"
+profile_url = "https://www.codecademy.com/profiles/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "freecodecamp"
+name = "freeCodeCamp"
+category = "education"
+url = "https://www.freecodecamp.org"
+profile_url = "https://www.freecodecamp.org/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "scratch"
+name = "Scratch"
+category = "education"
+url = "https://scratch.mit.edu"
+profile_url = "https://scratch.mit.edu/users/{username}/"
+api = "public"
+api_requirements = "Public API (no key)"
+check = "probe"
+probe = { url = "https://api.scratch.mit.edu/users/{username}", require = "id", fields = { bio = "profile.bio", location = "profile.country", created_at = "history.joined", user_id = "id" }, docs = "https://en.scratch-wiki.info/wiki/Scratch_API" }
+
+[[platform]]
+id = "quizlet"
+name = "Quizlet"
+category = "education"
+url = "https://quizlet.com"
+profile_url = "https://quizlet.com/user/{username}/sets"
+check = "whatsmyname"
+
+[[platform]]
+id = "skillshare"
+name = "Skillshare"
+category = "education"
+url = "https://www.skillshare.com"
+check = "manual"
+
+[[platform]]
+id = "italki"
+name = "italki"
+category = "education"
+url = "https://www.italki.com"
+check = "manual"
+notes = "Teacher profiles use numeric IDs."
+
+[[platform]]
+id = "bumble"
+name = "Bumble"
+category = "dating"
+url = "https://bumble.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "hinge"
+name = "Hinge"
+category = "dating"
+url = "https://hinge.co"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "okcupid"
+name = "OkCupid"
+category = "dating"
+url = "https://www.okcupid.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "pof"
+name = "Plenty of Fish"
+category = "dating"
+url = "https://www.pof.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "match"
+name = "Match"
+category = "dating"
+url = "https://www.match.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "badoo"
+name = "Badoo"
+category = "dating"
+url = "https://badoo.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "grindr"
+name = "Grindr"
+category = "dating"
+url = "https://www.grindr.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "feeld"
+name = "Feeld"
+category = "dating"
+url = "https://feeld.co"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "hily"
+name = "Hily"
+category = "dating"
+url = "https://hily.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "cmb"
+name = "Coffee Meets Bagel"
+category = "dating"
+url = "https://coffeemeetsbagel.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "happn"
+name = "happn"
+category = "dating"
+url = "https://www.happn.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "eharmony"
+name = "eharmony"
+category = "dating"
+url = "https://www.eharmony.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "zoosk"
+name = "Zoosk"
+category = "dating"
+url = "https://www.zoosk.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "her"
+name = "HER"
+category = "dating"
+url = "https://weareher.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "tantan"
+name = "Tantan"
+category = "dating"
+url = "https://tantanapp.com"
+countries = ["CN"]
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "momo"
+name = "Momo"
+category = "dating"
+url = "https://www.immomo.com"
+countries = ["CN"]
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "pairs"
+name = "Pairs"
+category = "dating"
+url = "https://www.pairs.lv"
+countries = ["JP", "TW", "KR"]
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "lovoo"
+name = "LOVOO"
+category = "dating"
+url = "https://www.lovoo.com"
+countries = ["DE", "AT", "CH"]
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "meetic"
+name = "Meetic"
+category = "dating"
+url = "https://www.meetic.fr"
+countries = ["FR", "ES", "IT"]
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "mamba"
+name = "Mamba"
+category = "dating"
+url = "https://www.mamba.ru"
+countries = ["RU", "BY", "KZ", "UA"]
+public_profile = "none"
+private_accounts = true
+check = "none"
+notes = "Dating profiles are visible only to logged-in members inside the app; there is no public profile page or lookup."
+
+[[platform]]
+id = "garmin_connect"
+name = "Garmin Connect"
+category = "fitness"
+url = "https://connect.garmin.com"
+public_profile = "partial"
+private_accounts = true
+check = "manual"
+notes = "Activities are private unless the user makes them public; profile pages need the display name."
+
+[[platform]]
+id = "fitbit"
+name = "Fitbit"
+category = "fitness"
+url = "https://www.fitbit.com"
+public_profile = "none"
+private_accounts = true
+check = "none"
+
+[[platform]]
+id = "myfitnesspal"
+name = "MyFitnessPal"
+category = "fitness"
+url = "https://www.myfitnesspal.com"
+profile_url = "https://www.myfitnesspal.com/profile/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "komoot"
+name = "komoot"
+category = "fitness"
+url = "https://www.komoot.com"
+check = "manual"
+notes = "Profiles use numeric IDs; tours may be public."
+
+[[platform]]
+id = "alltrails"
+name = "AllTrails"
+category = "fitness"
+url = "https://www.alltrails.com"
+profile_url = "https://www.alltrails.com/members/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "wikiloc"
+name = "Wikiloc"
+category = "fitness"
+url = "https://www.wikiloc.com"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "parkrun"
+name = "parkrun"
+category = "fitness"
+url = "https://www.parkrun.com"
+countries = ["GB", "AU", "IE", "NZ", "ZA", "US", "CA", "DE", "DK", "FI", "IT", "JP", "MY", "NL", "NO", "PL", "SE", "SG", "AT", "LT", "NA", "ES"]
+public_search = "yes"
+check = "manual"
+notes = "Results pages list runners by name and athlete ID."
+
+[[platform]]
+id = "zwift"
+name = "Zwift"
+category = "fitness"
+url = "https://www.zwift.com"
+public_profile = "none"
+check = "none"
+
+[[platform]]
+id = "untappd"
+name = "Untappd"
+category = "reviews"
+url = "https://untappd.com"
+profile_url = "https://untappd.com/user/{username}"
+check = "whatsmyname"
+notes = "Check-ins can include venue locations."
+
+[[platform]]
+id = "tripadvisor"
+name = "Tripadvisor"
+category = "travel"
+url = "https://www.tripadvisor.com"
+profile_url = "https://www.tripadvisor.com/Profile/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "couchsurfing"
+name = "Couchsurfing"
+category = "travel"
+url = "https://www.couchsurfing.com"
+profile_url = "https://www.couchsurfing.com/people/{username}"
+public_profile = "login_wall"
+check = "maigret"
+
+[[platform]]
+id = "airbnb"
+name = "Airbnb"
+category = "travel"
+url = "https://www.airbnb.com"
+public_profile = "partial"
+check = "manual"
+notes = "Host and guest pages use numeric IDs."
+
+[[platform]]
+id = "polarsteps"
+name = "Polarsteps"
+category = "travel"
+url = "https://www.polarsteps.com"
+profile_url = "https://www.polarsteps.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "atlas_obscura"
+name = "Atlas Obscura"
+category = "travel"
+url = "https://www.atlasobscura.com"
+profile_url = "https://www.atlasobscura.com/users/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "foursquare"
+name = "Foursquare City Guide"
+category = "travel"
+url = "https://foursquare.com"
+public_profile = "none"
+check = "none"
+status = "defunct"
+status_note = "The Foursquare City Guide consumer app shut down on 15 December 2024; Swarm continues."
+
+[[platform]]
+id = "swarm"
+name = "Swarm (Foursquare)"
+category = "travel"
+url = "https://www.swarmapp.com"
+public_profile = "partial"
+private_accounts = true
+check = "manual"
+notes = "Check-ins are shared with friends; public pages show little."
+
+[[platform]]
+id = "geocaching"
+name = "Geocaching"
+category = "travel"
+url = "https://www.geocaching.com"
+profile_url = "https://www.geocaching.com/p/?u={username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "mapillary"
+name = "Mapillary"
+category = "travel"
+url = "https://www.mapillary.com"
+profile_url = "https://www.mapillary.com/profile/{username}"
+check = "maigret"
+
+[[platform]]
+id = "inaturalist"
+name = "iNaturalist"
+category = "travel"
+url = "https://www.inaturalist.org"
+profile_url = "https://www.inaturalist.org/people/{username}"
+check = "maigret"
+notes = "Observations carry coordinates (often obscured for sensitive species or by the user)."
+
+[[platform]]
+id = "trustroots"
+name = "Trustroots"
+category = "travel"
+url = "https://www.trustroots.org"
+public_profile = "login_wall"
+check = "manual"
+
+[[platform]]
+id = "workaway"
+name = "Workaway"
+category = "travel"
+url = "https://www.workaway.info"
+public_profile = "login_wall"
+check = "manual"
+
+[[platform]]
+id = "librarything"
+name = "LibraryThing"
+category = "books"
+url = "https://www.librarything.com"
+profile_url = "https://www.librarything.com/profile/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "storygraph"
+name = "The StoryGraph"
+category = "books"
+url = "https://app.thestorygraph.com"
+profile_url = "https://app.thestorygraph.com/profile/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "openlibrary"
+name = "Open Library"
+category = "books"
+url = "https://openlibrary.org"
+profile_url = "https://openlibrary.org/people/{username}"
+api = "public"
+api_requirements = "Public API (no key)"
+check = "probe"
+probe = { url = "https://openlibrary.org/people/{username}.json", require = "key", fields = { display_name = "displayname" }, docs = "https://openlibrary.org/developers/api" }
+
+[[platform]]
+id = "livelib"
+name = "LiveLib"
+category = "books"
+url = "https://www.livelib.ru"
+profile_url = "https://www.livelib.ru/reader/{username}"
+countries = ["RU"]
+region = "Russia"
+check = "maigret"
+
+[[platform]]
+id = "skoob"
+name = "Skoob"
+category = "books"
+url = "https://www.skoob.com.br"
+countries = ["BR"]
+region = "Brazil"
+check = "manual"
+
+[[platform]]
+id = "bookcrossing"
+name = "BookCrossing"
+category = "books"
+url = "https://www.bookcrossing.com"
+profile_url = "https://www.bookcrossing.com/mybookshelf/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "imdb"
+name = "IMDb"
+category = "film"
+url = "https://www.imdb.com"
+public_search = "yes"
+check = "manual"
+notes = "User pages use IDs (ur…); name search finds cast and crew."
+
+[[platform]]
+id = "trakt"
+name = "Trakt"
+category = "film"
+url = "https://trakt.tv"
+profile_url = "https://trakt.tv/users/{username}"
+api = "key"
+api_requirements = "Free API client ID"
+check = "whatsmyname"
+
+[[platform]]
+id = "kitsu"
+name = "Kitsu"
+category = "film"
+url = "https://kitsu.app"
+profile_url = "https://kitsu.app/users/{username}"
+hosts = ["kitsu.app", "kitsu.io"]
+api = "public"
+api_requirements = "Public JSON:API (no key)"
+check = "probe"
+probe = { accept = "application/vnd.api+json", url = "https://kitsu.app/api/edge/users?filter%5Bname%5D={username}", list_path = "data", match = "attributes.name", fields = { display_name = "attributes.name", bio = "attributes.about", location = "attributes.location", created_at = "attributes.createdAt", user_id = "id" }, docs = "https://kitsu.docs.apiary.io/" }
+
+[[platform]]
+id = "tmdb"
+name = "TMDB"
+category = "film"
+url = "https://www.themoviedb.org"
+profile_url = "https://www.themoviedb.org/u/{username}"
+check = "sherlock"
+
+[[platform]]
+id = "mubi"
+name = "MUBI"
+category = "film"
+url = "https://mubi.com"
+check = "manual"
+
+[[platform]]
+id = "filmow"
+name = "Filmow"
+category = "film"
+url = "https://filmow.com"
+profile_url = "https://filmow.com/usuario/{username}/"
+countries = ["BR"]
+region = "Brazil"
+check = "maigret"
+
+[[platform]]
+id = "shikimori"
+name = "Shikimori"
+category = "film"
+url = "https://shikimori.one"
+profile_url = "https://shikimori.one/{username}"
+countries = ["RU"]
+region = "Russia"
+check = "maigret"
+
+[[platform]]
+id = "kinopoisk"
+name = "Kinopoisk"
+category = "film"
+url = "https://www.kinopoisk.ru"
+countries = ["RU"]
+region = "Russia"
+check = "manual"
+
+[[platform]]
+id = "icheckmovies"
+name = "iCheckMovies"
+category = "film"
+url = "https://www.icheckmovies.com"
+profile_url = "https://www.icheckmovies.com/profiles/{username}/"
+check = "maigret"
+
+[[platform]]
+id = "yelp"
+name = "Yelp"
+category = "reviews"
+url = "https://www.yelp.com"
+public_search = "yes"
+check = "manual"
+notes = "Reviewer pages use opaque user IDs."
+
+[[platform]]
+id = "trustpilot"
+name = "Trustpilot"
+category = "reviews"
+url = "https://www.trustpilot.com"
+public_search = "yes"
+check = "manual"
+notes = "Reviewer pages use IDs."
+
+[[platform]]
+id = "google_maps_reviews"
+name = "Google Maps reviews (Local Guides)"
+category = "reviews"
+url = "https://www.google.com/maps"
+check = "manual"
+notes = "Contributor pages use numeric IDs; there is no lookup by name."
+
+[[platform]]
+id = "bbb"
+name = "Better Business Bureau"
+category = "directories"
+url = "https://www.bbb.org"
+countries = ["US", "CA"]
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "vivino"
+name = "Vivino"
+category = "reviews"
+url = "https://www.vivino.com"
+check = "manual"
+
+[[platform]]
+id = "amazon"
+name = "Amazon (seller and reviewer profiles)"
+category = "marketplaces"
+url = "https://www.amazon.com"
+check = "manual"
+notes = "Seller and reviewer pages use opaque IDs."
+
+[[platform]]
+id = "vinted"
+name = "Vinted"
+category = "marketplaces"
+url = "https://www.vinted.com"
+check = "manual"
+notes = "Member pages use numeric IDs."
+
+[[platform]]
+id = "depop"
+name = "Depop"
+category = "marketplaces"
+url = "https://www.depop.com"
+profile_url = "https://www.depop.com/{username}/"
+check = "whatsmyname"
+
+[[platform]]
+id = "poshmark"
+name = "Poshmark"
+category = "marketplaces"
+url = "https://poshmark.com"
+profile_url = "https://poshmark.com/closet/{username}"
+countries = ["US", "CA", "AU"]
+check = "whatsmyname"
+
+[[platform]]
+id = "mercari"
+name = "Mercari"
+category = "marketplaces"
+url = "https://www.mercari.com"
+countries = ["US", "JP"]
+check = "manual"
+
+[[platform]]
+id = "grailed"
+name = "Grailed"
+category = "marketplaces"
+url = "https://www.grailed.com"
+profile_url = "https://www.grailed.com/{username}"
+check = "maigret"
+
+[[platform]]
+id = "reverb"
+name = "Reverb"
+category = "marketplaces"
+url = "https://reverb.com"
+profile_url = "https://reverb.com/shop/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "craigslist"
+name = "Craigslist"
+category = "marketplaces"
+url = "https://www.craigslist.org"
+public_profile = "none"
+check = "none"
+notes = "Anonymous listings without user profiles."
+
+[[platform]]
+id = "gumroad"
+name = "Gumroad"
+category = "creator"
+url = "https://gumroad.com"
+profile_url = "https://{username}.gumroad.com"
+check = "whatsmyname"
+
+[[platform]]
+id = "gumtree"
+name = "Gumtree"
+category = "marketplaces"
+url = "https://www.gumtree.com"
+countries = ["GB", "AU", "ZA"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "olx"
+name = "OLX"
+category = "marketplaces"
+url = "https://www.olx.com"
+countries = ["PL", "RO", "PT", "UA", "BG", "KZ", "UZ"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "avito"
+name = "Avito"
+category = "marketplaces"
+url = "https://www.avito.ru"
+countries = ["RU"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "mercadolibre"
+name = "Mercado Libre"
+category = "marketplaces"
+url = "https://www.mercadolibre.com"
+countries = ["AR", "MX", "BR", "CO", "CL", "PE", "UY", "VE", "EC"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "shopee"
+name = "Shopee"
+category = "marketplaces"
+url = "https://shopee.com"
+countries = ["SG", "MY", "TH", "VN", "PH", "ID", "TW", "BR"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "tokopedia"
+name = "Tokopedia"
+category = "marketplaces"
+url = "https://www.tokopedia.com"
+countries = ["ID"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "lazada"
+name = "Lazada"
+category = "marketplaces"
+url = "https://www.lazada.com"
+countries = ["SG", "MY", "TH", "VN", "PH", "ID"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "jumia"
+name = "Jumia"
+category = "marketplaces"
+url = "https://www.jumia.com"
+countries = ["NG", "KE", "EG", "MA", "CI", "GH", "UG", "SN", "DZ", "TN"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "jiji"
+name = "Jiji"
+category = "marketplaces"
+url = "https://jiji.ng"
+countries = ["NG", "KE", "GH", "TZ", "UG", "ET"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "kijiji"
+name = "Kijiji"
+category = "marketplaces"
+url = "https://www.kijiji.ca"
+countries = ["CA"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "leboncoin"
+name = "leboncoin"
+category = "marketplaces"
+url = "https://www.leboncoin.fr"
+countries = ["FR"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "marktplaats"
+name = "Marktplaats"
+category = "marketplaces"
+url = "https://www.marktplaats.nl"
+countries = ["NL"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "kleinanzeigen"
+name = "Kleinanzeigen"
+category = "marketplaces"
+url = "https://www.kleinanzeigen.de"
+countries = ["DE"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "subito"
+name = "Subito"
+category = "marketplaces"
+url = "https://www.subito.it"
+countries = ["IT"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "wallapop"
+name = "Wallapop"
+category = "marketplaces"
+url = "https://es.wallapop.com"
+countries = ["ES"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "blocket"
+name = "Blocket"
+category = "marketplaces"
+url = "https://www.blocket.se"
+countries = ["SE"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "tradera"
+name = "Tradera"
+category = "marketplaces"
+url = "https://www.tradera.com"
+countries = ["SE"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "finn"
+name = "FINN.no"
+category = "marketplaces"
+url = "https://www.finn.no"
+countries = ["NO"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "tori"
+name = "Tori.fi"
+category = "marketplaces"
+url = "https://www.tori.fi"
+countries = ["FI"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "dba"
+name = "DBA"
+category = "marketplaces"
+url = "https://www.dba.dk"
+countries = ["DK"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "bazos"
+name = "Bazoš"
+category = "marketplaces"
+url = "https://www.bazos.cz"
+countries = ["CZ", "SK"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "kupujemprodajem"
+name = "KupujemProdajem"
+category = "marketplaces"
+url = "https://www.kupujemprodajem.com"
+countries = ["RS"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "njuskalo"
+name = "Njuškalo"
+category = "marketplaces"
+url = "https://www.njuskalo.hr"
+countries = ["HR"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "ss_lv"
+name = "SS.lv"
+category = "marketplaces"
+url = "https://www.ss.lv"
+countries = ["LV"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "sahibinden"
+name = "sahibinden.com"
+category = "marketplaces"
+url = "https://www.sahibinden.com"
+countries = ["TR"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "haraj"
+name = "Haraj"
+category = "marketplaces"
+url = "https://haraj.com.sa"
+countries = ["SA"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "dubizzle"
+name = "Dubizzle"
+category = "marketplaces"
+url = "https://www.dubizzle.com"
+countries = ["AE", "EG"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "taobao"
+name = "Taobao"
+category = "marketplaces"
+url = "https://www.taobao.com"
+countries = ["CN"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "rakuten"
+name = "Rakuten Ichiba"
+category = "marketplaces"
+url = "https://www.rakuten.co.jp"
+countries = ["JP"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "yahoo_auctions"
+name = "Yahoo! Auctions Japan"
+category = "marketplaces"
+url = "https://auctions.yahoo.co.jp"
+countries = ["JP"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "prom_ua"
+name = "Prom.ua"
+category = "marketplaces"
+url = "https://prom.ua"
+countries = ["UA"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "hardverapro"
+name = "HardverApró"
+category = "marketplaces"
+url = "https://hardverapro.hu"
+countries = ["HU"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "allegro"
+name = "Allegro"
+category = "marketplaces"
+url = "https://allegro.pl"
+countries = ["PL"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "carousell"
+name = "Carousell"
+category = "marketplaces"
+url = "https://www.carousell.com"
+countries = ["SG", "MY", "PH", "HK", "TW"]
+public_search = "yes"
+check = "manual"
+notes = "Listings are searchable by keyword; seller pages generally use IDs, not usernames."
+
+[[platform]]
+id = "indiamart"
+name = "IndiaMART"
+category = "directories"
+url = "https://www.indiamart.com"
+countries = ["IN"]
+region = "India"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "liberapay"
+name = "Liberapay"
+category = "creator"
+url = "https://liberapay.com"
+profile_url = "https://liberapay.com/{username}/"
+api = "public"
+api_requirements = "Public JSON (no key)"
+check = "probe"
+probe = { url = "https://liberapay.com/{username}/public.json", require = "id", fields = { display_name = "display_name", user_id = "id", avatar_url = "avatar" }, docs = "https://liberapay.com/about/faq" }
+
+[[platform]]
+id = "opencollective"
+name = "Open Collective"
+category = "creator"
+url = "https://opencollective.com"
+profile_url = "https://opencollective.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "boosty"
+name = "Boosty"
+category = "creator"
+url = "https://boosty.to"
+profile_url = "https://boosty.to/{username}"
+countries = ["RU"]
+region = "Russia"
+check = "whatsmyname"
+
+[[platform]]
+id = "fanbox"
+name = "pixivFANBOX"
+category = "creator"
+url = "https://www.fanbox.cc"
+profile_url = "https://{username}.fanbox.cc"
+countries = ["JP"]
+region = "Japan"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "throne"
+name = "Throne"
+category = "creator"
+url = "https://throne.com"
+profile_url = "https://throne.com/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "cameo"
+name = "Cameo"
+category = "creator"
+url = "https://www.cameo.com"
+profile_url = "https://www.cameo.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "donationalerts"
+name = "DonationAlerts"
+category = "creator"
+url = "https://www.donationalerts.com"
+profile_url = "https://www.donationalerts.com/r/{username}"
+countries = ["RU"]
+check = "whatsmyname"
+
+[[platform]]
+id = "paypal_me"
+name = "PayPal.Me"
+category = "creator"
+url = "https://www.paypal.com/paypalme"
+profile_url = "https://www.paypal.com/paypalme/{username}"
+hosts = ["paypal.me", "paypal.com"]
+check = "manual"
+notes = "Public payment page shows the account's display name — open it yourself; Sextant does not query PayPal."
+
+[[platform]]
+id = "venmo"
+name = "Venmo"
+category = "creator"
+url = "https://venmo.com"
+profile_url = "https://venmo.com/u/{username}"
+countries = ["US"]
+private_accounts = true
+check = "manual"
+notes = "Public profile shows name and photo; only what the page shows publicly is relevant."
+
+[[platform]]
+id = "cashapp"
+name = "Cash App ($cashtag)"
+category = "creator"
+url = "https://cash.app"
+profile_url = "https://cash.app/${username}"
+countries = ["US", "GB"]
+check = "manual"
+
+[[platform]]
+id = "revolut_me"
+name = "Revolut.me"
+category = "creator"
+url = "https://revolut.me"
+profile_url = "https://revolut.me/{username}"
+check = "manual"
+
+[[platform]]
+id = "kickstarter"
+name = "Kickstarter"
+category = "crowdfunding"
+url = "https://www.kickstarter.com"
+profile_url = "https://www.kickstarter.com/profile/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "indiegogo"
+name = "Indiegogo"
+category = "crowdfunding"
+url = "https://www.indiegogo.com"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "gofundme"
+name = "GoFundMe"
+category = "crowdfunding"
+url = "https://www.gofundme.com"
+public_search = "yes"
+check = "manual"
+notes = "Campaign pages name the organiser; search by name or keyword."
+
+[[platform]]
+id = "givesendgo"
+name = "GiveSendGo"
+category = "crowdfunding"
+url = "https://www.givesendgo.com"
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "ulule"
+name = "Ulule"
+category = "crowdfunding"
+url = "https://www.ulule.com"
+profile_url = "https://www.ulule.com/{username}/"
+countries = ["FR", "BE", "CH", "CA"]
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "kiva"
+name = "Kiva"
+category = "crowdfunding"
+url = "https://www.kiva.org"
+profile_url = "https://www.kiva.org/lender/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "justgiving"
+name = "JustGiving"
+category = "crowdfunding"
+url = "https://www.justgiving.com"
+countries = ["GB", "IE"]
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "startnext"
+name = "Startnext"
+category = "crowdfunding"
+url = "https://www.startnext.com"
+countries = ["DE", "AT", "CH"]
+check = "manual"
+
+[[platform]]
+id = "ketto"
+name = "Ketto"
+category = "crowdfunding"
+url = "https://www.ketto.org"
+countries = ["IN"]
+public_search = "yes"
+check = "manual"
+
+[[platform]]
+id = "meetup"
+name = "Meetup"
+category = "events"
+url = "https://www.meetup.com"
+public_search = "yes"
+check = "manual"
+notes = "Member pages use numeric IDs."
+
+[[platform]]
+id = "eventbrite"
+name = "Eventbrite"
+category = "events"
+url = "https://www.eventbrite.com"
+public_search = "yes"
+check = "manual"
+notes = "Organizer pages list events."
+
+[[platform]]
+id = "luma"
+name = "Luma"
+category = "events"
+url = "https://lu.ma"
+profile_url = "https://lu.ma/user/{username}"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "sessionize"
+name = "Sessionize"
+category = "events"
+url = "https://sessionize.com"
+profile_url = "https://sessionize.com/{username}/"
+check = "maigret"
+
+[[platform]]
+id = "speakerdeck"
+name = "Speaker Deck"
+category = "events"
+url = "https://speakerdeck.com"
+profile_url = "https://speakerdeck.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "slideshare"
+name = "SlideShare"
+category = "events"
+url = "https://www.slideshare.net"
+profile_url = "https://www.slideshare.net/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "connpass"
+name = "connpass"
+category = "events"
+url = "https://connpass.com"
+profile_url = "https://connpass.com/user/{username}/"
+countries = ["JP"]
+region = "Japan"
+check = "manual"
+notes = "No maintained detection rule exists for this site in the community datasets; open the link."
+
+[[platform]]
+id = "biolink"
+name = "bio.link"
+category = "identity"
+url = "https://bio.link"
+profile_url = "https://bio.link/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "beacons"
+name = "Beacons"
+category = "identity"
+url = "https://beacons.ai"
+profile_url = "https://beacons.ai/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "lnkbio"
+name = "Lnk.Bio"
+category = "identity"
+url = "https://lnk.bio"
+profile_url = "https://lnk.bio/{username}"
+check = "maigret"
+
+[[platform]]
+id = "taplink"
+name = "Taplink"
+category = "identity"
+url = "https://taplink.cc"
+profile_url = "https://taplink.cc/{username}"
+check = "maigret"
+
+[[platform]]
+id = "solo_to"
+name = "solo.to"
+category = "identity"
+url = "https://solo.to"
+profile_url = "https://solo.to/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "allmylinks"
+name = "AllMyLinks"
+category = "identity"
+url = "https://allmylinks.com"
+profile_url = "https://allmylinks.com/{username}"
+check = "maigret"
+
+[[platform]]
+id = "keyoxide"
+name = "Keyoxide"
+category = "identity"
+url = "https://keyoxide.org"
+check = "manual"
+notes = "Identity proofs looked up by key fingerprint or email."
+
+[[platform]]
+id = "ens"
+name = "ENS (Ethereum Name Service)"
+category = "identity"
+url = "https://app.ens.domains"
+check = "manual"
+notes = "Names like alice.eth resolve to wallet addresses and profile records."
+
+[[platform]]
+id = "trello"
+name = "Trello"
+category = "other"
+url = "https://trello.com"
+profile_url = "https://trello.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "ratsit"
+name = "Ratsit"
+category = "directories"
+url = "https://www.ratsit.se"
+countries = ["SE"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "People and company directory built from Swedish public records (offentlighetsprincipen); basic data free, reports paid."
+
+[[platform]]
+id = "merinfo"
+name = "Merinfo"
+category = "directories"
+url = "https://www.merinfo.se"
+countries = ["SE"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Swedish people and company directory from public records."
+
+[[platform]]
+id = "hitta"
+name = "Hitta.se"
+category = "directories"
+url = "https://www.hitta.se"
+countries = ["SE"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Swedish phone and address directory."
+
+[[platform]]
+id = "eniro"
+name = "Eniro"
+category = "directories"
+url = "https://www.eniro.se"
+countries = ["SE"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Swedish directory."
+
+[[platform]]
+id = "1881"
+name = "1881"
+category = "directories"
+url = "https://www.1881.no"
+countries = ["NO"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Norwegian phone directory."
+
+[[platform]]
+id = "gulesider"
+name = "Gule Sider"
+category = "directories"
+url = "https://www.gulesider.no"
+countries = ["NO"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Norwegian directory."
+
+[[platform]]
+id = "proff"
+name = "Proff"
+category = "directories"
+url = "https://www.proff.no"
+countries = ["NO", "SE", "DK", "FI"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Nordic company and role directory (board members, owners)."
+
+[[platform]]
+id = "krak"
+name = "Krak"
+category = "directories"
+url = "https://www.krak.dk"
+countries = ["DK"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Danish directory."
+
+[[platform]]
+id = "finder_fi"
+name = "Finder.fi (Fonecta)"
+category = "directories"
+url = "https://www.finder.fi"
+countries = ["FI"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Finnish company directory."
+
+[[platform]]
+id = "dastelefonbuch"
+name = "Das Telefonbuch"
+category = "directories"
+url = "https://www.dastelefonbuch.de"
+countries = ["DE"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "German phone directory (opt-in listings)."
+
+[[platform]]
+id = "herold"
+name = "Herold"
+category = "directories"
+url = "https://www.herold.at"
+countries = ["AT"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Austrian directory."
+
+[[platform]]
+id = "local_ch"
+name = "local.ch"
+category = "directories"
+url = "https://www.local.ch"
+countries = ["CH"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Swiss directory."
+
+[[platform]]
+id = "pagesjaunes"
+name = "PagesJaunes / PagesBlanches"
+category = "directories"
+url = "https://www.pagesjaunes.fr"
+countries = ["FR"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "French directory."
+
+[[platform]]
+id = "paginebianche"
+name = "PagineBianche"
+category = "directories"
+url = "https://www.paginebianche.it"
+countries = ["IT"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Italian directory."
+
+[[platform]]
+id = "whitepages"
+name = "Whitepages"
+category = "directories"
+url = "https://www.whitepages.com"
+countries = ["US"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Commercial people-search site; basic results free, reports paid."
+
+[[platform]]
+id = "yellowpages_us"
+name = "YellowPages"
+category = "directories"
+url = "https://www.yellowpages.com"
+countries = ["US"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "US business directory."
+
+[[platform]]
+id = "yell"
+name = "Yell"
+category = "directories"
+url = "https://www.yell.com"
+countries = ["GB"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "UK business directory."
+
+[[platform]]
+id = "justdial"
+name = "Justdial"
+category = "directories"
+url = "https://www.justdial.com"
+countries = ["IN"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Indian local business directory."
+
+[[platform]]
+id = "2gis"
+name = "2GIS"
+category = "directories"
+url = "https://2gis.ru"
+countries = ["RU", "KZ", "KG", "UZ", "AE", "CY"]
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Maps and business directory."
+
+[[platform]]
+id = "kompass"
+name = "Kompass"
+category = "directories"
+url = "https://www.kompass.com"
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Global B2B company directory."
+
+[[platform]]
+id = "europages"
+name = "europages"
+category = "directories"
+url = "https://www.europages.co.uk"
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "European B2B company directory."
+
+[[platform]]
+id = "infobel"
+name = "Infobel"
+category = "directories"
+url = "https://www.infobel.com"
+public_search = "yes"
+search_methods = ["name", "phone"]
+check = "manual"
+notes = "Global business and residential directory."
+
+[[platform]]
+id = "truecaller"
+name = "Truecaller"
+category = "directories"
+url = "https://www.truecaller.com"
+public_profile = "none"
+check = "none"
+notes = "Search requires signing in and relies on crowd-sourced address books; not used by Sextant."
+
+[[platform]]
+id = "fandom"
+name = "Fandom"
+category = "reference"
+url = "https://www.fandom.com"
+profile_url = "https://community.fandom.com/wiki/User:{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "findagrave"
+name = "Find a Grave"
+category = "genealogy"
+url = "https://www.findagrave.com"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Memorials searchable by name, dates and place."
+
+[[platform]]
+id = "billiongraves"
+name = "BillionGraves"
+category = "genealogy"
+url = "https://billiongraves.com"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Headstone records searchable by name."
+
+[[platform]]
+id = "familysearch"
+name = "FamilySearch"
+category = "genealogy"
+url = "https://www.familysearch.org"
+api = "restricted"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Free account required to search records."
+
+[[platform]]
+id = "geni"
+name = "Geni"
+category = "genealogy"
+url = "https://www.geni.com"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Public family-tree profiles searchable by name."
+
+[[platform]]
+id = "wikitree"
+name = "WikiTree"
+category = "genealogy"
+url = "https://www.wikitree.com"
+api = "public"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Collaborative family tree; public API."
+
+[[platform]]
+id = "ancestry"
+name = "Ancestry"
+category = "genealogy"
+url = "https://www.ancestry.com"
+api = "paid"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Subscription required for most records."
+
+[[platform]]
+id = "myheritage"
+name = "MyHeritage"
+category = "genealogy"
+url = "https://www.myheritage.com"
+api = "paid"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Subscription required for most records."
+
+[[platform]]
+id = "legacy_obituaries"
+name = "Legacy.com obituaries"
+category = "genealogy"
+url = "https://www.legacy.com"
+public_search = "yes"
+search_methods = ["name"]
+check = "manual"
+notes = "Obituaries searchable by name and place."
+
+[[platform]]
+id = "onlyfans"
+name = "OnlyFans"
+category = "adult"
+url = "https://onlyfans.com"
+profile_url = "https://onlyfans.com/{username}"
+check = "maigret"
+
+[[platform]]
+id = "fansly"
+name = "Fansly"
+category = "adult"
+url = "https://fansly.com"
+profile_url = "https://fansly.com/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "pornhub"
+name = "Pornhub"
+category = "adult"
+url = "https://www.pornhub.com"
+profile_url = "https://www.pornhub.com/users/{username}"
+check = "whatsmyname"
+
+[[platform]]
+id = "chaturbate"
+name = "Chaturbate"
+category = "adult"
+url = "https://chaturbate.com"
+profile_url = "https://chaturbate.com/{username}/"
+check = "maigret"
+
+[[platform]]
+id = "fetlife"
+name = "FetLife"
+category = "adult"
+url = "https://fetlife.com"
+public_profile = "login_wall"
+private_accounts = true
+check = "none"

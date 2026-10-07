@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+# local data (the default data dir lives outside the repo; these guard against SEXTANT_DATA_DIR=.)
+*.sqlite3*
+master.key
+passphrase.salt
+sextant-*.json
+sextant-*.csv
+sextant-*.html
+# frontend
+frontend/node_modules/
+frontend/*.tsbuildinfo

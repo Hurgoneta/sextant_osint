@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Investigation report — {{ title }}</title>
+<style>
+  :root { --ink:#16202c; --muted:#5b6878; --line:#d8dee6; --accent:#1f5fbf; --hi:#0f7b4a; --mid:#a86b00; --lo:#7a8594; --bad:#b42318; }
+  * { box-sizing: border-box; }
+  body { font: 13px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--ink); margin: 0; background: #fff; }
+  main { max-width: 1100px; margin: 0 auto; padding: 32px 28px 64px; }
+  h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -.01em; }
+  h2 { font-size: 17px; margin: 34px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--ink); }
+  h3 { font-size: 14px; margin: 18px 0 6px; }
+  .meta { color: var(--muted); }
+  .banner { border: 1px solid var(--line); border-left: 4px solid var(--accent); padding: 10px 14px; margin: 16px 0; background: #f6f8fb; }
+  .warn { border-left-color: var(--mid); background: #fff8eb; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin: 14px 0; }
+  .kpi { border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; }
+  .kpi b { display: block; font-size: 22px; }
+  .kpi span { color: var(--muted); font-size: 12px; }
+  table { width: 100%; border-collapse: collapse; margin: 6px 0 12px; }
+  th, td { text-align: left; vertical-align: top; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+  th { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+  td ul { margin: 0; padding-left: 16px; }
+  .conf { font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; }
+  .tier-high { color: var(--hi); } .tier-medium { color: var(--mid); } .tier-low { color: var(--lo); }
+  .neg { color: var(--bad); }
+  .ref { font-size: 11px; color: var(--accent); white-space: nowrap; }
+  .tag { display: inline-block; font-size: 11px; padding: 1px 6px; border-radius: 10px; border: 1px solid var(--line); color: var(--muted); }
+  .tag.crim { border-color: var(--bad); color: var(--bad); }
+  a { color: var(--accent); word-break: break-all; }
+  .small { font-size: 11.5px; color: var(--muted); }
+  .appendix td { font-size: 11.5px; }
+  @media print { main { padding: 0; } h2 { break-after: avoid; } tr { break-inside: avoid; } }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="meta">{{ app }} {{ version }} · intelligence report · generated {{ generated_at }}</div>
+  <h1>{{ title }}</h1>
+  <div class="meta">Investigation {{ id }} · status {{ status }}{% if stop_reason %} ({{ stop_reason }}){% endif %} · depth {{ limits.depth }} · started {{ started_at or "—" }} · finished {{ finished_at or "—" }}</div>
+  {% if purpose %}<div class="banner"><b>Stated purpose / legal basis:</b> {{ purpose }}</div>{% endif %}
+  <div class="banner warn"><b>Read this first.</b> {{ disclaimer }} Confidence values are explained heuristics, not proof. A matching name is never treated as the same person; only the investigator's confirmations are marked as confirmed.</div>
+</header>
+
+<h2>1. Target and initial identifiers</h2>
+<p><b>Target:</b> {{ target.label or "—" }} ({{ target.type or "no person/organization target" }})</p>
+<table><tr><th>Type</th><th>Identifier</th></tr>
+{% for s in input.seeds or [] %}<tr><td>{{ s.type }}</td><td>{{ s.label }}</td></tr>{% endfor %}
+{% if input.target_name %}<tr><td>name</td><td>{{ input.target_name }}</td></tr>{% endif %}
+{% for a in input.aliases or [] %}<tr><td>alias</td><td>{{ a }}</td></tr>{% endfor %}
+</table>
+
+<h2>2. Executive summary</h2>
+<div class="kpis">
+  <div class="kpi"><b>{{ summary.entities }}</b><span>entities</span></div>
+  <div class="kpi"><b>{{ summary.relationships }}</b><span>relationships</span></div>
+  <div class="kpi"><b>{{ summary.likely }}</b><span>likely / confirmed matches</span></div>
+  <div class="kpi"><b>{{ summary.likely_accounts }}/{{ summary.accounts }}</b><span>accounts likely the target</span></div>
+  <div class="kpi"><b>{{ summary.records }}</b><span>public records (name matches)</span></div>
+  <div class="kpi"><b>{{ coverage.queried or 0 }}</b><span>sources queried</span></div>
+  <div class="kpi"><b>{{ summary.sources }}</b><span>cited source documents</span></div>
+</div>
+{% if key_findings %}
+<h3>Key findings</h3>
+<table><tr><th>Finding</th><th>Confidence</th><th>Why</th><th>Sources</th></tr>
+{% for f in key_findings %}<tr><td><b>{{ f.label }}</b><br><span class="small">{{ f.type }} · {{ f.match }}</span></td>
+<td class="conf tier-{{ f.tier }}">{{ f.confidence }}%</td>
+<td><ul>{% for s in f.support %}<li>{{ s }}</li>{% endfor %}{% for c in f.contradictions %}<li class="neg">{{ c }}</li>{% endfor %}</ul></td>
+<td class="ref">{% for r in f.refs %}<a href="#S{{ r }}">[S{{ r }}]</a> {% endfor %}</td></tr>{% endfor %}
+</table>
+{% else %}<p>No finding reached high confidence. That is a common, honest outcome for name- or username-only inputs.</p>{% endif %}
+
+{% macro entity_table(rows, extra_cols=[]) %}
+<table><tr><th>Entity</th>{% for c in extra_cols %}<th>{{ c[1] }}</th>{% endfor %}<th>Confidence</th><th>Evidence / contradictions</th><th>Sources</th></tr>
+{% for f in rows %}<tr><td><b>{{ f.label }}</b>{% if f.url %}<br><a href="{{ f.url }}" rel="noreferrer">{{ f.url }}</a>{% endif %}<br><span class="small">{{ f.match }}</span></td>
+{% for c in extra_cols %}<td>{{ f[c[0]] if f[c[0]] is not none else "" }}</td>{% endfor %}
+<td class="conf tier-{{ f.tier }}">{{ f.confidence }}%</td>
+<td><ul>{% for s in f.support %}<li>{{ s }}</li>{% endfor %}{% for c in f.contradictions %}<li class="neg">{{ c }}</li>{% endfor %}</ul></td>
+<td class="ref">{% for r in f.refs %}<a href="#S{{ r }}">[S{{ r }}]</a> {% endfor %}</td></tr>{% endfor %}
+</table>
+{% endmacro %}
+
+<h2>3. Identity candidates</h2>
+<p class="small">People described by individual records (register officers, authors, providers…). Each is a separate person until the investigator confirms otherwise.</p>
+{% if identity_candidates %}{{ entity_table(identity_candidates, [("role", "Role"), ("birth", "Born (as published)")]) }}{% else %}<p>None.</p>{% endif %}
+
+<h2>4. Social and online accounts</h2>
+<p class="small">"Exists" and "is the target" are separate questions; confidence answers the second.</p>
+{% if accounts %}{{ entity_table(accounts, [("platform", "Platform"), ("username", "Handle")]) }}{% else %}<p>None found.</p>{% endif %}
+
+<h2>5. Websites</h2>
+{% if websites %}{{ entity_table(websites, [("category", "Category"), ("matched", "Contains")]) }}{% else %}<p>None.</p>{% endif %}
+
+<h2>6. Domains</h2>
+{% if domains %}{{ entity_table(domains, [("registrar", "Registrar"), ("registered", "Registered"), ("technologies", "Technologies")]) }}{% else %}<p>None.</p>{% endif %}
+
+<h2>7. Organizations</h2>
+{% if organizations %}{{ entity_table(organizations, [("jurisdiction", "Jurisdiction"), ("number", "Register no."), ("status_text", "Status")]) }}{% else %}<p>None.</p>{% endif %}
+
+<h2>8. Public documents</h2>
+<p class="small">Documents are never downloaded automatically.</p>
+{% if documents %}{{ entity_table(documents, [("file_type", "Type")]) }}{% else %}<p>None.</p>{% endif %}
+
+<h2>9. Publications</h2>
+{% if publications %}{{ entity_table(publications, [("year", "Year"), ("venue", "Venue")]) }}{% else %}<p>None.</p>{% endif %}
+
+<h2>10. Public records and legal sources</h2>
+<div class="banner warn">Records were found by searching official public sources for the target's name. A record carrying the same name usually concerns <b>someone else</b>. "Possible name match" means exactly that. Only "Confirmed identity match" reflects an investigator's verified decision.</div>
+{% if records %}
+<table><tr><th>Record</th><th>Jurisdiction · authority</th><th>Type · date</th><th>Exact matching evidence</th><th>Record / identity state</th><th>Confidence</th><th>Sources</th></tr>
+{% for r in records %}<tr>
+<td><b>{{ r.title or r.label }}</b>{% if r.reference %}<br><span class="small">Ref. {{ r.reference }}</span>{% endif %}{% if r.official_url %}<br><a href="{{ r.official_url }}" rel="noreferrer">{{ r.official_url }}</a>{% endif %}</td>
+<td>{{ r.jurisdiction }} · {{ r.authority }}</td>
+<td>{{ r.record_type }}{% if r.criminal %} <span class="tag crim">criminal matter</span>{% endif %}<br>{{ r.date or "" }}{% if r.role %}<br><span class="small">Role of named party: {{ r.role }}{% if r.role_meaning %} ({{ r.role_meaning }}){% endif %}</span>{% endif %}</td>
+<td>Name on record: <b>{{ r.matched_name or "—" }}</b> ({{ r.name_match or "n/a" }})<ul>{% for e in r.evidence %}<li>{{ e.description }}</li>{% endfor %}{% for c in r.contradictions %}<li class="neg">{{ c.description }}</li>{% endfor %}</ul></td>
+<td>{{ r.record_state }}<br><b>{{ r.identity_state }}</b></td>
+<td class="conf tier-{{ r.tier }}">{{ (r.confidence * 100) | round | int }}%</td>
+<td class="ref">{% for n in r.refs %}<a href="#S{{ n }}">[S{{ n }}]</a> {% endfor %}</td></tr>{% endfor %}
+</table>
+{% else %}<p>No public records were returned by the sources that ran.</p>{% endif %}
+
+<h2>11. Digital footprint</h2>
+<h3>Identifiers</h3>
+{% if identifiers %}{{ entity_table(identifiers) }}{% else %}<p>None.</p>{% endif %}
+<h3>Breach exposure (metadata only — no credentials retrieved or stored)</h3>
+{% if breaches %}{{ entity_table(breaches, [("date", "Date"), ("classes", "Data exposed")]) }}{% else %}<p>No breach exposure reported by the sources that ran.</p>{% endif %}
+
+<h2>12. Historical findings (timeline)</h2>
+{% if timeline %}<table><tr><th>Date</th><th>Event</th><th>Entity</th><th>Source</th></tr>
+{% for t in timeline %}<tr><td>{{ t.date }}</td><td>{{ t.event }}</td><td>{{ t.entity.label }}</td><td class="ref">{% for n in t.refs %}<a href="#S{{ n }}">[S{{ n }}]</a>{% endfor %}</td></tr>{% endfor %}
+</table>{% else %}<p>No dated events.</p>{% endif %}
+
+<h2>13. Correlated entities</h2>
+<p class="small">Candidate equivalences produced by entity resolution (never merged automatically).</p>
+{% if same_as %}<table><tr><th>Entity A</th><th>Entity B</th><th>Confidence</th><th>Why</th></tr>
+{% for s in same_as %}<tr><td>{{ s.a }}</td><td>{{ s.b }}</td><td class="conf">{{ s.confidence }}%</td><td>{{ s.why }}</td></tr>{% endfor %}</table>{% else %}<p>None.</p>{% endif %}
+
+<h2>14. Unresolved contradictions</h2>
+{% if contradictions %}{{ entity_table(contradictions) }}{% else %}<p>None.</p>{% endif %}
+
+<h2>15. Confidence model</h2>
+<p>{{ model_note }} Supporting evidence adds weight and contradictions subtract it. Name-only matches on public records cannot reach "likely" on their own.</p>
+
+<h2>16. Data-source coverage</h2>
+{% if global_coverage %}{% set g = global_coverage %}
+<h3>Investigation coverage</h3>
+<table><tbody>
+<tr><td>Countries evaluated</td><td>{{ g.countries.evaluated }}</td><td>Countries with sources</td><td>{{ g.countries.with_sources }}</td></tr>
+<tr><td>Countries with country connectors</td><td>{{ g.countries.with_country_connectors }}</td><td>Countries with no connector</td><td>{{ g.countries.no_connector }}</td></tr>
+<tr><td>Platforms evaluated</td><td>{{ g.platforms.evaluated }}</td><td>Platforms searched</td><td>{{ g.platforms.searched }} ({{ g.platforms.found }} with an account found)</td></tr>
+<tr><td>Platforms unavailable</td><td>{{ g.platforms.unavailable }}</td><td>Skipped / not searched</td><td>{{ g.platforms.skipped }} / {{ g.platforms.not_searched }}</td></tr>
+<tr><td>Public databases queried</td><td>{{ g.public_databases.queried }}</td><td>Public databases unavailable / failed</td><td>{{ g.public_databases.unavailable }} / {{ g.public_databases.failed }}</td></tr>
+<tr><td>Commercial providers configured</td><td>{{ g.commercial.configured }}</td><td>Available but not configured</td><td>{{ g.commercial.not_configured }} (+ {{ g.commercial.catalog_only }} contact-provider)</td></tr>
+</tbody></table>
+<p>{{ g.countries.note }} {% for a in g.countries.applicable %}{{ a.name }}: {{ a.level_title }}{% if a.connectors %} — {% for c in a.connectors %}{{ c.title }} ({{ c.state }}){% if not loop.last %}, {% endif %}{% endfor %}{% endif %}. {% endfor %}</p>
+<p class="banner">{{ g.disclaimer }}</p>
+{% endif %}
+<div class="kpis">
+  <div class="kpi"><b>{{ coverage.queried or 0 }}</b><span>queried</span></div>
+  <div class="kpi"><b>{{ coverage.failed_or_blocked or 0 }}</b><span>failed / blocked</span></div>
+  <div class="kpi"><b>{{ coverage.requires_credentials or 0 }}</b><span>need credentials</span></div>
+  <div class="kpi"><b>{{ coverage.requires_subscription or 0 }}</b><span>need subscription</span></div>
+  <div class="kpi"><b>{{ coverage.disabled or 0 }}</b><span>disabled</span></div>
+  <div class="kpi"><b>{{ coverage.not_applicable or 0 }}</b><span>not applicable</span></div>
+  <div class="kpi"><b>{{ coverage.manual_only or 0 }}</b><span>manual only</span></div>
+  <div class="kpi"><b>{{ coverage.excluded_by_policy or 0 }}</b><span>excluded by policy</span></div>
+</div>
+<table><tr><th>Source</th><th>Category</th><th>State</th><th>Runs</th><th>Note</th></tr>
+{% for c in coverage_rows %}<tr><td>{{ c.title }}</td><td>{{ c.category_title }}</td><td>{{ c.state }}</td>
+<td>{% for k, v in c.runs.items() %}{{ k }}: {{ v }} {% endfor %}</td><td class="small">{{ c.note }}</td></tr>{% endfor %}
+</table>
+
+<h2>17. Recommendations</h2>
+<ul>{% for r in recommendations %}<li>{{ r }}</li>{% else %}<li>No specific recommendations.</li>{% endfor %}</ul>
+
+<h2>18. Investigator decisions (audit log)</h2>
+{% if decisions %}<table><tr><th>#</th><th>When</th><th>Action</th><th>Detail</th></tr>
+{% for d in decisions %}<tr><td>{{ d.seq }}</td><td>{{ d.at }}</td><td>{{ d.action }}</td><td class="small">{{ d.label or d.entity or d.keep or d.relationship or "" }}{% if d.note %} — {{ d.note }}{% endif %}</td></tr>{% endfor %}</table>
+{% else %}<p>No decisions recorded.</p>{% endif %}
+
+{% set x = extras or {} %}
+{% if x.discovery %}
+<h2>19. Identity discovery</h2>
+<p class="small">{% if x.discovery.web_discovery.unavailable_message %}<b>{{ x.discovery.web_discovery.unavailable_message }}</b>{% else %}Web search provider: {{ x.discovery.web_discovery.primary or "—" }} · {{ x.discovery.web_discovery.queries_run }} queries run{% if x.discovery.web_discovery.failed %} · failed: {{ x.discovery.web_discovery.failed|join(", ") }}{% endif %}{% endif %}</p>
+<table><tr><th>Stage</th><th>Status</th><th>Detail</th></tr>
+{% for st in x.discovery.stages %}<tr><td>{{ st.n }}. {{ st.step }}</td><td>{{ st.status }}</td><td>{{ st.detail }}</td></tr>{% endfor %}</table>
+{% if x.discovery.discovered_handles %}<table><tr><th>Discovered handle</th><th>Platform</th><th>Rank</th><th>Query</th><th>Provider</th><th>Predictable from the name</th></tr>
+{% for h in x.discovery.discovered_handles %}<tr><td>{{ h.handle }}</td><td>{{ h.on }}</td><td>{{ h.rank }}</td><td>{{ h.query }}</td><td>{{ h.provider }}</td><td>{{ "yes" if h.predictable_from_name else "no" }}</td></tr>{% endfor %}</table>{% endif %}
+<p class="small">A search rank is a ranking signal, never proof of identity.</p>
+{% endif %}
+{% if x.identifiers %}
+<h2>20. Identifiers and their state</h2>
+<table><tr><th>Identifier</th><th>Type</th><th>State</th><th>Source</th><th>Search</th></tr>
+{% for r in x.identifiers %}<tr><td>{{ r.value }}</td><td>{{ r.type }}</td><td>{{ r.state_title }}</td><td>{{ r.source }}{% if r.source_kind %} ({{ r.source_kind }}){% endif %}</td><td>{% if r.search_rank %}#{{ r.search_rank }} · {{ r.search_query }}{% endif %}</td></tr>{% endfor %}</table>
+{% endif %}
+{% if x.costs %}
+<h2>21. Investigation cost</h2>
+<p class="small">{{ x.costs.explanation }} {{ x.costs.money.note }}</p>
+<table><tr><th>Provider</th><th>Category</th><th>Requests</th><th>Tokens</th><th>Estimated (USD)</th><th>Actual (USD)</th><th>Status</th></tr>
+{% for l in x.costs.lines %}<tr><td>{{ l.title }}</td><td>{{ l.category }}</td><td>{{ l.requests }}</td><td>{{ l.tokens }}</td><td>{{ "%.4f"|format(l.estimated) }}</td><td>{{ "%.4f"|format(l.actual) if l.actual is not none else "—" }}</td><td>{{ l.status }}</td></tr>{% endfor %}
+<tr><td><b>Total</b></td><td></td><td></td><td></td><td><b>{{ "%.4f"|format(x.costs.totals.estimated) }}</b></td><td>{{ "%.4f"|format(x.costs.totals.actual) if x.costs.totals.actual is not none else "—" }}</td><td></td></tr></table>
+{% endif %}
+{% if x.notes %}
+<h2>22. Notes</h2>
+<ul>{% for n in x.notes %}<li><b>{{ n.title }}</b> ({{ n.status or "info" }}, {{ n.by }}) — {{ n.body }}</li>{% endfor %}</ul>
+{% endif %}
+
+<h2>Appendix — evidence sources</h2>
+<table class="appendix"><tr><th>Ref</th><th>Connector</th><th>Title</th><th>Original URL</th><th>Retrieved</th><th>Sent</th></tr>
+{% for s in sources %}<tr id="S{{ s.n }}"><td>[S{{ s.n }}]</td><td>{{ s.connector }}</td><td>{{ s.title }}{% if s.license %}<br><span class="small">{{ s.license }}</span>{% endif %}</td>
+<td>{% if s.url and (s.url.startswith('http://') or s.url.startswith('https://')) %}<a href="{{ s.url }}" rel="noreferrer">{{ s.url }}</a>{% else %}{{ s.url or "(local analysis)" }}{% endif %}</td>
+<td>{{ s.retrieved_at }}</td><td class="small">{{ s.request }}</td></tr>{% endfor %}
+</table>
+</main>
+</body>
+</html>

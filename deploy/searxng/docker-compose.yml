@@ -1,0 +1,27 @@
+# Self-hosted SearXNG for Sextant — reachable ONLY from this computer (127.0.0.1:8888).
+# Start:  ./setup.sh        (generates a secret key, then `docker compose up -d`)
+# Stop:   docker compose down
+services:
+  searxng:
+    image: docker.io/searxng/searxng:latest
+    container_name: sextant-searxng
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8888:8080"          # never exposed to your network
+    volumes:
+      - ./settings.yml:/etc/searxng/settings.yml:ro
+    environment:
+      - SEARXNG_BASE_URL=http://127.0.0.1:8888/
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - SETGID
+      - SETUID
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: "1m"                # SearXNG does not log queries by default; keep container logs small
+        max-file: "1"

@@ -1,0 +1,18 @@
+# Runtime (Python 3.11+)
+fastapi>=0.115
+uvicorn>=0.30
+httpx>=0.27,<1
+httpcore>=1.0
+dnspython>=2.6
+phonenumbers>=8.13
+cryptography>=42
+jinja2>=3.1
+pydantic>=2.6
+tldextract>=5.1
+certifi
+defusedxml>=0.7
+# Optional: perceptual hashing of profile photos (avatar correlation)
+pillow>=10
+# Optional: the Claude provider of the AI assistant (the assistant works without any AI; OpenAI-compatible
+# endpoints such as a local Ollama need nothing extra)
+# anthropic>=1.11,<2
