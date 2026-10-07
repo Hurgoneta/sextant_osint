@@ -127,6 +127,12 @@ platform → handle → candidate → evidence → pivot to other platforms, inc
   each was integrated, adapted, catalogued or excluded.
 * [docs/audit/](docs/audit/): the coverage audit before the global refactor and the generated audit after it.
 
+
+## Screenshot
+
+<img width="1920" height="968" alt="Screenshot_2026-10-07_10_56_12" src="https://github.com/user-attachments/assets/1c252ce5-e3ab-42c8-ad33-0a9881d8e32f" />
+
+
 ## Use responsibly
 
 Sextant is for lawful investigations: due diligence, journalism, security research, self-audit, and fraud and
